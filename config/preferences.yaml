@@ -14,6 +14,11 @@ user:
 brief:
   ready_by_local: "07:00"        # brief must be delivered by this local time
   generation_starts_local: "06:40"
+  dashboard_style: >-            # user-chosen 2026-07-17: keep this design system when regenerating
+    Airbnb-inspired: white ground, blue accent #1E6AE1 (dark: #6EA1F0), 16px-radius
+    bordered cards with hover lift, sticky navbar (sun logomark + segmented date pill +
+    avatar), single friendly sans stack, generous whitespace, urgency red #C13515 only
+    for truly time-sensitive items. Change content daily, never the design, unless asked.
   delivery:
     dashboard: true              # private artifact page, stable URL (see state/state.json)
     email: true                  # HTML email via Zapier Gmail send

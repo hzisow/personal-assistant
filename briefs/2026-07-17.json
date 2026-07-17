@@ -133,7 +133,8 @@
   ],
   "system_notes": [
     "First brief — generated Thursday night as a live test; normal runs land by 7:00 AM.",
-    "Google Tasks isn't connected yet: one-time 30-second authorization needed (link in the Tasks card).",
+    "Google Tasks: Henry authorized late Thursday but Zapier still reports the connection pending — finish the consent screen via the link in the Tasks card; each morning run re-probes automatically.",
+    "Dashboard redesigned Thursday night at Henry's request: Airbnb-inspired, clean, blue accent (recorded in preferences as the standing design system).",
     "Weather now comes from Zapier's built-in weather source (no auth needed); wttr.in and weather.gov are blocked from this environment.",
     "Email triage learned its first patterns today (filtered: college marketing, newsletter promos, Canvas digests). Veto anything by replying to this email.",
     "Your BOS→LHR flight appears twice on the calendar — Gmail auto-import plus Mom's invite."

@@ -2,337 +2,338 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
   :root {
-    --ground: #F3F6F8;
+    --bg: #FFFFFF;
     --card: #FFFFFF;
-    --ink: #17242F;
-    --muted: #5A6B78;
-    --faint: #8296A3;
-    --line: #DCE4EA;
-    --accent: #23639C;
-    --accent-ink: #1C5384;
-    --attn: #C2690F;
-    --attn-soft: #FBF1E4;
-    --ok: #2F7D50;
-    --chip: #E9EFF4;
-    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
-    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
+    --ink: #222222;
+    --muted: #6A6A6A;
+    --faint: #8E8E8E;
+    --line: #EBEBEB;
+    --line-strong: #DDDDDD;
+    --blue: #1E6AE1;
+    --blue-hover: #1656BE;
+    --blue-soft: #EEF4FE;
+    --urgent: #C13515;
+    --pillshadow: 0 1px 2px rgba(0,0,0,.08), 0 4px 12px rgba(0,0,0,.05);
+    --hovershadow: 0 6px 16px rgba(0,0,0,.12);
+    --font: "Cereal", "Circular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --ground: #0F161D;
-      --card: #172029;
-      --ink: #E7EDF2;
-      --muted: #93A2AE;
-      --faint: #6C7D8A;
-      --line: #263441;
-      --accent: #6BA5D8;
-      --accent-ink: #8CBCE6;
-      --attn: #E08A3C;
-      --attn-soft: #2A2018;
-      --ok: #5CAF82;
-      --chip: #1E2A35;
+      --bg: #121212; --card: #1E1E1E; --ink: #F7F7F7; --muted: #B0B0B0;
+      --faint: #7E7E7E; --line: #2E2E2E; --line-strong: #3D3D3D;
+      --blue: #6EA1F0; --blue-hover: #94BCF6; --blue-soft: #1B2A44;
+      --urgent: #E07856; --pillshadow: none; --hovershadow: 0 6px 16px rgba(0,0,0,.5);
     }
   }
   :root[data-theme="light"] {
-    --ground: #F3F6F8; --card: #FFFFFF; --ink: #17242F; --muted: #5A6B78;
-    --faint: #8296A3; --line: #DCE4EA; --accent: #23639C; --accent-ink: #1C5384;
-    --attn: #C2690F; --attn-soft: #FBF1E4; --ok: #2F7D50; --chip: #E9EFF4;
+    --bg: #FFFFFF; --card: #FFFFFF; --ink: #222222; --muted: #6A6A6A;
+    --faint: #8E8E8E; --line: #EBEBEB; --line-strong: #DDDDDD;
+    --blue: #1E6AE1; --blue-hover: #1656BE; --blue-soft: #EEF4FE;
+    --urgent: #C13515; --pillshadow: 0 1px 2px rgba(0,0,0,.08), 0 4px 12px rgba(0,0,0,.05);
+    --hovershadow: 0 6px 16px rgba(0,0,0,.12);
   }
   :root[data-theme="dark"] {
-    --ground: #0F161D; --card: #172029; --ink: #E7EDF2; --muted: #93A2AE;
-    --faint: #6C7D8A; --line: #263441; --accent: #6BA5D8; --accent-ink: #8CBCE6;
-    --attn: #E08A3C; --attn-soft: #2A2018; --ok: #5CAF82; --chip: #1E2A35;
+    --bg: #121212; --card: #1E1E1E; --ink: #F7F7F7; --muted: #B0B0B0;
+    --faint: #7E7E7E; --line: #2E2E2E; --line-strong: #3D3D3D;
+    --blue: #6EA1F0; --blue-hover: #94BCF6; --blue-soft: #1B2A44;
+    --urgent: #E07856; --pillshadow: none; --hovershadow: 0 6px 16px rgba(0,0,0,.5);
   }
 
   * { box-sizing: border-box; }
-  body {
-    margin: 0; background: var(--ground); color: var(--ink);
-    font: 15px/1.55 var(--sans);
-    -webkit-font-smoothing: antialiased;
-  }
-  .wrap { max-width: 1060px; margin: 0 auto; padding: clamp(16px, 4vw, 40px); }
-  a { color: var(--accent-ink); text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  a:focus-visible, .chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 14.5px/1.5 var(--font); -webkit-font-smoothing: antialiased; }
+  a { color: inherit; text-decoration: none; }
+  a:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; border-radius: 4px; }
+  .alink { color: var(--blue); font-weight: 600; }
+  .alink:hover { color: var(--blue-hover); text-decoration: underline; }
 
-  /* ── Masthead ─────────────────────────────── */
-  .eyebrow {
-    font: 600 11px/1 var(--sans); letter-spacing: .14em; text-transform: uppercase;
-    color: var(--faint); margin: 0 0 10px;
+  /* ── Navbar ─────────────────────────────── */
+  nav {
+    position: sticky; top: 0; z-index: 10; background: var(--bg);
+    border-bottom: 1px solid var(--line);
   }
-  h1 {
-    font: 400 clamp(34px, 6vw, 48px)/1.05 var(--serif);
-    margin: 0 0 14px; letter-spacing: -0.01em; text-wrap: balance;
+  .navin {
+    max-width: 1120px; margin: 0 auto; padding: 12px clamp(16px, 4vw, 40px);
+    display: flex; align-items: center; justify-content: space-between; gap: 16px;
   }
-  .headline {
-    font: 400 clamp(16px, 2.4vw, 19px)/1.5 var(--serif);
-    color: var(--muted); max-width: 62ch; margin: 0 0 22px; text-wrap: balance;
+  .brand { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 15px; color: var(--blue); }
+  .brand svg { flex: none; }
+  .datepill {
+    display: flex; align-items: center; border: 1px solid var(--line-strong);
+    border-radius: 999px; padding: 8px 8px 8px 18px; box-shadow: var(--pillshadow);
+    font-size: 13.5px; font-weight: 600; white-space: nowrap; background: var(--card);
   }
-  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 34px; }
-  .chip {
-    display: inline-flex; align-items: center; gap: 7px;
-    background: var(--chip); border-radius: 999px; padding: 6px 13px;
-    font: 500 13px/1 var(--sans); color: var(--ink); white-space: nowrap;
+  .datepill span { padding: 0 14px; }
+  .datepill span + span { border-left: 1px solid var(--line-strong); }
+  .datepill .soft { font-weight: 400; color: var(--muted); }
+  .avatar {
+    width: 34px; height: 34px; border-radius: 50%; background: var(--blue);
+    color: #fff; font-weight: 700; font-size: 14px; display: flex;
+    align-items: center; justify-content: center; flex: none;
   }
-  .chip .num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
-  .dot { width: 7px; height: 7px; border-radius: 50%; flex: none; }
-  .dot.blue { background: var(--accent); }
-  .dot.amber { background: var(--attn); }
-  .dot.green { background: var(--ok); }
+  @media (max-width: 760px) { .datepill { display: none; } }
 
-  /* ── Grid & cards ─────────────────────────── */
-  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; }
+  /* ── Page ───────────────────────────────── */
+  .wrap { max-width: 1120px; margin: 0 auto; padding: clamp(20px, 4vw, 36px) clamp(16px, 4vw, 40px) 48px; }
+  .hello { font-size: clamp(24px, 4vw, 30px); font-weight: 700; margin: 6px 0 8px; letter-spacing: -0.02em; }
+  .sub { color: var(--muted); font-size: 16px; max-width: 64ch; margin: 0 0 18px; text-wrap: balance; }
+  .stats { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 8px; }
+  .stat {
+    display: inline-flex; align-items: center; gap: 8px;
+    border: 1px solid var(--line-strong); border-radius: 999px;
+    padding: 7px 14px; font-size: 13px; font-weight: 600; background: var(--card);
+  }
+  .stat .d { width: 8px; height: 8px; border-radius: 50%; background: var(--blue); flex: none; }
+  .stat .num { font-variant-numeric: tabular-nums; }
+
+  h2 { font-size: 21px; font-weight: 700; letter-spacing: -0.01em; margin: 34px 0 14px; }
+  .sechead { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+  .sechead .more { font-size: 13.5px; }
+
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; }
   .card {
-    background: var(--card); border: 1px solid var(--line); border-radius: 10px;
-    padding: 20px 22px;
+    background: var(--card); border: 1px solid var(--line); border-radius: 16px;
+    padding: 20px; transition: box-shadow .18s ease;
   }
-  .card.span { grid-column: 1 / -1; }
-  h2 {
-    font: 600 12px/1 var(--sans); letter-spacing: .12em; text-transform: uppercase;
-    color: var(--faint); margin: 0 0 16px;
-  }
-  h2 .count { color: var(--attn); }
+  .card:hover { box-shadow: var(--hovershadow); }
+  .card.wide { grid-column: 1 / -1; }
 
-  /* ── Timeline ─────────────────────────────── */
-  .tl { list-style: none; margin: 0; padding: 0; }
-  .tl li { display: flex; gap: 14px; padding: 10px 0; border-top: 1px solid var(--line); }
-  .tl li:first-child { border-top: 0; padding-top: 0; }
-  .tl time {
-    font: 500 13px/1.5 var(--mono); font-variant-numeric: tabular-nums;
-    color: var(--accent-ink); flex: none; width: 88px;
-  }
-  .tl .what strong { font-weight: 600; }
-  .tl .prep { color: var(--muted); font-size: 13.5px; margin-top: 3px; }
+  .when { font-size: 13px; font-weight: 700; color: var(--blue); font-variant-numeric: tabular-nums; margin-bottom: 6px; text-transform: uppercase; letter-spacing: .04em; }
+  .card h3 { margin: 0 0 6px; font-size: 16.5px; font-weight: 700; }
+  .card .body { color: var(--muted); font-size: 13.5px; margin: 0 0 10px; }
+  .tag { display: inline-block; border: 1px solid var(--line-strong); border-radius: 999px; padding: 3px 10px; font-size: 11.5px; font-weight: 600; color: var(--muted); margin-left: 8px; vertical-align: 2px; }
 
-  /* ── Flight / boarding panel ──────────────── */
-  .route {
-    display: flex; align-items: baseline; gap: 12px;
-    font: 600 26px/1 var(--mono); letter-spacing: .02em; margin-bottom: 4px;
-  }
-  .route .arrow { color: var(--attn); font-weight: 400; }
-  .flightmeta { font: 400 13px/1.6 var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
-  .cut { border: 0; border-top: 1px dashed var(--line); margin: 14px 0; }
-  .prepnotes { margin: 0; padding-left: 18px; font-size: 13.5px; color: var(--muted); }
-  .prepnotes li { margin: 4px 0; }
-  .prepnotes b { color: var(--ink); font-weight: 600; }
+  /* ── Flight card ────────────────────────── */
+  .flight { display: grid; grid-template-columns: minmax(220px, 320px) 1fr; gap: 24px; align-items: start; }
+  @media (max-width: 720px) { .flight { grid-template-columns: 1fr; } }
+  .route { font-size: 30px; font-weight: 800; letter-spacing: -0.01em; }
+  .route .arr { color: var(--blue); font-weight: 400; }
+  .fmeta { color: var(--muted); font-size: 13.5px; line-height: 1.7; font-variant-numeric: tabular-nums; }
+  .fnotes { list-style: none; margin: 0; padding: 0; font-size: 13.5px; }
+  .fnotes li { padding: 8px 0 8px 26px; border-top: 1px solid var(--line); position: relative; color: var(--muted); }
+  .fnotes li:first-child { border-top: 0; padding-top: 0; }
+  .fnotes li::before { content: ""; position: absolute; left: 4px; top: 14px; width: 7px; height: 7px; border-radius: 50%; background: var(--blue); }
+  .fnotes li:first-child::before { top: 6px; }
+  .fnotes b { color: var(--ink); }
+  .fnotes .urgent b, .urgent { color: var(--urgent); }
 
-  /* ── Inbox ────────────────────────────────── */
-  .mail { list-style: none; margin: 0; padding: 0; }
-  .mail li { display: flex; gap: 12px; padding: 11px 0; border-top: 1px solid var(--line); }
-  .mail li:first-child { border-top: 0; padding-top: 0; }
-  .marker {
-    flex: none; width: 22px; height: 22px; border-radius: 50%; margin-top: 1px;
-    font: 600 11px/22px var(--sans); text-align: center;
-    background: var(--attn-soft); color: var(--attn);
+  /* ── Inbox rows ─────────────────────────── */
+  .rows { list-style: none; margin: 0; padding: 0; }
+  .rows li { display: flex; align-items: flex-start; gap: 14px; padding: 13px 0; border-top: 1px solid var(--line); }
+  .rows li:first-child { border-top: 0; padding-top: 4px; }
+  .ic {
+    flex: none; width: 38px; height: 38px; border-radius: 12px;
+    background: var(--blue-soft); color: var(--blue);
+    font-weight: 700; font-size: 15px; display: flex; align-items: center; justify-content: center;
   }
-  .marker.info { background: var(--chip); color: var(--muted); }
-  .mail .from { font-weight: 600; }
-  .mail .why { color: var(--muted); font-size: 13.5px; margin-top: 2px; }
-  .mail a.open { font-size: 12.5px; white-space: nowrap; }
+  .rows .t { font-weight: 600; font-size: 14px; }
+  .rows .w { color: var(--muted); font-size: 13px; margin-top: 1px; }
+  .rows .go { margin-left: auto; flex: none; font-size: 13px; align-self: center; }
 
-  /* ── Follow-ups & tasks ───────────────────── */
+  /* ── Follow-ups / tasks ─────────────────── */
   .fu { list-style: none; margin: 0; padding: 0; font-size: 14px; }
-  .fu li { display: flex; justify-content: space-between; gap: 14px; padding: 8px 0; border-top: 1px solid var(--line); }
-  .fu li:first-child { border-top: 0; padding-top: 0; }
-  .fu .due { font: 500 12.5px/1.6 var(--mono); color: var(--faint); white-space: nowrap; font-variant-numeric: tabular-nums; }
-  .fu .due.soon { color: var(--attn); }
-  .connect {
-    background: var(--attn-soft); border: 1px solid var(--line); border-radius: 8px;
-    padding: 14px 16px; font-size: 13.5px;
-  }
-  .connect b { display: block; margin-bottom: 4px; }
+  .fu li { display: flex; justify-content: space-between; align-items: center; gap: 14px; padding: 10px 0; border-top: 1px solid var(--line); }
+  .fu li:first-child { border-top: 0; padding-top: 2px; }
+  .due { flex: none; border-radius: 999px; padding: 3px 11px; font-size: 12px; font-weight: 700; border: 1px solid var(--line-strong); color: var(--muted); font-variant-numeric: tabular-nums; }
+  .due.soon { color: var(--urgent); border-color: currentColor; }
+  .pending { background: var(--blue-soft); border-radius: 12px; padding: 14px 16px; font-size: 13.5px; }
+  .pending b { display: block; margin-bottom: 4px; }
+  .pending p { margin: 0 0 6px; color: var(--muted); }
 
-  /* ── News ─────────────────────────────────── */
-  .news { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 22px; }
-  .news h3 {
-    font: 600 11px/1 var(--sans); letter-spacing: .12em; text-transform: uppercase;
-    color: var(--accent-ink); margin: 0 0 10px;
-  }
-  .news ul { list-style: none; margin: 0; padding: 0; font-size: 13.5px; }
-  .news li { padding: 7px 0; border-top: 1px solid var(--line); }
-  .news li:first-child { border-top: 0; padding-top: 0; }
-  .news .why { color: var(--faint); font-size: 12.5px; }
+  /* ── News ───────────────────────────────── */
+  .news { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+  .news h3 { font-size: 15px; font-weight: 700; margin: 0 0 4px; }
+  .news ul { list-style: none; margin: 0; padding: 0; }
+  .news li { padding: 10px 0; border-top: 1px solid var(--line); }
+  .news li:first-child { border-top: 0; }
+  .news a.h { font-weight: 600; font-size: 13.5px; line-height: 1.45; display: block; }
+  .news a.h:hover { text-decoration: underline; }
+  .news .src { color: var(--faint); font-size: 12px; margin-top: 2px; }
 
-  /* ── Footer ───────────────────────────────── */
-  footer { margin-top: 26px; color: var(--faint); font-size: 12.5px; line-height: 1.7; }
-  footer ul { margin: 6px 0 0; padding-left: 18px; }
+  footer { border-top: 1px solid var(--line); margin-top: 40px; padding-top: 18px; color: var(--faint); font-size: 12.5px; line-height: 1.7; }
 
-  @media (prefers-reduced-motion: no-preference) {
-    .card { animation: rise .35s ease-out both; }
-    @keyframes rise { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
-  }
+  @media (prefers-reduced-motion: reduce) { .card { transition: none; } }
 </style>
 
-<div class="wrap">
-  <p class="eyebrow">Morning brief · Newton, MA · for Henry</p>
-  <h1>Friday, July 17</h1>
-  <p class="headline">Last full day before Oxford: SAT with Ben at 11:30, Xolair today, and five loose
-  ends worth closing before Saturday night's flight.</p>
+<nav>
+  <div class="navin">
+    <a class="brand" href="#" aria-label="Morning Brief home">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <circle cx="12" cy="14" r="5.5" fill="currentColor"/>
+        <path d="M2 20h20M12 3v3M4.9 6.9l2.1 2.1M19.1 6.9 17 9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      Morning Brief
+    </a>
+    <div class="datepill" role="text">
+      <span>Fri, Jul 17</span>
+      <span class="soft">Newton, MA</span>
+      <span class="soft">85° / 59° · showers late</span>
+    </div>
+    <div class="avatar" aria-hidden="true">H</div>
+  </div>
+</nav>
 
-  <div class="chips">
-    <span class="chip"><span class="dot blue"></span><span class="num">85° / 59°</span>&nbsp;showers late · <span class="num">63%</span></span>
-    <span class="chip"><span class="dot blue"></span><span class="num">2</span>&nbsp;on the calendar</span>
-    <span class="chip"><span class="dot amber"></span><span class="num">3</span>&nbsp;emails need you</span>
-    <span class="chip"><span class="dot green"></span>wheels up in <span class="num">1</span>&nbsp;day</span>
+<div class="wrap">
+  <h1 class="hello">Good morning, Henry</h1>
+  <p class="sub">Last full day before Oxford: SAT with Ben at 11:30, Xolair today, and five loose ends
+  worth closing before Saturday night's flight.</p>
+
+  <div class="stats">
+    <span class="stat"><span class="d"></span><span class="num">2</span>&nbsp;on the calendar</span>
+    <span class="stat"><span class="d"></span><span class="num">3</span>&nbsp;emails need you</span>
+    <span class="stat"><span class="d"></span>check-in opens 9:30 tonight</span>
+    <span class="stat"><span class="d"></span>rain <span class="num">63%</span>, late</span>
   </div>
 
-  <div class="grid">
-
+  <h2>Today</h2>
+  <div class="cards">
     <section class="card">
-      <h2>Today</h2>
-      <ul class="tl">
-        <li>
-          <time>all day</time>
-          <div class="what"><strong>H Xolair</strong>
-            <div class="prep">Moved up from Jul 22 — before the trip. RSVP on the invite is still open.</div>
-          </div>
+      <div class="when">All day</div>
+      <h3>H Xolair <span class="tag">Personal</span></h3>
+      <p class="body">Moved up from Jul 22 — before the trip. The invite's RSVP is still open.</p>
+    </section>
+    <section class="card">
+      <div class="when">11:30 – 12:30</div>
+      <h3>SAT session with Ben Sexton <span class="tag">Personal</span></h3>
+      <p class="body">Mom took Ben's freed-up slot at 10:29 last night and he never re-acknowledged — a
+      one-line "see you at 11:30" locks it. You're at 1440 (June); English is where you want it, and Ben
+      expects June's unusually hard math to normalize. Last session before you leave — the Aug 4
+      follow-up is still unconfirmed.</p>
+      <a class="alink" href="https://meet.google.com/ouj-adum-hvw">Join Google Meet ›</a>
+    </section>
+  </div>
+
+  <h2>Tomorrow · travel day</h2>
+  <div class="cards">
+    <section class="card wide">
+      <div class="flight">
+        <div>
+          <div class="route">BOS <span class="arr">→</span> LHR</div>
+          <div class="fmeta">DL 5938 · Virgin Atlantic A350<br>
+          Sat 9:30 PM · Terminal E · conf JK8A5H<br>
+          lands 9:15 AM Sun (London) · returns Aug 1</div>
+        </div>
+        <ul class="fnotes">
+          <li><b>Check-in opens ~9:30 tonight</b> — 24 hours before departure</li>
+          <li class="urgent"><b>Storm risk Saturday evening</b> — watch the Delta app for delays</li>
+          <li>St Hugh's provides towels, linens, detergent — <b>don't pack them</b></li>
+          <li>Oxford, late July: 69–87° highs, lows to 49°, showers → <b>layers + a rain shell</b></li>
+          <li>The flight sits on your calendar twice (auto-import + Mom's invite) — harmless</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <div class="sechead">
+    <h2>Inbox</h2>
+    <a class="alink more" href="https://mail.google.com/mail/u/0/#inbox">Open Gmail ↗</a>
+  </div>
+  <div class="cards">
+    <section class="card">
+      <h3 style="margin-bottom:8px;">Needs you <span style="color:var(--blue);">· 3</span></h3>
+      <ul class="rows">
+        <li><span class="ic">B</span>
+          <div><div class="t">Ben Sexton — today's 11:30</div>
+            <div class="w">Left on Mom's late-night "if it still works" — confirm, and RSVP yes.</div></div>
+          <a class="alink go" href="https://mail.google.com/mail/u/0/#all/19f67552de44fe14">Open ›</a>
         </li>
-        <li>
-          <time>11:30–12:30</time>
-          <div class="what"><strong>SAT session with Ben Sexton</strong> · <a href="https://meet.google.com/ouj-adum-hvw">join Meet</a>
-            <div class="prep">Mom took Ben's freed-up slot at 10:29 last night and he never re-acknowledged —
-            a one-line "see you at 11:30" closes the loop. You're at 1440 (June); English is where you
-            want it, and Ben expects June's unusually hard math to normalize. Last session before you
-            leave; the Aug 4 follow-up is still unconfirmed.</div>
-          </div>
+        <li><span class="ic">M</span>
+          <div><div class="t">Michael Horn — SEO doc action item</div>
+            <div class="w">Re-pinged you at 7 PM last night. Do it, or reply with a timeline, before you fly.</div></div>
+          <a class="alink go" href="https://mail.google.com/mail/u/0/#all/19f685033f34d7c0">Open ›</a>
+        </li>
+        <li><span class="ic">D</span>
+          <div><div class="t">Dad — Oxford arrangements</div>
+            <div class="w">"Did you both get this too?" — a ten-second yes.</div></div>
+          <a class="alink go" href="https://mail.google.com/mail/u/0/#all/19f6b45771d7264b">Open ›</a>
         </li>
       </ul>
     </section>
-
     <section class="card">
-      <h2>Tomorrow · travel day</h2>
-      <div class="route">BOS <span class="arrow">→</span> LHR</div>
-      <div class="flightmeta">DL 5938 · Virgin Atlantic A350 · Sat 9:30 PM · Terminal E · conf JK8A5H<br>
-      lands 9:15 AM Sun (London) · returns Aug 1</div>
-      <hr class="cut">
-      <ul class="prepnotes">
-        <li><b>Check-in opens ~9:30 tonight</b> (24 h before departure)</li>
-        <li><b>Storm risk Sat evening</b> — watch the Delta app for delays</li>
-        <li>St Hugh's provides towels, linens, detergent — <b>don't pack them</b></li>
-        <li>Oxford, late July: 69–87° highs, lows to 49°, showers → <b>layers + rain shell</b></li>
-        <li>The flight sits on your calendar twice (auto-import + Mom's invite) — harmless</li>
-      </ul>
-    </section>
-
-    <section class="card">
-      <h2>Inbox · needs you <span class="count">3</span></h2>
-      <ul class="mail">
-        <li><span class="marker">1</span>
-          <div><span class="from">Ben Sexton · today's 11:30</span>
-            <div class="why">Left on Mom's late-night "if it still works" — confirm so it's locked, and RSVP yes.</div>
-          </div>
-          <a class="open" href="https://mail.google.com/mail/u/0/#all/19f67552de44fe14">open ↗</a>
+      <h3 style="margin-bottom:8px;">Worth a look</h3>
+      <ul class="rows">
+        <li><span class="ic">S</span>
+          <div><div class="t">Supabase — EpiGuide auto-pause</div>
+            <div class="w">You're away 2 weeks; pausing is free and reversible. Restore when back.</div></div>
+          <a class="alink go" href="https://mail.google.com/mail/u/0/#all/19f6d67ba2f8ed54">Open ›</a>
         </li>
-        <li><span class="marker">2</span>
-          <div><span class="from">Michael Horn · SEO doc action item</span>
-            <div class="why">Re-pinged you at 7 PM last night. Do it — or reply with a timeline — before you fly.</div>
-          </div>
-          <a class="open" href="https://mail.google.com/mail/u/0/#all/19f685033f34d7c0">open ↗</a>
+        <li><span class="ic">F</span>
+          <div><div class="t">Facebook — mass_deca portfolio invite</div>
+            <div class="w">Accept before you're abroad if posting falls to you.</div></div>
+          <a class="alink go" href="https://mail.google.com/mail/u/0/#all/19f662b615379244">Open ›</a>
         </li>
-        <li><span class="marker">3</span>
-          <div><span class="from">Dad · Oxford arrangements</span>
-            <div class="why">"Did you both get this too?" — a ten-second yes.</div>
-          </div>
-          <a class="open" href="https://mail.google.com/mail/u/0/#all/19f6b45771d7264b">open ↗</a>
+        <li><span class="ic">G</span>
+          <div><div class="t">GitHub — email added to your account</div>
+            <div class="w">28hzisow@gannacademy.org — almost certainly you; confirm.</div></div>
+          <a class="alink go" href="https://mail.google.com/mail/u/0/#all/19f66afa49ebd10f">Open ›</a>
+        </li>
+        <li><span class="ic">D</span>
+          <div><div class="t">Drive share — "BFF Academy"</div>
+            <div class="w">Unrecognized sender pattern; open only if you were expecting it.</div></div>
+          <a class="alink go" href="https://mail.google.com/mail/u/0/#all/19f6c806f5cd9be8">Open ›</a>
+        </li>
+        <li><span class="ic">✓</span>
+          <div><div class="t">DECA Dash 5K (Aug 15)</div>
+            <div class="w">Ryan replied for the team — nothing needed from you now.</div></div>
+          <a class="alink go" href="https://mail.google.com/mail/u/0/#all/19f68c9cc88c1a07">Open ›</a>
         </li>
       </ul>
     </section>
+  </div>
 
+  <h2>Keeping track</h2>
+  <div class="cards">
     <section class="card">
-      <h2>Inbox · worth a look</h2>
-      <ul class="mail">
-        <li><span class="marker info">S</span>
-          <div><span class="from">Supabase — EpiGuide auto-pause</span>
-            <div class="why">You're away 2 weeks; letting it pause is free and reversible. Restore when back.</div>
-          </div>
-          <a class="open" href="https://mail.google.com/mail/u/0/#all/19f6d67ba2f8ed54">open ↗</a>
-        </li>
-        <li><span class="marker info">F</span>
-          <div><span class="from">Facebook — mass_deca portfolio invite</span>
-            <div class="why">Accept before you're abroad if posting falls to you; the team just promised DECA Dash promo.</div>
-          </div>
-          <a class="open" href="https://mail.google.com/mail/u/0/#all/19f662b615379244">open ↗</a>
-        </li>
-        <li><span class="marker info">G</span>
-          <div><span class="from">GitHub — email added to your account</span>
-            <div class="why">28hzisow@gannacademy.org — almost certainly you; confirm.</div>
-          </div>
-          <a class="open" href="https://mail.google.com/mail/u/0/#all/19f66afa49ebd10f">open ↗</a>
-        </li>
-        <li><span class="marker info">D</span>
-          <div><span class="from">Drive share — "BFF Academy"</span>
-            <div class="why">Unrecognized sender pattern; open only if you were expecting it.</div>
-          </div>
-          <a class="open" href="https://mail.google.com/mail/u/0/#all/19f6c806f5cd9be8">open ↗</a>
-        </li>
-        <li><span class="marker info">✓</span>
-          <div><span class="from">DECA Dash 5K (Aug 15)</span>
-            <div class="why">Ryan replied for the team — nothing needed from you now.</div>
-          </div>
-          <a class="open" href="https://mail.google.com/mail/u/0/#all/19f68c9cc88c1a07">open ↗</a>
-        </li>
-      </ul>
-    </section>
-
-    <section class="card">
-      <h2>Follow-ups I'm tracking</h2>
+      <h3 style="margin-bottom:8px;">Follow-ups</h3>
       <ul class="fu">
         <li><span>Michael Horn's SEO action item</span><span class="due soon">by Jul 18</span></li>
         <li><span>Daniel Curtis's summer-work asks — status check</span><span class="due soon">by Jul 18</span></li>
         <li><span>EpiGuide: keep alive or let pause</span><span class="due soon">by Jul 18</span></li>
         <li><span>Lock the Aug 4 evening session with Ben</span><span class="due">by Aug 3</span></li>
-        <li><span>DECA Dash promo with officer team</span><span class="due">Aug 15</span></li>
+        <li><span>DECA Dash promo with the officer team</span><span class="due">Aug 15</span></li>
       </ul>
     </section>
-
     <section class="card">
-      <h2>Google Tasks</h2>
-      <div class="connect">
-        <b>One 30-second step to light this up</b>
-        Your task lists aren't connected yet.
-        <a href="https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI">Authorize Google Tasks →</a>
-        Tomorrow's brief picks it up automatically.
-      </div>
-    </section>
-
-    <section class="card span">
-      <h2>News</h2>
-      <div class="news">
-        <div>
-          <h3>Business &amp; markets</h3>
-          <ul>
-            <li><a href="https://www.bloomberg.com/news/articles/2026-07-16/stock-market-today-dow-s-p-live-updates">AI-valuation jitters: Nasdaq −1.6%; TSMC earnings +77% yet the stock fell 4%</a><div class="why">Market questioning whether AI capex justifies valuations · Bloomberg</div></li>
-            <li><a href="https://www.schwab.com/learn/story/stock-market-update-open">Netflix −8% after-hours on slowing growth forecast</a><div class="why">Weak guidance from a mega-cap bellwether · Schwab</div></li>
-            <li><a href="https://www.cnbc.com/">Today: housing starts, industrial production, UMich sentiment</a><div class="why">The data traders watch into the weekend · CNBC</div></li>
-          </ul>
-        </div>
-        <div>
-          <h3>Tech &amp; AI</h3>
-          <ul>
-            <li><a href="https://aiweekly.co/">Gemini 3.5 Pro expected today — reported 2M-token context</a><div class="why">Next round of the frontier race · AI Weekly</div></li>
-            <li><a href="https://unrot.co/blogs/today-top-10-ai-news-july-14-2026">Moonshot's Kimi K3: first open ~3-trillion-parameter-class model</a><div class="why">Open weights closing the gap · Unrot</div></li>
-            <li><a href="https://www.artificialintelligence-news.com/">Shanghai World AI Conference opens; Xi attends, 29 nations sign WAICO</a><div class="why">AI governance goes geopolitical · AI News</div></li>
-          </ul>
-        </div>
-        <div>
-          <h3>US &amp; world</h3>
-          <ul>
-            <li><a href="https://www.democracynow.org/2026/7/15/headlines">Senate Democrats block $1.15T Pentagon budget over Iran</a><div class="why">War-powers fight escalates · Democracy Now</div></li>
-            <li><a href="https://www.democracynow.org/2026/7/15/headlines">ICE says it will halt traffic stops after deadly shootings</a><div class="why">Major enforcement reversal</div></li>
-            <li><a href="https://www.democracynow.org/2026/7/15/headlines">New York imposes first state data-center moratorium</a><div class="why">AI infrastructure meets state politics</div></li>
-          </ul>
-        </div>
+      <h3 style="margin-bottom:8px;">Google Tasks</h3>
+      <div class="pending">
+        <b>Almost there — Zapier hasn't registered the connection yet</b>
+        <p>You authorized it, but their side still reports pending. Re-open the link and make sure the
+        Google consent screen completes; every morning run re-checks automatically.</p>
+        <a class="alink" href="https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI">Finish connecting ›</a>
       </div>
     </section>
   </div>
 
+  <h2>News</h2>
+  <div class="news">
+    <section class="card">
+      <h3>Business &amp; markets</h3>
+      <ul>
+        <li><a class="h" href="https://www.bloomberg.com/news/articles/2026-07-16/stock-market-today-dow-s-p-live-updates">AI-valuation jitters: Nasdaq −1.6%; TSMC earnings +77% yet the stock fell 4%</a><div class="src">Bloomberg</div></li>
+        <li><a class="h" href="https://www.schwab.com/learn/story/stock-market-update-open">Netflix −8% after-hours on slowing growth forecast</a><div class="src">Schwab</div></li>
+        <li><a class="h" href="https://www.cnbc.com/">Today: housing starts, industrial production, UMich consumer sentiment</a><div class="src">CNBC</div></li>
+      </ul>
+    </section>
+    <section class="card">
+      <h3>Tech &amp; AI</h3>
+      <ul>
+        <li><a class="h" href="https://aiweekly.co/">Gemini 3.5 Pro expected today — reported 2M-token context window</a><div class="src">AI Weekly</div></li>
+        <li><a class="h" href="https://unrot.co/blogs/today-top-10-ai-news-july-14-2026">Moonshot's Kimi K3: first open ~3-trillion-parameter-class model</a><div class="src">Unrot</div></li>
+        <li><a class="h" href="https://www.artificialintelligence-news.com/">Shanghai World AI Conference opens; Xi attends, 29 nations sign WAICO</a><div class="src">AI News</div></li>
+      </ul>
+    </section>
+    <section class="card">
+      <h3>US &amp; world</h3>
+      <ul>
+        <li><a class="h" href="https://www.democracynow.org/2026/7/15/headlines">Senate Democrats block $1.15T Pentagon budget over Iran</a><div class="src">Democracy Now</div></li>
+        <li><a class="h" href="https://www.democracynow.org/2026/7/15/headlines">ICE says it will halt traffic stops after deadly shootings</a><div class="src">Democracy Now</div></li>
+        <li><a class="h" href="https://www.democracynow.org/2026/7/15/headlines">New York imposes the first state data-center moratorium</a><div class="src">Democracy Now</div></li>
+      </ul>
+    </section>
+  </div>
+
   <footer>
-    First brief — generated Thursday 11:20 PM ET as a live test; normal runs land by 7:00 AM.
-    Reply to the emailed brief to change anything ("never show me X", "add Y to news") — it sticks.
-    <ul>
-      <li>Email triage learned its first filters today (college marketing, newsletter promos, Canvas digests) — veto anytime.</li>
-      <li>Weather now comes from a no-auth Zapier source after wttr.in/weather.gov were blocked.</li>
-    </ul>
+    Updated Thursday 11:35 PM ET · refreshes every morning by 7:00 · Reply to the emailed brief to change
+    anything — "never show me X", "add Y to news" — and it sticks. Email triage learned its first filters
+    today (college marketing, newsletter promos, Canvas digests) — veto anytime.
   </footer>
 </div>
