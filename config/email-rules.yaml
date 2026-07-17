@@ -1,0 +1,24 @@
+# Email triage rules — starts empty and learns.
+# The assistant begins from behavioral signals (who Henry actually replies to,
+# starred threads, Gmail's Important flag) and records durable patterns here.
+# Henry can edit anything; his entries always win over learned ones.
+#
+# Feedback shortcuts that update this file automatically:
+#   - reply to a brief email: "never show me X" / "always surface Y"
+#   - tell Claude in any session in this repo
+
+always_surface:
+  senders: []          # e.g. "advisor@school.org"
+  domains: []          # e.g. "deca.org"
+  keywords: []         # e.g. "ICDC", "state officer"
+
+never_surface:
+  senders: []
+  domains: []
+  keywords: []
+
+# ── Assistant-maintained (pruned as entries get promoted to rules above) ──
+learned:
+  replies_quickly_to: []     # senders Henry consistently answers fast
+  ignores: []                # senders whose mail Henry never opens
+  observations: []           # dated notes, e.g. "2026-07-17: heavy DECA officer traffic"

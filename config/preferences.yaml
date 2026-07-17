@@ -1,0 +1,70 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Personal Assistant — preferences (source of truth)
+# Edit this file freely: the assistant re-reads it on every run.
+# You can also just reply to a morning brief email or tell Claude in a session —
+# it will apply the change here and note it in the next brief.
+# ─────────────────────────────────────────────────────────────────────────────
+
+user:
+  name: Henry
+  email: hzisow@gmail.com
+  timezone: America/New_York
+  location: "Boston, MA"
+
+brief:
+  ready_by_local: "07:00"        # brief must be delivered by this local time
+  generation_starts_local: "06:40"
+  delivery:
+    dashboard: true              # private artifact page, stable URL (see state/state.json)
+    email: true                  # HTML email via Zapier Gmail send
+    push: true                   # push notification when the brief is ready
+  sections: [schedule, email, tasks, follow_ups, weather, news]
+
+calendars:
+  # role: schedule → full treatment (timeline, conflicts, prep)
+  # role: context  → mentioned only when something falls on today
+  - { id: "hzisow@gmail.com",                                                                  name: "Personal",                     role: schedule }
+  - { id: "253m45rq351c8lue5a46p9j6orog27ui@import.calendar.google.com",                       name: "Canvas (school)",              role: schedule }
+  - { id: "classroom115736193776007257542@group.calendar.google.com",                          name: "Massachusetts DECA",           role: schedule }
+  - { id: "classroom104226409099884474407@group.calendar.google.com",                          name: "2026 State Officer Candidates", role: schedule }
+  - { id: "1807142b75b6821d9088bb7a10c0a9764e43da05c4cdce3fc9b4161456d56fe2@group.calendar.google.com", name: "Team 68",              role: schedule }
+  - { id: "7267cc382e50cb4306b21af7639b56cdebdefcac1c9dc94b9f36dc54b026dea7@group.calendar.google.com", name: "Recall Reviews",       role: schedule }
+  - { id: "5npcs8eoemv7bvhftll90nqljgsua2i6@import.calendar.google.com",                       name: "Jewish Holidays",              role: context }
+  - { id: "en.usa#holiday@group.v.calendar.google.com",                                        name: "US Holidays",                  role: context }
+
+email_triage:
+  mode: learned                  # learned | important-flag | rules-only
+  lookback_days: 3
+  max_items: 8
+  rules_file: config/email-rules.yaml
+  # Replying to a morning-brief email is a supported feedback channel:
+  # each run checks replies and applies instructions found there.
+
+tasks:
+  provider: google_tasks         # via Zapier (GoogleTasksCLIAPI)
+  status: needs_auth             # flip to "connected" once authorized; runs re-probe automatically
+  auth_url: "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI"
+
+weather:
+  location: "Boston"
+  units: imperial
+  source: "https://wttr.in/{location}?format=j1"   # fallback: web search
+
+news:
+  topics:
+    - "Business & markets"
+    - "Tech & AI"
+    - "US & world headlines"
+  max_per_topic: 3
+
+# ─────────────────────────────────────────────────────────────────────────────
+# HARD BOUNDARIES — set by Henry on 2026-07-17. Do not relax without an
+# explicit, direct instruction from Henry in his own words.
+# ─────────────────────────────────────────────────────────────────────────────
+boundaries:
+  proactive_scheduling: false    # NEVER create, modify, or delete calendar events
+  send_email: brief_only         # the ONLY outbound email is the morning brief to user.email
+  gmail_writes: none             # no labeling, archiving, or deleting in Gmail
+  artifact_visibility: private   # never share the dashboard artifact
+  # Surfacing "3 people are waiting on you to pick a time" in triage is fine —
+  # that is information. Acting on it is not.

@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Daily Brief",
+  "type": "object",
+  "required": ["schema_version", "date", "generated_at", "headline"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "date": { "type": "string", "format": "date" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "headline": { "type": "string", "description": "The single most important thing about today, one sentence" },
+    "weather": {
+      "type": ["object", "null"],
+      "properties": {
+        "location": { "type": "string" },
+        "current_f": { "type": "number" },
+        "condition": { "type": "string" },
+        "high_f": { "type": "number" },
+        "low_f": { "type": "number" },
+        "precip_chance_pct": { "type": "number" },
+        "sunrise": { "type": "string" },
+        "sunset": { "type": "string" }
+      }
+    },
+    "schedule": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title", "calendar"],
+        "properties": {
+          "start": { "type": ["string", "null"], "description": "ISO local; null for all-day" },
+          "end": { "type": ["string", "null"] },
+          "all_day": { "type": "boolean" },
+          "title": { "type": "string" },
+          "calendar": { "type": "string" },
+          "location": { "type": ["string", "null"] },
+          "conflicts_with": { "type": "array", "items": { "type": "string" } },
+          "prep": { "type": ["string", "null"], "description": "1-2 sentences that make Henry prepared" }
+        }
+      }
+    },
+    "tomorrow_headsup": { "type": "array", "items": { "type": "string" } },
+    "email": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["from", "subject", "bucket"],
+        "properties": {
+          "thread_id": { "type": "string" },
+          "from": { "type": "string" },
+          "subject": { "type": "string" },
+          "bucket": { "enum": ["needs_reply", "important", "waiting"] },
+          "why": { "type": "string" },
+          "age_days": { "type": "number" }
+        }
+      }
+    },
+    "tasks": {
+      "type": ["object", "null"],
+      "properties": {
+        "connected": { "type": "boolean" },
+        "auth_url": { "type": ["string", "null"] },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["title"],
+            "properties": {
+              "title": { "type": "string" },
+              "list": { "type": "string" },
+              "due": { "type": ["string", "null"], "format": "date" },
+              "overdue": { "type": "boolean" },
+              "notes": { "type": ["string", "null"] }
+            }
+          }
+        }
+      }
+    },
+    "follow_ups": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["what"],
+        "properties": {
+          "what": { "type": "string" },
+          "who": { "type": "string" },
+          "due": { "type": ["string", "null"] },
+          "age_days": { "type": "number" }
+        }
+      }
+    },
+    "news": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["topic", "headline", "url"],
+        "properties": {
+          "topic": { "type": "string" },
+          "headline": { "type": "string" },
+          "why": { "type": "string" },
+          "url": { "type": "string" },
+          "source": { "type": "string" }
+        }
+      }
+    },
+    "system_notes": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Fix-it cards, learned-rule announcements, degraded sources"
+    }
+  }
+}

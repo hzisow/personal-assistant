@@ -1,0 +1,14 @@
+# Commitments and follow-ups tracked across days.
+# The assistant adds items it detects in email ("I'll send you the doc Friday"),
+# carries them day to day, and moves them to resolved when done — explaining
+# every change in the brief. Henry can add/remove items directly.
+#
+# Item shape:
+#   - what: "Send membership roster to advisor"
+#     who: "Henry → Ms. Smith"
+#     due: 2026-07-20        # optional
+#     source: "email thread <subject>, 2026-07-17"
+#     first_seen: 2026-07-17
+
+open: []
+resolved: []
