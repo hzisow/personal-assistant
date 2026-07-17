@@ -4,7 +4,7 @@ A Claude-native personal assistant for Henry. Every morning by **7:00 AM ET**
 it reads your calendar, Gmail, and Google Tasks, checks Boston weather and
 your news topics, then delivers a **brief for the day** three ways:
 
-1. **Dashboard** — a private page at a stable URL *(filled in after first publish)*
+1. **Dashboard** — [claude.ai/code/artifact/84dbc666…](https://claude.ai/code/artifact/84dbc666-7e0f-4fe4-8235-965757953769) (private, same URL every day — bookmark it)
 2. **Email** — the same brief in your inbox
 3. **Push** — a one-line notification when it's ready
 

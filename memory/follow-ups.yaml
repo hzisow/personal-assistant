@@ -1,14 +1,32 @@
 # Commitments and follow-ups tracked across days.
-# The assistant adds items it detects in email ("I'll send you the doc Friday"),
-# carries them day to day, and moves them to resolved when done — explaining
-# every change in the brief. Henry can add/remove items directly.
-#
-# Item shape:
-#   - what: "Send membership roster to advisor"
-#     who: "Henry → Ms. Smith"
-#     due: 2026-07-20        # optional
-#     source: "email thread <subject>, 2026-07-17"
-#     first_seen: 2026-07-17
+# The assistant adds items it detects in email, carries them day to day, and
+# moves them to resolved when done — explaining every change in the brief.
 
-open: []
+open:
+  - what: "Michael Horn's action item in 'Playlist and SEO Recommendations' doc"
+    who: "Henry → Michael Horn"
+    due: 2026-07-18
+    source: "Docs comment notifications, Jul 15 + re-ping Jul 16 7:07 PM"
+    first_seen: 2026-07-17
+  - what: "Confirm Aug 4 evening SAT session with Ben Sexton (floated by Mom Jul 15, never locked)"
+    who: "Henry/Mom → Ben Sexton"
+    due: 2026-08-03
+    source: "email thread 'Next Meeting before Henry leaves for Oxford'"
+    first_seen: 2026-07-17
+  - what: "Daniel Curtis's summer-work asks doc (linked Jun 27) — confirm status before Oxford"
+    who: "Henry → Daniel Curtis"
+    due: 2026-07-18
+    source: "email thread 'Our work together this summer'"
+    first_seen: 2026-07-17
+  - what: "Decide whether to keep Supabase project EpiGuide alive or let it pause"
+    who: "Henry"
+    due: 2026-07-18
+    source: "Supabase inactivity notice, Jul 16"
+    first_seen: 2026-07-17
+  - what: "DECA Dash 5K (Aug 15) — chapter + Instagram promo with officer team"
+    who: "Officer team (Ryan leading)"
+    due: 2026-08-15
+    source: "email thread 'DECA Dash'"
+    first_seen: 2026-07-17
+
 resolved: []

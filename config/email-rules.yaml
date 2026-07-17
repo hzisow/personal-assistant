@@ -1,6 +1,4 @@
-# Email triage rules — starts empty and learns.
-# The assistant begins from behavioral signals (who Henry actually replies to,
-# starred threads, Gmail's Important flag) and records durable patterns here.
+# Email triage rules — starts from behavioral signals and learns.
 # Henry can edit anything; his entries always win over learned ones.
 #
 # Feedback shortcuts that update this file automatically:
@@ -8,17 +6,35 @@
 #   - tell Claude in any session in this repo
 
 always_surface:
-  senders: []          # e.g. "advisor@school.org"
-  domains: []          # e.g. "deca.org"
-  keywords: []         # e.g. "ICDC", "state officer"
+  senders:
+    - ben@sextontestprep.com        # SAT tutor
+    - brett@sparkadmissions.com     # college counselor
+    - YouthEducation@sbs.ox.ac.uk   # Oxford summer program (active trip)
+    - mkzisow@gmail.com             # Mom — family coordination
+    - mzisow@gmail.com              # Dad
+  domains:
+    - woburnps.com                  # DECA advisors
+  keywords:
+    - "DECA"
+    - "state officer"
 
 never_surface:
-  senders: []
+  senders:
+    - admissions@msmc.edu           # college marketing blast
+    - news@blueoceanstrategy.com    # newsletter promo
+    - no-reply@email.claude.com     # product marketing
   domains: []
   keywords: []
 
 # ── Assistant-maintained (pruned as entries get promoted to rules above) ──
 learned:
-  replies_quickly_to: []     # senders Henry consistently answers fast
-  ignores: []                # senders whose mail Henry never opens
-  observations: []           # dated notes, e.g. "2026-07-17: heavy DECA officer traffic"
+  replies_quickly_to:
+    - brett@sparkadmissions.com     # same-day replies observed
+    - kstone@rashi.org              # replied within 3h on Jul 14
+    - YouthEducation@sbs.ox.ac.uk   # active back-and-forth on trip logistics
+  ignores:
+    - notifications@instructure.com # Canvas daily digests — unread for days
+  observations:
+    - "2026-07-17: Gmail label mapping — Label_17 ≈ DECA, Label_11 ≈ college admissions, Label_15 ≈ driving school, Label_7600977302915471906 ≈ calendar invites (rarely read directly)."
+    - "2026-07-17: Michelle (mkzisow) does most scheduling coordination; treat her threads as high-signal even when Henry isn't the last recipient."
+    - "2026-07-17: security/verification notices (GitHub, Google sign-in) surfaced once as 'confirm it was you' — don't repeat unless new."

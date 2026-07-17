@@ -46,9 +46,11 @@ tasks:
   auth_url: "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI"
 
 weather:
-  location: "Boston"
+  location: "Newton/Boston, MA"
+  coordinates: { lat: 42.337, lon: -71.209 }
   units: imperial
-  source: "https://wttr.in/{location}?format=j1"   # fallback: web search
+  source: zapier_weather   # Weather by Zapier (WeatherCLIAPI) — no auth needed
+  fallback: web_search     # wttr.in and forecast.weather.gov are proxy-blocked here
 
 news:
   topics:

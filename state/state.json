@@ -1,8 +1,8 @@
 {
-  "dashboard_artifact_url": null,
-  "trigger_id": null,
+  "dashboard_artifact_url": "https://claude.ai/code/artifact/84dbc666-7e0f-4fe4-8235-965757953769",
+  "trigger_id": "trig_01Xk29MF8jLJUjDURpTyEPB6",
   "branch": "claude/personal-assistant-mcp-7poxgr",
-  "last_run": null,
-  "last_brief_date": null,
+  "last_run": "2026-07-17T03:25:00Z",
+  "last_brief_date": "2026-07-17",
   "notes": "artifact URL and trigger id are filled in by the first run; do not edit by hand unless recovering from breakage"
 }

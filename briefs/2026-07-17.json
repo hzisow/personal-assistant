@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17T03:20:00Z",
+  "headline": "Last full day before Oxford: SAT session with Ben at 11:30, Xolair, and five loose ends worth closing before Saturday night's flight.",
+  "weather": {
+    "location": "Newton/Boston, MA",
+    "current_f": 69.5,
+    "condition": "Overcast, showers late",
+    "high_f": 85,
+    "low_f": 59,
+    "precip_chance_pct": 63,
+    "sunrise": null,
+    "sunset": null
+  },
+  "schedule": [
+    {
+      "start": null,
+      "end": null,
+      "all_day": true,
+      "title": "H Xolair",
+      "calendar": "Personal",
+      "location": null,
+      "conflicts_with": [],
+      "prep": "Moved up from Jul 22 to today — before the trip. RSVP still open on the invite."
+    },
+    {
+      "start": "2026-07-17T11:30:00-04:00",
+      "end": "2026-07-17T12:30:00-04:00",
+      "all_day": false,
+      "title": "SAT session with Ben Sexton",
+      "calendar": "Personal",
+      "location": "Google Meet — meet.google.com/ouj-adum-hvw",
+      "conflicts_with": [],
+      "prep": "Ben offered his freed-up 11:30 slot Thursday afternoon; Mom accepted late Thursday night (10:29 PM) — a quick 'see you at 11:30' confirm is worth sending since Ben never re-acknowledged. Context: June SAT 1440, English where you want it; Ben says June math was unusually hard and should normalize. August SAT is the target and this is the last session before you leave — Aug 4 evening was floated for the next one but never confirmed."
+    }
+  ],
+  "tomorrow_headsup": [
+    "Flight DL 5938 (Virgin Atlantic A350) BOS Terminal E → London Heathrow, Sat 9:30 PM, lands 9:15 AM Sunday London time. Confirmation JK8A5H.",
+    "Online check-in opens tonight ~9:30 PM (24h before departure).",
+    "Storm risk Saturday evening in Boston — keep an eye on the Delta app for delays.",
+    "The flight is on your calendar twice (Gmail auto-import + Mom's invite) — harmless, but you can delete one.",
+    "Oxford program: St Hugh's College, St Margaret's Rd. Towels, linens, and laundry detergent are provided (per Youth Education email) — no need to pack them. Oxford late-July: highs 69–87°F, lows to 49°F, showers possible — pack layers and a rain shell. Return Aug 1."
+  ],
+  "email": [
+    {
+      "thread_id": "19f67552de44fe14",
+      "from": "Ben Sexton / Mom",
+      "subject": "Next Meeting before Henry leaves for Oxford",
+      "bucket": "needs_reply",
+      "why": "Today's 11:30 slot was accepted by Mom at 10:29 PM — send a quick confirm so Ben knows it's on, and RSVP yes on the invite.",
+      "age_days": 1
+    },
+    {
+      "thread_id": "19f685033f34d7c0",
+      "from": "Michael Horn (Google Docs)",
+      "subject": "Playlist and SEO Recommendations — action item",
+      "bucket": "needs_reply",
+      "why": "Assigned you an action item and re-pinged you Thursday 7 PM. Two weeks away starts Saturday — knock it out or reply with a timeline before you fly.",
+      "age_days": 1
+    },
+    {
+      "thread_id": "19f6b45771d7264b",
+      "from": "Dad",
+      "subject": "Fwd: Saïd Business School — Final Arrangements",
+      "bucket": "needs_reply",
+      "why": "\"Did you both get this too?\" — a ten-second yes closes it.",
+      "age_days": 1
+    },
+    {
+      "thread_id": "19f6d67ba2f8ed54",
+      "from": "Supabase (Ant Wilson)",
+      "subject": "Project EpiGuide is going to be paused",
+      "bucket": "important",
+      "why": "Inactivity pause incoming. You're away 2 weeks — letting it pause is free and reversible; click restore when you're back, or keep it alive now if something depends on it.",
+      "age_days": 1
+    },
+    {
+      "thread_id": "19f662b615379244",
+      "from": "Facebook / Donna Terebetsky McFadden",
+      "subject": "Invite: mass_deca business portfolio",
+      "bucket": "important",
+      "why": "Access to the Mass DECA social accounts — accept before you're abroad if posting falls to you (the officer team just promised Instagram promo for DECA Dash).",
+      "age_days": 2
+    },
+    {
+      "thread_id": "19f66afa49ebd10f",
+      "from": "GitHub",
+      "subject": "An email address was added to your account",
+      "bucket": "important",
+      "why": "28hzisow@gannacademy.org was added — almost certainly you, but confirm; if not, check github.com/settings/emails.",
+      "age_days": 2
+    },
+    {
+      "thread_id": "19f6c806f5cd9be8",
+      "from": "Google Drive / BFF of America",
+      "subject": "Folder shared: BFF Academy",
+      "bucket": "important",
+      "why": "Unrecognized sender pattern — open only if you were expecting it.",
+      "age_days": 1
+    },
+    {
+      "thread_id": "19f68c9cc88c1a07",
+      "from": "Ms. Keenan → State Officers",
+      "subject": "DECA Dash 5K — Aug 15",
+      "bucket": "waiting",
+      "why": "Ryan already replied for the team. Nothing needed from you now; it's 2 weeks after you're back.",
+      "age_days": 1
+    }
+  ],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": []
+  },
+  "follow_ups": [
+    { "what": "Michael Horn's SEO doc action item — do it or set expectations", "who": "Henry → Michael Horn", "due": "2026-07-18", "age_days": 1 },
+    { "what": "Confirm Aug 4 evening SAT session with Ben (floated by Mom, never locked)", "who": "Henry/Mom → Ben Sexton", "due": "2026-08-03", "age_days": 1 },
+    { "what": "Daniel Curtis's summer-work asks doc (Jun 27) — check status before leaving", "who": "Henry → Daniel Curtis", "due": "2026-07-18", "age_days": 20 },
+    { "what": "Decide: keep EpiGuide alive or let Supabase pause it", "who": "Henry", "due": "2026-07-18", "age_days": 1 },
+    { "what": "DECA Dash 5K — promote via chapters + Instagram after return", "who": "Officer team", "due": "2026-08-15", "age_days": 1 }
+  ],
+  "news": [
+    { "topic": "Business & markets", "headline": "AI-valuation jitters: Nasdaq fell 1.6% Thursday as chipmakers sold off — TSMC posted a 77% earnings jump and still dropped 4%", "why": "The market is questioning whether massive AI capex justifies valuations.", "url": "https://www.bloomberg.com/news/articles/2026-07-16/stock-market-today-dow-s-p-live-updates", "source": "Bloomberg" },
+    { "topic": "Business & markets", "headline": "Netflix down ~8% after-hours on a second straight quarter of slowing sales growth", "why": "Weak guidance from a mega-cap bellwether.", "url": "https://www.schwab.com/learn/story/stock-market-update-open", "source": "Schwab" },
+    { "topic": "Business & markets", "headline": "Today: June housing starts, industrial production, and UMich consumer sentiment", "why": "The data points traders watch into the weekend.", "url": "https://www.cnbc.com/", "source": "CNBC" },
+    { "topic": "Tech & AI", "headline": "Google's Gemini 3.5 Pro expected to launch today with a reported 2M-token context window", "why": "The next round of the frontier-model race.", "url": "https://aiweekly.co/", "source": "AI Weekly" },
+    { "topic": "Tech & AI", "headline": "Moonshot AI releases Kimi K3 — the first open model in the ~3-trillion-parameter class", "why": "Open-weights frontier models keep closing the gap.", "url": "https://unrot.co/blogs/today-top-10-ai-news-july-14-2026", "source": "Unrot" },
+    { "topic": "Tech & AI", "headline": "Shanghai's World AI Conference opens today — Xi attends; 29 countries sign on to a new World AI Cooperation Organization", "why": "AI governance is going geopolitical.", "url": "https://www.artificialintelligence-news.com/", "source": "AI News" },
+    { "topic": "US & world", "headline": "Senate Democrats block the $1.15T Pentagon budget over the Iran war", "why": "Escalating fight over war powers and spending.", "url": "https://www.democracynow.org/2026/7/15/headlines", "source": "Democracy Now" },
+    { "topic": "US & world", "headline": "ICE says it will halt traffic stops after deadly shootings by agents", "why": "Major enforcement-policy reversal.", "url": "https://www.democracynow.org/2026/7/15/headlines", "source": "Democracy Now" },
+    { "topic": "US & world", "headline": "New York becomes the first state to impose a data-center moratorium", "why": "AI infrastructure meets state politics — relevant to the markets story above.", "url": "https://www.democracynow.org/2026/7/15/headlines", "source": "Democracy Now" }
+  ],
+  "system_notes": [
+    "First brief — generated Thursday night as a live test; normal runs land by 7:00 AM.",
+    "Google Tasks isn't connected yet: one-time 30-second authorization needed (link in the Tasks card).",
+    "Weather now comes from Zapier's built-in weather source (no auth needed); wttr.in and weather.gov are blocked from this environment.",
+    "Email triage learned its first patterns today (filtered: college marketing, newsletter promos, Canvas digests). Veto anything by replying to this email.",
+    "Your BOS→LHR flight appears twice on the calendar — Gmail auto-import plus Mom's invite."
+  ]
+}

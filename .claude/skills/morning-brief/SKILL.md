@@ -90,6 +90,20 @@ defers to it wherever they disagree. The hard boundaries in it and in
 - **Learning**: one sentence in the brief when a triage rule was learned or
   applied for the first time, so Henry can veto it.
 
+## Degraded mode — no connectors at fire time
+The routine (trig_01Xk29MF8jLJUjDURpTyEPB6) was created via the session API,
+which could not attach connector grants; a fired run MAY wake without
+mcp__Gmail__/mcp__Google_Calendar__/mcp__Zapier__ tools. If that happens:
+1. Do NOT fail silently and do NOT fabricate a brief.
+2. Ship what's still possible: news + weather-by-web-search + carried-forward
+   follow-ups, with a prominent card: "Connectors didn't reach this run."
+3. Notify Henry (PushNotification if available, else commit a
+   briefs/YYYY-MM-DD.DEGRADED marker and update the dashboard with the notice):
+   the one-time fix is recreating the "Morning Brief" routine from the
+   claude.ai Routines UI (which attaches connectors), or opening this session
+   and saying "run the brief".
+4. Log the failure in state/state.json under "notes".
+
 ## On-demand runs
 When Henry asks for a brief mid-day ("what's my afternoon look like"), run the
 same pipeline but scope to the remaining day, skip email/push unless asked,
