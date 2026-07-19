@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T10:44:00Z",
+  "headline": "Travel day. Your flight to London is open for check-in now, and Oxford sent your airport pickup contact. Wheels up 9:30 PM — pack the rain shell; storms may brush the departure window.",
+  "weather": {
+    "location": "Newton/Boston, MA",
+    "current_f": 62,
+    "condition": "Partly sunny now; isolated thunderstorms possible late day",
+    "high_f": 86,
+    "low_f": 62,
+    "precip_chance_pct": 58,
+    "sunrise": "05:23",
+    "sunset": "20:17"
+  },
+  "schedule": [
+    {
+      "start": "2026-07-18T21:30:00-04:00",
+      "end": "2026-07-18T23:00:00-04:00",
+      "all_day": false,
+      "title": "Flight DL 5938 — BOS → London Heathrow",
+      "calendar": "Personal",
+      "location": "BOS Terminal E, gate E8 · conf JK8A5H",
+      "conflicts_with": [],
+      "prep": "CHECK IN NOW — it opened last night; do it in the Delta app (conf JK8A5H) before you leave for the airport. Virgin Atlantic A350, lands 9:15 AM Sunday London time. Storm risk in Boston this evening (~58%) right around departure — keep an eye on the Delta app for delays."
+    }
+  ],
+  "tomorrow_headsup": [
+    "ARRIVAL: A student ambassador, Dion Josh (+44 7860908563), meets you in the Heathrow arrivals hall. Save his number to your phone offline before you fly — you may not have data the moment you land.",
+    "Your Oxford program 'AI and Machine Learning Pioneers' begins Sunday (Jul 19) and runs through Aug 1 — St Hugh's College, St Margaret's Rd.",
+    "Oxford Sunday: high 73°, low 49°, cloudy but dry — layers, not heavy rain gear. St Hugh's provides towels, linens, detergent.",
+    "London is 5 hours ahead of Boston. Set your watch on the plane and try to sleep after takeoff to land on local schedule."
+  ],
+  "email": [
+    {
+      "thread_id": "19f72d96868a542c",
+      "from": "Delta Air Lines",
+      "subject": "It's Time To Check In For Your Flight",
+      "bucket": "needs_reply",
+      "why": "Check-in is open for tonight's flight (conf JK8A5H). Do it now in the Delta app — picks your seat and speeds you through Terminal E.",
+      "age_days": 0
+    },
+    {
+      "thread_id": "19f6ff086e1106f0",
+      "from": "Oxford Youth Education",
+      "subject": "Your student ambassador contact for arrival",
+      "bucket": "important",
+      "why": "Dion Josh, +44 7860908563, meets you at Heathrow arrivals. Reply/save so you have it offline on landing.",
+      "age_days": 1
+    },
+    {
+      "thread_id": "19f72c9da0209cfc",
+      "from": "Supabase (Ant Wilson)",
+      "subject": "Project EpiGuide has been paused",
+      "bucket": "important",
+      "why": "It paused overnight for inactivity, as expected. You flagged it as important — one-click restore (data kept) whenever you need it back; no rush while you're away.",
+      "age_days": 0
+    },
+    {
+      "thread_id": "19f685033f34d7c0",
+      "from": "Michael Horn (Google Docs)",
+      "subject": "Playlist and SEO Recommendations — new activity",
+      "bucket": "needs_reply",
+      "why": "More activity Friday evening on the action item. You're about to be away 2 weeks — either knock it out on the plane's wifi or send a one-line 'back Aug 1' so it's not left hanging.",
+      "age_days": 2
+    }
+  ],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": []
+  },
+  "follow_ups": [
+    { "what": "Check in for flight DL 5938 (Delta app, conf JK8A5H)", "who": "Henry", "due": "2026-07-18", "age_days": 0 },
+    { "what": "Save Oxford ambassador Dion Josh (+44 7860908563) to phone offline", "who": "Henry", "due": "2026-07-18", "age_days": 0 },
+    { "what": "Michael Horn's SEO doc action item — do it or send a 'back Aug 1' note", "who": "Henry → Michael Horn", "due": "2026-07-18", "age_days": 2 },
+    { "what": "Restore Supabase EpiGuide when back (paused Jul 18; you flagged it important)", "who": "Henry", "due": "2026-08-01", "age_days": 0 },
+    { "what": "Lock the Aug 4 evening SAT session with Ben (floated, never confirmed)", "who": "Henry/Mom → Ben Sexton", "due": "2026-08-03", "age_days": 2 },
+    { "what": "DECA Dash 5K — chapter + Instagram promo with officer team", "who": "Officer team", "due": "2026-08-15", "age_days": 2 }
+  ],
+  "news": [
+    { "topic": "Tech & AI", "headline": "Google delays Gemini 3.5 Pro after it fell short on coding and long-horizon reasoning; Alphabet shares fell ~4%", "why": "Reverses Friday's expected launch — a stumble in the frontier-model race.", "url": "https://techstartups.com/2026/07/17/top-tech-news-today-july-17-2026-anthropic-apple-google-meta-moonshot-ai-nvidia-more/", "source": "Tech Startups" },
+    { "topic": "Tech & AI", "headline": "Apple sues OpenAI, alleging theft of hardware trade secrets", "why": "A major new front in the AI-hardware fight.", "url": "https://www.artificialintelligence-news.com/", "source": "AI News" },
+    { "topic": "Business & markets", "headline": "Meta hires a senior AWS computing exec to accelerate its AI data-center buildout", "why": "The infrastructure arms race keeps escalating.", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/this-ceo-just-raised-110-million-to-make-banks-agent-first/", "source": "PYMNTS" },
+    { "topic": "US & world", "headline": "UK PM Keir Starmer resigns", "why": "You're landing in the UK tomorrow — worth knowing the political backdrop.", "url": "https://www.nbcnews.com/world", "source": "NBC News" },
+    { "topic": "US & world", "headline": "Wildfire smoke from Canada and Minnesota drives air quality to record-hazardous levels for millions", "why": "Air-quality warnings across the northern US.", "url": "https://www.npr.org/sections/news", "source": "NPR" },
+    { "topic": "US & world", "headline": "Iran and US widen attacks as the conflict shows no sign of de-escalating", "why": "Ongoing escalation with global ripple effects.", "url": "https://www.usnews.com/news/world", "source": "US News" }
+  ],
+  "system_notes": [
+    "Saturday travel-day brief — fired 06:41 ET, on time. Kept short and action-first for a travel day.",
+    "Google Tasks still not connected (Zapier auth required on the 4th probe) — likely needs reconnecting from Zapier's side, not just the Google consent screen.",
+    "Friday's 7 AM brief was interrupted before delivery; its refreshed archive is committed with today's.",
+    "The brief.henryzisow.com app is built and waiting on the 'brief' repo — today still ships via dashboard + email + push."
+  ]
+}
