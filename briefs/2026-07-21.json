@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T05:00:00Z",
+  "timezone_note": "Times in Oxford local (BST). Henry is at the Oxford Saïd Youth Programme through Aug 1.",
+  "headline": "Day two at Oxford: two guest lectures — Dr. Jeremy Large on ML prediction, then McKinsey's Robin Nuttall with Prof. Carvalho — a careers session, and a Harry Potter tour at Christ Church in the evening.",
+  "weather": {
+    "location": "Oxford, UK",
+    "current_f": 58,
+    "condition": "Clear and sunny, warming through the day",
+    "high_f": 82,
+    "low_f": 51,
+    "precip_chance_pct": 0,
+    "sunrise": "05:13",
+    "sunset": "21:12"
+  },
+  "schedule": [
+    { "start": "2026-07-21T08:00:00+01:00", "end": "2026-07-21T08:45:00+01:00", "all_day": false, "title": "Breakfast at college", "calendar": "Oxford program", "location": "St Anne's College", "conflicts_with": [], "prep": null },
+    { "start": "2026-07-21T08:45:00+01:00", "end": "2026-07-21T09:00:00+01:00", "all_day": false, "title": "Coach to Saïd Business School", "calendar": "Oxford program", "location": "SBS", "conflicts_with": [], "prep": null },
+    { "start": "2026-07-21T09:00:00+01:00", "end": "2026-07-21T09:30:00+01:00", "all_day": false, "title": "Arrival coffee", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": null },
+    { "start": "2026-07-21T09:30:00+01:00", "end": "2026-07-21T10:30:00+01:00", "all_day": false, "title": "Guest Lecture: Machine Learning and Prediction — Regression vs. Classification", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": "Dr. Jeremy Large." },
+    { "start": "2026-07-21T11:00:00+01:00", "end": "2026-07-21T12:00:00+01:00", "all_day": false, "title": "Guest Lecture: Robin Nuttall (McKinsey & Company) in discussion with Prof. Carvalho", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": "A McKinsey partner in conversation — good one to have a question ready for; ties AI to real consulting/business practice." },
+    { "start": "2026-07-21T12:00:00+01:00", "end": "2026-07-21T13:00:00+01:00", "all_day": false, "title": "Lunch", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": null },
+    { "start": "2026-07-21T13:00:00+01:00", "end": "2026-07-21T14:00:00+01:00", "all_day": false, "title": "Workshop — Teaching Assistants", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": null },
+    { "start": "2026-07-21T14:00:00+01:00", "end": "2026-07-21T15:30:00+01:00", "all_day": false, "title": "Study time", "calendar": "Oxford program", "location": "SBS", "conflicts_with": [], "prep": "Group-project work time — good slot to push your team's deliverable forward." },
+    { "start": "2026-07-21T16:00:00+01:00", "end": "2026-07-21T17:30:00+01:00", "all_day": false, "title": "Careers Session 1", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": "Gizelle Moodley." },
+    { "start": "2026-07-21T18:00:00+01:00", "end": "2026-07-21T19:00:00+01:00", "all_day": false, "title": "Dinner", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": null },
+    { "start": "2026-07-21T19:00:00+01:00", "end": "2026-07-21T21:00:00+01:00", "all_day": false, "title": "Harry Potter Tour", "calendar": "Oxford program", "location": "Christ Church, St Aldate's, Oxford", "conflicts_with": [], "prep": "With Rebecca. Christ Church's Great Hall and staircase are filming locations — bring your phone/camera. Coach back to St Anne's at 21:00." }
+  ],
+  "tomorrow_headsup": [
+    "Wed Jul 22 is a heavier lecture day: 'AI technology — Neural Nets & LLMs' (9:30) and 'Training AI — fitting weights without overfitting' (11:00), both Dr. Jeremy Large, then Oxford Admissions with FOB (16:00).",
+    "Oxford stays warm and dry midweek — mid-70s to low-80s, sunny."
+  ],
+  "email": [],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": []
+  },
+  "follow_ups": [
+    { "what": "Michael Horn's SEO doc action item — on hold until back Aug 1", "who": "Henry → Michael Horn", "due": "2026-08-01", "age_days": 5 },
+    { "what": "Restore Supabase EpiGuide when back (paused Jul 18)", "who": "Henry", "due": "2026-08-01", "age_days": 3 },
+    { "what": "Lock the Aug 4 evening SAT session with Ben", "who": "Henry/Mom → Ben Sexton", "due": "2026-08-03", "age_days": 5 },
+    { "what": "DECA Dash 5K — chapter + Instagram promo with officer team", "who": "Officer team", "due": "2026-08-15", "age_days": 5 }
+  ],
+  "news": [],
+  "system_notes": [
+    "Generated quietly and committed only — NOT delivered. Delivery paused since Fri/Sat declines; no delivery-mode chosen yet, so quiet-generate remains the default.",
+    "Environment clock is pinned ~2026-07-20T10:46Z; treating routine fires as successive program days. Monday (day one) was committed last run; this is Tuesday (day two).",
+    "Google Tasks still not connected (Zapier auth). News skipped for the quiet program-day brief.",
+    "brief.henryzisow.com app still built and waiting on the 'brief' repo."
+  ]
+}
