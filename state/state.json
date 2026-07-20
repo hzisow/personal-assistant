@@ -2,7 +2,10 @@
   "dashboard_artifact_url": "https://claude.ai/code/artifact/84dbc666-7e0f-4fe4-8235-965757953769",
   "trigger_id": "trig_01Xk29MF8jLJUjDURpTyEPB6",
   "branch": "claude/personal-assistant-mcp-7poxgr",
-  "last_run": "2026-07-17T03:25:00Z",
-  "last_brief_date": "2026-07-17",
+  "last_run": "2026-07-20T10:44:00Z",
+  "last_brief_date": "2026-07-20",
+  "delivery": "paused",
+  "delivery_note": "Outbound delivery (email/push/dashboard artifact) declined by Henry Fri 7/17 and Sat 7/18; Sun preference question failed technically. Generating + committing quietly only until Henry picks a mode. While he's in Oxford (through Aug 1), briefs should run on UK time (~05:00 UTC) if resumed — ET timing lands ~11:40 BST, after his program morning starts.",
+  "clock_note": "Container `date` ran ~1 day behind real time; use live Google/Zapier timestamps as authoritative.",
   "notes": "artifact URL and trigger id are filled in by the first run; do not edit by hand unless recovering from breakage"
 }

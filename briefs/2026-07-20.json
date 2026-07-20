@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T10:44:00Z",
+  "timezone_note": "Times shown in Oxford local (BST). Henry is at the Oxford Saïd Youth Programme through Aug 1.",
+  "headline": "Day one at Oxford Saïd — a full program day from an 8:00 breakfast to a 10:30 PM curfew, opening with the welcome session and Prof. Carvalho's lecture on AI and the history of technological progress.",
+  "weather": {
+    "location": "Oxford, UK",
+    "current_f": 70,
+    "condition": "Sunny, mild",
+    "high_f": 75,
+    "low_f": 54,
+    "precip_chance_pct": 0,
+    "sunrise": "05:12",
+    "sunset": "21:14"
+  },
+  "schedule": [
+    { "start": "2026-07-20T08:00:00+01:00", "end": "2026-07-20T08:45:00+01:00", "all_day": false, "title": "Breakfast at college", "calendar": "Oxford program", "location": "St Anne's College", "conflicts_with": [], "prep": null },
+    { "start": "2026-07-20T08:45:00+01:00", "end": "2026-07-20T09:00:00+01:00", "all_day": false, "title": "Coach to Saïd Business School", "calendar": "Oxford program", "location": "Saïd Business School", "conflicts_with": [], "prep": null },
+    { "start": "2026-07-20T09:00:00+01:00", "end": "2026-07-20T09:30:00+01:00", "all_day": false, "title": "Arrival coffee", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": null },
+    { "start": "2026-07-20T09:30:00+01:00", "end": "2026-07-20T10:30:00+01:00", "all_day": false, "title": "Welcome & Intro to the Programme and Group Project", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": "The group project is introduced here — worth catching who your teammates are and the deliverable/timeline early." },
+    { "start": "2026-07-20T11:00:00+01:00", "end": "2026-07-20T12:00:00+01:00", "all_day": false, "title": "Lecture: AI & the History of Technological Progress", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": "Led by Professor Jean-Paul Carvalho." },
+    { "start": "2026-07-20T12:00:00+01:00", "end": "2026-07-20T13:00:00+01:00", "all_day": false, "title": "Lunch", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": null },
+    { "start": "2026-07-20T13:00:00+01:00", "end": "2026-07-20T14:00:00+01:00", "all_day": false, "title": "Workshop — Teaching Assistants", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": null },
+    { "start": "2026-07-20T14:00:00+01:00", "end": "2026-07-20T15:30:00+01:00", "all_day": false, "title": "LEVRA with FCTI and FOB", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": "Facilitated by Emily Gill." },
+    { "start": "2026-07-20T16:00:00+01:00", "end": "2026-07-20T18:00:00+01:00", "all_day": false, "title": "Ambassador activities", "calendar": "Oxford program", "location": "Saïd Business School", "conflicts_with": [], "prep": null },
+    { "start": "2026-07-20T18:00:00+01:00", "end": "2026-07-20T19:00:00+01:00", "all_day": false, "title": "Dinner", "calendar": "Oxford program", "location": "St Anne's College", "conflicts_with": [], "prep": null },
+    { "start": "2026-07-20T19:00:00+01:00", "end": "2026-07-20T22:30:00+01:00", "all_day": false, "title": "Evening activities → 10:30 PM curfew", "calendar": "Oxford program", "location": "St Anne's College", "conflicts_with": [], "prep": null }
+  ],
+  "tomorrow_headsup": [
+    "Oxford tomorrow (Tue): sunny, high ~82°, low ~51° — warm, dry, no rain.",
+    "You're based at St Anne's College (the schedule's breakfast/dinner/curfew are there), with sessions at Saïd Business School — the earlier 'Final Arrangements' email had said St Hugh's, so double-check your room assignment on arrival if it wasn't sorted."
+  ],
+  "email": [],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": []
+  },
+  "follow_ups": [
+    { "what": "Michael Horn's SEO doc action item — on hold while abroad; you're back Aug 1", "who": "Henry → Michael Horn", "due": "2026-08-01", "age_days": 4 },
+    { "what": "Restore Supabase EpiGuide when back (paused Jul 18; you flagged it important)", "who": "Henry", "due": "2026-08-01", "age_days": 2 },
+    { "what": "Lock the Aug 4 evening SAT session with Ben", "who": "Henry/Mom → Ben Sexton", "due": "2026-08-03", "age_days": 4 },
+    { "what": "DECA Dash 5K — chapter + Instagram promo with officer team", "who": "Officer team", "due": "2026-08-15", "age_days": 4 }
+  ],
+  "news": [],
+  "system_notes": [
+    "Generated quietly and committed to the repo only — NOT delivered. Outbound delivery (email/push/dashboard) was declined Fri & Sat; on Sun the delivery-preference question failed on a technical error, so pausing delivery is the safe default until Henry chooses a mode.",
+    "Container clock ran a day behind; corrected to the real date (Mon Jul 20) from live Google/Zapier timestamps.",
+    "Timing note: the routine fires 10:40 UTC = 11:40 BST, i.e. LATE MORNING in Oxford — most of Henry's program morning is already underway by then. If briefs resume, they should run on UK time (~05:00 UTC) to arrive before his 8:00 breakfast.",
+    "Weather switched to Oxford for the duration of the trip. News skipped for this quiet program-day brief.",
+    "Google Tasks still not connected (Zapier auth).",
+    "The brief.henryzisow.com app remains built and waiting on the 'brief' repo."
+  ]
+}
