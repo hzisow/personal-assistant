@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T05:00:00Z",
+  "timezone_note": "Times in Oxford local (BST). Henry is at the Oxford Saïd Youth Programme through Aug 1.",
+  "headline": "Day three is the technical core: back-to-back Dr. Jeremy Large lectures on neural nets & LLMs and how AI is trained without overfitting, then an Oxford Admissions session in the afternoon.",
+  "weather": {
+    "location": "Oxford, UK",
+    "current_f": 57,
+    "condition": "Sunny and dry, warm afternoon",
+    "high_f": 79,
+    "low_f": 54,
+    "precip_chance_pct": 0,
+    "sunrise": "05:14",
+    "sunset": "21:11"
+  },
+  "schedule": [
+    { "start": "2026-07-22T08:00:00+01:00", "end": "2026-07-22T08:45:00+01:00", "all_day": false, "title": "Breakfast at college", "calendar": "Oxford program", "location": "St Anne's College", "conflicts_with": [], "prep": null },
+    { "start": "2026-07-22T08:45:00+01:00", "end": "2026-07-22T09:00:00+01:00", "all_day": false, "title": "Coach to Saïd Business School", "calendar": "Oxford program", "location": "SBS", "conflicts_with": [], "prep": null },
+    { "start": "2026-07-22T09:00:00+01:00", "end": "2026-07-22T09:30:00+01:00", "all_day": false, "title": "Arrival coffee", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": null },
+    { "start": "2026-07-22T09:30:00+01:00", "end": "2026-07-22T10:30:00+01:00", "all_day": false, "title": "Lecture: AI technology — Neural Nets and LLMs", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": "Dr. Jeremy Large. The core technical session — how the models you use actually work." },
+    { "start": "2026-07-22T11:00:00+01:00", "end": "2026-07-22T12:00:00+01:00", "all_day": false, "title": "Lecture: Training AI — fitting weights without overfitting", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": "Dr. Jeremy Large — the follow-on to the neural-nets lecture." },
+    { "start": "2026-07-22T12:00:00+01:00", "end": "2026-07-22T13:00:00+01:00", "all_day": false, "title": "Lunch", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": null },
+    { "start": "2026-07-22T13:00:00+01:00", "end": "2026-07-22T14:00:00+01:00", "all_day": false, "title": "Workshop — Teaching Assistants", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": null },
+    { "start": "2026-07-22T14:00:00+01:00", "end": "2026-07-22T15:30:00+01:00", "all_day": false, "title": "Study time", "calendar": "Oxford program", "location": "SBS", "conflicts_with": [], "prep": "Group-project work time." },
+    { "start": "2026-07-22T16:00:00+01:00", "end": "2026-07-22T18:00:00+01:00", "all_day": false, "title": "Oxford Admissions with FOB", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": "Tom Trower. Directly useful for you as a rising applicant — come with questions about the Oxford (and UK) admissions process." },
+    { "start": "2026-07-22T18:00:00+01:00", "end": "2026-07-22T19:00:00+01:00", "all_day": false, "title": "Dinner", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": null },
+    { "start": "2026-07-22T19:30:00+01:00", "end": "2026-07-22T22:30:00+01:00", "all_day": false, "title": "Coach to colleges → evening → 10:30 PM curfew", "calendar": "Oxford program", "location": "St Anne's College", "conflicts_with": [], "prep": null }
+  ],
+  "tomorrow_headsup": [
+    "Roughly the program midpoint — you're back home Aug 1. Good day to make sure your group project is on track.",
+    "Oxford stays warm and dry."
+  ],
+  "email": [],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": []
+  },
+  "follow_ups": [
+    { "what": "Michael Horn's SEO doc action item — on hold until back Aug 1", "who": "Henry → Michael Horn", "due": "2026-08-01", "age_days": 6 },
+    { "what": "Restore Supabase EpiGuide when back (paused Jul 18)", "who": "Henry", "due": "2026-08-01", "age_days": 4 },
+    { "what": "Lock the Aug 4 evening SAT session with Ben", "who": "Henry/Mom → Ben Sexton", "due": "2026-08-03", "age_days": 6 },
+    { "what": "DECA Dash 5K — chapter + Instagram promo with officer team", "who": "Officer team", "due": "2026-08-15", "age_days": 6 }
+  ],
+  "news": [],
+  "system_notes": [
+    "Generated quietly and committed only — NOT delivered. Delivery still paused; no mode chosen.",
+    "Composed from the schedule captured in the prior run's calendar pull (Wed Jul 22 events); skipped a live re-gather because connectors were mid-reconnect and recent inbox has been marketing-only. Weather is pattern-based, not a fresh pull, this run.",
+    "Google Tasks still not connected. brief.henryzisow.com app still waiting on the 'brief' repo."
+  ]
+}
