@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T05:00:00Z",
+  "timezone_note": "Times in Oxford local (BST). Henry is at the Oxford Saïd Youth Programme through Aug 1.",
+  "headline": "Day four: the group project gets formally introduced (Carvalho & Large), a Python/big-data lecture and a second careers session, then an evening out to see Macbeth.",
+  "weather": {
+    "location": "Oxford, UK",
+    "current_f": 71,
+    "condition": "Partly sunny, mild",
+    "high_f": 76,
+    "low_f": 55,
+    "precip_chance_pct": 10,
+    "sunrise": "05:16",
+    "sunset": "21:09"
+  },
+  "schedule": [
+    { "start": "2026-07-23T08:00:00+01:00", "end": "2026-07-23T08:45:00+01:00", "all_day": false, "title": "Breakfast at college", "calendar": "Oxford program", "location": "St Anne's College", "conflicts_with": [], "prep": null },
+    { "start": "2026-07-23T08:45:00+01:00", "end": "2026-07-23T09:00:00+01:00", "all_day": false, "title": "Coach to Saïd Business School", "calendar": "Oxford program", "location": "SBS", "conflicts_with": [], "prep": null },
+    { "start": "2026-07-23T09:00:00+01:00", "end": "2026-07-23T09:30:00+01:00", "all_day": false, "title": "Arrival coffee", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": null },
+    { "start": "2026-07-23T09:30:00+01:00", "end": "2026-07-23T10:30:00+01:00", "all_day": false, "title": "Lecture: Big data and coding for AI — Python and beyond", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": "Dr. Jeremy Large." },
+    { "start": "2026-07-23T11:00:00+01:00", "end": "2026-07-23T12:00:00+01:00", "all_day": false, "title": "Introduction to Group Project", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": "Prof. Carvalho & Dr. Large. This is the formal brief for the project — capture the prompt, deliverable format, and deadline, and lock in a plan with your team today." },
+    { "start": "2026-07-23T12:00:00+01:00", "end": "2026-07-23T13:00:00+01:00", "all_day": false, "title": "Lunch", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": null },
+    { "start": "2026-07-23T13:00:00+01:00", "end": "2026-07-23T14:00:00+01:00", "all_day": false, "title": "Workshop — Teaching Assistants", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": null },
+    { "start": "2026-07-23T14:00:00+01:00", "end": "2026-07-23T15:30:00+01:00", "all_day": false, "title": "Study time", "calendar": "Oxford program", "location": "SBS", "conflicts_with": [], "prep": "First real block to push the group project now that it's been briefed." },
+    { "start": "2026-07-23T16:00:00+01:00", "end": "2026-07-23T18:00:00+01:00", "all_day": false, "title": "Careers Session 2", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": "James Nugent." },
+    { "start": "2026-07-23T18:00:00+01:00", "end": "2026-07-23T19:00:00+01:00", "all_day": false, "title": "Dinner", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": null },
+    { "start": "2026-07-23T19:30:00+01:00", "end": "2026-07-23T22:00:00+01:00", "all_day": false, "title": "Macbeth (evening outing)", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": "Theatre trip — coach back to St Anne's at 22:00, curfew 22:30." }
+  ],
+  "tomorrow_headsup": [
+    "Fri Jul 24: guest lecture from Omer Gunes (co-founder, Trade Complize) with Prof. Carvalho, group-project sessions with the TAs all afternoon, and a Formal Dinner at Balliol College in the evening (18:30 coach).",
+    "Oxford stays mild, low-to-mid 70s."
+  ],
+  "email": [
+    {
+      "thread_id": "19f8864af23516b3",
+      "from": "Emily (LEVRA)",
+      "subject": "LEVRA Human Skills Programme",
+      "bucket": "important",
+      "why": "Follow-up from Monday's LEVRA session — program logistics; skim for any prep or sign-up they're asking for.",
+      "age_days": 1
+    },
+    {
+      "thread_id": "19f84914529d3b1b",
+      "from": "Canvas / SBS",
+      "subject": "Workshop 2 materials posted",
+      "bucket": "important",
+      "why": "Course materials for the AI/ML workshops are on the SBS Canvas — handy for the group project.",
+      "age_days": 1
+    },
+    {
+      "thread_id": "19f8530dfef8f212",
+      "from": "Adam Benjamin (fwd)",
+      "subject": "Panda Express Fundraiser Event: Approved",
+      "bucket": "waiting",
+      "why": "A Panda Express fundraiser you're tied to got approved (forwarded by Adam). Nothing to do from Oxford — flag for when you're back.",
+      "age_days": 2
+    }
+  ],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": []
+  },
+  "follow_ups": [
+    { "what": "Group project — capture the brief today and lock a plan with your team", "who": "Henry + project team", "due": "2026-07-23", "age_days": 0 },
+    { "what": "Panda Express fundraiser (approved) — follow up when back", "who": "Henry / Adam", "due": "2026-08-01", "age_days": 2 },
+    { "what": "Michael Horn's SEO doc action item — on hold until back Aug 1", "who": "Henry → Michael Horn", "due": "2026-08-01", "age_days": 7 },
+    { "what": "Restore Supabase EpiGuide when back (paused Jul 18)", "who": "Henry", "due": "2026-08-01", "age_days": 5 },
+    { "what": "Lock the Aug 4 evening SAT session with Ben", "who": "Henry/Mom → Ben Sexton", "due": "2026-08-03", "age_days": 7 },
+    { "what": "DECA Dash 5K — chapter + Instagram promo with officer team", "who": "Officer team", "due": "2026-08-15", "age_days": 7 }
+  ],
+  "news": [],
+  "system_notes": [
+    "Generated quietly and committed only — NOT delivered. Delivery still paused; no mode chosen.",
+    "Inbox this run was mostly marketing/college-admissions noise; surfaced only the 3 program-relevant items. No reply to prior briefs.",
+    "Google Tasks still not connected. brief.henryzisow.com app still waiting on the 'brief' repo."
+  ]
+}
