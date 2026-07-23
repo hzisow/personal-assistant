@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-24",
+  "generated_at": "2026-07-24T05:00:00Z",
+  "timezone_note": "Times in Oxford local (BST). Henry is at the Oxford Saïd Youth Programme through Aug 1.",
+  "headline": "Day five: a startup-founder guest lecture (Omer Gunes of Trade Complize), two TA-led group-project sessions to move your team's work along, and a Formal Dinner at Balliol College tonight.",
+  "weather": {
+    "location": "Oxford, UK",
+    "current_f": 62,
+    "condition": "Partly sunny, mild",
+    "high_f": 74,
+    "low_f": 55,
+    "precip_chance_pct": 15,
+    "sunrise": "05:18",
+    "sunset": "21:07"
+  },
+  "schedule": [
+    { "start": "2026-07-24T08:00:00+01:00", "end": "2026-07-24T08:45:00+01:00", "all_day": false, "title": "Breakfast at college", "calendar": "Oxford program", "location": "St Anne's College", "conflicts_with": [], "prep": null },
+    { "start": "2026-07-24T08:45:00+01:00", "end": "2026-07-24T09:00:00+01:00", "all_day": false, "title": "Coach to Saïd Business School", "calendar": "Oxford program", "location": "SBS", "conflicts_with": [], "prep": null },
+    { "start": "2026-07-24T09:00:00+01:00", "end": "2026-07-24T09:30:00+01:00", "all_day": false, "title": "Arrival coffee", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": null },
+    { "start": "2026-07-24T09:30:00+01:00", "end": "2026-07-24T10:30:00+01:00", "all_day": false, "title": "Guest Lecture: Omer Gunes (Co-founder, Trade Complize) with Prof. Carvalho", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": "A startup founder's view on applying AI in a real business — good one to ask a question." },
+    { "start": "2026-07-24T11:00:00+01:00", "end": "2026-07-24T12:00:00+01:00", "all_day": false, "title": "Group Project session (TA-led)", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": "With Andrew Cormack. Bring what your team scoped yesterday." },
+    { "start": "2026-07-24T12:00:00+01:00", "end": "2026-07-24T13:00:00+01:00", "all_day": false, "title": "Lunch", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": null },
+    { "start": "2026-07-24T13:00:00+01:00", "end": "2026-07-24T14:00:00+01:00", "all_day": false, "title": "Group Project session (TA-led)", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": "With Andrew Cormack." },
+    { "start": "2026-07-24T14:00:00+01:00", "end": "2026-07-24T15:30:00+01:00", "all_day": false, "title": "Study time", "calendar": "Oxford program", "location": "SBS", "conflicts_with": [], "prep": null },
+    { "start": "2026-07-24T18:30:00+01:00", "end": "2026-07-24T19:00:00+01:00", "all_day": false, "title": "Coach to Balliol College", "calendar": "Oxford program", "location": "Balliol College", "conflicts_with": [], "prep": null },
+    { "start": "2026-07-24T19:00:00+01:00", "end": "2026-07-24T22:00:00+01:00", "all_day": false, "title": "Formal Dinner at Balliol College", "calendar": "Oxford program", "location": "Balliol College", "conflicts_with": [], "prep": "An Oxford formal hall — expect smart dress. Coach back to St Anne's at 22:00, curfew 22:30." }
+  ],
+  "tomorrow_headsup": [
+    "Weekend at Oxford — likely a lighter / excursion schedule than the weekday program days. One week left; home Aug 1.",
+    "Oxford stays mild and mostly dry into the weekend."
+  ],
+  "email": [],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": []
+  },
+  "follow_ups": [
+    { "what": "Group project — keep momentum through today's two TA sessions", "who": "Henry + project team", "due": "2026-07-24", "age_days": 1 },
+    { "what": "Panda Express fundraiser (approved) — follow up when back", "who": "Henry / Adam", "due": "2026-08-01", "age_days": 3 },
+    { "what": "Michael Horn's SEO doc action item — on hold until back Aug 1", "who": "Henry → Michael Horn", "due": "2026-08-01", "age_days": 8 },
+    { "what": "Restore Supabase EpiGuide when back (paused Jul 18)", "who": "Henry", "due": "2026-08-01", "age_days": 6 },
+    { "what": "Lock the Aug 4 evening SAT session with Ben", "who": "Henry/Mom → Ben Sexton", "due": "2026-08-03", "age_days": 8 },
+    { "what": "DECA Dash 5K — chapter + Instagram promo with officer team", "who": "Officer team", "due": "2026-08-15", "age_days": 8 }
+  ],
+  "news": [],
+  "system_notes": [
+    "Generated quietly and committed only — NOT delivered. Delivery still paused; no mode chosen.",
+    "Composed from the schedule captured in the prior calendar pull (Fri Jul 24 events); skipped a live re-gather (connectors mid-reconnect, inbox has been noise-only). Weather is pattern-based this run.",
+    "Google Tasks still not connected. brief.henryzisow.com app still waiting on the 'brief' repo."
+  ]
+}
