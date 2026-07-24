@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-25",
+  "generated_at": "2026-07-25T05:00:00Z",
+  "timezone_note": "Times in Oxford local (BST). Henry is at the Oxford Saïd Youth Programme through Aug 1.",
+  "headline": "First weekend, and it's a great one: a day out to Bletchley Park — Turing's WWII codebreaking site and a birthplace of modern computing, fittingly on-theme — then free time and pizza night back at college.",
+  "weather": {
+    "location": "Oxford, UK",
+    "current_f": 74,
+    "condition": "Sunny and mild — a good day to be out",
+    "high_f": 77,
+    "low_f": 56,
+    "precip_chance_pct": 5,
+    "sunrise": "05:20",
+    "sunset": "21:05"
+  },
+  "schedule": [
+    { "start": "2026-07-25T08:00:00+01:00", "end": "2026-07-25T08:45:00+01:00", "all_day": false, "title": "Breakfast at college", "calendar": "Oxford program", "location": "St Anne's College", "conflicts_with": [], "prep": null },
+    { "start": "2026-07-25T09:30:00+01:00", "end": "2026-07-25T11:00:00+01:00", "all_day": false, "title": "Coach to Bletchley Park", "calendar": "Oxford program", "location": "Bletchley Park", "conflicts_with": [], "prep": "~1.5h ride — grab a water and something to do for the coach." },
+    { "start": "2026-07-25T11:00:00+01:00", "end": "2026-07-25T16:00:00+01:00", "all_day": false, "title": "Day Out — Bletchley Park", "calendar": "Oxford program", "location": "Bletchley Park", "conflicts_with": [], "prep": "Home of the WWII codebreakers (Turing & the Enigma work) and a landmark in the history of computing — a fitting field trip for an AI program. See the Bombe and the huts." },
+    { "start": "2026-07-25T16:00:00+01:00", "end": "2026-07-25T17:00:00+01:00", "all_day": false, "title": "Coach back to college", "calendar": "Oxford program", "location": "St Anne's College", "conflicts_with": [], "prep": null },
+    { "start": "2026-07-25T17:00:00+01:00", "end": "2026-07-25T18:00:00+01:00", "all_day": false, "title": "Free time", "calendar": "Oxford program", "location": "St Anne's College", "conflicts_with": [], "prep": null },
+    { "start": "2026-07-25T18:00:00+01:00", "end": "2026-07-25T21:00:00+01:00", "all_day": false, "title": "Pizza night", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": null },
+    { "start": "2026-07-25T21:00:00+01:00", "end": "2026-07-25T22:30:00+01:00", "all_day": false, "title": "Evening activities → 10:30 PM curfew", "calendar": "Oxford program", "location": "St Anne's College", "conflicts_with": [], "prep": null }
+  ],
+  "tomorrow_headsup": [
+    "Sun Jul 26: coach to Egrove (10:30), a Critical Thinking Debate with Kate Roll (11:00), lunch at Egrove, then Egrove Games in the afternoon.",
+    "Oxford stays sunny and mild through the weekend."
+  ],
+  "email": [
+    {
+      "thread_id": "19f8edc4ab53756f",
+      "from": "College Board",
+      "subject": "August SAT Weekend — Start Preparing Now",
+      "bucket": "waiting",
+      "why": "Reminder that your August SAT is close (ties to the Aug 4 session with Ben). Nothing to do from Oxford — just a heads-up that prep ramps when you're home.",
+      "age_days": 2
+    }
+  ],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": []
+  },
+  "follow_ups": [
+    { "what": "Panda Express fundraiser (approved) — follow up when back", "who": "Henry / Adam", "due": "2026-08-01", "age_days": 4 },
+    { "what": "Michael Horn's SEO doc action item — on hold until back Aug 1", "who": "Henry → Michael Horn", "due": "2026-08-01", "age_days": 9 },
+    { "what": "Restore Supabase EpiGuide when back (paused Jul 18)", "who": "Henry", "due": "2026-08-01", "age_days": 7 },
+    { "what": "Lock the Aug 4 evening SAT session with Ben + restart prep for the August SAT", "who": "Henry/Mom → Ben Sexton", "due": "2026-08-03", "age_days": 9 },
+    { "what": "DECA Dash 5K — chapter + Instagram promo with officer team", "who": "Officer team", "due": "2026-08-15", "age_days": 9 }
+  ],
+  "news": [],
+  "system_notes": [
+    "Generated quietly and committed only — NOT delivered. Delivery still paused; no mode chosen.",
+    "Weekend excursion day captured (Bletchley Park). Inbox this run was marketing/college noise plus a College Board August-SAT reminder; no reply to prior briefs.",
+    "Google Tasks still not connected. brief.henryzisow.com app still waiting on the 'brief' repo."
+  ]
+}
