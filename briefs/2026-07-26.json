@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-26",
+  "generated_at": "2026-07-26T05:00:00Z",
+  "timezone_note": "Times in Oxford local (BST). Henry is at the Oxford Saïd Youth Programme through Aug 1.",
+  "headline": "A lighter Sunday at Egrove Park: a Critical Thinking Debate with Kate Roll, lunch, and Egrove Games — a change of pace before the program's second week.",
+  "weather": {
+    "location": "Oxford, UK",
+    "current_f": 60,
+    "condition": "Sunny, mild",
+    "high_f": 75,
+    "low_f": 55,
+    "precip_chance_pct": 10,
+    "sunrise": "05:21",
+    "sunset": "21:04"
+  },
+  "schedule": [
+    { "start": "2026-07-26T08:00:00+01:00", "end": "2026-07-26T08:45:00+01:00", "all_day": false, "title": "Breakfast at college", "calendar": "Oxford program", "location": "St Anne's College", "conflicts_with": [], "prep": null },
+    { "start": "2026-07-26T10:30:00+01:00", "end": "2026-07-26T11:00:00+01:00", "all_day": false, "title": "Coach to Egrove", "calendar": "Oxford program", "location": "Egrove Park, Oxford", "conflicts_with": [], "prep": "Egrove Park is Saïd's executive-education campus, just south of the city." },
+    { "start": "2026-07-26T11:00:00+01:00", "end": "2026-07-26T12:00:00+01:00", "all_day": false, "title": "Critical Thinking Debate", "calendar": "Oxford program", "location": "Egrove Park", "conflicts_with": [], "prep": "Kate Roll. A debate format — come ready to argue a side and think on your feet." },
+    { "start": "2026-07-26T12:00:00+01:00", "end": "2026-07-26T13:30:00+01:00", "all_day": false, "title": "Lunch at Egrove", "calendar": "Oxford program", "location": "Egrove Park", "conflicts_with": [], "prep": null },
+    { "start": "2026-07-26T13:30:00+01:00", "end": "2026-07-26T16:00:00+01:00", "all_day": false, "title": "Egrove Games", "calendar": "Oxford program", "location": "Egrove Park", "conflicts_with": [], "prep": "Team games on the grounds — a relaxed afternoon." }
+  ],
+  "tomorrow_headsup": [
+    "Monday starts the program's second (final) week — likely back to the SBS lecture/group-project rhythm.",
+    "You're home Saturday, Aug 1 (flight lands Boston 12:19 PM).",
+    "Oxford stays sunny and mild."
+  ],
+  "email": [],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": []
+  },
+  "follow_ups": [
+    { "what": "Panda Express fundraiser (approved) — follow up when back", "who": "Henry / Adam", "due": "2026-08-01", "age_days": 5 },
+    { "what": "Michael Horn's SEO doc action item — on hold until back Aug 1", "who": "Henry → Michael Horn", "due": "2026-08-01", "age_days": 10 },
+    { "what": "Restore Supabase EpiGuide when back (paused Jul 18)", "who": "Henry", "due": "2026-08-01", "age_days": 8 },
+    { "what": "Lock the Aug 4 evening SAT session with Ben + restart August SAT prep", "who": "Henry/Mom → Ben Sexton", "due": "2026-08-03", "age_days": 10 },
+    { "what": "DECA Dash 5K — chapter + Instagram promo with officer team", "who": "Officer team", "due": "2026-08-15", "age_days": 10 }
+  ],
+  "news": [],
+  "system_notes": [
+    "Generated quietly and committed only — NOT delivered. Delivery still paused; no mode chosen.",
+    "Composed from the schedule captured in the prior calendar pull (Sun Jul 26 events); the day's evening wasn't populated on the calendar. Weather pattern-based this run.",
+    "One week of the program is banked; Henry returns Sat Aug 1. Google Tasks still not connected; brief.henryzisow.com app still waiting on the 'brief' repo."
+  ]
+}
