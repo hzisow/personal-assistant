@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-27",
+  "generated_at": "2026-07-27T05:00:00Z",
+  "timezone_note": "Times in Oxford local (BST). Henry is at the Oxford Saïd Youth Programme through Aug 1.",
+  "headline": "Final week begins: an open-source-AI lecture and a 'Using LLMs in 2026' session with Dr. Large, a Storytelling & Presenting workshop (useful as the group project heads toward its finish), and a BBQ dinner at Egrove.",
+  "weather": {
+    "location": "Oxford, UK",
+    "current_f": 72,
+    "condition": "Cloudy, mild",
+    "high_f": 73,
+    "low_f": 57,
+    "precip_chance_pct": 25,
+    "sunrise": "05:23",
+    "sunset": "21:02"
+  },
+  "schedule": [
+    { "start": "2026-07-27T08:00:00+01:00", "end": "2026-07-27T08:45:00+01:00", "all_day": false, "title": "Breakfast at college", "calendar": "Oxford program", "location": "St Anne's College", "conflicts_with": [], "prep": null },
+    { "start": "2026-07-27T09:00:00+01:00", "end": "2026-07-27T09:30:00+01:00", "all_day": false, "title": "Walk to the Department of Education", "calendar": "Oxford program", "location": "Dept of Education, Oxford", "conflicts_with": [], "prep": null },
+    { "start": "2026-07-27T09:30:00+01:00", "end": "2026-07-27T10:30:00+01:00", "all_day": false, "title": "Lecture: Open-source AI — how weights and models are shared", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": "Dr. Jeremy Large." },
+    { "start": "2026-07-27T11:00:00+01:00", "end": "2026-07-27T12:00:00+01:00", "all_day": false, "title": "Lecture: Using LLMs in 2026", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": "Dr. Jeremy Large — the practical state of the art." },
+    { "start": "2026-07-27T12:00:00+01:00", "end": "2026-07-27T13:00:00+01:00", "all_day": false, "title": "Lunch", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": null },
+    { "start": "2026-07-27T13:00:00+01:00", "end": "2026-07-27T14:00:00+01:00", "all_day": false, "title": "Workshop — Teaching Assistants", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": null },
+    { "start": "2026-07-27T14:30:00+01:00", "end": "2026-07-27T15:30:00+01:00", "all_day": false, "title": "LEVRA", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": "Emily Gill." },
+    { "start": "2026-07-27T16:00:00+01:00", "end": "2026-07-27T18:00:00+01:00", "all_day": false, "title": "Storytelling and Presenting", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": "Sarah Bennett. Directly useful for your group-project presentation — soak up the delivery tips." },
+    { "start": "2026-07-27T18:00:00+01:00", "end": "2026-07-27T19:00:00+01:00", "all_day": false, "title": "BBQ Dinner at Egrove Park", "calendar": "Oxford program", "location": "Egrove Park", "conflicts_with": [], "prep": null },
+    { "start": "2026-07-27T19:00:00+01:00", "end": "2026-07-27T21:00:00+01:00", "all_day": false, "title": "Evening activities → 10:30 PM curfew", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": null }
+  ],
+  "tomorrow_headsup": [
+    "Tue Jul 28: 'The AI Value Chain' and 'The AI Shock: Human Capital & the Labour Market' lectures (Prof. Carvalho), an English oracy workshop, and Punting in the evening.",
+    "Home in 5 days — Saturday Aug 1.",
+    "Oxford: mild, a touch cloudier with a small chance of showers midweek."
+  ],
+  "email": [],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": []
+  },
+  "follow_ups": [
+    { "what": "Group project — presentation likely lands this week; today's Storytelling session is prep", "who": "Henry + project team", "due": "2026-07-31", "age_days": 4 },
+    { "what": "Panda Express fundraiser (approved) — follow up when back", "who": "Henry / Adam", "due": "2026-08-01", "age_days": 6 },
+    { "what": "Michael Horn's SEO doc action item — on hold until back Aug 1", "who": "Henry → Michael Horn", "due": "2026-08-01", "age_days": 11 },
+    { "what": "Restore Supabase EpiGuide when back (paused Jul 18)", "who": "Henry", "due": "2026-08-01", "age_days": 9 },
+    { "what": "Lock the Aug 4 evening SAT session with Ben + restart August SAT prep", "who": "Henry/Mom → Ben Sexton", "due": "2026-08-03", "age_days": 11 },
+    { "what": "DECA Dash 5K — chapter + Instagram promo with officer team", "who": "Officer team", "due": "2026-08-15", "age_days": 11 }
+  ],
+  "news": [],
+  "system_notes": [
+    "Generated quietly and committed only — NOT delivered. Delivery still paused; no mode chosen.",
+    "Final program week begins. Inbox this run was all marketing/college-admissions noise; no reply to prior briefs.",
+    "Google Tasks still not connected. brief.henryzisow.com app still waiting on the 'brief' repo."
+  ]
+}
