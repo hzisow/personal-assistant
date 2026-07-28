@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-29",
+  "generated_at": "2026-07-29T05:00:00Z",
+  "timezone_note": "Times in Oxford local (BST). Henry is at the Oxford Saïd Youth Programme through Aug 1.",
+  "headline": "Day ten pairs the ethics of AI — a governance/safety lecture and AI case studies with Prof. Carvalho — with an afternoon of Junkyard Crazy Golf and evening Lightning Talks.",
+  "weather": {
+    "location": "Oxford, UK",
+    "current_f": 74,
+    "condition": "Scattered clouds, mild",
+    "high_f": 76,
+    "low_f": 58,
+    "precip_chance_pct": 15,
+    "sunrise": "05:27",
+    "sunset": "20:58"
+  },
+  "schedule": [
+    { "start": "2026-07-29T08:00:00+01:00", "end": "2026-07-29T08:45:00+01:00", "all_day": false, "title": "Breakfast at college", "calendar": "Oxford program", "location": "St Anne's College", "conflicts_with": [], "prep": null },
+    { "start": "2026-07-29T08:45:00+01:00", "end": "2026-07-29T09:30:00+01:00", "all_day": false, "title": "Coach to the Department of Economics", "calendar": "Oxford program", "location": "Dept of Economics, Oxford", "conflicts_with": [], "prep": null },
+    { "start": "2026-07-29T09:30:00+01:00", "end": "2026-07-29T10:30:00+01:00", "all_day": false, "title": "Workshop — Teaching Assistants", "calendar": "Oxford program", "location": "Breakout rooms, Dept of Economics", "conflicts_with": [], "prep": null },
+    { "start": "2026-07-29T11:00:00+01:00", "end": "2026-07-29T12:00:00+01:00", "all_day": false, "title": "Governance in the Digital Age: Ethics, Safety & Democratic Institutions", "calendar": "Oxford program", "location": "Skills Lab, Dept of Economics", "conflicts_with": [], "prep": "Prof. Carvalho — the policy/ethics side of AI." },
+    { "start": "2026-07-29T12:00:00+01:00", "end": "2026-07-29T13:00:00+01:00", "all_day": false, "title": "Lunch", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": null },
+    { "start": "2026-07-29T13:00:00+01:00", "end": "2026-07-29T14:00:00+01:00", "all_day": false, "title": "AI in Action: Case Studies & Leadership Implications", "calendar": "Oxford program", "location": "Skills Lab, Dept of Economics", "conflicts_with": [], "prep": "Prof. Carvalho." },
+    { "start": "2026-07-29T14:00:00+01:00", "end": "2026-07-29T14:30:00+01:00", "all_day": false, "title": "Week check-in with Ambassadors", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": null },
+    { "start": "2026-07-29T15:00:00+01:00", "end": "2026-07-29T18:00:00+01:00", "all_day": false, "title": "Junkyard Crazy Golf", "calendar": "Oxford program", "location": "Junkyard Golf", "conflicts_with": [], "prep": "An afternoon out — the fun kind of course." },
+    { "start": "2026-07-29T18:00:00+01:00", "end": "2026-07-29T19:00:00+01:00", "all_day": false, "title": "Dinner", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": null },
+    { "start": "2026-07-29T19:00:00+01:00", "end": "2026-07-29T22:30:00+01:00", "all_day": false, "title": "Evening: 'Lightning Talks' → 10:30 PM curfew", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": "Short student talks — if you're presenting, have your minute ready." }
+  ],
+  "tomorrow_headsup": [
+    "Thu Jul 30 is a group-project day: TA-led project sessions in the morning and a 'Feedback on Group Projects' session (Carvalho & Large) at 13:00 — bring your team's draft.",
+    "Travel update (from your reply to Danny): you fly back Aug 1, go straight to your cousin's wedding from the airport, and are home Aug 2.",
+    "You locked a meeting with Danny Curtis for Tue Aug 4 at 4:00 PM — note the floated Aug 4 evening SAT session with Ben would stack on the same day."
+  ],
+  "email": [
+    {
+      "thread_id": "19fa552d5edce1ab",
+      "from": "Daniel Curtis",
+      "subject": "Check in — meeting set",
+      "bucket": "waiting",
+      "why": "You already handled this: replied from Oxford and confirmed Tue Aug 4 at 4:00 PM. No action now — just on the calendar for when you're back.",
+      "age_days": 1
+    }
+  ],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": []
+  },
+  "follow_ups": [
+    { "what": "Group project — feedback session tomorrow (Thu 13:00); presentation nears", "who": "Henry + project team", "due": "2026-07-30", "age_days": 6 },
+    { "what": "Danny Curtis meeting CONFIRMED Tue Aug 4, 4:00 PM — heads-up: Aug 4 evening SAT with Ben would be the same day", "who": "Henry", "due": "2026-08-04", "age_days": 0 },
+    { "what": "Travel: fly back Aug 1 → cousin's wedding from the airport → home Aug 2", "who": "Henry", "due": "2026-08-02", "age_days": 0 },
+    { "what": "Panda Express fundraiser (approved) — follow up when back", "who": "Henry / Adam", "due": "2026-08-02", "age_days": 8 },
+    { "what": "Michael Horn's SEO doc action item — on hold until back", "who": "Henry → Michael Horn", "due": "2026-08-02", "age_days": 13 },
+    { "what": "Restore Supabase EpiGuide when back (paused Jul 18)", "who": "Henry", "due": "2026-08-02", "age_days": 11 },
+    { "what": "Lock the Aug 4 evening SAT session with Ben + restart August SAT prep", "who": "Henry/Mom → Ben Sexton", "due": "2026-08-03", "age_days": 13 },
+    { "what": "DECA Dash 5K — chapter + Instagram promo with officer team", "who": "Officer team", "due": "2026-08-15", "age_days": 13 }
+  ],
+  "news": [],
+  "system_notes": [
+    "Generated quietly and committed only — NOT delivered. Delivery still paused; no mode chosen.",
+    "Notable inbox item: Henry self-scheduled a Danny Curtis meeting for Tue Aug 4 4:00 PM, and shared a travel update (wedding Aug 1, home Aug 2). Recorded in follow-ups. Rest of inbox was college-marketing/promo noise.",
+    "Google Tasks still not connected. brief.henryzisow.com app still waiting on the 'brief' repo."
+  ]
+}

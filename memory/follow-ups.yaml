@@ -3,30 +3,52 @@
 # moves them to resolved when done — explaining every change in the brief.
 
 open:
-  - what: "Michael Horn's action item in 'Playlist and SEO Recommendations' doc"
-    who: "Henry → Michael Horn"
-    due: 2026-07-18
-    source: "Docs comment notifications, Jul 15 + re-ping Jul 16 7:07 PM"
+  - what: "Group project — feedback session Thu Jul 30 13:00; final presentation near end of program"
+    who: "Henry + project team"
+    due: 2026-07-31
+    source: "Oxford program calendar"
+    first_seen: 2026-07-23
+  - what: "Danny Curtis working meeting — CONFIRMED Tue Aug 4, 4:00 PM (Henry scheduled it himself)"
+    who: "Henry ↔ Daniel Curtis"
+    due: 2026-08-04
+    source: "email thread 'Check in', Jul 27"
+    first_seen: 2026-07-29
+    note: "Aug 4 evening SAT session with Ben was floated for the same day — watch for a stack."
+  - what: "Restore Supabase EpiGuide (auto-paused Jul 18 for inactivity; Henry flagged it important)"
+    who: "Henry"
+    due: 2026-08-02
+    source: "Supabase pause notice, Jul 18"
     first_seen: 2026-07-17
-  - what: "Confirm Aug 4 evening SAT session with Ben Sexton (floated by Mom Jul 15, never locked)"
+  - what: "Lock the Aug 4 evening SAT session with Ben + restart August SAT prep"
     who: "Henry/Mom → Ben Sexton"
     due: 2026-08-03
-    source: "email thread 'Next Meeting before Henry leaves for Oxford'"
+    source: "email thread 'Next Meeting before Henry leaves for Oxford' + College Board reminder"
     first_seen: 2026-07-17
-  - what: "Daniel Curtis's summer-work asks doc (linked Jun 27) — confirm status before Oxford"
-    who: "Henry → Daniel Curtis"
-    due: 2026-07-18
-    source: "email thread 'Our work together this summer'"
+  - what: "Michael Horn's SEO doc action item (Playlist & SEO Recommendations)"
+    who: "Henry → Michael Horn"
+    due: 2026-08-02
+    source: "Docs comment notifications, Jul 15–17"
     first_seen: 2026-07-17
-  - what: "Decide whether to keep Supabase project EpiGuide alive or let it pause"
-    who: "Henry"
-    due: 2026-07-18
-    source: "Supabase inactivity notice, Jul 16"
-    first_seen: 2026-07-17
-  - what: "DECA Dash 5K (Aug 15) — chapter + Instagram promo with officer team"
+  - what: "Panda Express fundraiser (approved) — follow up when back"
+    who: "Henry / Adam Benjamin"
+    due: 2026-08-02
+    source: "fwd from adambenjaminf@gmail.com, Jul 21"
+    first_seen: 2026-07-23
+  - what: "DECA Dash 5K — chapter + Instagram promo with the officer team"
     who: "Officer team (Ryan leading)"
     due: 2026-08-15
     source: "email thread 'DECA Dash'"
     first_seen: 2026-07-17
 
-resolved: []
+# Travel / logistics context (not a to-do, but load-bearing for scheduling)
+travel:
+  - "Oxford Saïd Youth Programme through Fri Aug 1 (based at St Anne's College)."
+  - "Aug 1: fly back to the US, go straight to a cousin's wedding from the airport."
+  - "Aug 2: officially home."
+
+resolved:
+  - what: "Check in for BOS→LHR flight + save Oxford ambassador contact (Dion Josh)"
+    resolved_on: 2026-07-18
+  - what: "Reply to Dad's 'did you both get this?' on Oxford arrangements"
+    resolved_on: 2026-07-19
+    note: "Assumed handled once at Oxford; drop unless it resurfaces."
