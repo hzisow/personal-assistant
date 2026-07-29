@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-30",
+  "generated_at": "2026-07-30T05:00:00Z",
+  "timezone_note": "Times in Oxford local (BST). Henry is at the Oxford Saïd Youth Programme through Aug 1.",
+  "headline": "Day eleven is the group project's home stretch: TA sessions in the morning and a 'Feedback on Group Projects' review with Carvalho & Large at 1 PM, then a free evening. One thing waiting on you: Danny wants a calendar invite for Aug 4.",
+  "weather": {
+    "location": "Oxford, UK",
+    "current_f": 79,
+    "condition": "Sunny and warm",
+    "high_f": 82,
+    "low_f": 60,
+    "precip_chance_pct": 5,
+    "sunrise": "05:28",
+    "sunset": "20:56"
+  },
+  "schedule": [
+    { "start": "2026-07-30T08:00:00+01:00", "end": "2026-07-30T08:45:00+01:00", "all_day": false, "title": "Breakfast at college", "calendar": "Oxford program", "location": "St Anne's College", "conflicts_with": [], "prep": null },
+    { "start": "2026-07-30T08:45:00+01:00", "end": "2026-07-30T09:30:00+01:00", "all_day": false, "title": "Coach to the Department of Education", "calendar": "Oxford program", "location": "Dept of Education, Oxford", "conflicts_with": [], "prep": null },
+    { "start": "2026-07-30T09:30:00+01:00", "end": "2026-07-30T10:30:00+01:00", "all_day": false, "title": "Workshop — Teaching Assistants", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": null },
+    { "start": "2026-07-30T11:00:00+01:00", "end": "2026-07-30T12:00:00+01:00", "all_day": false, "title": "Group Projects (TA)", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": "Polish the deliverable before the 1 PM feedback session." },
+    { "start": "2026-07-30T12:00:00+01:00", "end": "2026-07-30T13:00:00+01:00", "all_day": false, "title": "Lunch", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": null },
+    { "start": "2026-07-30T13:00:00+01:00", "end": "2026-07-30T15:00:00+01:00", "all_day": false, "title": "Feedback on Group Projects", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": "Prof. Carvalho & Dr. Large. Bring your team's draft — this is the review before the final presentation. Take notes on their feedback and divide fixes right after." },
+    { "start": "2026-07-30T15:00:00+01:00", "end": "2026-07-30T18:00:00+01:00", "all_day": false, "title": "Free time & ambassador activities", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": "Register at SBS for the 6 PM dinner." },
+    { "start": "2026-07-30T18:00:00+01:00", "end": "2026-07-30T19:00:00+01:00", "all_day": false, "title": "Dinner", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": null },
+    { "start": "2026-07-30T19:00:00+01:00", "end": "2026-07-30T22:30:00+01:00", "all_day": false, "title": "Free time / evening activities → 10:30 PM curfew", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": "Register at your accommodation by curfew." }
+  ],
+  "tomorrow_headsup": [
+    "Fri Aug 1 is your last program day AND travel day — likely final presentations + closing, then the flight home. Expect a packed, emotional last day.",
+    "Then: cousin's wedding straight from the airport (Aug 1), home Aug 2.",
+    "Oxford stays sunny and warm."
+  ],
+  "email": [
+    {
+      "thread_id": "19fa552d5edce1ab",
+      "from": "Daniel Curtis",
+      "subject": "Check in — Danny asked for a calendar invite",
+      "bucket": "needs_reply",
+      "why": "Danny replied 'can you send over an invite?' for your Aug 4 4:00 PM meeting. Quick to-do: send him the calendar invite (I can't create events for you). If Aug 4 evening SAT with Ben firms up, keep them from colliding.",
+      "age_days": 1
+    },
+    {
+      "thread_id": "19fad2cb3187fbd9",
+      "from": "Fidelity",
+      "subject": "Trade confirmation — bought Micron (MU)",
+      "bucket": "waiting",
+      "why": "FYI: your buy of Micron Technology went through (~$840/sh). No action — just noting a real account event amid the marketing.",
+      "age_days": 1
+    }
+  ],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": []
+  },
+  "follow_ups": [
+    { "what": "Send Danny Curtis a calendar invite for the Aug 4, 4:00 PM meeting (he asked)", "who": "Henry → Danny Curtis", "due": "2026-08-01", "age_days": 0 },
+    { "what": "Group project — final presentation likely Fri; today's 1 PM feedback is the last review", "who": "Henry + project team", "due": "2026-08-01", "age_days": 7 },
+    { "what": "EpiGuide — looks like you're signing in again (restore likely handled); confirm it's running when settled", "who": "Henry", "due": "2026-08-02", "age_days": 0 },
+    { "what": "Aug 4 is getting busy: Danny 4:00 PM + the floated evening SAT session with Ben", "who": "Henry", "due": "2026-08-03", "age_days": 0 },
+    { "what": "Panda Express fundraiser (approved) — follow up when back", "who": "Henry / Adam", "due": "2026-08-02", "age_days": 9 },
+    { "what": "Michael Horn's SEO doc action item — on hold until back", "who": "Henry → Michael Horn", "due": "2026-08-02", "age_days": 14 },
+    { "what": "DECA Dash 5K — chapter + Instagram promo with officer team", "who": "Officer team", "due": "2026-08-15", "age_days": 14 }
+  ],
+  "news": [],
+  "system_notes": [
+    "Generated quietly and committed only — NOT delivered. Delivery still paused; no mode chosen.",
+    "Notable inbox: Danny Curtis asked Henry to send a calendar invite for Aug 4 (surfaced as an action — NOT auto-created, per boundaries); Fidelity confirmed a Micron buy; repeated EpiGuide Google sign-ins suggest Henry is using EpiGuide again. Rest was college-marketing noise.",
+    "Google Tasks still not connected. brief.henryzisow.com app still waiting on the 'brief' repo."
+  ]
+}
