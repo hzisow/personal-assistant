@@ -8,7 +8,6 @@
     --pillshadow:0 1px 2px rgba(0,0,0,.08),0 4px 12px rgba(0,0,0,.05);
     --hovershadow:0 6px 16px rgba(0,0,0,.12);
     --font:"Cereal","Circular",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-    --mono:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,monospace;
   }
   @media (prefers-color-scheme:dark){:root{
     --bg:#121212;--card:#1E1E1E;--ink:#F7F7F7;--muted:#B0B0B0;--faint:#7E7E7E;
@@ -17,208 +16,98 @@
   }}
   :root[data-theme="light"]{--bg:#FFFFFF;--card:#FFFFFF;--ink:#222;--muted:#6A6A6A;--faint:#8E8E8E;--line:#EBEBEB;--line-strong:#DDD;--blue:#1E6AE1;--blue-hover:#1656BE;--blue-soft:#EEF4FE;--urgent:#C13515;--pillshadow:0 1px 2px rgba(0,0,0,.08),0 4px 12px rgba(0,0,0,.05);--hovershadow:0 6px 16px rgba(0,0,0,.12);}
   :root[data-theme="dark"]{--bg:#121212;--card:#1E1E1E;--ink:#F7F7F7;--muted:#B0B0B0;--faint:#7E7E7E;--line:#2E2E2E;--line-strong:#3D3D3D;--blue:#6EA1F0;--blue-hover:#94BCF6;--blue-soft:#1B2A44;--urgent:#E07856;--pillshadow:none;--hovershadow:0 6px 16px rgba(0,0,0,.5);}
-
   *{box-sizing:border-box;}
   body{margin:0;background:var(--bg);color:var(--ink);font:14.5px/1.5 var(--font);-webkit-font-smoothing:antialiased;}
   a{color:inherit;text-decoration:none;}
-  a:focus-visible{outline:2px solid var(--blue);outline-offset:2px;border-radius:4px;}
-  .alink{color:var(--blue);font-weight:600;}
-  .alink:hover{color:var(--blue-hover);text-decoration:underline;}
-
+  .alink{color:var(--blue);font-weight:600;} .alink:hover{color:var(--blue-hover);text-decoration:underline;}
   nav{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px solid var(--line);}
   .navin{max-width:1120px;margin:0 auto;padding:12px clamp(16px,4vw,40px);display:flex;align-items:center;justify-content:space-between;gap:16px;}
   .brand{display:flex;align-items:center;gap:8px;font-weight:700;font-size:15px;color:var(--blue);}
   .datepill{display:flex;align-items:center;border:1px solid var(--line-strong);border-radius:999px;padding:8px 8px 8px 18px;box-shadow:var(--pillshadow);font-size:13.5px;font-weight:600;white-space:nowrap;background:var(--card);}
-  .datepill span{padding:0 14px;}
-  .datepill span+span{border-left:1px solid var(--line-strong);}
-  .datepill .soft{font-weight:400;color:var(--muted);}
+  .datepill span{padding:0 14px;} .datepill span+span{border-left:1px solid var(--line-strong);} .datepill .soft{font-weight:400;color:var(--muted);}
   .avatar{width:34px;height:34px;border-radius:50%;background:var(--blue);color:#fff;font-weight:700;font-size:14px;display:flex;align-items:center;justify-content:center;flex:none;}
   @media (max-width:760px){.datepill{display:none;}}
-
   .wrap{max-width:1120px;margin:0 auto;padding:clamp(20px,4vw,36px) clamp(16px,4vw,40px) 48px;}
+  .banner{background:var(--blue-soft);border:1px solid var(--line-strong);border-radius:14px;padding:14px 18px;font-size:13.5px;color:var(--muted);margin-bottom:22px;}
+  .banner b{color:var(--ink);}
   .hello{font-size:clamp(24px,4vw,30px);font-weight:700;margin:6px 0 8px;letter-spacing:-.02em;}
   .sub{color:var(--muted);font-size:16px;max-width:64ch;margin:0 0 18px;text-wrap:balance;}
   .stats{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:8px;}
   .stat{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line-strong);border-radius:999px;padding:7px 14px;font-size:13px;font-weight:600;background:var(--card);}
-  .stat .d{width:8px;height:8px;border-radius:50%;background:var(--blue);flex:none;}
-  .stat.warn .d{background:var(--urgent);}
-  .stat .num{font-variant-numeric:tabular-nums;}
-
+  .stat .d{width:8px;height:8px;border-radius:50%;background:var(--blue);flex:none;} .stat.warn .d{background:var(--urgent);} .stat .num{font-variant-numeric:tabular-nums;}
   h2{font-size:21px;font-weight:700;letter-spacing:-.01em;margin:34px 0 14px;}
-  .sechead{display:flex;align-items:baseline;justify-content:space-between;gap:12px;}
-  .sechead .more{font-size:13.5px;}
   .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;transition:box-shadow .18s ease;}
-  .card:hover{box-shadow:var(--hovershadow);}
-  .card.wide{grid-column:1/-1;}
-  .when{font-size:13px;font-weight:700;color:var(--blue);font-variant-numeric:tabular-nums;margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em;}
-  .when.u{color:var(--urgent);}
-  .card h3{margin:0 0 6px;font-size:16.5px;font-weight:700;}
-  .card .body{color:var(--muted);font-size:13.5px;margin:0 0 10px;}
-  .card .body:last-child{margin-bottom:0;}
-  .tag{display:inline-block;border:1px solid var(--line-strong);border-radius:999px;padding:3px 10px;font-size:11.5px;font-weight:600;color:var(--muted);margin-left:8px;vertical-align:2px;}
-
-  .flight{display:grid;grid-template-columns:minmax(220px,320px) 1fr;gap:24px;align-items:start;}
-  @media (max-width:720px){.flight{grid-template-columns:1fr;}}
-  .route{font-size:30px;font-weight:800;letter-spacing:-.01em;}
-  .route .arr{color:var(--blue);font-weight:400;}
-  .fmeta{color:var(--muted);font-size:13.5px;line-height:1.7;font-variant-numeric:tabular-nums;margin-top:4px;}
-  .fnotes{list-style:none;margin:0;padding:0;font-size:13.5px;}
-  .fnotes li{padding:8px 0 8px 26px;border-top:1px solid var(--line);position:relative;color:var(--muted);}
-  .fnotes li:first-child{border-top:0;padding-top:0;}
-  .fnotes li::before{content:"";position:absolute;left:4px;top:14px;width:7px;height:7px;border-radius:50%;background:var(--blue);}
-  .fnotes li:first-child::before{top:6px;}
-  .fnotes b{color:var(--ink);} .fnotes li.u::before{background:var(--urgent);} .fnotes li.u b{color:var(--urgent);}
-
-  .rows{list-style:none;margin:0;padding:0;}
-  .rows li{display:flex;align-items:flex-start;gap:12px;padding:11px 0;border-top:1px solid var(--line);}
-  .rows li:first-child{border-top:0;padding-top:0;}
-  .ic{flex:none;width:38px;height:38px;border-radius:12px;background:var(--blue-soft);color:var(--blue);font-weight:700;font-size:15px;display:flex;align-items:center;justify-content:center;}
-  .ic.u{background:#FBEEE9;color:var(--urgent);}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;transition:box-shadow .18s ease;} .card:hover{box-shadow:var(--hovershadow);} .card.wide{grid-column:1/-1;}
+  .tl{list-style:none;margin:0;padding:0;} .tl li{display:flex;gap:14px;padding:9px 0;border-top:1px solid var(--line);} .tl li:first-child{border-top:0;padding-top:0;}
+  .tl time{font:600 12.5px/1.5 ui-monospace,Menlo,Consolas,monospace;color:var(--blue);flex:none;width:96px;font-variant-numeric:tabular-nums;}
+  .tl .what strong{font-weight:700;} .tl .prep{color:var(--muted);font-size:13px;margin-top:2px;}
+  .rows{list-style:none;margin:0;padding:0;} .rows li{display:flex;align-items:flex-start;gap:12px;padding:11px 0;border-top:1px solid var(--line);} .rows li:first-child{border-top:0;padding-top:0;}
+  .ic{flex:none;width:36px;height:36px;border-radius:11px;background:var(--blue-soft);color:var(--blue);font-weight:700;font-size:14px;display:flex;align-items:center;justify-content:center;} .ic.u{background:#FBEEE9;color:var(--urgent);}
   @media (prefers-color-scheme:dark){.ic.u{background:#2A2018;}}
-  .rows .from{font-weight:600;} .rows .why{color:var(--muted);font-size:13.5px;margin-top:2px;}
-  .rows a.open{margin-left:auto;flex:none;font-size:12.5px;white-space:nowrap;align-self:center;}
-
-  .connect{background:var(--blue-soft);border-radius:12px;padding:14px 16px;font-size:13.5px;}
-  .connect b{display:block;margin-bottom:4px;} .connect p{margin:0 0 6px;color:var(--muted);}
-
-  .news{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;}
-  .news h3{font-size:15px;font-weight:700;margin:0 0 4px;}
-  .news ul{list-style:none;margin:0;padding:0;}
-  .news li{padding:10px 0;border-top:1px solid var(--line);}
-  .news li:first-child{border-top:0;}
-  .news a.h{font-weight:600;font-size:13.5px;line-height:1.45;display:block;}
-  .news a.h:hover{text-decoration:underline;}
-  .news .src{color:var(--faint);font-size:12px;margin-top:2px;}
-
+  .rows .from{font-weight:600;} .rows .why{color:var(--muted);font-size:13px;margin-top:1px;}
+  .fu{list-style:none;margin:0;padding:0;font-size:14px;} .fu li{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:9px 0;border-top:1px solid var(--line);} .fu li:first-child{border-top:0;padding-top:0;}
+  .due{flex:none;border-radius:999px;padding:3px 11px;font-size:12px;font-weight:700;border:1px solid var(--line-strong);color:var(--faint);white-space:nowrap;} .due.soon{color:var(--urgent);border-color:currentColor;}
   footer{border-top:1px solid var(--line);margin-top:40px;padding-top:18px;color:var(--faint);font-size:12.5px;line-height:1.7;}
 </style>
-
 <nav>
   <div class="navin">
     <span class="brand">
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-        <circle cx="12" cy="14" r="5.5" fill="currentColor"/>
-        <path d="M2 20h20M12 3v3M4.9 6.9l2.1 2.1M19.1 6.9 17 9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-      </svg>Morning Brief
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="14" r="5.5" fill="currentColor"/><path d="M2 20h20M12 3v3M4.9 6.9l2.1 2.1M19.1 6.9 17 9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Morning Brief
     </span>
-    <div class="datepill" role="text">
-      <span>Sat, Jul 18</span>
-      <span class="soft">Newton, MA</span>
-      <span class="soft">✈ Travel day</span>
-    </div>
+    <div class="datepill" role="text"><span>Thu, Jul 30</span><span class="soft">Oxford, UK</span><span class="soft">☀ 82°</span></div>
     <div class="avatar" aria-hidden="true">H</div>
   </div>
 </nav>
-
 <div class="wrap">
+  <div class="banner">📬 <b>Delivery resumed.</b> Your briefs were generated and saved every day since Jul 17 but weren't being sent — that's fixed now. Full back-catalogue is in the repo; you'll get this every morning from here.</div>
   <h1 class="hello">Good morning, Henry</h1>
-  <p class="sub">Travel day — wheels up 9:30 PM to London. Two things before you go: <b>check in now</b>,
-  and <b>save your Oxford pickup contact</b>. Calm here this morning; storms may brush the evening departure.</p>
-
+  <p class="sub">Oxford, day eleven — the group project's home stretch: a final feedback review at 1 PM, then a free evening. One thing waiting on you: Danny wants a calendar invite for Aug 4.</p>
   <div class="stats">
-    <span class="stat warn"><span class="d"></span>Check in now</span>
-    <span class="stat"><span class="d"></span>Wheels up <span class="num">9:30 PM</span></span>
-    <span class="stat"><span class="d"></span>Lands <span class="num">9:15 AM</span> Sun (London)</span>
-    <span class="stat"><span class="d"></span>Storms tonight <span class="num">58%</span></span>
+    <span class="stat"><span class="d"></span>Sunny, <span class="num">82°</span></span>
+    <span class="stat warn"><span class="d"></span>Send Danny his invite</span>
+    <span class="stat"><span class="d"></span>Last day + flight home tomorrow</span>
   </div>
 
-  <h2>Tonight</h2>
+  <h2>Today at Oxford Saïd</h2>
   <div class="cards">
     <section class="card wide">
-      <div class="flight">
-        <div>
-          <div class="route">BOS <span class="arr">→</span> LHR</div>
-          <div class="fmeta">DL 5938 · Virgin Atlantic A350<br>
-          9:30 PM · Terminal E, gate E8 · conf JK8A5H<br>
-          lands 9:15 AM Sun (London) · back Aug 1</div>
-        </div>
-        <ul class="fnotes">
-          <li class="u"><b>Check in now</b> — it opened last night; do it in the Delta app before you leave</li>
-          <li class="u"><b>Storms around departure</b> — isolated thunderstorms this evening (~58%); watch the Delta app for delays</li>
-          <li>Boston today: partly sunny, warm (high ~86°) — light layers for the terminal</li>
-          <li>London is 5 hours ahead — set your watch on the plane and sleep after takeoff</li>
-        </ul>
-      </div>
+      <ul class="tl">
+        <li><time>08:00</time><div class="what"><strong>Breakfast</strong> (St Anne's) → 08:45 coach to the Dept of Education</div></li>
+        <li><time>09:30 · 11:00</time><div class="what"><strong>TA workshop → Group Projects (TA)</strong><div class="prep">Polish the deliverable before the 1 PM review.</div></div></li>
+        <li><time>13:00–15:00</time><div class="what"><strong>Feedback on Group Projects</strong> — Carvalho &amp; Large<div class="prep">The last review before the final presentation. Take notes and divide fixes with your team right after.</div></div></li>
+        <li><time>15:00</time><div class="what">Free time &amp; ambassador activities <span style="color:var(--muted)">(register at SBS for 6 PM dinner)</span></div></li>
+        <li><time>18:00 · 19:00</time><div class="what"><strong>Dinner → free evening</strong> · 22:30 curfew</div></li>
+      </ul>
     </section>
   </div>
 
-  <h2>Landing tomorrow · Oxford</h2>
-  <div class="cards">
-    <section class="card">
-      <div class="when">Your ride</div>
-      <h3>Dion Josh · +44 7860908563</h3>
-      <p class="body">A student ambassador meets you in the <b>Heathrow arrivals hall</b>. Save his number
-      to your phone <b>offline</b> before you fly — you may have no data the moment you land.</p>
-    </section>
-    <section class="card">
-      <div class="when">Sun – Aug 1</div>
-      <h3>AI &amp; Machine Learning Pioneers <span class="tag">Oxford</span></h3>
-      <p class="body">Your program begins Sunday at St Hugh's College, St Margaret's Rd. Towels, linens,
-      and detergent are provided. Oxford Sunday: 73° / 49°, cloudy but dry — layers, not heavy rain gear.</p>
-    </section>
-  </div>
-
-  <h2>Before you go</h2>
+  <h2>Waiting on you</h2>
   <div class="cards">
     <section class="card">
       <ul class="rows">
-        <li><span class="ic u">✓</span>
-          <div><div class="from">Check in for the flight</div>
-            <div class="why">The one time-sensitive thing — Delta app, conf JK8A5H.</div></div>
-          <a class="alink open" href="https://mail.google.com/mail/u/0/#all/19f72d96868a542c">Open ›</a>
-        </li>
-        <li><span class="ic">M</span>
-          <div><div class="from">Michael Horn — SEO doc</div>
-            <div class="why">More activity Friday. Knock it out on the plane's wifi, or send a quick "back Aug 1."</div></div>
-          <a class="alink open" href="https://mail.google.com/mail/u/0/#all/19f685033f34d7c0">Open ›</a>
-        </li>
-        <li><span class="ic">S</span>
-          <div><div class="from">EpiGuide paused</div>
-            <div class="why">Paused overnight, as expected. You flagged it important — one-click restore whenever, data kept.</div></div>
-          <a class="alink open" href="https://mail.google.com/mail/u/0/#all/19f72c9da0209cfc">Open ›</a>
-        </li>
+        <li><span class="ic u">✓</span><div><div class="from">Send Danny Curtis a calendar invite</div><div class="why">He replied "can you send over an invite?" for your <b>Aug 4, 4:00 PM</b> meeting. This one's yours — I don't create events. Watch the overlap if the Aug 4 evening SAT with Ben firms up.</div></div><a class="alink" style="margin-left:auto;font-size:12.5px;white-space:nowrap;align-self:center;" href="https://mail.google.com/mail/u/0/#all/19fa552d5edce1ab">Open ›</a></li>
+        <li><span class="ic">$</span><div><div class="from">Fidelity — Micron (MU) buy confirmed</div><div class="why">FYI, no action — just a real account event amid the marketing.</div></div></li>
+        <li><span class="ic">E</span><div><div class="from">EpiGuide — you're signing in again</div><div class="why">Looks like the restore is handled; confirm it's running once you're settled.</div></div></li>
       </ul>
     </section>
     <section class="card">
-      <h3 style="margin-bottom:8px;">Google Tasks</h3>
-      <div class="connect">
-        <b>Still not connecting</b>
-        <p>Zapier reports "authentication required" on the fourth try — the Google consent isn't sticking.
-        This one likely needs reconnecting from Zapier's side (connections), not just the Google screen.</p>
-        <a class="alink" href="https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI">Retry connection ›</a>
-      </div>
+      <h3 style="margin:0 0 8px;font-size:16px;">Tomorrow — last day + travel</h3>
+      <p class="sub" style="font-size:14px;margin:0;">Final presentations + closing, then the <b>flight home</b>. Cousin's wedding straight from the airport (Aug 1), home Aug 2. Eastern-time briefs resume once you're back.</p>
     </section>
   </div>
 
-  <h2>News</h2>
-  <div class="news">
-    <section class="card">
-      <h3>Tech &amp; AI</h3>
-      <ul>
-        <li><a class="h" href="https://techstartups.com/2026/07/17/top-tech-news-today-july-17-2026-anthropic-apple-google-meta-moonshot-ai-nvidia-more/">Google delays Gemini 3.5 Pro on weak coding/reasoning; Alphabet −4%</a><div class="src">Tech Startups</div></li>
-        <li><a class="h" href="https://www.artificialintelligence-news.com/">Apple sues OpenAI, alleging theft of hardware trade secrets</a><div class="src">AI News</div></li>
-      </ul>
-    </section>
-    <section class="card">
-      <h3>Business</h3>
-      <ul>
-        <li><a class="h" href="https://www.pymnts.com/news/artificial-intelligence/2026/this-ceo-just-raised-110-million-to-make-banks-agent-first/">Meta hires a senior AWS exec to accelerate its AI data-center buildout</a><div class="src">PYMNTS</div></li>
-      </ul>
-    </section>
-    <section class="card">
-      <h3>US &amp; world</h3>
-      <ul>
-        <li><a class="h" href="https://www.nbcnews.com/world">UK PM Keir Starmer resigns — you're landing there tomorrow</a><div class="src">NBC News</div></li>
-        <li><a class="h" href="https://www.npr.org/sections/news">Record-hazardous wildfire smoke across the northern US</a><div class="src">NPR</div></li>
-        <li><a class="h" href="https://www.usnews.com/news/world">Iran–US attacks widen with no sign of de-escalation</a><div class="src">US News</div></li>
+  <h2>Tracking (for when you're home)</h2>
+  <div class="cards">
+    <section class="card wide">
+      <ul class="fu">
+        <li><span>Send Danny the Aug 4 invite</span><span class="due soon">by Aug 1</span></li>
+        <li><span>Aug 4 stacking up: Danny 4 PM + floated evening SAT with Ben</span><span class="due">Aug 4</span></li>
+        <li><span>Panda Express fundraiser (approved) — follow up</span><span class="due">Aug 2</span></li>
+        <li><span>Michael Horn's SEO doc action item</span><span class="due">Aug 2</span></li>
+        <li><span>DECA Dash 5K — chapter + Instagram promo</span><span class="due">Aug 15</span></li>
       </ul>
     </section>
   </div>
 
-  <footer>
-    Saturday travel-day brief — kept short. Safe travels. Reply to the emailed brief to shift to UK time
-    or pause the daily brief while you're away. Google Tasks still isn't connecting (Zapier auth); the
-    brief.henryzisow.com app is built and waiting on the <code>brief</code> repo.
-  </footer>
+  <footer>Delivery resumed Jul 30 after a two-week gap — my fault: the send steps were declined on Jul 17–18 and I paused instead of confirming through a channel you'd see. All 14 briefs are archived in the repo. Reply to the email to change anything.</footer>
 </div>

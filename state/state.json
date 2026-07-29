@@ -4,8 +4,8 @@
   "branch": "claude/personal-assistant-mcp-7poxgr",
   "last_run": "2026-07-30T05:00:00Z",
   "last_brief_date": "2026-07-30",
-  "delivery": "paused",
-  "delivery_note": "Outbound delivery (email/push/dashboard artifact) declined by Henry Fri 7/17 and Sat 7/18; Sun preference question failed technically. Generating + committing quietly only until Henry picks a mode. While he's in Oxford (through Aug 1), briefs should run on UK time (~05:00 UTC) if resumed \u2014 ET timing lands ~11:40 BST, after his program morning starts.",
+  "delivery": "active",
+  "delivery_note": "RESUMED 2026-07-30 after Henry asked why no briefs had arrived. The Fri/Sat 7/17-18 tool declines were read as 'do not send' and I paused, but asked for confirmation only in the chat channel Henry wasn't watching \u2014 a mistake. Delivery is back ON: dashboard + email + push each morning. Henry returns to ET Aug 2, so keep ET timing.",
   "clock_note": "Container `date` ran ~1 day behind real time; use live Google/Zapier timestamps as authoritative.",
   "notes": "artifact URL and trigger id are filled in by the first run; do not edit by hand unless recovering from breakage"
 }
