@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-31",
+  "generated_at": "2026-07-31T05:00:00Z",
+  "timezone_note": "Times in Oxford local (BST). This is Henry's final program day; he flies home tomorrow.",
+  "headline": "Last day at Oxford: final presentations this morning, your graduation ceremony at 2:30, and a farewell formal dinner tonight. Then an early flight home tomorrow — straight to your cousin's wedding.",
+  "weather": {
+    "location": "Oxford, UK",
+    "current_f": 75,
+    "condition": "Scattered clouds, mild",
+    "high_f": 78,
+    "low_f": 58,
+    "precip_chance_pct": 15,
+    "sunrise": "05:30",
+    "sunset": "20:53"
+  },
+  "schedule": [
+    { "start": "2026-07-31T08:00:00+01:00", "end": "2026-07-31T08:45:00+01:00", "all_day": false, "title": "Breakfast at college", "calendar": "Oxford program", "location": "St Anne's College", "conflicts_with": [], "prep": null },
+    { "start": "2026-07-31T09:30:00+01:00", "end": "2026-07-31T12:00:00+01:00", "all_day": false, "title": "Programme Wrap-Up & Presentations", "calendar": "Oxford program", "location": "Dept of Education", "conflicts_with": [], "prep": "Profs. Carvalho & Banu Demir. This is it — the group project presentation. Do a final run-through at breakfast, know who says what, and have your slides/demo ready to go." },
+    { "start": "2026-07-31T12:30:00+01:00", "end": "2026-07-31T14:30:00+01:00", "all_day": false, "title": "Lunch & free time", "calendar": "Oxford program", "location": "SBS", "conflicts_with": [], "prep": null },
+    { "start": "2026-07-31T14:30:00+01:00", "end": "2026-07-31T16:00:00+01:00", "all_day": false, "title": "Graduation Ceremony", "calendar": "Oxford program", "location": "SBS", "conflicts_with": [], "prep": "Prof. Banu Demir. Congrats — grab photos with your team and TAs." },
+    { "start": "2026-07-31T16:00:00+01:00", "end": "2026-07-31T18:00:00+01:00", "all_day": false, "title": "Refreshments & free time", "calendar": "Oxford program", "location": "SBS Entrance Hall", "conflicts_with": [], "prep": null },
+    { "start": "2026-07-31T18:00:00+01:00", "end": "2026-07-31T19:00:00+01:00", "all_day": false, "title": "Leaving Drinks", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": null },
+    { "start": "2026-07-31T19:00:00+01:00", "end": "2026-07-31T22:30:00+01:00", "all_day": false, "title": "Farewell Formal Dinner → 10:30 PM curfew", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": "Swap contacts with the people you want to stay in touch with tonight — it's the last chance before everyone scatters. And pack before dinner: the morning is tight." }
+  ],
+  "tomorrow_headsup": [
+    "EARLY FLIGHT: DL 59, Heathrow → Boston, departs 9:40 AM BST, lands Boston 12:19 PM ET. Terminal 3, seat 31B (Delta Comfort), conf JK8A5H.",
+    "Timing to double-check TONIGHT: a 9:40 AM Heathrow departure means leaving Oxford by roughly 5:30–6:00 AM (≈1.5h drive + international check-in) — earlier than the program's standard 'depart by 10:00.' Confirm your airport transfer/taxi for that early start, and check in on the Delta app now.",
+    "Then straight to Jonathan & Holly's wedding (Aug 1) — you land at 12:19 and go from the airport. Home Aug 2; Eastern-time briefs resume then.",
+    "Still open and only you can do it: send Danny Curtis the calendar invite for Tue Aug 4, 4:00 PM (he asked twice)."
+  ],
+  "email": [
+    {
+      "thread_id": "19fa552d5edce1ab",
+      "from": "Daniel Curtis",
+      "subject": "Check in — still owes him a calendar invite",
+      "bucket": "needs_reply",
+      "why": "Danny's last message ('can you send over an invite?') is still unanswered. Two-minute to-do: send the Aug 4 4:00 PM invite so it's locked before travel swallows your attention.",
+      "age_days": 3
+    },
+    {
+      "thread_id": "19faf0179a17d8e8",
+      "from": "Delta",
+      "subject": "Your LHR → BOS trip details",
+      "bucket": "waiting",
+      "why": "FYI: tomorrow's flight details + check-in are live in the Delta app (seat 31B, Terminal 3). No action beyond checking in.",
+      "age_days": 1
+    }
+  ],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": []
+  },
+  "follow_ups": [
+    { "what": "Send Danny Curtis the Aug 4, 4:00 PM calendar invite (asked twice)", "who": "Henry → Danny Curtis", "due": "2026-07-31", "age_days": 1 },
+    { "what": "Confirm Saturday early airport transfer + check in for DL 59 (9:40 AM Heathrow)", "who": "Henry", "due": "2026-07-31", "age_days": 0 },
+    { "what": "Restore/confirm Supabase EpiGuide is running (you've been signing in)", "who": "Henry", "due": "2026-08-02", "age_days": 3 },
+    { "what": "Lock the Aug 4 evening SAT session with Ben + restart August SAT prep (mind the Aug 4 stack with Danny)", "who": "Henry/Mom → Ben Sexton", "due": "2026-08-03", "age_days": 14 },
+    { "what": "Panda Express fundraiser (approved) — follow up when back", "who": "Henry / Adam", "due": "2026-08-02", "age_days": 10 },
+    { "what": "Michael Horn's SEO doc action item — knock out when back", "who": "Henry → Michael Horn", "due": "2026-08-02", "age_days": 15 },
+    { "what": "DECA Dash 5K — chapter + Instagram promo with officer team", "who": "Officer team", "due": "2026-08-15", "age_days": 15 }
+  ],
+  "news": [],
+  "system_notes": [
+    "Delivered (dashboard + email + push) — delivery resumed yesterday and is confirmed active.",
+    "Last Oxford brief. Flagged a real logistics risk: the Sat 9:40 AM Heathrow flight conflicts with the program's standard 10:00 checkout, so an early private transfer is needed — surfaced as info (no calendar changes, per boundaries).",
+    "No reply to yesterday's brief email. Inbox otherwise college-marketing + Delta flight reminders.",
+    "Google Tasks still not connected. brief.henryzisow.com app still waiting on the 'brief' repo."
+  ]
+}

@@ -1,25 +1,12 @@
 <title>Henry's Daily Brief</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-  :root {
-    --bg:#FFFFFF; --card:#FFFFFF; --ink:#222; --muted:#6A6A6A; --faint:#8E8E8E;
-    --line:#EBEBEB; --line-strong:#DDD; --blue:#1E6AE1; --blue-hover:#1656BE;
-    --blue-soft:#EEF4FE; --urgent:#C13515;
-    --pillshadow:0 1px 2px rgba(0,0,0,.08),0 4px 12px rgba(0,0,0,.05);
-    --hovershadow:0 6px 16px rgba(0,0,0,.12);
-    --font:"Cereal","Circular",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  }
-  @media (prefers-color-scheme:dark){:root{
-    --bg:#121212;--card:#1E1E1E;--ink:#F7F7F7;--muted:#B0B0B0;--faint:#7E7E7E;
-    --line:#2E2E2E;--line-strong:#3D3D3D;--blue:#6EA1F0;--blue-hover:#94BCF6;
-    --blue-soft:#1B2A44;--urgent:#E07856;--pillshadow:none;--hovershadow:0 6px 16px rgba(0,0,0,.5);
-  }}
+  :root{--bg:#FFFFFF;--card:#FFFFFF;--ink:#222;--muted:#6A6A6A;--faint:#8E8E8E;--line:#EBEBEB;--line-strong:#DDD;--blue:#1E6AE1;--blue-hover:#1656BE;--blue-soft:#EEF4FE;--urgent:#C13515;--pillshadow:0 1px 2px rgba(0,0,0,.08),0 4px 12px rgba(0,0,0,.05);--hovershadow:0 6px 16px rgba(0,0,0,.12);--font:"Cereal","Circular",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;}
+  @media (prefers-color-scheme:dark){:root{--bg:#121212;--card:#1E1E1E;--ink:#F7F7F7;--muted:#B0B0B0;--faint:#7E7E7E;--line:#2E2E2E;--line-strong:#3D3D3D;--blue:#6EA1F0;--blue-hover:#94BCF6;--blue-soft:#1B2A44;--urgent:#E07856;--pillshadow:none;--hovershadow:0 6px 16px rgba(0,0,0,.5);}}
   :root[data-theme="light"]{--bg:#FFFFFF;--card:#FFFFFF;--ink:#222;--muted:#6A6A6A;--faint:#8E8E8E;--line:#EBEBEB;--line-strong:#DDD;--blue:#1E6AE1;--blue-hover:#1656BE;--blue-soft:#EEF4FE;--urgent:#C13515;--pillshadow:0 1px 2px rgba(0,0,0,.08),0 4px 12px rgba(0,0,0,.05);--hovershadow:0 6px 16px rgba(0,0,0,.12);}
   :root[data-theme="dark"]{--bg:#121212;--card:#1E1E1E;--ink:#F7F7F7;--muted:#B0B0B0;--faint:#7E7E7E;--line:#2E2E2E;--line-strong:#3D3D3D;--blue:#6EA1F0;--blue-hover:#94BCF6;--blue-soft:#1B2A44;--urgent:#E07856;--pillshadow:none;--hovershadow:0 6px 16px rgba(0,0,0,.5);}
-  *{box-sizing:border-box;}
-  body{margin:0;background:var(--bg);color:var(--ink);font:14.5px/1.5 var(--font);-webkit-font-smoothing:antialiased;}
-  a{color:inherit;text-decoration:none;}
-  .alink{color:var(--blue);font-weight:600;} .alink:hover{color:var(--blue-hover);text-decoration:underline;}
+  *{box-sizing:border-box;} body{margin:0;background:var(--bg);color:var(--ink);font:14.5px/1.5 var(--font);-webkit-font-smoothing:antialiased;}
+  a{color:inherit;text-decoration:none;} .alink{color:var(--blue);font-weight:600;} .alink:hover{color:var(--blue-hover);text-decoration:underline;}
   nav{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px solid var(--line);}
   .navin{max-width:1120px;margin:0 auto;padding:12px clamp(16px,4vw,40px);display:flex;align-items:center;justify-content:space-between;gap:16px;}
   .brand{display:flex;align-items:center;gap:8px;font-weight:700;font-size:15px;color:var(--blue);}
@@ -28,10 +15,8 @@
   .avatar{width:34px;height:34px;border-radius:50%;background:var(--blue);color:#fff;font-weight:700;font-size:14px;display:flex;align-items:center;justify-content:center;flex:none;}
   @media (max-width:760px){.datepill{display:none;}}
   .wrap{max-width:1120px;margin:0 auto;padding:clamp(20px,4vw,36px) clamp(16px,4vw,40px) 48px;}
-  .banner{background:var(--blue-soft);border:1px solid var(--line-strong);border-radius:14px;padding:14px 18px;font-size:13.5px;color:var(--muted);margin-bottom:22px;}
-  .banner b{color:var(--ink);}
   .hello{font-size:clamp(24px,4vw,30px);font-weight:700;margin:6px 0 8px;letter-spacing:-.02em;}
-  .sub{color:var(--muted);font-size:16px;max-width:64ch;margin:0 0 18px;text-wrap:balance;}
+  .sub{color:var(--muted);font-size:16px;max-width:66ch;margin:0 0 18px;text-wrap:balance;}
   .stats{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:8px;}
   .stat{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line-strong);border-radius:999px;padding:7px 14px;font-size:13px;font-weight:600;background:var(--card);}
   .stat .d{width:8px;height:8px;border-radius:50%;background:var(--blue);flex:none;} .stat.warn .d{background:var(--urgent);} .stat .num{font-variant-numeric:tabular-nums;}
@@ -39,8 +24,10 @@
   .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;}
   .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;transition:box-shadow .18s ease;} .card:hover{box-shadow:var(--hovershadow);} .card.wide{grid-column:1/-1;}
   .tl{list-style:none;margin:0;padding:0;} .tl li{display:flex;gap:14px;padding:9px 0;border-top:1px solid var(--line);} .tl li:first-child{border-top:0;padding-top:0;}
-  .tl time{font:600 12.5px/1.5 ui-monospace,Menlo,Consolas,monospace;color:var(--blue);flex:none;width:96px;font-variant-numeric:tabular-nums;}
+  .tl time{font:600 12.5px/1.5 ui-monospace,Menlo,Consolas,monospace;color:var(--blue);flex:none;width:104px;font-variant-numeric:tabular-nums;}
   .tl .what strong{font-weight:700;} .tl .prep{color:var(--muted);font-size:13px;margin-top:2px;}
+  .flight{background:var(--blue-soft);border-radius:14px;padding:16px 18px;} .flight .route{font-size:26px;font-weight:800;} .flight .route .arr{color:var(--blue);font-weight:400;} .flight .fmeta{color:var(--muted);font-size:13px;margin-top:4px;font-variant-numeric:tabular-nums;}
+  .warn-note{color:var(--urgent);font-weight:600;font-size:13.5px;margin-top:10px;}
   .rows{list-style:none;margin:0;padding:0;} .rows li{display:flex;align-items:flex-start;gap:12px;padding:11px 0;border-top:1px solid var(--line);} .rows li:first-child{border-top:0;padding-top:0;}
   .ic{flex:none;width:36px;height:36px;border-radius:11px;background:var(--blue-soft);color:var(--blue);font-weight:700;font-size:14px;display:flex;align-items:center;justify-content:center;} .ic.u{background:#FBEEE9;color:var(--urgent);}
   @media (prefers-color-scheme:dark){.ic.u{background:#2A2018;}}
@@ -51,21 +38,19 @@
 </style>
 <nav>
   <div class="navin">
-    <span class="brand">
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="14" r="5.5" fill="currentColor"/><path d="M2 20h20M12 3v3M4.9 6.9l2.1 2.1M19.1 6.9 17 9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Morning Brief
-    </span>
-    <div class="datepill" role="text"><span>Thu, Jul 30</span><span class="soft">Oxford, UK</span><span class="soft">☀ 82°</span></div>
+    <span class="brand"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="14" r="5.5" fill="currentColor"/><path d="M2 20h20M12 3v3M4.9 6.9l2.1 2.1M19.1 6.9 17 9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Morning Brief</span>
+    <div class="datepill" role="text"><span>Fri, Jul 31</span><span class="soft">Oxford — last day 🎓</span><span class="soft">⛅ 78°</span></div>
     <div class="avatar" aria-hidden="true">H</div>
   </div>
 </nav>
 <div class="wrap">
-  <div class="banner">📬 <b>Delivery resumed.</b> Your briefs were generated and saved every day since Jul 17 but weren't being sent — that's fixed now. Full back-catalogue is in the repo; you'll get this every morning from here.</div>
   <h1 class="hello">Good morning, Henry</h1>
-  <p class="sub">Oxford, day eleven — the group project's home stretch: a final feedback review at 1 PM, then a free evening. One thing waiting on you: Danny wants a calendar invite for Aug 4.</p>
+  <p class="sub">Last day at Oxford — final presentations this morning, your graduation at 2:30, and a farewell dinner tonight. Then an early flight home tomorrow, straight to your cousin's wedding.</p>
   <div class="stats">
-    <span class="stat"><span class="d"></span>Sunny, <span class="num">82°</span></span>
+    <span class="stat"><span class="d"></span>🎓 Graduation 2:30</span>
+    <span class="stat warn"><span class="d"></span>Flight 9:40 AM tmrw — early transfer</span>
     <span class="stat warn"><span class="d"></span>Send Danny his invite</span>
-    <span class="stat"><span class="d"></span>Last day + flight home tomorrow</span>
+    <span class="stat"><span class="d"></span>Mild, <span class="num">78°</span></span>
   </div>
 
   <h2>Today at Oxford Saïd</h2>
@@ -73,41 +58,48 @@
     <section class="card wide">
       <ul class="tl">
         <li><time>08:00</time><div class="what"><strong>Breakfast</strong> (St Anne's) → 08:45 coach to the Dept of Education</div></li>
-        <li><time>09:30 · 11:00</time><div class="what"><strong>TA workshop → Group Projects (TA)</strong><div class="prep">Polish the deliverable before the 1 PM review.</div></div></li>
-        <li><time>13:00–15:00</time><div class="what"><strong>Feedback on Group Projects</strong> — Carvalho &amp; Large<div class="prep">The last review before the final presentation. Take notes and divide fixes with your team right after.</div></div></li>
-        <li><time>15:00</time><div class="what">Free time &amp; ambassador activities <span style="color:var(--muted)">(register at SBS for 6 PM dinner)</span></div></li>
-        <li><time>18:00 · 19:00</time><div class="what"><strong>Dinner → free evening</strong> · 22:30 curfew</div></li>
+        <li><time>09:30–12:00</time><div class="what"><strong>Programme Wrap-Up &amp; Presentations</strong> — Carvalho &amp; Prof. Banu Demir<div class="prep">This is your <b>group project presentation</b>. Final run-through at breakfast, know who says what, slides/demo ready.</div></div></li>
+        <li><time>12:30</time><div class="what">Lunch &amp; free time (SBS)</div></li>
+        <li><time>14:30–16:00</time><div class="what"><strong>Graduation Ceremony 🎓</strong><div class="prep">Grab photos with your team and TAs.</div></div></li>
+        <li><time>18:00 · 19:00</time><div class="what"><strong>Leaving Drinks → Farewell Formal Dinner</strong><div class="prep">Swap contacts tonight before everyone scatters — and pack before dinner; the morning is tight. Curfew 22:30.</div></div></li>
       </ul>
     </section>
   </div>
 
-  <h2>Waiting on you</h2>
+  <h2>Tomorrow — flight home ✈️</h2>
   <div class="cards">
-    <section class="card">
-      <ul class="rows">
-        <li><span class="ic u">✓</span><div><div class="from">Send Danny Curtis a calendar invite</div><div class="why">He replied "can you send over an invite?" for your <b>Aug 4, 4:00 PM</b> meeting. This one's yours — I don't create events. Watch the overlap if the Aug 4 evening SAT with Ben firms up.</div></div><a class="alink" style="margin-left:auto;font-size:12.5px;white-space:nowrap;align-self:center;" href="https://mail.google.com/mail/u/0/#all/19fa552d5edce1ab">Open ›</a></li>
-        <li><span class="ic">$</span><div><div class="from">Fidelity — Micron (MU) buy confirmed</div><div class="why">FYI, no action — just a real account event amid the marketing.</div></div></li>
-        <li><span class="ic">E</span><div><div class="from">EpiGuide — you're signing in again</div><div class="why">Looks like the restore is handled; confirm it's running once you're settled.</div></div></li>
-      </ul>
-    </section>
-    <section class="card">
-      <h3 style="margin:0 0 8px;font-size:16px;">Tomorrow — last day + travel</h3>
-      <p class="sub" style="font-size:14px;margin:0;">Final presentations + closing, then the <b>flight home</b>. Cousin's wedding straight from the airport (Aug 1), home Aug 2. Eastern-time briefs resume once you're back.</p>
+    <section class="card wide">
+      <div class="flight">
+        <div class="route">LHR <span class="arr">→</span> BOS</div>
+        <div class="fmeta">DL 59 · departs 9:40 AM BST · lands Boston 12:19 PM ET · Terminal 3 · seat 31B (Comfort) · conf JK8A5H</div>
+        <div class="warn-note">⚠ Check tonight: a 9:40 AM Heathrow flight = leaving Oxford by ~5:30–6:00 AM, earlier than the program's "depart by 10:00." Confirm your airport transfer and check in on the Delta app now.</div>
+      </div>
+      <p class="sub" style="font-size:14px;margin:14px 0 0;">Then straight to <b>Jonathan &amp; Holly's wedding</b> from the airport. Home Aug 2 — Eastern-time briefs resume then.</p>
     </section>
   </div>
 
-  <h2>Tracking (for when you're home)</h2>
+  <h2>Still on you</h2>
+  <div class="cards">
+    <section class="card wide">
+      <ul class="rows">
+        <li><span class="ic u">✓</span><div><div class="from">Send Danny Curtis the Aug 4 calendar invite</div><div class="why">He's asked twice — still unsent. Two minutes before travel eats your attention. (I don't create events, so it's yours.)</div></div><a class="alink" style="margin-left:auto;font-size:12.5px;white-space:nowrap;align-self:center;" href="https://mail.google.com/mail/u/0/#all/19fa552d5edce1ab">Open ›</a></li>
+        <li><span class="ic">✈</span><div><div class="from">Check in for DL 59</div><div class="why">Live in the Delta app — seat 31B, Terminal 3.</div></div><a class="alink" style="margin-left:auto;font-size:12.5px;white-space:nowrap;align-self:center;" href="https://mail.google.com/mail/u/0/#all/19faf0179a17d8e8">Open ›</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <h2>When you're home</h2>
   <div class="cards">
     <section class="card wide">
       <ul class="fu">
-        <li><span>Send Danny the Aug 4 invite</span><span class="due soon">by Aug 1</span></li>
-        <li><span>Aug 4 stacking up: Danny 4 PM + floated evening SAT with Ben</span><span class="due">Aug 4</span></li>
-        <li><span>Panda Express fundraiser (approved) — follow up</span><span class="due">Aug 2</span></li>
-        <li><span>Michael Horn's SEO doc action item</span><span class="due">Aug 2</span></li>
+        <li><span>Send Danny the Aug 4 invite</span><span class="due soon">today</span></li>
+        <li><span>Aug 4 stacking: Danny 4 PM + floated evening SAT with Ben</span><span class="due">Aug 4</span></li>
+        <li><span>Restore/confirm EpiGuide</span><span class="due">Aug 2</span></li>
+        <li><span>Panda Express fundraiser · Michael Horn's doc</span><span class="due">Aug 2</span></li>
         <li><span>DECA Dash 5K — chapter + Instagram promo</span><span class="due">Aug 15</span></li>
       </ul>
     </section>
   </div>
 
-  <footer>Delivery resumed Jul 30 after a two-week gap — my fault: the send steps were declined on Jul 17–18 and I paused instead of confirming through a channel you'd see. All 14 briefs are archived in the repo. Reply to the email to change anything.</footer>
+  <footer>Congrats on finishing the program, Henry — safe travels tomorrow. Delivered by email + dashboard + push; reply to the email to change anything. Eastern-time briefs resume once you're home Aug 2.</footer>
 </div>
