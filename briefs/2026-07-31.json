@@ -1,49 +1,99 @@
 {
   "schema_version": 1,
   "date": "2026-07-31",
-  "generated_at": "2026-07-31T05:00:00Z",
-  "timezone_note": "Times in Oxford local (BST). This is Henry's final program day; he flies home tomorrow.",
-  "headline": "Last day at Oxford: final presentations this morning, your graduation ceremony at 2:30, and a farewell formal dinner tonight. Then an early flight home tomorrow — straight to your cousin's wedding.",
+  "generated_at": "2026-07-31T06:47:00-04:00",
+  "headline": "Last day at Oxford: final presentations this morning, graduation at 2:30 PM, and a farewell dinner tonight — then an early flight home tomorrow straight to your cousin's wedding, so pack and confirm your airport transfer before dinner.",
   "weather": {
     "location": "Oxford, UK",
-    "current_f": 75,
-    "condition": "Scattered clouds, mild",
-    "high_f": 78,
-    "low_f": 58,
-    "precip_chance_pct": 15,
-    "sunrise": "05:30",
-    "sunset": "20:53"
+    "current_f": 70,
+    "condition": "Clear",
+    "precip_chance_pct": 0
   },
   "schedule": [
-    { "start": "2026-07-31T08:00:00+01:00", "end": "2026-07-31T08:45:00+01:00", "all_day": false, "title": "Breakfast at college", "calendar": "Oxford program", "location": "St Anne's College", "conflicts_with": [], "prep": null },
-    { "start": "2026-07-31T09:30:00+01:00", "end": "2026-07-31T12:00:00+01:00", "all_day": false, "title": "Programme Wrap-Up & Presentations", "calendar": "Oxford program", "location": "Dept of Education", "conflicts_with": [], "prep": "Profs. Carvalho & Banu Demir. This is it — the group project presentation. Do a final run-through at breakfast, know who says what, and have your slides/demo ready to go." },
-    { "start": "2026-07-31T12:30:00+01:00", "end": "2026-07-31T14:30:00+01:00", "all_day": false, "title": "Lunch & free time", "calendar": "Oxford program", "location": "SBS", "conflicts_with": [], "prep": null },
-    { "start": "2026-07-31T14:30:00+01:00", "end": "2026-07-31T16:00:00+01:00", "all_day": false, "title": "Graduation Ceremony", "calendar": "Oxford program", "location": "SBS", "conflicts_with": [], "prep": "Prof. Banu Demir. Congrats — grab photos with your team and TAs." },
-    { "start": "2026-07-31T16:00:00+01:00", "end": "2026-07-31T18:00:00+01:00", "all_day": false, "title": "Refreshments & free time", "calendar": "Oxford program", "location": "SBS Entrance Hall", "conflicts_with": [], "prep": null },
-    { "start": "2026-07-31T18:00:00+01:00", "end": "2026-07-31T19:00:00+01:00", "all_day": false, "title": "Leaving Drinks", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": null },
-    { "start": "2026-07-31T19:00:00+01:00", "end": "2026-07-31T22:30:00+01:00", "all_day": false, "title": "Farewell Formal Dinner → 10:30 PM curfew", "calendar": "Oxford program", "location": null, "conflicts_with": [], "prep": "Swap contacts with the people you want to stay in touch with tonight — it's the last chance before everyone scatters. And pack before dinner: the morning is tight." }
+    {
+      "start": "2026-07-31T08:00:00+01:00",
+      "end": "2026-07-31T08:45:00+01:00",
+      "all_day": false,
+      "title": "Breakfast (St Anne's) → 08:45 coach to the Dept of Education",
+      "calendar": "Personal",
+      "location": "St Anne's College",
+      "prep": null
+    },
+    {
+      "start": "2026-07-31T09:30:00+01:00",
+      "end": "2026-07-31T12:00:00+01:00",
+      "all_day": false,
+      "title": "Programme Wrap-Up & Presentations (Carvalho & Prof. Banu Demir)",
+      "calendar": "Personal",
+      "location": "Dept of Education",
+      "prep": "This is your group project presentation. Final run-through at breakfast, know who says what, and have slides/demo ready. Break ~10:30–11:00."
+    },
+    {
+      "start": "2026-07-31T12:30:00+01:00",
+      "end": "2026-07-31T14:30:00+01:00",
+      "all_day": false,
+      "title": "Lunch & free time",
+      "calendar": "Personal",
+      "location": "Saïd Business School",
+      "prep": null
+    },
+    {
+      "start": "2026-07-31T14:30:00+01:00",
+      "end": "2026-07-31T16:00:00+01:00",
+      "all_day": false,
+      "title": "Graduation Ceremony 🎓",
+      "calendar": "Personal",
+      "location": "Saïd Business School",
+      "prep": "Grab photos with your team and TAs before everyone scatters."
+    },
+    {
+      "start": "2026-07-31T18:00:00+01:00",
+      "end": "2026-07-31T19:00:00+01:00",
+      "all_day": false,
+      "title": "Leaving Drinks",
+      "calendar": "Personal",
+      "location": "Saïd Business School",
+      "prep": null
+    },
+    {
+      "start": "2026-07-31T19:00:00+01:00",
+      "end": "2026-07-31T21:00:00+01:00",
+      "all_day": false,
+      "title": "Farewell Formal Dinner",
+      "calendar": "Personal",
+      "location": "Oxford",
+      "prep": "Swap contacts tonight before everyone scatters — and pack before dinner; tomorrow morning is tight. Curfew 22:30."
+    }
   ],
   "tomorrow_headsup": [
-    "EARLY FLIGHT: DL 59, Heathrow → Boston, departs 9:40 AM BST, lands Boston 12:19 PM ET. Terminal 3, seat 31B (Delta Comfort), conf JK8A5H.",
-    "Timing to double-check TONIGHT: a 9:40 AM Heathrow departure means leaving Oxford by roughly 5:30–6:00 AM (≈1.5h drive + international check-in) — earlier than the program's standard 'depart by 10:00.' Confirm your airport transfer/taxi for that early start, and check in on the Delta app now.",
-    "Then straight to Jonathan & Holly's wedding (Aug 1) — you land at 12:19 and go from the airport. Home Aug 2; Eastern-time briefs resume then.",
-    "Still open and only you can do it: send Danny Curtis the calendar invite for Tue Aug 4, 4:00 PM (he asked twice)."
+    "Depart Oxford EARLY — a 9:40 AM BST Heathrow flight means leaving by ~5:30–6:00 AM, well before the program's 10:00 checkout. Confirm your airport transfer tonight.",
+    "DL 59: LHR 9:40 AM BST → BOS 12:19 PM ET · Terminal 3 · seat 31B (Comfort) · conf JK8A5H. Check in now — Delta check-in is open.",
+    "Straight from the airport to Jonathan & Holly's wedding (all day Sat). Boston looks summery, low 80s.",
+    "Pack tonight before the farewell dinner — the morning leaves no slack."
   ],
   "email": [
     {
       "thread_id": "19fa552d5edce1ab",
-      "from": "Daniel Curtis",
-      "subject": "Check in — still owes him a calendar invite",
+      "from": "Danny Curtis (daniel.curtis576@gmail.com)",
+      "subject": "Re: Check in",
       "bucket": "needs_reply",
-      "why": "Danny's last message ('can you send over an invite?') is still unanswered. Two-minute to-do: send the Aug 4 4:00 PM invite so it's locked before travel swallows your attention.",
+      "why": "You confirmed Aug 4 at 4:00 PM and he has twice asked you to send the calendar invite — still unsent. (I don't create events, so this one's yours.)",
       "age_days": 3
     },
     {
-      "thread_id": "19faf0179a17d8e8",
-      "from": "Delta",
-      "subject": "Your LHR → BOS trip details",
+      "thread_id": "19fb7558a6ac049e",
+      "from": "Delta Air Lines",
+      "subject": "It's Time To Check In For Your Flight",
+      "bucket": "important",
+      "why": "Check-in is open for tomorrow's DL 59 LHR→BOS. Do it in the Delta app now — seat 31B, Terminal 3.",
+      "age_days": 0
+    },
+    {
+      "thread_id": "19fb36d5bc37c6f2",
+      "from": "Mom (Michelle Zisow)",
+      "subject": "Invitation: Sat/Sun at Kent's Place in Marion (Aug 29–30)",
       "bucket": "waiting",
-      "why": "FYI: tomorrow's flight details + check-in are live in the Delta app (seat 31B, Terminal 3). No action beyond checking in.",
+      "why": "Mom's calendar invite for a weekend in Marion, Aug 29–30 — no rush; RSVP once you're home.",
       "age_days": 1
     }
   ],
@@ -53,19 +103,112 @@
     "items": []
   },
   "follow_ups": [
-    { "what": "Send Danny Curtis the Aug 4, 4:00 PM calendar invite (asked twice)", "who": "Henry → Danny Curtis", "due": "2026-07-31", "age_days": 1 },
-    { "what": "Confirm Saturday early airport transfer + check in for DL 59 (9:40 AM Heathrow)", "who": "Henry", "due": "2026-07-31", "age_days": 0 },
-    { "what": "Restore/confirm Supabase EpiGuide is running (you've been signing in)", "who": "Henry", "due": "2026-08-02", "age_days": 3 },
-    { "what": "Lock the Aug 4 evening SAT session with Ben + restart August SAT prep (mind the Aug 4 stack with Danny)", "who": "Henry/Mom → Ben Sexton", "due": "2026-08-03", "age_days": 14 },
-    { "what": "Panda Express fundraiser (approved) — follow up when back", "who": "Henry / Adam", "due": "2026-08-02", "age_days": 10 },
-    { "what": "Michael Horn's SEO doc action item — knock out when back", "who": "Henry → Michael Horn", "due": "2026-08-02", "age_days": 15 },
-    { "what": "DECA Dash 5K — chapter + Instagram promo with officer team", "who": "Officer team", "due": "2026-08-15", "age_days": 15 }
+    {
+      "what": "Send Danny Curtis the Aug 4 (4:00 PM) calendar invite. That session is the Michael Horn content-strategy follow-up — and you still owe the YouTube/LinkedIn SEO research from your Jul 9 meeting.",
+      "who": "Henry → Danny Curtis",
+      "due": "2026-08-04",
+      "age_days": 2
+    },
+    {
+      "what": "Restore/confirm Supabase EpiGuide (auto-paused Jul 18 for inactivity).",
+      "who": "Henry",
+      "due": "2026-08-02",
+      "age_days": 14
+    },
+    {
+      "what": "Lock the Aug 4 evening SAT session with Ben + restart August SAT prep — watch the Aug 4 stack with Danny's 4 PM.",
+      "who": "Henry/Mom → Ben Sexton",
+      "due": "2026-08-03",
+      "age_days": 14
+    },
+    {
+      "what": "Michael Horn SEO doc action item (Playlist & SEO recommendations).",
+      "who": "Henry → Michael Horn",
+      "due": "2026-08-02",
+      "age_days": 14
+    },
+    {
+      "what": "Panda Express fundraiser (approved) — follow up when back.",
+      "who": "Henry / Adam Benjamin",
+      "due": "2026-08-02",
+      "age_days": 8
+    },
+    {
+      "what": "DECA Dash 5K — chapter + Instagram promo with the officer team.",
+      "who": "Officer team (Ryan leading)",
+      "due": "2026-08-15",
+      "age_days": 14
+    }
   ],
-  "news": [],
+  "news": [
+    {
+      "topic": "Business & markets",
+      "headline": "Big Tech earnings revive the AI trade — S&P 500 and Nasdaq close at records",
+      "why": "Nasdaq +2.8%, S&P +1.7%; Microsoft added ~$450B in value in a single day (a record) after blowout cloud/AI results.",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-july-31-dow-sp-500-nasdaq-081227738.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "Apple slides ~7% on soft Services and China revenue",
+      "why": "A rare miss stands out against Microsoft and Amazon strength — a reminder Big Tech isn't moving as one bloc.",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-july-30-dow-sp-500-nasdaq-treasury-yields-microsoft-082255995.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "Energy and health majors report today: ExxonMobil, Chevron, AbbVie",
+      "why": "The Friday earnings docket shifts to oil and pharma after a tech-led week.",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-30/stock-market-today-dow-s-p-live-updates",
+      "source": "Bloomberg"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Google DeepMind releases Gemini Robotics 2",
+      "why": "A three-model suite for whole-body humanoid control and multi-robot planning — a notable step in embodied AI.",
+      "url": "https://www.artificialintelligence-news.com/",
+      "source": "AI News"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "AWS grows 37% year-over-year to $42.2B — fastest in 18 quarters",
+      "why": "Amazon says its AI and chips businesses each top a $25B run rate; cloud-AI demand is accelerating.",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-july-31-dow-sp-500-nasdaq-081227738.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Meta lifts 2026 capex to $130–145B; EU funds 7 AI 'gigafactories'",
+      "why": "The AI-datacenter buildout keeps scaling on both sides of the Atlantic (EU committing €10B).",
+      "url": "https://www.artificialintelligence-news.com/",
+      "source": "AI News"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Trump says a Gaza deal is reached — Hamas to disarm, Israel to withdraw",
+      "why": "Potentially a turning point to wind down the war, though many conditions and long timelines remain.",
+      "url": "https://www.npr.org/sections/world/",
+      "source": "NPR"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "At least 18 migrants die trying to reach Spain's Ceuta",
+      "why": "Spain deployed its military after thousands breached the border with Morocco — Europe's migration pressure is spiking.",
+      "url": "https://www.usnews.com/news/world",
+      "source": "U.S. News & World Report"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Rescue continues after a magnitude-7.1 earthquake in Japan's Kyushu",
+      "why": "A major quake struck near Kumamoto this week; recovery efforts are ongoing.",
+      "url": "https://www.npr.org/sections/world/",
+      "source": "NPR"
+    }
+  ],
   "system_notes": [
-    "Delivered (dashboard + email + push) — delivery resumed yesterday and is confirmed active.",
-    "Last Oxford brief. Flagged a real logistics risk: the Sat 9:40 AM Heathrow flight conflicts with the program's standard 10:00 checkout, so an early private transfer is needed — surfaced as info (no calendar changes, per boundaries).",
-    "No reply to yesterday's brief email. Inbox otherwise college-marketing + Delta flight reminders.",
-    "Google Tasks still not connected. brief.henryzisow.com app still waiting on the 'brief' repo."
+    "Google Tasks isn't connected yet, so no to-dos are shown. One-time fix: open the Tasks connect link in today's brief to authorize it, and they'll appear here automatically.",
+    "Boston's Saturday forecast wasn't available from the weather source this morning; showing the seasonal range (low 80s) instead of a precise number.",
+    "Meeting-prep note (first time): I pulled context for your Aug 4 Danny Curtis session from your Granola notes. Reply 'no Granola' if you'd rather I not.",
+    "Timing check: generated 06:47 AM ET, inside the 06:25–06:55 window — the daily trigger is firing correctly, no change needed."
   ]
 }

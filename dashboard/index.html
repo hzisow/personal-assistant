@@ -34,23 +34,28 @@
   .rows .from{font-weight:600;} .rows .why{color:var(--muted);font-size:13px;margin-top:1px;}
   .fu{list-style:none;margin:0;padding:0;font-size:14px;} .fu li{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:9px 0;border-top:1px solid var(--line);} .fu li:first-child{border-top:0;padding-top:0;}
   .due{flex:none;border-radius:999px;padding:3px 11px;font-size:12px;font-weight:700;border:1px solid var(--line-strong);color:var(--faint);white-space:nowrap;} .due.soon{color:var(--urgent);border-color:currentColor;}
+  .connect{display:flex;align-items:center;gap:14px;background:var(--blue-soft);border-radius:12px;padding:14px 16px;font-size:13.5px;flex-wrap:wrap;}
+  .newsgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:24px;}
+  .topic{font-weight:700;font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--faint);margin-bottom:8px;}
+  .news{list-style:none;margin:0;padding:0;} .news li{padding:9px 0;border-top:1px solid var(--line);} .news li:first-child{border-top:0;padding-top:0;}
+  .news .why{color:var(--muted);font-size:12.5px;margin-top:2px;}
   footer{border-top:1px solid var(--line);margin-top:40px;padding-top:18px;color:var(--faint);font-size:12.5px;line-height:1.7;}
 </style>
 <nav>
   <div class="navin">
     <span class="brand"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="14" r="5.5" fill="currentColor"/><path d="M2 20h20M12 3v3M4.9 6.9l2.1 2.1M19.1 6.9 17 9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Morning Brief</span>
-    <div class="datepill" role="text"><span>Fri, Jul 31</span><span class="soft">Oxford — last day 🎓</span><span class="soft">⛅ 78°</span></div>
+    <div class="datepill" role="text"><span>Fri, Jul 31</span><span class="soft">Oxford — last day 🎓</span><span class="soft">☀️ 70°</span></div>
     <div class="avatar" aria-hidden="true">H</div>
   </div>
 </nav>
 <div class="wrap">
   <h1 class="hello">Good morning, Henry</h1>
-  <p class="sub">Last day at Oxford — final presentations this morning, your graduation at 2:30, and a farewell dinner tonight. Then an early flight home tomorrow, straight to your cousin's wedding.</p>
+  <p class="sub">Last day at Oxford — final presentations this morning, your graduation at 2:30, and a farewell dinner tonight. Then an early flight home tomorrow, straight to your cousin's wedding. Pack before dinner; the morning leaves no slack.</p>
   <div class="stats">
     <span class="stat"><span class="d"></span>🎓 Graduation 2:30</span>
-    <span class="stat warn"><span class="d"></span>Flight 9:40 AM tmrw — early transfer</span>
+    <span class="stat warn"><span class="d"></span>Flight 9:40 AM tmrw — leave Oxford ~5:30</span>
     <span class="stat warn"><span class="d"></span>Send Danny his invite</span>
-    <span class="stat"><span class="d"></span>Mild, <span class="num">78°</span></span>
+    <span class="stat"><span class="d"></span>Clear, <span class="num">70°</span></span>
   </div>
 
   <h2>Today at Oxford Saïd</h2>
@@ -58,10 +63,10 @@
     <section class="card wide">
       <ul class="tl">
         <li><time>08:00</time><div class="what"><strong>Breakfast</strong> (St Anne's) → 08:45 coach to the Dept of Education</div></li>
-        <li><time>09:30–12:00</time><div class="what"><strong>Programme Wrap-Up &amp; Presentations</strong> — Carvalho &amp; Prof. Banu Demir<div class="prep">This is your <b>group project presentation</b>. Final run-through at breakfast, know who says what, slides/demo ready.</div></div></li>
+        <li><time>09:30–12:00</time><div class="what"><strong>Programme Wrap-Up &amp; Presentations</strong> — Carvalho &amp; Prof. Banu Demir<div class="prep">This is your <b>group project presentation</b>. Final run-through at breakfast, know who says what, slides/demo ready. Break ~10:30.</div></div></li>
         <li><time>12:30</time><div class="what">Lunch &amp; free time (SBS)</div></li>
-        <li><time>14:30–16:00</time><div class="what"><strong>Graduation Ceremony 🎓</strong><div class="prep">Grab photos with your team and TAs.</div></div></li>
-        <li><time>18:00 · 19:00</time><div class="what"><strong>Leaving Drinks → Farewell Formal Dinner</strong><div class="prep">Swap contacts tonight before everyone scatters — and pack before dinner; the morning is tight. Curfew 22:30.</div></div></li>
+        <li><time>14:30–16:00</time><div class="what"><strong>Graduation Ceremony 🎓</strong><div class="prep">Grab photos with your team and TAs before everyone scatters.</div></div></li>
+        <li><time>18:00 · 19:00</time><div class="what"><strong>Leaving Drinks → Farewell Formal Dinner</strong><div class="prep">Swap contacts tonight — and pack before dinner; the morning is tight. Curfew 22:30.</div></div></li>
       </ul>
     </section>
   </div>
@@ -72,9 +77,9 @@
       <div class="flight">
         <div class="route">LHR <span class="arr">→</span> BOS</div>
         <div class="fmeta">DL 59 · departs 9:40 AM BST · lands Boston 12:19 PM ET · Terminal 3 · seat 31B (Comfort) · conf JK8A5H</div>
-        <div class="warn-note">⚠ Check tonight: a 9:40 AM Heathrow flight = leaving Oxford by ~5:30–6:00 AM, earlier than the program's "depart by 10:00." Confirm your airport transfer and check in on the Delta app now.</div>
+        <div class="warn-note">⚠ Tonight: a 9:40 AM Heathrow flight = leaving Oxford by ~5:30–6:00 AM, earlier than the program's "depart by 10:00." Confirm your airport transfer and check in — the Delta app is open now.</div>
       </div>
-      <p class="sub" style="font-size:14px;margin:14px 0 0;">Then straight to <b>Jonathan &amp; Holly's wedding</b> from the airport. Home Aug 2 — Eastern-time briefs resume then.</p>
+      <p class="sub" style="font-size:14px;margin:14px 0 0;">Then straight to <b>Jonathan &amp; Holly's wedding</b> from the airport (all day Sat; Boston summery, low 80s). Home Aug 2 — Eastern-time briefs resume then.</p>
     </section>
   </div>
 
@@ -82,8 +87,9 @@
   <div class="cards">
     <section class="card wide">
       <ul class="rows">
-        <li><span class="ic u">✓</span><div><div class="from">Send Danny Curtis the Aug 4 calendar invite</div><div class="why">He's asked twice — still unsent. Two minutes before travel eats your attention. (I don't create events, so it's yours.)</div></div><a class="alink" style="margin-left:auto;font-size:12.5px;white-space:nowrap;align-self:center;" href="https://mail.google.com/mail/u/0/#all/19fa552d5edce1ab">Open ›</a></li>
-        <li><span class="ic">✈</span><div><div class="from">Check in for DL 59</div><div class="why">Live in the Delta app — seat 31B, Terminal 3.</div></div><a class="alink" style="margin-left:auto;font-size:12.5px;white-space:nowrap;align-self:center;" href="https://mail.google.com/mail/u/0/#all/19faf0179a17d8e8">Open ›</a></li>
+        <li><span class="ic u">✓</span><div><div class="from">Send Danny Curtis the Aug 4 (4 PM) calendar invite</div><div class="why">He's asked twice — still unsent. That session is the <b>Michael Horn content-strategy</b> follow-up; from your July 9 notes you also owe the <b>YouTube/LinkedIn SEO research</b>. (I don't create events, so it's yours.)</div></div><a class="alink" style="margin-left:auto;font-size:12.5px;white-space:nowrap;align-self:center;" href="https://mail.google.com/mail/u/0/#all/19fa552d5edce1ab">Open ›</a></li>
+        <li><span class="ic">✈</span><div><div class="from">Check in for DL 59</div><div class="why">Live in the Delta app now — seat 31B, Terminal 3.</div></div><a class="alink" style="margin-left:auto;font-size:12.5px;white-space:nowrap;align-self:center;" href="https://mail.google.com/mail/u/0/#all/19fb7558a6ac049e">Open ›</a></li>
+        <li><span class="ic">✉</span><div><div class="from">Mom — Kent's Place in Marion, Aug 29–30</div><div class="why">Calendar invite, no rush — RSVP once you're home.</div></div><a class="alink" style="margin-left:auto;font-size:12.5px;white-space:nowrap;align-self:center;" href="https://mail.google.com/mail/u/0/#all/19fb36d5bc37c6f2">Open ›</a></li>
       </ul>
     </section>
   </div>
@@ -94,12 +100,52 @@
       <ul class="fu">
         <li><span>Send Danny the Aug 4 invite</span><span class="due soon">today</span></li>
         <li><span>Aug 4 stacking: Danny 4 PM + floated evening SAT with Ben</span><span class="due">Aug 4</span></li>
+        <li><span>Lock the Aug 4 SAT session with Ben + restart August prep</span><span class="due">Aug 3</span></li>
         <li><span>Restore/confirm EpiGuide</span><span class="due">Aug 2</span></li>
-        <li><span>Panda Express fundraiser · Michael Horn's doc</span><span class="due">Aug 2</span></li>
+        <li><span>Panda Express fundraiser · Michael Horn's SEO doc</span><span class="due">Aug 2</span></li>
         <li><span>DECA Dash 5K — chapter + Instagram promo</span><span class="due">Aug 15</span></li>
       </ul>
     </section>
   </div>
 
-  <footer>Congrats on finishing the program, Henry — safe travels tomorrow. Delivered by email + dashboard + push; reply to the email to change anything. Eastern-time briefs resume once you're home Aug 2.</footer>
+  <h2>Tasks</h2>
+  <div class="cards">
+    <section class="card wide">
+      <div class="connect"><span class="ic">✓</span><div style="flex:1;min-width:180px;">Google Tasks isn't connected yet, so to-dos aren't shown here. Connect it once and they'll appear every morning.</div><a class="alink" href="https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI">Connect Google Tasks ›</a></div>
+    </section>
+  </div>
+
+  <h2>News</h2>
+  <div class="cards">
+    <section class="card wide">
+      <div class="newsgrid">
+        <div>
+          <div class="topic">Business &amp; markets</div>
+          <ul class="news">
+            <li><a class="alink" href="https://finance.yahoo.com/markets/live/stock-market-today-friday-july-31-dow-sp-500-nasdaq-081227738.html">Big Tech earnings send S&amp;P 500 &amp; Nasdaq to records</a><div class="why">Nasdaq +2.8%, S&amp;P +1.7%; Microsoft added ~$450B in a day.</div></li>
+            <li><a class="alink" href="https://finance.yahoo.com/markets/live/stock-market-today-thursday-july-30-dow-sp-500-nasdaq-treasury-yields-microsoft-082255995.html">Apple slides ~7%</a><div class="why">Soft Services + China revenue — Big Tech isn't one bloc.</div></li>
+            <li><a class="alink" href="https://www.bloomberg.com/news/articles/2026-07-30/stock-market-today-dow-s-p-live-updates">Exxon, Chevron, AbbVie report today</a><div class="why">Friday's docket shifts to energy and pharma.</div></li>
+          </ul>
+        </div>
+        <div>
+          <div class="topic">Tech &amp; AI</div>
+          <ul class="news">
+            <li><a class="alink" href="https://www.artificialintelligence-news.com/">Google DeepMind ships Gemini Robotics 2</a><div class="why">Whole-body humanoid control + multi-robot planning.</div></li>
+            <li><a class="alink" href="https://finance.yahoo.com/markets/live/stock-market-today-friday-july-31-dow-sp-500-nasdaq-081227738.html">AWS grows 37% to $42.2B</a><div class="why">Fastest in 18 quarters; AI + chips each &gt;$25B run rate.</div></li>
+            <li><a class="alink" href="https://www.artificialintelligence-news.com/">Meta capex up to $130–145B; EU funds 7 AI gigafactories</a><div class="why">The datacenter buildout keeps scaling (EU €10B).</div></li>
+          </ul>
+        </div>
+        <div>
+          <div class="topic">US &amp; world</div>
+          <ul class="news">
+            <li><a class="alink" href="https://www.npr.org/sections/world/">Trump says a Gaza deal is reached</a><div class="why">Hamas to disarm, Israel to withdraw; conditions remain.</div></li>
+            <li><a class="alink" href="https://www.usnews.com/news/world">≥18 migrants die reaching Spain's Ceuta</a><div class="why">Spain deploys military after a Morocco border breach.</div></li>
+            <li><a class="alink" href="https://www.npr.org/sections/world/">Rescue continues after M7.1 quake in Japan</a><div class="why">Major quake near Kumamoto, Kyushu; recovery ongoing.</div></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>Congrats on finishing the program, Henry — enjoy graduation and safe travels tomorrow. Delivered by email + dashboard + push; reply to the email to change anything. Eastern-time briefs resume once you're home Aug 2. Generated 6:47 AM ET, right on schedule.</footer>
 </div>
