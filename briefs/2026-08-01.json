@@ -54,12 +54,6 @@
   },
   "follow_ups": [
     {
-      "what": "Send Danny Curtis the Aug 4 (4:00 PM) calendar invite — he's asked twice and it's still unsent. That session is the Michael Horn content-strategy follow-up; you also owe the YouTube/LinkedIn SEO research from your Jul 9 meeting.",
-      "who": "Henry → Daniel Curtis",
-      "due": "2026-08-04",
-      "age_days": 3
-    },
-    {
       "what": "Restore/confirm Supabase EpiGuide (auto-paused Jul 18 for inactivity).",
       "who": "Henry",
       "due": "2026-08-02",

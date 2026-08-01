@@ -3,25 +3,19 @@
 # moves them to resolved when done — explaining every change in the brief.
 
 open:
-  - what: "Send Danny Curtis the Aug 4 (4:00 PM) calendar invite — he's asked twice and it's still unsent"
-    who: "Henry → Daniel Curtis"
-    due: 2026-08-04
-    source: "email thread 'Check in', Jul 27–28"
-    first_seen: 2026-07-29
-    note: "Aug 4 4pm is CONFIRMED (Henry picked the time); Danny just needs the invite. This session = the Michael Horn content-strategy follow-up. Per Granola (Jul 9 mtg) Henry still owes: YouTube Shorts linking research, LinkedIn link-in-comments impact, YouTube SEO basics. Watch the Aug 4 evening SAT-with-Ben stack."
   - what: "Restore/confirm Supabase EpiGuide (auto-paused Jul 18 for inactivity; Henry flagged it important)"
     who: "Henry"
     due: 2026-08-02
     source: "Supabase pause notice, Jul 18"
     first_seen: 2026-07-17
     note: "Repeated EpiGuide sign-ins through late Jul suggest it may already be handled — confirm and close."
-  - what: "Lock the Aug 4 evening SAT session with Ben + restart August SAT prep"
+  - what: "Lock the Aug 4 evening SAT session with Ben + restart August SAT prep (see the 'Desmos SAT Bootcamp' Google Task)"
     who: "Henry/Mom → Ben Sexton"
     due: 2026-08-03
     source: "email thread 'Next Meeting before Henry leaves for Oxford' + College Board reminder"
     first_seen: 2026-07-17
-    note: "Mind the Aug 4 stack with Danny's 4pm."
-  - what: "Michael Horn SEO doc action item (Playlist & SEO Recommendations) — overlaps the Danny SEO research above"
+    note: "Aug 4 already has the 4 PM Danny meeting — mind the timing."
+  - what: "Michael Horn SEO doc action item (Playlist & SEO Recommendations) — overlaps the 'assets playlist' Google Task and the SEO research from the Jul 9 Danny/Michael Horn meeting"
     who: "Henry → Michael Horn"
     due: 2026-08-02
     source: "Docs comment notifications, Jul 15–17; Granola Jul 9 meeting"
@@ -41,7 +35,7 @@ open:
     due: 2026-08-10
     source: "Google Calendar invite from mkzisow@gmail.com, Jul 30"
     first_seen: 2026-07-31
-    note: "Low urgency; new this run."
+    note: "Low urgency."
 
 # Travel / logistics context (not a to-do, but load-bearing for scheduling)
 travel:
@@ -49,6 +43,9 @@ travel:
   - "Back on Eastern time — brief times are ET going forward. Sun Aug 2 is a settle-in day with nothing scheduled; watch for jet lag."
 
 resolved:
+  - what: "Set up the Aug 4 working meeting with Danny Curtis (send the calendar invite)"
+    resolved_on: 2026-08-01
+    note: "Henry set up the meeting himself (told the assistant Aug 1). STOP surfacing this — do not nag about the invite again. The Aug 4 4 PM meeting stands as a calendar event and will show on that day's brief; the Michael Horn SEO research remains its own open follow-up."
   - what: "Group project — final presentation at the Oxford programme wrap-up"
     resolved_on: 2026-07-31
     note: "Feedback session was Jul 30; final presentation delivered on the last-day wrap-up (Jul 31 AM)."
