@@ -22,10 +22,14 @@ brief:
   delivery:
     email: true                  # PRIMARY — Henry confirmed 2026-07-30 "do gmails each day". Must send daily.
     dashboard: true              # private artifact page, stable URL (see state/state.json)
-    push: true                   # push notification when the brief is ready
+    push: false                  # 2026-08-01 Henry: stop notifying me when the brief is sent
+    quiet_chat: true             # 2026-08-01 Henry: on SCHEDULED runs, deliver silently — no post-send chat
+                                 # summary/recap in the session (that pings him). The email IS the notification.
+                                 # Exceptions: DO speak up if a send fails, a source is broken, or something
+                                 # needs Henry. Quiet applies to interactive turns only when he's not waiting.
     # 2026-07-30: delivery was accidentally paused Jul 17–29 (send steps declined once, then over-paused).
-    # NEVER silently pause outbound delivery again — if a send is blocked, surface it and keep trying;
-    # email is how Henry actually receives the brief.
+    # NEVER silently pause outbound EMAIL delivery again — if a send is blocked, surface it and keep trying;
+    # email is how Henry actually receives the brief. "Quiet" = no chat ping on success, NOT skipping the email.
   sections: [schedule, email, tasks, follow_ups, weather, news]
 
 calendars:

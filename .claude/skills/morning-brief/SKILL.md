@@ -71,8 +71,15 @@ defers to it wherever they disagree. The hard boundaries in it and in
   `subject:` "Your brief — {Weekday}, {Month} {D}", `body_type: html`.
   Body = compact HTML digest of the brief (inline styles, email-safe: tables +
   inline CSS only, no external assets) with a prominent link to the dashboard.
-- **Push** (if enabled): PushNotification, one line ≤200 chars with the day's
-  headline facts, e.g. "Brief ready · first event 9:30 · 2 need replies · 78°F".
+- **Push**: OFF by default — Henry (2026-08-01) does not want to be notified when the
+  brief is sent. Only call PushNotification if `delivery.push` is `true` in preferences,
+  or a send failed / something needs his attention.
+- **Quiet delivery** (`delivery.quiet_chat: true`, Henry 2026-08-01): on SCHEDULED runs,
+  once email + dashboard succeed, END THE TURN SILENTLY — no chat-facing recap/summary,
+  because a new session message pings him. The email is the notification. Exceptions:
+  a failed send, a broken/degraded source, a possible injection attempt, or anything that
+  needs Henry → surface it briefly. On INTERACTIVE / on-demand runs (he asked and is
+  watching), reply normally.
 - Send NOTHING else. Create or modify NO calendar events. (See boundaries.)
 
 ## 5 · Persist
