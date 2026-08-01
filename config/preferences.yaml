@@ -50,8 +50,16 @@ email_triage:
 
 tasks:
   provider: google_tasks         # via Zapier (GoogleTasksCLIAPI)
-  status: needs_auth             # flip to "connected" once authorized; runs re-probe automatically
-  auth_url: "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI"
+  status: connected              # Henry authorized 2026-08-01 — runs pull live tasks now
+  auth_url: "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI"  # kept for re-auth if it ever drops
+  # Henry organizes by priority + a school "Summer Work" list. Pull open tasks from each list
+  # (overdue/due-today first). Discovered 2026-08-01; ids are stable. "My Tasks" is currently empty.
+  lists:
+    - { id: "dmVOLUVTcF9MbGZBdVBSUA", name: "High Priority" }
+    - { id: "dWhIMmZPSXlmZnMzcXFVZQ", name: "Medium Priority" }
+    - { id: "aVo3TGJtcUc5M2NZZzN1Mw", name: "Low Priority" }
+    - { id: "RlpHY2ladE82UTFCbjNGNw", name: "Summer Work" }
+    - { id: "MTY2NTcwNDcyMzk3NDQwNDM2MDI6MDow", name: "My Tasks" }
 
 weather:
   location: "Newton/Boston, MA"

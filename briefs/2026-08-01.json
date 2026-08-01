@@ -34,9 +34,23 @@
   ],
   "email": [],
   "tasks": {
-    "connected": false,
-    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
-    "items": []
+    "connected": true,
+    "auth_url": null,
+    "items": [
+      {"title": "Add Alvin's videos to BFF Online", "list": "High Priority", "due": "2026-07-31", "overdue": true, "notes": null},
+      {"title": "Add more videos to the assets playlist for automation", "list": "High Priority", "due": "2026-07-27", "overdue": true, "notes": null},
+      {"title": "Complete MA DECA involvement guide", "list": "High Priority", "due": "2026-07-04", "overdue": true, "notes": null},
+      {"title": "Do Desmos SAT Bootcamp through Sexton Test Prep", "list": "Medium Priority", "due": "2026-07-05", "overdue": true, "notes": "Ties into locking the Aug 4 SAT session with Ben."},
+      {"title": "Learn about succession planning for DECA", "list": "Medium Priority", "due": "2026-07-04", "overdue": true, "notes": null},
+      {"title": "Build the app you can send TikToks to and add the sound to a playlist", "list": "Low Priority", "due": "2026-08-01", "overdue": false, "notes": "Dated today."},
+      {"title": "Apply to Harvard SoCo OpenBio", "list": "Low Priority", "due": "2026-07-19", "overdue": true, "notes": "https://soco.college.harvard.edu/00003/openbio-home/"},
+      {"title": "Make Involvement Guide automation tool", "list": "Low Priority", "due": "2026-07-04", "overdue": true, "notes": null},
+      {"title": "Read \"The Namesake\"", "list": "Summer Work", "due": "2026-07-19", "overdue": true, "notes": "School summer assignment."},
+      {"title": "Read Chapter 1 in the AMSCO book (APUSH)", "list": "Summer Work", "due": "2026-07-17", "overdue": true, "notes": "School summer assignment."},
+      {"title": "Read \"A Visit from the Goon Squad\"", "list": "Summer Work", "due": "2026-07-17", "overdue": true, "notes": "School summer assignment."},
+      {"title": "Read \"Kindred\"", "list": "Summer Work", "due": "2026-07-17", "overdue": true, "notes": "School summer assignment."},
+      {"title": "CS 2 Summer Work", "list": "Summer Work", "due": "2026-07-17", "overdue": true, "notes": "School summer assignment."}
+    ]
   },
   "follow_ups": [
     {
@@ -52,13 +66,13 @@
       "age_days": 15
     },
     {
-      "what": "Michael Horn SEO doc action item (Playlist & SEO recommendations) — overlaps the Danny SEO research.",
+      "what": "Michael Horn SEO doc action item (Playlist & SEO recommendations) — overlaps the Danny SEO research and the 'assets playlist' task.",
       "who": "Henry → Michael Horn",
       "due": "2026-08-02",
       "age_days": 15
     },
     {
-      "what": "Lock the Aug 4 evening SAT session with Ben + restart August SAT prep — mind the Aug 4 stack with Danny's 4 PM.",
+      "what": "Lock the Aug 4 evening SAT session with Ben + restart August SAT prep (see the 'Desmos SAT Bootcamp' task) — mind the Aug 4 stack with Danny's 4 PM.",
       "who": "Henry/Mom → Ben Sexton",
       "due": "2026-08-03",
       "age_days": 15
@@ -149,7 +163,7 @@
   ],
   "system_notes": [
     "First Eastern-time brief since Oxford — Henry lands home today, so times are back in America/New_York.",
-    "Google Tasks still isn't connected (re-probed Aug 1; the task_list enum didn't resolve). Connect once via the link in the Tasks card and to-dos appear here automatically.",
+    "Google Tasks is now connected (Henry authorized Aug 1). 13 open tasks across High/Medium/Low Priority + Summer Work now appear here; most predate the Oxford trip, so they're backlog rather than truly overdue. Added after the morning email went out, so they're on the dashboard + archive today and in tomorrow's email.",
     "Timing check: generated 06:43 AM ET, inside the 06:25-06:55 window — the daily trigger fired correctly (10:40 UTC), no cron change needed."
   ]
 }

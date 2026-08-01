@@ -2,12 +2,12 @@
   "dashboard_artifact_url": "https://claude.ai/code/artifact/84dbc666-7e0f-4fe4-8235-965757953769",
   "trigger_id": "trig_01Xk29MF8jLJUjDURpTyEPB6",
   "branch": "claude/personal-assistant-mcp-7poxgr",
-  "last_run": "2026-08-01T10:49:00Z",
+  "last_run": "2026-08-01T11:05:00Z",
   "last_brief_date": "2026-08-01",
   "delivery": "active",
-  "delivery_note": "2026-08-01: clean full run — all three channels (dashboard republished + email msg 19fbcf0c8fbe0b39 'sent' + push). Henry landed home Aug 1; brief times are Eastern from here on.",
+  "delivery_note": "2026-08-01: clean full run — all three channels (dashboard + email msg 19fbcf0c8fbe0b39 'sent' + push). Henry landed home Aug 1; brief times are Eastern from here on. Post-brief, Henry connected Google Tasks; dashboard + archive updated in place (NO second email — one-brief-a-day boundary; tasks flow into tomorrow's email).",
   "clock_note": "Container clock accurate this run (Aug 1 10:41Z matched Google timestamps; trigger fired 10:40Z = 06:40 ET). Treat live Google/Zapier/email timestamps as authoritative if container time ever disagrees.",
   "dst_note": "Cron is '40 10 * * *' (10:40 UTC = 06:40 EDT), correct while America/New_York is on EDT (UTC-4). At the Nov 1, 2026 fall-back to EST (UTC-5), 06:40 ET becomes 11:40 UTC — change cron to '40 11 * * *' via update_trigger. The daily self-check auto-catches this if a run ever fires outside 06:25-06:55 ET.",
-  "tasks_auth": "Google Tasks still needs authorization (re-probed 2026-08-01; the task_list dynamic enum did not resolve). Connect once: https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+  "tasks_auth": "CONNECTED 2026-08-01 — Henry authorized Google Tasks. Runs pull open tasks from lists in preferences.yaml (High/Medium/Low Priority + Summer Work; 'My Tasks' is empty). Read via Zapier GoogleTasksCLIAPI: get_tasks_by_list, or raw GET https://tasks.googleapis.com/tasks/v1/lists/<id>/tasks?showCompleted=false. Re-auth if it drops: https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
   "notes": "artifact URL and trigger id are filled in by the first run; do not edit by hand unless recovering from breakage. Henry returned from Oxford Aug 1; briefs are Eastern-time from here on. Quiet-inbox days are normal now he's home — surface real signal only."
 }
