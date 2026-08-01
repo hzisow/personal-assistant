@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-01",
+  "generated_at": "2026-08-01T06:43:00-04:00",
+  "headline": "Welcome home — DL 59 lands at Boston Logan around 12:19 PM ET today and it's straight to Jonathan & Holly's wedding; nothing else is on the calendar, so pace yourself after the early start and tee up the week (Danny's Aug 4 invite is finally due).",
+  "weather": {
+    "location": "Newton/Boston, MA",
+    "current_f": 65,
+    "condition": "Sunny & mild"
+  },
+  "schedule": [
+    {
+      "start": "2026-08-01T12:19:00-04:00",
+      "end": null,
+      "all_day": false,
+      "title": "Land at Boston Logan — DL 59 from Heathrow",
+      "calendar": "Personal",
+      "location": "Boston Logan (BOS)",
+      "prep": "7h39m nonstop, seat 31B. You'll have been up since dawn UK time — then straight to the wedding from the airport."
+    },
+    {
+      "start": null,
+      "end": null,
+      "all_day": true,
+      "title": "Jonathan & Holly's Wedding",
+      "calendar": "Personal",
+      "location": null,
+      "prep": "Family day — Mom, Dad, Sam and Emily are all on the invite. Pace yourself after the flight; the jet lag will hit later."
+    }
+  ],
+  "tomorrow_headsup": [
+    "Sunday Aug 2: officially home, nothing scheduled — a settle-in and recovery day.",
+    "Then the week ramps up: EpiGuide + Michael Horn's SEO doc (Aug 2), lock the Ben SAT session (Aug 3), and your Danny Curtis meeting is Tue Aug 4 at 4:00 PM."
+  ],
+  "email": [],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": []
+  },
+  "follow_ups": [
+    {
+      "what": "Send Danny Curtis the Aug 4 (4:00 PM) calendar invite — he's asked twice and it's still unsent. That session is the Michael Horn content-strategy follow-up; you also owe the YouTube/LinkedIn SEO research from your Jul 9 meeting.",
+      "who": "Henry → Daniel Curtis",
+      "due": "2026-08-04",
+      "age_days": 3
+    },
+    {
+      "what": "Restore/confirm Supabase EpiGuide (auto-paused Jul 18 for inactivity).",
+      "who": "Henry",
+      "due": "2026-08-02",
+      "age_days": 15
+    },
+    {
+      "what": "Michael Horn SEO doc action item (Playlist & SEO recommendations) — overlaps the Danny SEO research.",
+      "who": "Henry → Michael Horn",
+      "due": "2026-08-02",
+      "age_days": 15
+    },
+    {
+      "what": "Lock the Aug 4 evening SAT session with Ben + restart August SAT prep — mind the Aug 4 stack with Danny's 4 PM.",
+      "who": "Henry/Mom → Ben Sexton",
+      "due": "2026-08-03",
+      "age_days": 15
+    },
+    {
+      "what": "Panda Express fundraiser (approved) — follow up now that you're back.",
+      "who": "Henry / Adam Benjamin",
+      "due": "2026-08-02",
+      "age_days": 9
+    },
+    {
+      "what": "DECA Dash 5K — chapter + Instagram promo with the officer team.",
+      "who": "Officer team (Ryan leading)",
+      "due": "2026-08-15",
+      "age_days": 15
+    },
+    {
+      "what": "RSVP to Mom's 'Kent's Place in Marion' weekend (Aug 29–30).",
+      "who": "Henry → Michelle Zisow",
+      "due": "2026-08-10",
+      "age_days": 1
+    }
+  ],
+  "news": [
+    {
+      "topic": "Business & markets",
+      "headline": "Wall Street closes July with records intact — S&P 500 +0.7% Friday, up ~8% on the year",
+      "why": "Big Tech gains steadied a volatile week; momentum carries into August.",
+      "url": "https://www.aol.com/stock-market-today-us-stocks-134200495.html",
+      "source": "AOL/Reuters"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "Big week ahead: July jobs report (Fri) + a quarter of the S&P 500 reports",
+      "why": "Payrolls seen ~+87.5k; earnings from Eli Lilly, AMD, Caterpillar, Palantir and Merck will steer the market.",
+      "url": "https://www.cnbc.com/2026/07/31/stock-market-next-week-outlook-for-aug-3-7-2026.html",
+      "source": "CNBC"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "Q2 earnings running strong — S&P 500 profits on pace for ~29% year-over-year growth",
+      "why": "A better-than-feared season is a big reason indexes sit near records.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/teetering-us-stock-market-faces-100238136.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "The AI data-center buildout is reaching for orbit",
+      "why": "Companies are floating space-based data centers as AI's power and cooling demands strain the grid.",
+      "url": "https://techcrunch.com/category/artificial-intelligence/",
+      "source": "TechCrunch"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "A UC San Diego chip design could cut data-center power draw",
+      "why": "Rethinking how power is converted for GPUs targets AI's biggest bottleneck: energy.",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "source": "ScienceDaily"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "New AI framework sharpens how astronomers measure the universe's expansion",
+      "why": "Modeling Type Ia supernova environments in fine detail could help resolve the 'Hubble tension.'",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "source": "ScienceDaily"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Dr. Anthony Fauci invokes the Fifth Amendment at a Senate hearing",
+      "why": "He declined to answer questions; Sen. Rand Paul says he believes Fauci could be prosecuted.",
+      "url": "https://www.usnews.com/",
+      "source": "U.S. News"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "US measles surge: 37 outbreaks in 2026 as officials weigh 'elimination' status",
+      "why": "A back-to-school-season health story worth tracking as case counts climb.",
+      "url": "https://www.usnews.com/",
+      "source": "U.S. News"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "NASA leans on an upgraded heavy rocket for its Artemis moon landing",
+      "why": "The next-gen booster is central to putting astronauts back on the lunar surface.",
+      "url": "https://www.nbcnews.com/",
+      "source": "NBC News"
+    }
+  ],
+  "system_notes": [
+    "First Eastern-time brief since Oxford — Henry lands home today, so times are back in America/New_York.",
+    "Google Tasks still isn't connected (re-probed Aug 1; the task_list enum didn't resolve). Connect once via the link in the Tasks card and to-dos appear here automatically.",
+    "Timing check: generated 06:43 AM ET, inside the 06:25-06:55 window — the daily trigger fired correctly (10:40 UTC), no cron change needed."
+  ]
+}

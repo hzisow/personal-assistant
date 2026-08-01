@@ -45,9 +45,8 @@ open:
 
 # Travel / logistics context (not a to-do, but load-bearing for scheduling)
 travel:
-  - "Oxford Saïd Youth Programme: final full day Fri Jul 31 (graduation 2:30 PM BST); depart Oxford EARLY Sat Aug 1 (program checkout by 10:00, but the flight needs a ~5:30 AM departure)."
-  - "Aug 1: DL 59 LHR 9:40 AM BST → BOS 12:19 PM ET (Terminal 3, seat 31B, conf JK8A5H), then straight to Jonathan & Holly's wedding from the airport."
-  - "Aug 2: officially home. Eastern-time briefs resume."
+  - "Home as of Sat Aug 1: DL 59 landed BOS ~12:19 PM ET, then straight to Jonathan & Holly's wedding. Oxford Saïd programme finished (graduation Jul 31)."
+  - "Back on Eastern time — brief times are ET going forward. Sun Aug 2 is a settle-in day with nothing scheduled; watch for jet lag."
 
 resolved:
   - what: "Group project — final presentation at the Oxford programme wrap-up"
