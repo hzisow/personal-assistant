@@ -39,97 +39,103 @@
   .topic{font-weight:700;font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--faint);margin-bottom:8px;}
   .news{list-style:none;margin:0;padding:0;} .news li{padding:9px 0;border-top:1px solid var(--line);} .news li:first-child{border-top:0;padding-top:0;}
   .news .why{color:var(--muted);font-size:12.5px;margin-top:2px;}
+  .tasklist{list-style:none;margin:0;padding:0;font-size:13.5px;} .tasklist li{padding:7px 0;border-top:1px solid var(--line);line-height:1.4;} .tasklist li:first-child{border-top:0;padding-top:0;}
   footer{border-top:1px solid var(--line);margin-top:40px;padding-top:18px;color:var(--faint);font-size:12.5px;line-height:1.7;}
 </style>
 <nav>
   <div class="navin">
     <span class="brand"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="14" r="5.5" fill="currentColor"/><path d="M2 20h20M12 3v3M4.9 6.9l2.1 2.1M19.1 6.9 17 9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Morning Brief</span>
-    <div class="datepill" role="text"><span>Sat, Aug 1</span><span class="soft">Home today ✈️💍</span><span class="soft">☀️ 65°</span></div>
+    <div class="datepill" role="text"><span>Sun, Aug 2</span><span class="soft">Home · recovery day 🏡</span><span class="soft">☀️ 71°</span></div>
     <div class="avatar" aria-hidden="true">H</div>
   </div>
 </nav>
 <div class="wrap">
   <h1 class="hello">Good morning, Henry</h1>
-  <p class="sub">You're on your way back — DL 59 lands at Boston Logan around <b>12:19 PM ET</b>, then straight to <b>Jonathan &amp; Holly's wedding</b>. Nothing else is on the calendar today; your inbox is quiet, so pace yourself after the early start and let the week wait until tomorrow.</p>
+  <p class="sub">Nothing's on your calendar today — first full day home, so rest up and beat the jet lag. The one thing worth knowing: your week firmed up overnight, and there's a Tuesday clash to sort.</p>
   <div class="stats">
-    <span class="stat"><span class="d"></span>✈️ Land Logan 12:19 PM</span>
-    <span class="stat"><span class="d"></span>💍 Jonathan &amp; Holly's wedding</span>
-    <span class="stat"><span class="d"></span>✓ Nothing needs you today</span>
-    <span class="stat"><span class="d"></span>Sunny, <span class="num">65°</span></span>
+    <span class="stat"><span class="d"></span>🏡 Nothing scheduled today</span>
+    <span class="stat warn"><span class="d"></span>Tue: shift 2:30–6:30 vs 4 PM meeting</span>
+    <span class="stat"><span class="d"></span>SAT moving (Mom ↔ Ben)</span>
+    <span class="stat"><span class="d"></span>Sunny, <span class="num">71°</span></span>
   </div>
 
   <h2>Today</h2>
   <div class="cards">
     <section class="card wide">
-      <div class="flight">
-        <div class="route">LHR <span class="arr">→</span> BOS</div>
-        <div class="fmeta">DL 59 · landing ~12:19 PM ET · seat 31B · you're almost home</div>
-      </div>
-      <ul class="tl" style="margin-top:16px;">
-        <li><time>12:19 PM</time><div class="what"><strong>Land at Boston Logan</strong><div class="prep">Straight to the wedding from the airport — you'll have been up since dawn UK time.</div></div></li>
-        <li><time>All day</time><div class="what"><strong>Jonathan &amp; Holly's Wedding 💍</strong><div class="prep">Family day — Mom, Dad, Sam &amp; Emily are all on the invite. Pace yourself; the jet lag lands later tonight.</div></div></li>
+      <div style="display:flex;align-items:center;gap:12px;"><span class="ic">🏡</span><div><div class="from" style="font-weight:600;">Nothing on the calendar</div><div class="why" style="color:var(--muted);font-size:13px;">First full day home — take it easy and let the jet lag settle.</div></div></div>
+    </section>
+  </div>
+
+  <h2>The week taking shape</h2>
+  <div class="cards">
+    <section class="card wide">
+      <ul class="tl">
+        <li><time>Mon 8/3</time><div class="what">Clear so far — Mom asked Ben for a SAT slot <b>before 3 or after 5</b>, so one may land.</div></li>
+        <li><time>Tue 8/4</time><div class="what"><strong style="color:var(--urgent);">Snack Bar shift 2:30–6:30 PM overlaps your 4:00 PM Danny meeting</strong><div class="prep">Something has to give — that overlap is yours to reconcile (I don't touch your calendar).</div></div></li>
+        <li><time>Fri 8/7</time><div class="what">Snack Bar shift <b>2:30–7:30 PM</b>. <span style="color:var(--muted);">(July jobs report that morning.)</span></div></li>
       </ul>
     </section>
   </div>
 
-  <h2>Still on you</h2>
+  <h2>Inbox</h2>
   <div class="cards">
     <section class="card wide">
       <ul class="rows">
-        <li><span class="ic">✅</span><div><div class="from">You're all caught up</div><div class="why">Your Aug 4 meeting with Danny is set, and your inbox is quiet — nothing needs a reply today.</div></div></li>
+        <li><span class="ic">✉</span><div><div class="from">Mom → Ben (SAT tutor) — "This week"</div><div class="why">You got scheduled to work during Tuesday's session, so she's moving it — proposed Monday before 3 or after 5. Waiting on Ben; no action needed unless you want to weigh in.</div></div><a class="alink" style="margin-left:auto;font-size:12.5px;white-space:nowrap;align-self:center;" href="https://mail.google.com/mail/u/0/#all/19fbf8c981c9d495">Open ›</a></li>
+        <li><span class="ic">🗓</span><div><div class="from">Work schedule (When I Work)</div><div class="why">Tue Aug 4 2:30–6:30 PM · Fri Aug 7 2:30–7:30 PM — both Snack Bar.</div></div><a class="alink" style="margin-left:auto;font-size:12.5px;white-space:nowrap;align-self:center;" href="https://mail.google.com/mail/u/0/#all/19fbf7fb1600a21c">Open ›</a></li>
+        <li><span class="ic">📬</span><div><div class="from">Otherwise quiet</div><div class="why">The rest is college mail &amp; promos — nothing needs a reply.</div></div></li>
       </ul>
     </section>
   </div>
 
-  <h2>Tomorrow &amp; the week</h2>
-  <div class="cards">
-    <section class="card wide">
-      <p class="sub" style="font-size:14px;margin:0 0 12px;"><b>Sun Aug 2:</b> officially home, nothing scheduled — a real settle-in / recovery day.</p>
-      <ul class="fu">
-        <li><span>Restore/confirm EpiGuide · Michael Horn's SEO doc</span><span class="due">Aug 2</span></li>
-        <li><span>Lock the Ben SAT session + restart August prep</span><span class="due">Aug 3</span></li>
-        <li><span>Danny Curtis working meeting</span><span class="due">Aug 4 · 4 PM</span></li>
-        <li><span>Panda Express fundraiser follow-up</span><span class="due">Aug 2</span></li>
-        <li><span>DECA Dash 5K — chapter + Instagram promo</span><span class="due">Aug 15</span></li>
-        <li><span>RSVP Mom's Kent's Place weekend</span><span class="due">Aug 29–30</span></li>
-      </ul>
-    </section>
-  </div>
-
-  <h2>Tasks <span style="font-weight:400;color:var(--faint);font-size:14px;">· Google Tasks connected ✓</span></h2>
-  <p class="sub" style="font-size:13.5px;margin:-4px 0 14px;">13 open across your priority lists — most were set before Oxford, so treat them as backlog, not truly late. Only the TikTok-app task is dated today.</p>
+  <h2>Tasks <span style="font-weight:400;color:var(--faint);font-size:14px;">· Google Tasks ✓ · 13 open</span></h2>
+  <p class="sub" style="font-size:13.5px;margin:-4px 0 14px;">Nice — "Add Alvin's videos to BFF Online" is done since yesterday. No due dates set right now.</p>
   <div class="cards">
     <section class="card">
       <div class="topic" style="margin-bottom:12px;">High priority</div>
-      <ul class="fu">
-        <li><span>Add Alvin's videos to BFF Online</span><span class="due">Jul 31</span></li>
-        <li><span>Add more videos to the assets playlist (automation)</span><span class="due">Jul 27</span></li>
-        <li><span>Complete MA DECA involvement guide</span><span class="due">Jul 4</span></li>
+      <ul class="tasklist">
+        <li>Look at open-source clipping tools + set up a publishing workflow</li>
+        <li>Add more videos to the assets playlist (automation)</li>
+        <li>Complete MA DECA involvement guide</li>
       </ul>
     </section>
     <section class="card">
       <div class="topic" style="margin-bottom:12px;">Medium priority</div>
-      <ul class="fu">
-        <li><span>Desmos SAT Bootcamp (Sexton Test Prep)</span><span class="due">Jul 5</span></li>
-        <li><span>Learn DECA succession planning</span><span class="due">Jul 4</span></li>
+      <ul class="tasklist">
+        <li>Desmos SAT Bootcamp (Sexton Test Prep)</li>
+        <li>Learn DECA succession planning</li>
       </ul>
     </section>
     <section class="card">
       <div class="topic" style="margin-bottom:12px;">Low priority</div>
-      <ul class="fu">
-        <li><span>Build the TikTok → playlist app</span><span class="due soon">today</span></li>
-        <li><span>Apply to Harvard SoCo OpenBio</span><span class="due">Jul 19</span></li>
-        <li><span>Make Involvement Guide automation tool</span><span class="due">Jul 4</span></li>
+      <ul class="tasklist">
+        <li>Build the TikTok → playlist app</li>
+        <li>Apply to Harvard SoCo OpenBio</li>
+        <li>Make Involvement Guide automation tool</li>
       </ul>
     </section>
     <section class="card">
       <div class="topic" style="margin-bottom:12px;">Summer work · school</div>
+      <ul class="tasklist">
+        <li>Read "The Namesake"</li>
+        <li>Read Ch. 1 AMSCO (APUSH)</li>
+        <li>Read "A Visit from the Goon Squad"</li>
+        <li>Read "Kindred"</li>
+        <li>CS 2 Summer Work</li>
+      </ul>
+    </section>
+  </div>
+
+  <h2>Follow-ups</h2>
+  <div class="cards">
+    <section class="card wide">
       <ul class="fu">
-        <li><span>Read "The Namesake"</span><span class="due">Jul 19</span></li>
-        <li><span>Read Ch. 1 AMSCO (APUSH)</span><span class="due">Jul 17</span></li>
-        <li><span>Read "A Visit from the Goon Squad"</span><span class="due">Jul 17</span></li>
-        <li><span>Read "Kindred"</span><span class="due">Jul 17</span></li>
-        <li><span>CS 2 Summer Work</span><span class="due">Jul 17</span></li>
+        <li><span>Restore/confirm EpiGuide</span><span class="due soon">today</span></li>
+        <li><span>Michael Horn's SEO doc</span><span class="due soon">today</span></li>
+        <li><span>Panda Express fundraiser follow-up</span><span class="due soon">today</span></li>
+        <li><span>SAT with Ben — Mom rescheduling</span><span class="due">this week</span></li>
+        <li><span>DECA Dash 5K — chapter + Instagram promo</span><span class="due">Aug 15</span></li>
+        <li><span>RSVP Mom's Kent's Place weekend</span><span class="due">Aug 29–30</span></li>
       </ul>
     </section>
   </div>
@@ -141,30 +147,30 @@
         <div>
           <div class="topic">Business &amp; markets</div>
           <ul class="news">
-            <li><a class="alink" href="https://www.aol.com/stock-market-today-us-stocks-134200495.html">Wall Street closes July with records intact</a><div class="why">S&amp;P 500 +0.7% Friday, up ~8% on the year.</div></li>
-            <li><a class="alink" href="https://www.cnbc.com/2026/07/31/stock-market-next-week-outlook-for-aug-3-7-2026.html">Big week ahead: jobs report + heavy earnings</a><div class="why">July payrolls Friday; Lilly, AMD, Caterpillar, Palantir, Merck report.</div></li>
-            <li><a class="alink" href="https://finance.yahoo.com/markets/stocks/articles/teetering-us-stock-market-faces-100238136.html">Q2 earnings running strong</a><div class="why">S&amp;P 500 profits on pace for ~29% YoY growth.</div></li>
+            <li><a class="alink" href="https://www.cnbc.com/2026/07/31/stock-market-next-week-outlook-for-aug-3-7-2026.html">Jobs report headlines the week (Fri)</a><div class="why">July payrolls seen ~+91k, unemployment ~4.3%.</div></li>
+            <li><a class="alink" href="https://www.ig.com/en/news-and-trade-ideas/weekly-market-navigator-3-aug-2026-260803">Huge earnings week + SpaceX's first report</a><div class="why">Lilly, AMD, McDonald's, Disney, Costco, Palantir.</div></li>
+            <li><a class="alink" href="https://www.theglobeandmail.com/investing/article-wall-streets-week-ahead-teetering-us-stock-market-faces-jobs-report/">Earnings season running strong</a><div class="why">85% of S&amp;P 500 reporters have beaten.</div></li>
           </ul>
         </div>
         <div>
           <div class="topic">Tech &amp; AI</div>
           <ul class="news">
-            <li><a class="alink" href="https://techcrunch.com/category/artificial-intelligence/">The AI data-center buildout reaches for orbit</a><div class="why">Space-based data centers floated as power demand strains the grid.</div></li>
-            <li><a class="alink" href="https://www.sciencedaily.com/news/computers_math/artificial_intelligence/">UC San Diego chip could cut data-center power</a><div class="why">Rethinking GPU power conversion targets AI's energy bottleneck.</div></li>
-            <li><a class="alink" href="https://www.sciencedaily.com/news/computers_math/artificial_intelligence/">AI sharpens measures of the universe's expansion</a><div class="why">Modeling Type Ia supernovae — the "Hubble tension."</div></li>
+            <li><a class="alink" href="https://aiweekly.co/ai-news-today">California's AI-transparency law takes effect today</a><div class="why">Provenance + labels for big AI providers (SB 942).</div></li>
+            <li><a class="alink" href="https://techcrunch.com/category/artificial-intelligence/">Google cancels its AI Studio app</a><div class="why">Features fold into Gemini despite ~800k preorders.</div></li>
+            <li><a class="alink" href="https://aiweekly.co/ai-news-today">Open-source AI agent weaponized to hit 460+ systems</a><div class="why">A real-world agentic-AI security case (Unit 42).</div></li>
           </ul>
         </div>
         <div>
           <div class="topic">US &amp; world</div>
           <ul class="news">
-            <li><a class="alink" href="https://www.usnews.com/">Fauci invokes the Fifth at a Senate hearing</a><div class="why">Sen. Rand Paul says he believes Fauci could be prosecuted.</div></li>
-            <li><a class="alink" href="https://www.usnews.com/">US measles surge — 37 outbreaks in 2026</a><div class="why">Officials weigh the country's "elimination" status.</div></li>
-            <li><a class="alink" href="https://www.nbcnews.com/">NASA leans on an upgraded rocket for Artemis</a><div class="why">Next-gen booster central to the moon landing.</div></li>
+            <li><a class="alink" href="https://www.cnn.com/world">UK PM Keir Starmer resigns</a><div class="why">A major shake-up in British politics.</div></li>
+            <li><a class="alink" href="https://www.cbsnews.com/">State Dept warns US citizens in the Middle East</a><div class="why">Travel-safety alert amid US–Iran tensions.</div></li>
+            <li><a class="alink" href="https://www.nbcnews.com/business">The Fed holds interest rates steady again</a><div class="why">Borrowing and mortgage costs stay elevated.</div></li>
           </ul>
         </div>
       </div>
     </section>
   </div>
 
-  <footer>Welcome back to Eastern time, Henry — congratulations again on Oxford, and enjoy the wedding. Delivered by email + dashboard; reply to the email to change anything. Generated 6:43 AM ET.</footer>
+  <footer>Welcome to your first day home, Henry — enjoy the quiet. Delivered by email + dashboard; reply to the email to change anything. Generated 6:47 AM ET.</footer>
 </div>

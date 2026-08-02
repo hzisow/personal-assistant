@@ -9,12 +9,12 @@ open:
     source: "Supabase pause notice, Jul 18"
     first_seen: 2026-07-17
     note: "Repeated EpiGuide sign-ins through late Jul suggest it may already be handled — confirm and close."
-  - what: "Lock the Aug 4 evening SAT session with Ben + restart August SAT prep (see the 'Desmos SAT Bootcamp' Google Task)"
+  - what: "SAT session with Ben — Mom is moving it off Tuesday (Henry got a work shift); watch for Ben's reply on a Monday slot, then restart August SAT prep"
     who: "Henry/Mom → Ben Sexton"
-    due: 2026-08-03
-    source: "email thread 'Next Meeting before Henry leaves for Oxford' + College Board reminder"
+    due: 2026-08-04
+    source: "email thread 'This week' (Mom↔Ben, Aug 1) + 'Desmos SAT Bootcamp' Google Task"
     first_seen: 2026-07-17
-    note: "Aug 4 already has the 4 PM Danny meeting — mind the timing."
+    note: "2026-08-02: Mom proposed Mon Aug 3 before 3 or after 5; awaiting Ben. Driver is the Tue Aug 4 2:30–6:30 PM work shift."
   - what: "Michael Horn SEO doc action item (Playlist & SEO Recommendations) — overlaps the 'assets playlist' Google Task and the SEO research from the Jul 9 Danny/Michael Horn meeting"
     who: "Henry → Michael Horn"
     due: 2026-08-02
@@ -41,6 +41,7 @@ open:
 travel:
   - "Home as of Sat Aug 1: DL 59 landed BOS ~12:19 PM ET, then straight to Jonathan & Holly's wedding. Oxford Saïd programme finished (graduation Jul 31)."
   - "Back on Eastern time — brief times are ET going forward. Sun Aug 2 is a settle-in day with nothing scheduled; watch for jet lag."
+  - "Work: Braeburn Country Club Snack Bar. Week of Aug 3 shifts — Tue Aug 4 2:30–6:30 PM, Fri Aug 7 2:30–7:30 PM. NOTE: the Tue shift overlaps the confirmed 4:00 PM Danny meeting — surface as info only; the assistant never edits the calendar. Source: When I Work email, Aug 1."
 
 resolved:
   - what: "Set up the Aug 4 working meeting with Danny Curtis (send the calendar invite)"

@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-02",
+  "generated_at": "2026-08-02T06:47:00-04:00",
+  "headline": "A quiet Sunday to recover — nothing on your calendar — but the week firmed up overnight: your new work schedule puts you on a Snack Bar shift Tue Aug 4 from 2:30–6:30 PM, which collides with your 4 PM Danny meeting, and Mom is already emailing Ben to move your SAT session off that day.",
+  "weather": {
+    "location": "Newton/Boston, MA",
+    "current_f": 71,
+    "condition": "Sunny & mild",
+    "high_f": 71,
+    "low_f": 65
+  },
+  "schedule": [],
+  "tomorrow_headsup": [
+    "Today (Sun Aug 2): nothing scheduled — first full day home, so rest up and beat the jet lag.",
+    "Mon Aug 3: calendar's clear, but Mom asked Ben for a SAT slot Monday before 3 or after 5 — one may land.",
+    "Tue Aug 4: Snack Bar shift 2:30–6:30 PM — overlaps your 4:00 PM Danny meeting; you'll want to reconcile those.",
+    "Fri Aug 7: Snack Bar shift 2:30–7:30 PM; the July jobs report is out that morning."
+  ],
+  "email": [
+    {
+      "thread_id": "19fbf8c981c9d495",
+      "from": "Mom (Michelle Zisow) → Ben Sexton",
+      "subject": "This week",
+      "bucket": "waiting",
+      "why": "You got scheduled to work during Tuesday's SAT session, so Mom emailed Ben to move it — she proposed Monday before 3 or after 5. Waiting on Ben's reply; no action needed from you unless you want to weigh in.",
+      "age_days": 0
+    },
+    {
+      "thread_id": "19fbf7fb1600a21c",
+      "from": "When I Work (Braeburn CC)",
+      "subject": "Your schedule for August 3–9",
+      "bucket": "important",
+      "why": "Two Snack Bar shifts: Tue Aug 4 2:30–6:30 PM and Fri Aug 7 2:30–7:30 PM. The Tuesday shift overlaps your 4:00 PM Danny meeting.",
+      "age_days": 0
+    }
+  ],
+  "tasks": {
+    "connected": true,
+    "auth_url": null,
+    "items": [
+      {"title": "Look at open source clipping tools and set up a publishing workflow", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Add more videos to the assets playlist for automation", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Complete MA DECA involvement guide", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do Desmos SAT Bootcamp through Sexton Test Prep", "list": "Medium Priority", "due": null, "overdue": false, "notes": "Pairs with the Ben SAT session Mom is rescheduling."},
+      {"title": "Learn about succession planning for DECA", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Build the app you can send TikToks to and add the sound to a playlist", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Apply to Harvard SoCo OpenBio", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Make Involvement Guide automation tool", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Read \"The Namesake\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read Chapter 1 in the AMSCO book (APUSH)", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"A Visit from the Goon Squad\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"Kindred\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "CS 2 Summer Work", "list": "Summer Work", "due": null, "overdue": false}
+    ]
+  },
+  "follow_ups": [
+    {
+      "what": "Restore/confirm Supabase EpiGuide (auto-paused Jul 18 for inactivity).",
+      "who": "Henry",
+      "due": "2026-08-02",
+      "age_days": 16
+    },
+    {
+      "what": "Michael Horn SEO doc action item (Playlist & SEO recommendations) — overlaps the 'assets playlist' Google Task.",
+      "who": "Henry → Michael Horn",
+      "due": "2026-08-02",
+      "age_days": 16
+    },
+    {
+      "what": "SAT session with Ben — being rescheduled by Mom off Tuesday (the work shift). Watch for Ben's reply on a Monday slot.",
+      "who": "Henry/Mom → Ben Sexton",
+      "due": "2026-08-03",
+      "age_days": 16
+    },
+    {
+      "what": "Panda Express fundraiser (approved) — follow up now that you're back.",
+      "who": "Henry / Adam Benjamin",
+      "due": "2026-08-02",
+      "age_days": 10
+    },
+    {
+      "what": "DECA Dash 5K — chapter + Instagram promo with the officer team.",
+      "who": "Officer team (Ryan leading)",
+      "due": "2026-08-15",
+      "age_days": 16
+    },
+    {
+      "what": "RSVP to Mom's 'Kent's Place in Marion' weekend (Aug 29–30).",
+      "who": "Henry → Michelle Zisow",
+      "due": "2026-08-10",
+      "age_days": 2
+    }
+  ],
+  "news": [
+    {
+      "topic": "Business & markets",
+      "headline": "Jobs report headlines the week (Fri) — July payrolls seen up ~91k, unemployment ~4.3%",
+      "why": "The first big read on the labor market since the Fed's latest hold; markets are sensitive after a choppy stretch.",
+      "url": "https://www.cnbc.com/2026/07/31/stock-market-next-week-outlook-for-aug-3-7-2026.html",
+      "source": "CNBC"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "Huge earnings week: Eli Lilly, AMD, McDonald's, Disney, Costco, Palantir — plus SpaceX's first quarterly report",
+      "why": "SpaceX reports for the first time since its IPO (Tue); a broad slate will set the market's August tone.",
+      "url": "https://www.ig.com/en/news-and-trade-ideas/weekly-market-navigator-3-aug-2026-260803",
+      "source": "IG"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "Earnings season is running strong — 85% of S&P 500 reporters have beaten, profits tracking well above forecasts",
+      "why": "A better-than-feared season is a big reason indexes sit near records into August.",
+      "url": "https://www.theglobeandmail.com/investing/article-wall-streets-week-ahead-teetering-us-stock-market-faces-jobs-report/",
+      "source": "The Globe and Mail"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "California's AI-transparency law (SB 942) takes effect today",
+      "why": "Big generative-AI providers must now embed content provenance, offer a free detection tool, and support visible AI labels.",
+      "url": "https://aiweekly.co/ai-news-today",
+      "source": "AI Weekly"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Google cancels its standalone AI Studio app — folds the features into Gemini",
+      "why": "Despite ~800k preorders, Google is consolidating on Gemini rather than a separate app.",
+      "url": "https://techcrunch.com/category/artificial-intelligence/",
+      "source": "TechCrunch"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Researchers find an open-source AI agent weaponized to attack 460+ systems",
+      "why": "Unit 42 detailed a threat actor wiring a model into an agent framework to find and run exploits — a real-world agentic-AI security case.",
+      "url": "https://aiweekly.co/ai-news-today",
+      "source": "AI Weekly / Unit 42"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "UK Prime Minister Keir Starmer resigns",
+      "why": "A major shake-up in British politics; watch for a leadership contest and market/currency reaction.",
+      "url": "https://www.cnn.com/world",
+      "source": "CNN"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "State Department warns US citizens across the Middle East amid US–Iran tensions",
+      "why": "A broad travel-safety warning as fears of a US–Iran conflict rise.",
+      "url": "https://www.cbsnews.com/",
+      "source": "CBS News"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "The Federal Reserve holds interest rates steady again",
+      "why": "Rates stay put, keeping mortgage and borrowing costs elevated heading into the fall.",
+      "url": "https://www.nbcnews.com/business",
+      "source": "NBC News"
+    }
+  ],
+  "system_notes": [
+    "Info only (I don't touch your calendar): your Tue Aug 4 work shift (2:30–6:30 PM) overlaps the 4:00 PM Danny meeting — that overlap is yours to reconcile. Mom is already handling the Ben SAT session separately.",
+    "Google Tasks is live — 13 open across your lists; 'Add Alvin's videos to BFF Online' is done since yesterday (a new clipping-tools task took High Priority's top slot). Due dates currently aren't set on any of them.",
+    "Timing check: generated 06:47 AM ET, inside the 06:25–06:55 window — the daily trigger fired correctly (10:40 UTC), no cron change needed. Delivered quietly per your setting (email + dashboard, no push)."
+  ]
+}
