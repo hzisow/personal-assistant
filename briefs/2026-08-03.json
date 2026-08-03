@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-03",
+  "generated_at": "2026-08-03T06:47:00-04:00",
+  "headline": "Two appointments today: your rescheduled SAT session with Ben at 1:30 PM, then a behind-the-wheel driving lesson at 3:00 — bring your PRINTED permit and closed shoes or they'll cancel and charge a fee. It's rainy (~73°), and heads-up: tomorrow's 2:30 work shift still overlaps your 4 PM Danny meeting.",
+  "weather": {
+    "location": "Newton/Boston, MA",
+    "current_f": 73,
+    "condition": "Light rain",
+    "precip_chance_pct": 90
+  },
+  "schedule": [
+    {
+      "start": "2026-08-03T13:30:00-04:00",
+      "end": "2026-08-03T14:30:00-04:00",
+      "all_day": false,
+      "title": "SAT session with Ben Sexton",
+      "calendar": "Personal",
+      "location": "Google Meet (meet.google.com/ouj-adum-hvw)",
+      "prep": "This is the session Mom moved off Tuesday (your work shift). Have your Desmos SAT Bootcamp progress ready — it's the Medium-priority task tied to this."
+    },
+    {
+      "start": "2026-08-03T15:00:00-04:00",
+      "end": "2026-08-03T16:00:00-04:00",
+      "all_day": false,
+      "title": "Behind-the-wheel driving lesson — Newton Driving School",
+      "calendar": "Gmail/driving school",
+      "location": "Pickup: Mom requested home (45 Beethoven Ave); school default is their office — confirm which",
+      "prep": "Bring your PRINTED permit and wear closed shoes (NO flip-flops) — otherwise the lesson is canceled and you're charged a fee. Instructor: Gennadiy Shcherbakov. Only ~30 min after your SAT session ends."
+    }
+  ],
+  "tomorrow_headsup": [
+    "Tue Aug 4: Work (Snack Bar) 2:30–6:30 PM AND your Danny meeting 4:00–4:30 PM — both are on your calendar and they still overlap. That clash is yours to reconcile (I don't touch the calendar).",
+    "Tue Aug 4: 'Donna at DECA Mastermind' runs Aug 4–8 (Team 68 calendar) — FYI if you need her.",
+    "Fri Aug 7: Work 2:30–7:30 PM; the July jobs report is out that morning."
+  ],
+  "email": [
+    {
+      "thread_id": "19fbf8c981c9d495",
+      "from": "Mom ↔ Ben Sexton",
+      "subject": "This week (SAT reschedule)",
+      "bucket": "important",
+      "why": "Resolved: Ben offered 1:30 today and Mom confirmed — it's on your calendar. No action needed.",
+      "age_days": 1
+    },
+    {
+      "thread_id": "19fc3aff9bb79826",
+      "from": "Newton Driving School + Mom",
+      "subject": "Behind the Wheel Reminder",
+      "bucket": "important",
+      "why": "Today 3:00–4:00 PM. Printed permit + closed shoes required. Mom asked for a home pickup (45 Beethoven Ave); confirm the school honors it (their default is at the office).",
+      "age_days": 1
+    },
+    {
+      "thread_id": "19fc4a2053ccb80f",
+      "from": "Uber",
+      "subject": "Your Uber account phone number was updated",
+      "bucket": "important",
+      "why": "Account-change notice from Aug 2. If you didn't change your Uber phone number, secure the account.",
+      "age_days": 1
+    }
+  ],
+  "tasks": {
+    "connected": true,
+    "auth_url": null,
+    "items": [
+      {"title": "Look at open source clipping tools and set up a publishing workflow", "list": "High Priority", "due": "2026-08-01", "overdue": true, "notes": "FYI — Jad (Skool) just shared an open-source clipping repo, 'autoclip' (github.com/artbyjazi/autoclip)."},
+      {"title": "Add more videos to the assets playlist for automation", "list": "High Priority", "due": "2026-07-27", "overdue": true},
+      {"title": "Complete MA DECA involvement guide", "list": "High Priority", "due": "2026-07-04", "overdue": true},
+      {"title": "Do Desmos SAT Bootcamp through Sexton Test Prep", "list": "Medium Priority", "due": "2026-07-05", "overdue": true, "notes": "Directly tied to today's 1:30 SAT session."},
+      {"title": "Learn about succession planning for DECA", "list": "Medium Priority", "due": "2026-07-04", "overdue": true},
+      {"title": "Build the app you can send TikToks to and add the sound to a playlist", "list": "Low Priority", "due": "2026-08-01", "overdue": true},
+      {"title": "Apply to Harvard SoCo OpenBio", "list": "Low Priority", "due": "2026-07-19", "overdue": true},
+      {"title": "Make Involvement Guide automation tool", "list": "Low Priority", "due": "2026-07-04", "overdue": true},
+      {"title": "Read \"The Namesake\"", "list": "Summer Work", "due": "2026-07-19", "overdue": true},
+      {"title": "Read Chapter 1 in the AMSCO book (APUSH)", "list": "Summer Work", "due": "2026-07-17", "overdue": true},
+      {"title": "Read \"A Visit from the Goon Squad\"", "list": "Summer Work", "due": "2026-07-17", "overdue": true},
+      {"title": "Read \"Kindred\"", "list": "Summer Work", "due": "2026-07-17", "overdue": true},
+      {"title": "CS 2 Summer Work", "list": "Summer Work", "due": "2026-07-17", "overdue": true}
+    ]
+  },
+  "follow_ups": [
+    {
+      "what": "Restore/confirm Supabase EpiGuide (auto-paused Jul 18) — now past its Aug 2 target.",
+      "who": "Henry",
+      "due": "2026-08-02",
+      "age_days": 17
+    },
+    {
+      "what": "Michael Horn SEO doc action item (Playlist & SEO recommendations) — past its Aug 2 target.",
+      "who": "Henry → Michael Horn",
+      "due": "2026-08-02",
+      "age_days": 17
+    },
+    {
+      "what": "Panda Express fundraiser (approved) — follow up (past its Aug 2 target).",
+      "who": "Henry / Adam Benjamin",
+      "due": "2026-08-02",
+      "age_days": 11
+    },
+    {
+      "what": "DECA Dash 5K — chapter + Instagram promo with the officer team.",
+      "who": "Officer team (Ryan leading)",
+      "due": "2026-08-15",
+      "age_days": 17
+    },
+    {
+      "what": "RSVP to Mom's 'Kent's Place in Marion' weekend (Aug 29–30).",
+      "who": "Henry → Michelle Zisow",
+      "due": "2026-08-10",
+      "age_days": 3
+    }
+  ],
+  "news": [
+    {
+      "topic": "Business & markets",
+      "headline": "Stocks rise as Trump calls off the Iran strike — oil slides, Treasurys firm",
+      "why": "A weekend turn toward diplomacy lifted futures (S&P/Nasdaq ~+0.5%) and eased oil and yields.",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-3-dow-sp-500-nasdaq-092516872.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "Palantir reports after the bell today; SpaceX's first public quarterly is Tuesday",
+      "why": "Plus Pfizer, Amgen, McDonald's, AMD and Shopify this week — a heavy earnings slate.",
+      "url": "https://ts2.tech/en/stock-market-today-03-08-2026/",
+      "source": "TS2"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "Friday's July jobs report remains the week's main event",
+      "why": "Payrolls (seen ~+91k) will test the soft-landing narrative with 10-year yields near 4.7–4.8%.",
+      "url": "https://www.cnbc.com/2026/07/31/stock-market-next-week-outlook-for-aug-3-7-2026.html",
+      "source": "CNBC"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "California's AI-transparency law (SB 942) is now in effect",
+      "why": "Big generative-AI providers must embed content provenance, offer a detection tool, and support AI labels.",
+      "url": "https://aiweekly.co/ai-news-today",
+      "source": "AI Weekly"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "DeepSeek-V4-Flash update sharpens agentic performance (now on Ollama's cloud)",
+      "why": "Another step in fast, cheap agentic models — the kind of tooling you're building with.",
+      "url": "https://ollama.com/blog",
+      "source": "Ollama"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Researchers detail an open-source AI agent weaponized to attack 460+ systems",
+      "why": "A concrete agentic-AI security case (Unit 42) — worth knowing as you wire up automations.",
+      "url": "https://aiweekly.co/ai-news-today",
+      "source": "AI Weekly / Unit 42"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Trump calls off an Iran strike; US–Iran talks resume today",
+      "why": "He claims a Strait of Hormuz deal with denuclearization talks to follow — a possible turn in the 5-month war.",
+      "url": "https://www.cnn.com/2026/08/02/world/live-news/iran-war-trump",
+      "source": "CNN"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Washington wildfires torch hundreds of homes; parts of Spokane under evacuation",
+      "why": "Large Level-3 (leave-now) evacuation zones as fires spread in the state's east.",
+      "url": "https://www.usnews.com/news/us",
+      "source": "U.S. News"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "The latest Spider-Man scores a historic box-office opening",
+      "why": "A record weekend at the movies — a lighter note to end on.",
+      "url": "https://www.cbsnews.com/",
+      "source": "CBS News"
+    }
+  ],
+  "system_notes": [
+    "Info only (I don't edit the calendar): tomorrow's Tue Aug 4 work shift (2:30–6:30 PM) overlaps your Danny meeting (4:00–4:30 PM). Both are on your calendar; the overlap is unresolved.",
+    "Driving lesson gotchas: printed permit + closed shoes are mandatory (else canceled + fee), and confirm whether pickup is home (45 Beethoven Ave, per Mom) or at the school.",
+    "Google Tasks list is unchanged from yesterday (13 open); due dates are showing again today (they'd blanked out yesterday).",
+    "Timing check: generated 06:47 AM ET, inside the 06:25–06:55 window; delivered quietly per your setting (email + dashboard, no push)."
+  ]
+}

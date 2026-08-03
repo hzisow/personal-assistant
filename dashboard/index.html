@@ -25,7 +25,7 @@
   .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;transition:box-shadow .18s ease;} .card:hover{box-shadow:var(--hovershadow);} .card.wide{grid-column:1/-1;}
   .tl{list-style:none;margin:0;padding:0;} .tl li{display:flex;gap:14px;padding:9px 0;border-top:1px solid var(--line);} .tl li:first-child{border-top:0;padding-top:0;}
   .tl time{font:600 12.5px/1.5 ui-monospace,Menlo,Consolas,monospace;color:var(--blue);flex:none;width:104px;font-variant-numeric:tabular-nums;}
-  .tl .what strong{font-weight:700;} .tl .prep{color:var(--muted);font-size:13px;margin-top:2px;}
+  .tl .what strong{font-weight:700;} .tl .prep{color:var(--muted);font-size:13px;margin-top:2px;} .tl .prep b{color:var(--urgent);}
   .flight{background:var(--blue-soft);border-radius:14px;padding:16px 18px;} .flight .route{font-size:26px;font-weight:800;} .flight .route .arr{color:var(--blue);font-weight:400;} .flight .fmeta{color:var(--muted);font-size:13px;margin-top:4px;font-variant-numeric:tabular-nums;}
   .warn-note{color:var(--urgent);font-weight:600;font-size:13.5px;margin-top:10px;}
   .rows{list-style:none;margin:0;padding:0;} .rows li{display:flex;align-items:flex-start;gap:12px;padding:11px 0;border-top:1px solid var(--line);} .rows li:first-child{border-top:0;padding-top:0;}
@@ -45,34 +45,36 @@
 <nav>
   <div class="navin">
     <span class="brand"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="14" r="5.5" fill="currentColor"/><path d="M2 20h20M12 3v3M4.9 6.9l2.1 2.1M19.1 6.9 17 9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Morning Brief</span>
-    <div class="datepill" role="text"><span>Sun, Aug 2</span><span class="soft">Home · recovery day 🏡</span><span class="soft">☀️ 71°</span></div>
+    <div class="datepill" role="text"><span>Mon, Aug 3</span><span class="soft">SAT + driving lesson 🚗</span><span class="soft">🌧️ 73°</span></div>
     <div class="avatar" aria-hidden="true">H</div>
   </div>
 </nav>
 <div class="wrap">
   <h1 class="hello">Good morning, Henry</h1>
-  <p class="sub">Nothing's on your calendar today — first full day home, so rest up and beat the jet lag. The one thing worth knowing: your week firmed up overnight, and there's a Tuesday clash to sort.</p>
+  <p class="sub">Two appointments today — your rescheduled <b>SAT session with Ben at 1:30</b>, then a <b>driving lesson at 3:00</b>. Bring your printed permit and closed shoes or they'll cancel and charge you. It's a rainy one, and tomorrow's work shift still overlaps your Danny meeting.</p>
   <div class="stats">
-    <span class="stat"><span class="d"></span>🏡 Nothing scheduled today</span>
-    <span class="stat warn"><span class="d"></span>Tue: shift 2:30–6:30 vs 4 PM meeting</span>
-    <span class="stat"><span class="d"></span>SAT moving (Mom ↔ Ben)</span>
-    <span class="stat"><span class="d"></span>Sunny, <span class="num">71°</span></span>
+    <span class="stat"><span class="d"></span>📝 SAT w/ Ben 1:30</span>
+    <span class="stat warn"><span class="d"></span>🚗 Driving 3:00 — permit + shoes!</span>
+    <span class="stat warn"><span class="d"></span>Tue: shift 2:30 vs 4 PM meeting</span>
+    <span class="stat"><span class="d"></span>Light rain, <span class="num">73°</span></span>
   </div>
 
   <h2>Today</h2>
   <div class="cards">
     <section class="card wide">
-      <div style="display:flex;align-items:center;gap:12px;"><span class="ic">🏡</span><div><div class="from" style="font-weight:600;">Nothing on the calendar</div><div class="why" style="color:var(--muted);font-size:13px;">First full day home — take it easy and let the jet lag settle.</div></div></div>
+      <ul class="tl">
+        <li><time>1:30–2:30 PM</time><div class="what"><strong>SAT session with Ben Sexton</strong> · <a class="alink" href="https://meet.google.com/ouj-adum-hvw">Google Meet</a><div class="prep">The one Mom moved off Tuesday. Have your Desmos SAT Bootcamp progress handy.</div></div></li>
+        <li><time>3:00–4:00 PM</time><div class="what"><strong>Behind-the-wheel driving lesson</strong> — Newton Driving School (instructor Gennadiy)<div class="prep"><b>Printed permit + closed shoes required</b> — no permit or flip-flops = canceled + fee. Pickup: Mom asked for home (45 Beethoven Ave); the school's default is their office — confirm which.</div></div></li>
+      </ul>
     </section>
   </div>
 
-  <h2>The week taking shape</h2>
+  <h2>Tomorrow (Tue Aug 4)</h2>
   <div class="cards">
     <section class="card wide">
       <ul class="tl">
-        <li><time>Mon 8/3</time><div class="what">Clear so far — Mom asked Ben for a SAT slot <b>before 3 or after 5</b>, so one may land.</div></li>
-        <li><time>Tue 8/4</time><div class="what"><strong style="color:var(--urgent);">Snack Bar shift 2:30–6:30 PM overlaps your 4:00 PM Danny meeting</strong><div class="prep">Something has to give — that overlap is yours to reconcile (I don't touch your calendar).</div></div></li>
-        <li><time>Fri 8/7</time><div class="what">Snack Bar shift <b>2:30–7:30 PM</b>. <span style="color:var(--muted);">(July jobs report that morning.)</span></div></li>
+        <li><time>2:30–6:30 PM</time><div class="what"><strong style="color:var(--urgent);">Work (Snack Bar) overlaps your 4:00–4:30 PM Danny meeting</strong><div class="prep">Both are on your calendar and still clash — something has to give (yours to reconcile; I don't touch the calendar).</div></div></li>
+        <li><time>Aug 4–8</time><div class="what">Donna at DECA Mastermind <span style="color:var(--muted);">— FYI if you need her (Team 68).</span></div></li>
       </ul>
     </section>
   </div>
@@ -81,15 +83,16 @@
   <div class="cards">
     <section class="card wide">
       <ul class="rows">
-        <li><span class="ic">✉</span><div><div class="from">Mom → Ben (SAT tutor) — "This week"</div><div class="why">You got scheduled to work during Tuesday's session, so she's moving it — proposed Monday before 3 or after 5. Waiting on Ben; no action needed unless you want to weigh in.</div></div><a class="alink" style="margin-left:auto;font-size:12.5px;white-space:nowrap;align-self:center;" href="https://mail.google.com/mail/u/0/#all/19fbf8c981c9d495">Open ›</a></li>
-        <li><span class="ic">🗓</span><div><div class="from">Work schedule (When I Work)</div><div class="why">Tue Aug 4 2:30–6:30 PM · Fri Aug 7 2:30–7:30 PM — both Snack Bar.</div></div><a class="alink" style="margin-left:auto;font-size:12.5px;white-space:nowrap;align-self:center;" href="https://mail.google.com/mail/u/0/#all/19fbf7fb1600a21c">Open ›</a></li>
-        <li><span class="ic">📬</span><div><div class="from">Otherwise quiet</div><div class="why">The rest is college mail &amp; promos — nothing needs a reply.</div></div></li>
+        <li><span class="ic">✅</span><div><div class="from">SAT reschedule — resolved</div><div class="why">Ben offered 1:30 today, Mom confirmed; it's on your calendar.</div></div></li>
+        <li><span class="ic u">🚗</span><div><div class="from">Driving lesson today, 3:00 PM</div><div class="why">Printed permit + closed shoes. Confirm pickup: home (45 Beethoven Ave, per Mom) vs the school.</div></div><a class="alink" style="margin-left:auto;font-size:12.5px;white-space:nowrap;align-self:center;" href="https://mail.google.com/mail/u/0/#all/19fc3aff9bb79826">Open ›</a></li>
+        <li><span class="ic">🔐</span><div><div class="from">Uber: account phone number changed</div><div class="why">From Aug 2. If that wasn't you, secure the account.</div></div><a class="alink" style="margin-left:auto;font-size:12.5px;white-space:nowrap;align-self:center;" href="https://mail.google.com/mail/u/0/#all/19fc4a2053ccb80f">Open ›</a></li>
+        <li><span class="ic">✂️</span><div><div class="from">Skool: Jad shared an open-source clipping repo</div><div class="why">"autoclip" — handy for your High-priority clipping-tools task.</div></div></li>
       </ul>
     </section>
   </div>
 
   <h2>Tasks <span style="font-weight:400;color:var(--faint);font-size:14px;">· Google Tasks ✓ · 13 open</span></h2>
-  <p class="sub" style="font-size:13.5px;margin:-4px 0 14px;">Nice — "Add Alvin's videos to BFF Online" is done since yesterday. No due dates set right now.</p>
+  <p class="sub" style="font-size:13.5px;margin:-4px 0 14px;">Mostly pre-Oxford backlog. The SAT Bootcamp task ties to today's session.</p>
   <div class="cards">
     <section class="card">
       <div class="topic" style="margin-bottom:12px;">High priority</div>
@@ -102,7 +105,7 @@
     <section class="card">
       <div class="topic" style="margin-bottom:12px;">Medium priority</div>
       <ul class="tasklist">
-        <li>Desmos SAT Bootcamp (Sexton Test Prep)</li>
+        <li>Desmos SAT Bootcamp (Sexton) — today's session</li>
         <li>Learn DECA succession planning</li>
       </ul>
     </section>
@@ -130,10 +133,9 @@
   <div class="cards">
     <section class="card wide">
       <ul class="fu">
-        <li><span>Restore/confirm EpiGuide</span><span class="due soon">today</span></li>
-        <li><span>Michael Horn's SEO doc</span><span class="due soon">today</span></li>
-        <li><span>Panda Express fundraiser follow-up</span><span class="due soon">today</span></li>
-        <li><span>SAT with Ben — Mom rescheduling</span><span class="due">this week</span></li>
+        <li><span>Restore/confirm EpiGuide</span><span class="due soon">overdue</span></li>
+        <li><span>Michael Horn's SEO doc</span><span class="due soon">overdue</span></li>
+        <li><span>Panda Express fundraiser follow-up</span><span class="due soon">overdue</span></li>
         <li><span>DECA Dash 5K — chapter + Instagram promo</span><span class="due">Aug 15</span></li>
         <li><span>RSVP Mom's Kent's Place weekend</span><span class="due">Aug 29–30</span></li>
       </ul>
@@ -147,30 +149,30 @@
         <div>
           <div class="topic">Business &amp; markets</div>
           <ul class="news">
-            <li><a class="alink" href="https://www.cnbc.com/2026/07/31/stock-market-next-week-outlook-for-aug-3-7-2026.html">Jobs report headlines the week (Fri)</a><div class="why">July payrolls seen ~+91k, unemployment ~4.3%.</div></li>
-            <li><a class="alink" href="https://www.ig.com/en/news-and-trade-ideas/weekly-market-navigator-3-aug-2026-260803">Huge earnings week + SpaceX's first report</a><div class="why">Lilly, AMD, McDonald's, Disney, Costco, Palantir.</div></li>
-            <li><a class="alink" href="https://www.theglobeandmail.com/investing/article-wall-streets-week-ahead-teetering-us-stock-market-faces-jobs-report/">Earnings season running strong</a><div class="why">85% of S&amp;P 500 reporters have beaten.</div></li>
+            <li><a class="alink" href="https://finance.yahoo.com/markets/live/stock-market-today-monday-august-3-dow-sp-500-nasdaq-092516872.html">Stocks rise as Trump calls off the Iran strike</a><div class="why">Oil slides, Treasurys firm; futures ~+0.5%.</div></li>
+            <li><a class="alink" href="https://ts2.tech/en/stock-market-today-03-08-2026/">Palantir reports today; SpaceX's first quarterly is Tuesday</a><div class="why">Plus Pfizer, Amgen, McDonald's, AMD, Shopify this week.</div></li>
+            <li><a class="alink" href="https://www.cnbc.com/2026/07/31/stock-market-next-week-outlook-for-aug-3-7-2026.html">Friday's July jobs report is the week's main event</a><div class="why">Payrolls seen ~+91k; yields near 4.7–4.8%.</div></li>
           </ul>
         </div>
         <div>
           <div class="topic">Tech &amp; AI</div>
           <ul class="news">
-            <li><a class="alink" href="https://aiweekly.co/ai-news-today">California's AI-transparency law takes effect today</a><div class="why">Provenance + labels for big AI providers (SB 942).</div></li>
-            <li><a class="alink" href="https://techcrunch.com/category/artificial-intelligence/">Google cancels its AI Studio app</a><div class="why">Features fold into Gemini despite ~800k preorders.</div></li>
-            <li><a class="alink" href="https://aiweekly.co/ai-news-today">Open-source AI agent weaponized to hit 460+ systems</a><div class="why">A real-world agentic-AI security case (Unit 42).</div></li>
+            <li><a class="alink" href="https://aiweekly.co/ai-news-today">California's AI-transparency law (SB 942) now in effect</a><div class="why">Provenance + labels for big AI providers.</div></li>
+            <li><a class="alink" href="https://ollama.com/blog">DeepSeek-V4-Flash update sharpens agentic performance</a><div class="why">Now on Ollama's cloud — the tooling you build with.</div></li>
+            <li><a class="alink" href="https://aiweekly.co/ai-news-today">Open-source AI agent weaponized to hit 460+ systems</a><div class="why">A concrete agentic-AI security case (Unit 42).</div></li>
           </ul>
         </div>
         <div>
           <div class="topic">US &amp; world</div>
           <ul class="news">
-            <li><a class="alink" href="https://www.cnn.com/world">UK PM Keir Starmer resigns</a><div class="why">A major shake-up in British politics.</div></li>
-            <li><a class="alink" href="https://www.cbsnews.com/">State Dept warns US citizens in the Middle East</a><div class="why">Travel-safety alert amid US–Iran tensions.</div></li>
-            <li><a class="alink" href="https://www.nbcnews.com/business">The Fed holds interest rates steady again</a><div class="why">Borrowing and mortgage costs stay elevated.</div></li>
+            <li><a class="alink" href="https://www.cnn.com/2026/08/02/world/live-news/iran-war-trump">Trump calls off an Iran strike; talks resume today</a><div class="why">Claims a Strait of Hormuz deal, denuclearization talks to follow.</div></li>
+            <li><a class="alink" href="https://www.usnews.com/news/us">Washington wildfires torch hundreds of homes</a><div class="why">Parts of Spokane under Level-3 evacuation.</div></li>
+            <li><a class="alink" href="https://www.cbsnews.com/">Latest Spider-Man scores a historic opening</a><div class="why">A record weekend at the box office.</div></li>
           </ul>
         </div>
       </div>
     </section>
   </div>
 
-  <footer>Welcome to your first day home, Henry — enjoy the quiet. Delivered by email + dashboard; reply to the email to change anything. Generated 6:47 AM ET.</footer>
+  <footer>Good luck on the SAT session and drive safe in the rain, Henry. Delivered by email + dashboard; reply to the email to change anything. Generated 6:47 AM ET.</footer>
 </div>
