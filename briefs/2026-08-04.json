@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-04",
+  "generated_at": "2026-08-04T06:47:00-04:00",
+  "headline": "Nice — you already cleared today's clash: the Danny meeting moved to 7:15 PM, after your 2:30–6:30 work shift. Two things worth acting on this week: Supabase says EpiGuide is about to be paused again (a quick login keeps it alive), and LEVRA (Oxford) needs your 4 modules done by Fri Aug 14 for the Human Skills certificate.",
+  "weather": {
+    "location": "Newton/Boston, MA",
+    "current_f": 62,
+    "condition": "Sunny & cool"
+  },
+  "schedule": [
+    {
+      "start": "2026-08-04T14:30:00-04:00",
+      "end": "2026-08-04T18:30:00-04:00",
+      "all_day": false,
+      "title": "Work — Snack Bar (Braeburn CC)",
+      "calendar": "Personal",
+      "location": null,
+      "prep": null
+    },
+    {
+      "start": "2026-08-04T19:15:00-04:00",
+      "end": "2026-08-04T19:45:00-04:00",
+      "all_day": false,
+      "title": "Henry & Danny meeting",
+      "calendar": "Personal",
+      "location": "Google Meet (meet.google.com/rmn-ahth-wnz)",
+      "prep": "You moved this from 4:00 to 7:15 PM to clear the shift — good call. Danny hasn't re-accepted the new time yet, so a quick 'moved to 7:15' text wouldn't hurt."
+    }
+  ],
+  "tomorrow_headsup": [
+    "Wed Aug 5: nothing on the calendar so far.",
+    "Donna at DECA Mastermind runs through Aug 8 (Team 68) — FYI if you need her.",
+    "Fri Aug 7: Work 2:30–7:30 PM; the July jobs report is out that morning."
+  ],
+  "email": [
+    {
+      "thread_id": "19fcb110ea65f8d6",
+      "from": "Supabase (Ant Wilson)",
+      "subject": "Your Supabase project EpiGuide is going to be paused",
+      "bucket": "important",
+      "why": "EpiGuide (org 'Vibecoding Projects') was flagged for >7 days of inactivity and will auto-pause soon. It's NOT paused yet — a login/any activity keeps it alive (or upgrade to Pro). After a pause you have 90 days to unpause. Dashboard: supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu",
+      "age_days": 0
+    },
+    {
+      "thread_id": "19fcbf7f11920942",
+      "from": "LEVRA (Emily Gill) — Oxford program",
+      "subject": "Human Skills Certification",
+      "bucket": "important",
+      "why": "Complete your 4 LEVRA modules by Fri Aug 14 to earn the 'Introduction to Human Skills' certificate (add to LinkedIn/resume). You already have a 'Do LEVRA' task up top. They also invited a short reflection to be featured as a 'LEVRA Future Leader.'",
+      "age_days": 0
+    }
+  ],
+  "tasks": {
+    "connected": true,
+    "auth_url": null,
+    "items": [
+      {"title": "Bluebook Test 8 or 10", "list": "High Priority", "due": null, "overdue": false, "notes": "New — digital SAT practice test; pairs with your Ben/Desmos prep."},
+      {"title": "Do LEVRA", "list": "High Priority", "due": null, "overdue": false, "notes": "The 4 Oxford modules — cert deadline Fri Aug 14."},
+      {"title": "Complete MA DECA involvement guide", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do Desmos SAT Bootcamp through Sexton Test Prep", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Learn about succession planning for DECA", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Build the app you can send TikToks to and add the sound to a playlist", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Apply to Harvard SoCo OpenBio", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Make Involvement Guide automation tool", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Read \"The Namesake\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read Chapter 1 in the AMSCO book (APUSH)", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"A Visit from the Goon Squad\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"Kindred\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "CS 2 Summer Work", "list": "Summer Work", "due": null, "overdue": false}
+    ]
+  },
+  "follow_ups": [
+    {
+      "what": "Keep Supabase EpiGuide alive — it's flagged for >7 days inactivity and will auto-pause soon. Log in / add activity, or upgrade to Pro. Dashboard: supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu",
+      "who": "Henry",
+      "due": "2026-08-06",
+      "age_days": 18
+    },
+    {
+      "what": "Complete the 4 LEVRA modules by Fri Aug 14 for the Oxford 'Human Skills' certificate (you have a 'Do LEVRA' task).",
+      "who": "Henry → LEVRA",
+      "due": "2026-08-14",
+      "age_days": 0
+    },
+    {
+      "what": "Michael Horn SEO doc action item (Playlist & SEO recommendations) — past its Aug 2 target.",
+      "who": "Henry → Michael Horn",
+      "due": "2026-08-02",
+      "age_days": 18
+    },
+    {
+      "what": "Panda Express fundraiser (approved) — follow up (past its Aug 2 target).",
+      "who": "Henry / Adam Benjamin",
+      "due": "2026-08-02",
+      "age_days": 12
+    },
+    {
+      "what": "DECA Dash 5K — chapter + Instagram promo with the officer team.",
+      "who": "Officer team (Ryan leading)",
+      "due": "2026-08-15",
+      "age_days": 18
+    },
+    {
+      "what": "RSVP to Mom's 'Kent's Place in Marion' weekend (Aug 29–30).",
+      "who": "Henry → Michelle Zisow",
+      "due": "2026-08-10",
+      "age_days": 4
+    }
+  ],
+  "news": [
+    {
+      "topic": "Business & markets",
+      "headline": "Palantir soars ~17% after blowout results",
+      "why": "US commercial + government revenue surged (gov commercial +90% YoY); it's dragging the AI trade higher.",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-4-dow-sp-500-nasdaq-100140227.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "Heavy earnings today: AMD, Caterpillar, McDonald's, Spotify — plus SpaceX's first public quarterly",
+      "why": "A big afternoon for results; SpaceX reports for the first time since its IPO.",
+      "url": "https://www.benzinga.com/markets/equities/26/08/60897120/stock-market-today-sp-500-dow-and-nasdaq-futures-rise-after-strong-monday-gains-mcdonalds-amd-palantir-in-focus",
+      "source": "Benzinga"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "Friday's July jobs report is still the week's macro anchor",
+      "why": "Payrolls (seen ~+91k) will shape rate expectations after a strong earnings run.",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262067492-august-3-7-2026-preview-palantir-amd-sandisk-earnings-nfarm-payrolls-tradingkey",
+      "source": "TradingKey"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Europe's AI-transparency rules switch on — AI must identify itself to users",
+      "why": "The first continent-wide requirement that AI systems disclose they're AI in conversations.",
+      "url": "https://www.artificialintelligence-news.com/",
+      "source": "AI News"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Humanoid robots hit warehouses at scale",
+      "why": "Figure, Tesla's Optimus and Boston Dynamics have thousands of general-purpose robots in commercial use — the 'physical AI' shift.",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "source": "ScienceDaily"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "AI model releases hit a record pace",
+      "why": "337+ model launches tracked across major labs this year — capability is compounding fast.",
+      "url": "https://llm-stats.com/llm-updates",
+      "source": "LLM-Stats"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "US–Iran talks on a knife's edge — Trump calls it Tehran's 'last chance'",
+      "why": "Iran denies talks resumed even as negotiators may sit down within days; the 5-month war's outcome is unsettled.",
+      "url": "https://www.cnn.com/2026/08/04/world/live-news/iran-war-trump",
+      "source": "CNN"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "A cargo vessel is struck in the Strait of Hormuz",
+      "why": "An unknown projectile hit a ship in the key oil chokepoint this morning, nudging crude prices.",
+      "url": "https://www.cnn.com/2026/08/04/world/live-news/iran-war-trump",
+      "source": "CNN"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Washington wildfires are still burning — hundreds of homes lost",
+      "why": "Large evacuation zones remain around Spokane as crews battle the fires.",
+      "url": "https://www.usnews.com/news/us",
+      "source": "U.S. News"
+    }
+  ],
+  "system_notes": [
+    "You resolved yesterday's flagged conflict yourself — the Danny meeting moved to 7:15 PM. Only loose end: Danny hasn't re-accepted the new time on the invite.",
+    "EpiGuide isn't paused yet — Supabase auto-pauses after >7 days of inactivity, so a login/any activity (or a Pro upgrade) keeps it alive; you get 90 days to unpause if it does pause.",
+    "Google Tasks: your High-priority list changed (added 'Bluebook Test 8 or 10' and 'Do LEVRA'; the clipping-tools/assets-playlist items are gone). 13 open total.",
+    "Timing check: generated 06:47 AM ET, inside the window; delivered quietly (email + dashboard, no push)."
+  ]
+}

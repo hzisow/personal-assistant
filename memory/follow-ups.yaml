@@ -3,12 +3,17 @@
 # moves them to resolved when done — explaining every change in the brief.
 
 open:
-  - what: "Restore/confirm Supabase EpiGuide (auto-paused Jul 18 for inactivity; Henry flagged it important)"
+  - what: "Keep Supabase EpiGuide alive — flagged AGAIN for >7 days inactivity (Aug 4); will auto-pause soon. Log in / add any activity, or upgrade to Pro. Dashboard: supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu"
     who: "Henry"
-    due: 2026-08-02
-    source: "Supabase pause notice, Jul 18"
+    due: 2026-08-06
+    source: "Supabase pause warnings Jul 18 + Aug 4 (project id lpgrbpblbtpyigzsrhgu, org 'Vibecoding Projects')"
     first_seen: 2026-07-17
-    note: "Repeated EpiGuide sign-ins through late Jul suggest it may already be handled — confirm and close."
+    note: "Not paused yet as of Aug 4; a login/any activity resets the 7-day timer. 90-day window to unpause if it does pause."
+  - what: "Complete the 4 LEVRA modules by Fri Aug 14 for the Oxford 'Introduction to Human Skills' certificate (Henry has a 'Do LEVRA' High-priority Google Task). Optional: send a reflection to be featured as a 'LEVRA Future Leader.'"
+    who: "Henry → LEVRA (emily@levra.me / gayeon@levra.me)"
+    due: 2026-08-14
+    source: "LEVRA email 'Human Skills Certification', Aug 4"
+    first_seen: 2026-08-04
   - what: "Michael Horn SEO doc action item (Playlist & SEO Recommendations) — overlaps the 'assets playlist' Google Task and the SEO research from the Jul 9 Danny/Michael Horn meeting"
     who: "Henry → Michael Horn"
     due: 2026-08-02
@@ -35,7 +40,7 @@ open:
 travel:
   - "Home as of Sat Aug 1: DL 59 landed BOS ~12:19 PM ET, then straight to Jonathan & Holly's wedding. Oxford Saïd programme finished (graduation Jul 31)."
   - "Back on Eastern time — brief times are ET going forward. Sun Aug 2 is a settle-in day with nothing scheduled; watch for jet lag."
-  - "Work: Braeburn Country Club Snack Bar. Shifts — Tue Aug 4 2:30–6:30 PM, Fri Aug 7 2:30–7:30 PM (Henry added both to his Google Calendar). NOTE: the Tue shift overlaps the 4:00–4:30 PM Danny meeting — both on the calendar, still unresolved as of Aug 3. Surface as info only; the assistant never edits the calendar."
+  - "Work: Braeburn Country Club Snack Bar. Shifts — Tue Aug 4 2:30–6:30 PM, Fri Aug 7 2:30–7:30 PM. RESOLVED Aug 3 eve: Henry moved the Danny meeting to Tue Aug 4 7:15–7:45 PM (after the shift), clearing the overlap himself. Assistant never edits the calendar."
   - "Recurring: behind-the-wheel driving lessons via Newton Driving School (Label_15). Requires a PRINTED permit + closed shoes or the lesson is canceled + fee; pickup-location changes need 24h email notice to newtondrivingschool@gmail.com. Aug 3 lesson was 3:00–4:00 PM."
 
 resolved:
