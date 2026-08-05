@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-05",
+  "generated_at": "2026-08-05T06:47:00-04:00",
+  "headline": "Clear calendar today — a full runway for the backlog, and you've already made the call on where it goes: 'DO MICHAEL HORN WORK' is now your #1 task, and right on cue Danny left comments on the Playlist & SEO doc last night (rework section 5; clarify which clips are actually YouTube). Still worth clearing this week: keep EpiGuide alive and finish the 4 LEVRA modules by Fri Aug 14.",
+  "weather": {
+    "location": "Newton/Boston, MA",
+    "current_f": 63,
+    "condition": "Sunny & cool (hazy AM)"
+  },
+  "schedule": [],
+  "tomorrow_headsup": [
+    "Thu Aug 6: nothing on the calendar yet.",
+    "Fri Aug 7: Work 2:30–7:30 PM (Snack Bar, Braeburn CC); the July jobs report lands that morning.",
+    "Donna at the DECA Mastermind runs through Aug 8 (Team 68) — FYI if you need her."
+  ],
+  "email": [
+    {
+      "thread_id": "19fcee0bad6eea92",
+      "from": "Danny Curtis (Google Docs)",
+      "subject": "Comments on \"Playlist and SEO Recommendations\"",
+      "bucket": "important",
+      "why": "Danny left two comments last night (5:45 & 6:19 PM) on the Playlist & SEO doc. Section '5. Education Policy, Choice & the Business of EdTech' — \"Let's find a new way to break this up.\" And on 'Video Separation Recommendations' — \"Are all of these YouTube videos or are some...\" (clarify the source of each clip). This is exactly the Michael Horn SEO work you just made your #1 task.",
+      "age_days": 0
+    },
+    {
+      "thread_id": "19fcc70129256001",
+      "from": "DECA Direct Weekly",
+      "subject": "Back-to-school chapter resources + 2026–27 calendar",
+      "bucket": "fyi",
+      "why": "Newsletter — back-to-school resources and the new program-year calendar. No action; useful when you plan the chapter year with the officer team.",
+      "age_days": 1
+    }
+  ],
+  "tasks": {
+    "connected": true,
+    "auth_url": null,
+    "items": [
+      {"title": "DO MICHAEL HORN WORK", "list": "High Priority", "due": null, "overdue": false, "notes": "New — you put it at #1. Danny's fresh doc comments give you the exact next steps: rework section 5, clarify which clips are YouTube."},
+      {"title": "Bluebook Test 8 or 10", "list": "High Priority", "due": null, "overdue": false, "notes": "Digital SAT practice test; pairs with your Ben/Desmos prep."},
+      {"title": "Rebuild resume in Google Docs", "list": "High Priority", "due": null, "overdue": false, "notes": "New."},
+      {"title": "Complete MA DECA involvement guide", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do Desmos SAT Bootcamp through Sexton Test Prep", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Learn about succession planning for DECA", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Build the app you can send TikToks to and add the sound to a playlist", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Apply to Harvard SoCo OpenBio", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Make Involvement Guide automation tool", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Read \"The Namesake\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read Chapter 1 in the AMSCO book (APUSH)", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"A Visit from the Goon Squad\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"Kindred\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "CS 2 Summer Work", "list": "Summer Work", "due": null, "overdue": false}
+    ]
+  },
+  "follow_ups": [
+    {
+      "what": "Michael Horn / Playlist & SEO doc — Danny left new comments Aug 4 (rework section 5; clarify which clips are YouTube). Now your #1 Google Task ('DO MICHAEL HORN WORK'). Doc: docs.google.com/document/d/1QnSuI2vozYGoXVbPK-00vibNzzQORBA5c8aS9ozUyi4",
+      "who": "Henry → Michael Horn / Danny",
+      "due": "2026-08-05",
+      "age_days": 19
+    },
+    {
+      "what": "Keep Supabase EpiGuide alive — flagged for >7 days inactivity and will auto-pause soon. Log in / add activity, or upgrade to Pro. Dashboard: supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu",
+      "who": "Henry",
+      "due": "2026-08-06",
+      "age_days": 19
+    },
+    {
+      "what": "Complete the 4 LEVRA modules by Fri Aug 14 for the Oxford 'Human Skills' certificate. (Heads-up: the 'Do LEVRA' High-priority task dropped off your list today — the Aug 14 deadline still stands regardless.)",
+      "who": "Henry → LEVRA",
+      "due": "2026-08-14",
+      "age_days": 1
+    },
+    {
+      "what": "Panda Express fundraiser (approved) — follow up (past its Aug 2 target).",
+      "who": "Henry / Adam Benjamin",
+      "due": "2026-08-02",
+      "age_days": 13
+    },
+    {
+      "what": "DECA Dash 5K — chapter + Instagram promo with the officer team.",
+      "who": "Officer team (Ryan leading)",
+      "due": "2026-08-15",
+      "age_days": 19
+    },
+    {
+      "what": "RSVP to Mom's 'Kent's Place in Marion' weekend (Aug 29–30).",
+      "who": "Henry → Michelle Zisow",
+      "due": "2026-08-10",
+      "age_days": 5
+    }
+  ],
+  "news": [
+    {
+      "topic": "Business & markets",
+      "headline": "Wall Street closed at record highs Tuesday",
+      "why": "S&P 500 +1.8% to 7,736.52, Nasdaq +2.59% to 26,584.99, Dow +907 to 54,085.88 — the rally rolled on after strong earnings.",
+      "url": "https://www.cnbc.com/2026/08/04/stock-market-today-live-updates.html",
+      "source": "CNBC"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "Big earnings morning + JOLTS at 10am ET",
+      "why": "Disney, Uber, Eli Lilly, Novo Nordisk and Shopify report before the bell; the JOLTS job-openings print is the data to watch.",
+      "url": "https://www.cnbc.com/2026/08/05/stock-market-today-live-updates.html",
+      "source": "CNBC"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "Friday's July jobs report is the week's anchor",
+      "why": "Payrolls will set the tone for rate expectations after the record run; Caterpillar just topped $20B quarterly revenue.",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262067492-august-3-7-2026-preview-palantir-amd-sandisk-earnings-nfarm-payrolls-tradingkey",
+      "source": "TradingKey"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "OpenAI ships GPT-5.5 and slashes GPT-5.6 'Luna' pricing ~80%",
+      "why": "A fresh model plus a steep price cut; OpenAI also says ChatGPT is nearing ~1B weekly users.",
+      "url": "https://openai.com/blog",
+      "source": "OpenAI"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "9th Circuit clears Perplexity's 'Comet' shopping agent to use Amazon",
+      "why": "A notable win for AI agents acting on users' behalf on sites that tried to block them.",
+      "url": "https://www.reuters.com/legal/",
+      "source": "Reuters"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Rust project publishes an LLM contribution policy: 'assist, don't create'",
+      "why": "Maintainers set guardrails for AI-generated PRs — part of a wider open-source reckoning with AI contributions.",
+      "url": "https://blog.rust-lang.org/",
+      "source": "Rust Blog"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Russian strikes on Kyiv kill 17 overnight",
+      "why": "A large aerial barrage hit the capital, wounding 44 more — one of the deadlier nights in weeks.",
+      "url": "https://www.cnn.com/world",
+      "source": "CNN"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Spokane wildfires: a suspect arrested; ~1/4 of the city displaced",
+      "why": "Three fires, hundreds of homes threatened; police charged a suspect in one of them.",
+      "url": "https://www.usnews.com/news/us",
+      "source": "U.S. News"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Michigan Democratic Senate primary too close to call",
+      "why": "Abdul El-Sayed leads by ~2 points with four of five counties reporting — a bellwether for the party's 2026 direction.",
+      "url": "https://www.politico.com/",
+      "source": "Politico"
+    }
+  ],
+  "system_notes": [
+    "Calendar is clear today and tomorrow (Aug 6). Team 68 shows Donna at the DECA Mastermind through Aug 8. Next commitment on the books is Fri Aug 7 work (2:30–7:30 PM).",
+    "Google Tasks: High list changed again — 'DO MICHAEL HORN WORK' (new, now #1) and 'Rebuild resume in Google Docs' (new) were added; 'Do LEVRA' dropped off. Don't assume LEVRA is done — the Aug 14 cert deadline stands either way. 14 open total.",
+    "Danny Curtis commented on the Playlist & SEO doc last night — the actionable next steps for your #1 task. Read-only; the assistant didn't touch the doc.",
+    "Timing check: generated ~06:47 AM ET, inside the 6:25–6:55 window; delivered quietly (email + dashboard, no push)."
+  ]
+}
