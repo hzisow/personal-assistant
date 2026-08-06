@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-06",
+  "generated_at": "2026-08-06T06:48:00-04:00",
+  "headline": "Two decisions today. At 2:30 PM you meet Brett to lock next year's schedule — come ready on the science slot (his steer: advanced physics next year so AP Bio stays open for senior year). Watch the invite: there are TWO calendar entries for it — Brett's official one is Zoom, Mom added a Google Meet duplicate; default to Brett's Zoom. Separately, Danny proposed meeting today 11:00–11:30 AM (he replied 'Maybe' to the old slot) — it's not confirmed on your calendar, so reply if it works. Otherwise the Michael Horn / SEO work is still your #1. Overcast and muggy, ~73°.",
+  "weather": {
+    "location": "Newton/Boston, MA",
+    "current_f": 73,
+    "condition": "Overcast & muggy"
+  },
+  "schedule": [
+    {
+      "start": "2026-08-06T14:30:00-04:00",
+      "end": "2026-08-06T15:30:00-04:00",
+      "all_day": false,
+      "title": "Henry & Brett (college counseling)",
+      "calendar": "Personal",
+      "location": "Zoom — Brett's invite. NOTE: Mom added a second entry ('H Meeting w Brett') with a Google Meet link (meet.google.com/qfu-ynmh-erp). Brett is the host, so his Zoom link is almost certainly the one — confirm if unsure.",
+      "prep": "This is the 'Schedule for Next Year' conversation. Brett's strong preference is a core science next year — he floated advanced physics next year so you can take AP Bio senior year (your worry was not maxing your school's APs). Statistics is the alternative if you skip science this year. Come ready to decide the science slot."
+    }
+  ],
+  "tomorrow_headsup": [
+    "Thu 11:00–11:30 AM (PROPOSED, today): Danny proposed this time to meet — not confirmed on your calendar yet.",
+    "Fri Aug 7, 11:00 AM–1:00 PM: Driving lesson (Newton Driving School) — bring your PRINTED permit + closed shoes or it's canceled + fee.",
+    "Fri Aug 7, 2:30–6:30 PM: Work (Snack Bar, Braeburn CC). 'Wash uniform' is on your High list — do it before then. (Weekly jobless claims / Fed watch that morning.)"
+  ],
+  "email": [
+    {
+      "thread_id": "19fcfe7abf723936",
+      "from": "Brett Fuller (Spark Admissions)",
+      "subject": "Re: Schedule for Next Year",
+      "bucket": "important",
+      "why": "The live thread behind today's 2:30 meeting. You're deciding next year's science: Brett strongly prefers a core science and suggests advanced physics next year → AP Bio senior year (vs. statistics or no science). Have your take ready.",
+      "age_days": 1
+    },
+    {
+      "thread_id": "19fd1cf3f0756def",
+      "from": "Danny Curtis",
+      "subject": "Proposed new time: Henry & Danny Meeting — Thu Aug 6, 11:00–11:30 AM",
+      "bucket": "important",
+      "why": "Danny replied 'Maybe' to the old 7:15 PM slot and proposed TODAY 11:00–11:30 AM instead. It's a proposal, not a confirmed event — reply if it works. Ties into the SEO-doc comments he left (your #1 task).",
+      "age_days": 1
+    },
+    {
+      "thread_id": "19fd40082a8e0872",
+      "from": "Ben (Sexton Test Prep)",
+      "subject": "SAT New QBank Questions",
+      "bucket": "important",
+      "why": "Ben sent fresh SAT QBank questions (Math + Reading/Writing, sorted by domain & difficulty; answers at the end). Sift the hard ones before Sunday's lesson — your SAT is Sat Aug 22.",
+      "age_days": 1
+    },
+    {
+      "thread_id": "19fd39ff09c54baf",
+      "from": "Mom (Michelle) ↔ Ben",
+      "subject": "Henry Zisow lessons",
+      "bucket": "fyi",
+      "why": "Mom is lining up SAT lessons before the Aug 22 test (next two Sundays already booked; asked Ben about adding sessions). Ben: he'll talk it through with you Sunday. Mostly handled — just be ready to discuss.",
+      "age_days": 1
+    },
+    {
+      "thread_id": "19fcee0bad6eea92",
+      "from": "Danny Curtis (Google Docs)",
+      "subject": "Comments on \"Playlist and SEO Recommendations\"",
+      "bucket": "important",
+      "why": "Carryover: Danny's Aug 4 comments — rework section 5 ('Education Policy, Choice & the Business of EdTech') and clarify which clips are YouTube. This is your #1 Google Task ('DO MICHAEL HORN WORK'), and now he wants to meet today.",
+      "age_days": 2
+    },
+    {
+      "thread_id": "19fcb110ea65f8d6",
+      "from": "Supabase (Ant Wilson)",
+      "subject": "EpiGuide about to be paused",
+      "bucket": "important",
+      "why": "Carryover, due today: EpiGuide flagged for >7 days inactivity. A quick login / any activity keeps it alive (or upgrade to Pro); 90 days to unpause if it does pause. Dashboard: supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu",
+      "age_days": 2
+    },
+    {
+      "thread_id": "19fd689849ece534",
+      "from": "Fidelity",
+      "subject": "Trade confirmation (bought Fidelity US Bond Index Fund)",
+      "bucket": "fyi",
+      "why": "Just a confirmation that a buy of the Fidelity US Bond Index Fund went through in account …5367. No action needed — flagging since it's a real account notice, not marketing.",
+      "age_days": 0
+    }
+  ],
+  "tasks": {
+    "connected": true,
+    "auth_url": null,
+    "items": [
+      {"title": "Wash uniform", "list": "High Priority", "due": null, "overdue": false, "notes": "New (added last night) — do it before tomorrow's 2:30 PM Snack Bar shift."},
+      {"title": "DO MICHAEL HORN WORK", "list": "High Priority", "due": null, "overdue": false, "notes": "Your #1 substantive task. Danny's doc comments are the next steps, and he wants to meet today."},
+      {"title": "Do Desmos SAT Bootcamp through Sexton Test Prep", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Learn about succession planning for DECA", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Complete MA DECA involvement guide", "list": "Medium Priority", "due": null, "overdue": false, "notes": "Moved down from High to Medium."},
+      {"title": "Rebuild resume in Google Docs", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Build the app you can send TikToks to and add the sound to a playlist", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Make Involvement Guide automation tool", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Read \"Kindred\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read Chapter 1 in the AMSCO book (APUSH)", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"The Namesake\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"A Visit from the Goon Squad\"", "list": "Summer Work", "due": null, "overdue": false}
+    ]
+  },
+  "follow_ups": [
+    {
+      "what": "Michael Horn / Playlist & SEO doc — your #1 task ('DO MICHAEL HORN WORK'). Danny's Aug 4 comments: rework section 5; clarify which clips are YouTube. He also proposed meeting today 11 AM. Doc: docs.google.com/document/d/1QnSuI2vozYGoXVbPK-00vibNzzQORBA5c8aS9ozUyi4",
+      "who": "Henry → Michael Horn / Danny",
+      "due": "2026-08-06",
+      "age_days": 20
+    },
+    {
+      "what": "Decide next year's science course with Brett at 2:30 today (advanced physics now → AP Bio senior year, per Brett; vs. statistics / no science).",
+      "who": "Henry → Brett",
+      "due": "2026-08-06",
+      "age_days": 1
+    },
+    {
+      "what": "Keep Supabase EpiGuide alive — flagged for >7 days inactivity; log in / add activity today, or upgrade to Pro. Dashboard: supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu",
+      "who": "Henry",
+      "due": "2026-08-06",
+      "age_days": 20
+    },
+    {
+      "what": "SAT prep for Sat Aug 22 — work through Ben's new QBank (Math + R/W) hard questions before Sunday's lesson. Mom has the next two Sundays booked.",
+      "who": "Henry → Ben (Sexton)",
+      "due": "2026-08-22",
+      "age_days": 0
+    },
+    {
+      "what": "Complete the 4 LEVRA modules by Fri Aug 14 for the Oxford 'Human Skills' certificate. ('Do LEVRA' task dropped off the list Aug 5 — deadline stands regardless.)",
+      "who": "Henry → LEVRA",
+      "due": "2026-08-14",
+      "age_days": 2
+    },
+    {
+      "what": "Panda Express fundraiser (approved) — follow up (past its Aug 2 target).",
+      "who": "Henry / Adam Benjamin",
+      "due": "2026-08-02",
+      "age_days": 14
+    },
+    {
+      "what": "DECA Dash 5K — chapter + Instagram promo with the officer team.",
+      "who": "Officer team (Ryan leading)",
+      "due": "2026-08-15",
+      "age_days": 20
+    },
+    {
+      "what": "RSVP to Mom's 'Kent's Place in Marion' weekend (Aug 29–30).",
+      "who": "Henry → Michelle Zisow",
+      "due": "2026-08-10",
+      "age_days": 6
+    }
+  ],
+  "news": [
+    {
+      "topic": "Business & markets",
+      "headline": "S&P 500 snapped a 4-day win streak Tuesday; futures mixed into Thursday",
+      "why": "The record run paused (S&P −0.17%, Nasdaq −0.83% on Aug 5). Q2 S&P earnings are tracking ~+47% YoY — the strongest since 2021.",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-august-6-dow-sp-nasdaq-091620000.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "Weekly jobless claims out this morning",
+      "why": "Markets are watching for any labor-market softening that pushes the Fed toward faster autumn rate cuts — the number lands before Friday's bigger data.",
+      "url": "https://www.cnbc.com/2026/08/05/stock-market-today-live-updates.html",
+      "source": "CNBC"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "Earnings roll on: Warner Bros. Discovery pre-bell, Airbnb & Lyft after",
+      "why": "Another heavy day of results keeps single-stock moves in focus even as the index catches its breath.",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-05/stock-market-today-dow-s-p-live-updates",
+      "source": "Bloomberg"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "OpenAI & Anthropic are co-writing the U.S. bar for pre-release model review",
+      "why": "The two labs are helping design the federal threshold for which frontier models face scrutiny before launch — after both had models briefly restricted this summer.",
+      "url": "https://www.techtimes.com/articles/321917/20260728/openai-anthropic-are-writing-threshold-their-rivals-must-clear-launch.htm",
+      "source": "TechTimes"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "OpenAI preps a Q4 2026 IPO, racing Anthropic to the public markets",
+      "why": "A listing would be one of the largest tech IPOs ever and set a valuation marker for the whole AI sector.",
+      "url": "https://www.cnbc.com/2026/06/26/openai-anthropic-new-ai-spending-reality-as-users-shift-to-efficiency.html",
+      "source": "CNBC"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Anthropic names Tino Cuéllar Chief Global Affairs Officer",
+      "why": "A former California Supreme Court justice taking the top policy seat (Aug 4) signals how central Washington has become to the AI race.",
+      "url": "https://www.anthropic.com/news",
+      "source": "Anthropic"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Massive Russian air attack on Kyiv kills at least 17",
+      "why": "Ukraine says it intercepted none of the incoming missiles, sharpening Zelenskyy's push for more U.S. Patriot interceptors.",
+      "url": "https://wng.org/podcasts/thursday-morning-news-august-6-2026-1785945055",
+      "source": "WORLD"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "No breakthrough yet on an Iran peace deal",
+      "why": "Talks stalled Wednesday, though Trump says an agreement could still land today or tomorrow.",
+      "url": "https://wng.org/podcasts/thursday-morning-news-august-6-2026-1785945055",
+      "source": "WORLD"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Spokane wildfires still burning; large evacuation zones",
+      "why": "Three fires threaten hundreds of homes and have displaced roughly a quarter of the city; a suspect was arrested in one.",
+      "url": "https://www.usnews.com/news/us",
+      "source": "U.S. News"
+    }
+  ],
+  "system_notes": [
+    "Calendar today: one confirmed event — Henry & Brett 2:30–3:30 PM. There are TWO entries for it: Brett's official invite (Zoom) and a duplicate Mom created ('H Meeting w Brett', Google Meet meet.google.com/qfu-ynmh-erp). Surfaced as information; the assistant did not touch the calendar.",
+    "Danny proposed today 11:00–11:30 AM (replied 'Maybe' to the Aug 4 7:15 PM slot). It is a proposal, not a confirmed event — surfaced so you can decide; no calendar action taken.",
+    "Tomorrow (Fri Aug 7): Driving lesson 11 AM–1 PM (printed permit + closed shoes required) and Work 2:30–6:30 PM. Note: work is 6:30 PM per the calendar, correcting the 7:30 PM in memory.",
+    "Google Tasks: 12 open. Added 'Wash uniform' (High). Dropped off since yesterday — 'Bluebook Test 8 or 10' (High), 'Apply to Harvard SoCo OpenBio' (Low), 'CS 2 Summer Work' (Summer); not assuming these are done. 'Complete MA DECA involvement guide' moved High→Medium. SAT prep is clearly active via Ben regardless of the Bluebook task moving.",
+    "Timing check: generated ~06:48 AM ET, inside the 6:25–6:55 window; delivered quietly (email + dashboard, no push)."
+  ]
+}
