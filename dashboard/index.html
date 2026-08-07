@@ -26,7 +26,6 @@
   .tl{list-style:none;margin:0;padding:0;} .tl li{display:flex;gap:14px;padding:9px 0;border-top:1px solid var(--line);} .tl li:first-child{border-top:0;padding-top:0;}
   .tl time{font:600 12.5px/1.5 ui-monospace,Menlo,Consolas,monospace;color:var(--blue);flex:none;width:104px;font-variant-numeric:tabular-nums;}
   .tl .what strong{font-weight:700;} .tl .prep{color:var(--muted);font-size:13px;margin-top:2px;} .tl .prep b{color:var(--urgent);}
-  .tl time.prop{color:var(--faint);}
   .flight{background:var(--blue-soft);border-radius:14px;padding:16px 18px;} .flight .route{font-size:26px;font-weight:800;} .flight .route .arr{color:var(--blue);font-weight:400;} .flight .fmeta{color:var(--muted);font-size:13px;margin-top:4px;font-variant-numeric:tabular-nums;}
   .warn-note{color:var(--urgent);font-weight:600;font-size:13.5px;margin-top:10px;}
   .rows{list-style:none;margin:0;padding:0;} .rows li{display:flex;align-items:flex-start;gap:12px;padding:11px 0;border-top:1px solid var(--line);} .rows li:first-child{border-top:0;padding-top:0;}
@@ -46,26 +45,26 @@
 <nav>
   <div class="navin">
     <span class="brand"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="14" r="5.5" fill="currentColor"/><path d="M2 20h20M12 3v3M4.9 6.9l2.1 2.1M19.1 6.9 17 9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Morning Brief</span>
-    <div class="datepill" role="text"><span>Thu, Aug 6</span><span class="soft">Brett 2:30 · decide science</span><span class="soft">☁️ 73°</span></div>
+    <div class="datepill" role="text"><span>Fri, Aug 7</span><span class="soft">Driving 11 · Work 2:30</span><span class="soft">☀️ 75°</span></div>
     <div class="avatar" aria-hidden="true">H</div>
   </div>
 </nav>
 <div class="wrap">
   <h1 class="hello">Good morning, Henry</h1>
-  <p class="sub">Two decisions today. At 2:30 you meet Brett to lock next year's schedule — go in decided on the science slot (his steer: advanced physics now → AP Bio senior year). Watch that invite: two entries exist, Brett's Zoom is the real one, Mom's Google Meet is a duplicate. And Danny proposed meeting today 11–11:30 AM — not confirmed, so reply if it works. Michael Horn / SEO is still your #1. Overcast and muggy.</p>
+  <p class="sub">Two things are set today: your 11 AM driving lesson, then work 2:30–6:30. Mom arranged pickup at the house — just bring your printed permit + closed shoes or it's canceled plus a fee. Get through Ben's SAT QBank before Sunday's lesson (SAT is Aug 22). One heads-up: five of your GitHub repos failed their Pages deploys last night. Warm and muggy, hazy start; jobs report this morning.</p>
   <div class="stats">
-    <span class="stat"><span class="d"></span>🎓 Brett 2:30 · decide science slot</span>
-    <span class="stat warn"><span class="d"></span>⚠︎ Two invites → use Brett's Zoom</span>
-    <span class="stat"><span class="d"></span>📝 Danny proposed 11 AM</span>
-    <span class="stat warn"><span class="d"></span>EpiGuide — keep alive today</span>
+    <span class="stat warn"><span class="d"></span>🚗 11 AM lesson — permit + shoes</span>
+    <span class="stat"><span class="d"></span>💼 Work 2:30–6:30</span>
+    <span class="stat warn"><span class="d"></span>⚠︎ 5 GitHub Pages deploys failed</span>
+    <span class="stat"><span class="d"></span>✏️ SAT QBank before Sunday</span>
   </div>
 
   <h2>Today</h2>
   <div class="cards">
     <section class="card wide">
       <ul class="tl">
-        <li><time class="prop">11:00 AM<br>proposed</time><div class="what"><strong>Danny meeting</strong> — <span style="color:var(--faint);">proposed, not confirmed</span><div class="prep">He replied "Maybe" to the 7:15 slot and proposed 11:00–11:30 today. Reply if it works — it lines up with the SEO doc he wants to push forward.</div></div></li>
-        <li><time>2:30–3:30 PM</time><div class="what"><strong>Henry &amp; Brett</strong> · college counseling · <a class="alink" href="https://www.google.com/calendar/event?eid=NDR0NGtpMzhpZ2xlNHI4MG1tMmhmOGhvM2EgaHppc293QG0">the invite</a><div class="prep">Decide next year's science: <b>advanced physics now → AP Bio senior year</b> (Brett's pick), or statistics. ⚠︎ Two entries for this — use <b>Brett's Zoom</b>, not Mom's Google Meet duplicate.</div></div></li>
+        <li><time>11:00 AM–1:00 PM</time><div class="what"><strong>Driving lesson</strong> — Newton Driving School<div class="prep">Pickup at the house (Mom arranged it, 45 Beethoven Ave). <b>Bring your printed permit + closed shoes</b> or it's canceled + a fee.</div></div></li>
+        <li><time>2:30–6:30 PM</time><div class="what"><strong>Work</strong> — Snack Bar (Braeburn CC)<div class="prep">Straight after the lesson.</div></div></li>
       </ul>
     </section>
   </div>
@@ -74,40 +73,41 @@
   <div class="cards">
     <section class="card wide">
       <ul class="rows">
-        <li><span class="ic">🎓</span><div><div class="from">Brett → next-year schedule</div><div class="why">The thread behind your 2:30. Brett strongly prefers a core science next year — his suggestion is <b>advanced physics now → AP Bio senior year</b>. Have your answer ready.</div></div></li>
-        <li><span class="ic">📝</span><div><div class="from">Danny → proposed today 11 AM</div><div class="why">Replied "Maybe," wants 11:00–11:30 today. Not confirmed — your call.</div></div><a class="alink" style="margin-left:auto;font-size:12.5px;white-space:nowrap;align-self:center;" href="https://mail.google.com/mail/u/0/#inbox/19fd1cf3f0756def">Reply ›</a></li>
-        <li><span class="ic">✏️</span><div><div class="from">Ben (Sexton) → new SAT QBank</div><div class="why">Fresh Math + R/W questions by domain & difficulty (answers at the end). <b>Sift the hard ones before Sunday</b> — SAT is Sat Aug 22.</div></div></li>
-        <li><span class="ic">📅</span><div><div class="from">Mom ↔ Ben → lessons <span style="color:var(--faint);font-weight:400;">· FYI</span></div><div class="why">Mom's booking SAT sessions before Aug 22 (next two Sundays set); Ben finalizes with you Sunday. Mostly handled.</div></div></li>
-        <li><span class="ic u">⏸</span><div><div class="from">Supabase → EpiGuide <span style="color:var(--faint);font-weight:400;">· carryover, due today</span></div><div class="why">Flagged for 7+ days inactivity. A quick login / any activity keeps it alive.</div></div><a class="alink" style="margin-left:auto;font-size:12.5px;white-space:nowrap;align-self:center;" href="https://supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu">Dashboard ›</a></li>
+        <li><span class="ic">🚗</span><div><div class="from">Driving lesson — today 11 AM</div><div class="why">Newton DS reminder + Mom's overnight email to pick you up at the house (45 Beethoven Ave). Permit + shoes.</div></div></li>
+        <li><span class="ic u">⚠︎</span><div><div class="from">GitHub → 5 Pages deploys failed last night</div><div class="why">EpiGuide, BFF-Digital-Learning (x2), Youtube-Automation, Henry-PortfolioWebsite. Five at once = likely a common cause; check if the sites are down and re-run the workflows.</div></div></li>
+        <li><span class="ic">✏️</span><div><div class="from">Ben (Sexton) → new SAT QBank <span style="color:var(--faint);font-weight:400;">· carryover</span></div><div class="why">Math + R/W by domain & difficulty. <b>Sift the hard ones before Sunday's lesson</b> — SAT is Aug 22.</div></div></li>
+        <li><span class="ic u">⏸</span><div><div class="from">Supabase → EpiGuide <span style="color:var(--faint);font-weight:400;">· carryover, past Aug 6</span></div><div class="why">A quick login / any activity keeps it alive. (Also in the GitHub list above.)</div></div><a class="alink" style="margin-left:auto;font-size:12.5px;white-space:nowrap;align-self:center;" href="https://supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu">Dashboard ›</a></li>
+        <li><span class="ic">📅</span><div><div class="from">Mom ↔ Ben → lessons <span style="color:var(--faint);font-weight:400;">· FYI</span></div><div class="why">SAT sessions lined up before Aug 22; finalize the plan with Ben on Sunday.</div></div></li>
       </ul>
     </section>
   </div>
 
-  <h2>Tomorrow (Fri Aug 7)</h2>
+  <h2>Tomorrow &amp; ahead</h2>
   <div class="cards">
     <section class="card wide">
       <ul class="rows">
-        <li><span class="ic">🚗</span><div><div class="from">11:00 AM–1:00 PM — Driving lesson</div><div class="why">Newton Driving School. Bring your <b>printed permit + closed shoes</b> or it's canceled + a fee.</div></div></li>
-        <li><span class="ic">💼</span><div><div class="from">2:30–6:30 PM — Work (Snack Bar, Braeburn CC)</div><div class="why">"Wash uniform" is on your High list — do it first. Jobless-claims / Fed watch that morning.</div></div></li>
+        <li><span class="ic">🗓</span><div><div class="from">Sat Aug 8 — nothing scheduled yet</div><div class="why">Open day.</div></div></li>
+        <li><span class="ic">✏️</span><div><div class="from">Sun Aug 9 — SAT lesson with Ben</div><div class="why">Come having sifted the new QBank. (Donna's DECA Mastermind wraps today/tomorrow.)</div></div></li>
       </ul>
     </section>
   </div>
 
-  <h2>Tasks <span style="font-weight:400;color:var(--faint);font-size:14px;">· Google Tasks ✓ · 12 open</span></h2>
+  <h2>Tasks <span style="font-weight:400;color:var(--faint);font-size:14px;">· Google Tasks ✓ · 13 open</span></h2>
   <div class="cards">
     <section class="card">
       <div class="topic" style="margin-bottom:12px;">High priority</div>
       <ul class="tasklist">
-        <li><strong>Wash uniform</strong> <span style="color:var(--faint);">· new · before tomorrow's shift</span></li>
-        <li><strong>DO MICHAEL HORN WORK</strong> <span style="color:var(--urgent);">· #1</span></li>
+        <li><strong>Do Summer Reading</strong> <span style="color:var(--faint);">· new · the reading push ↓</span></li>
+        <li><strong>Find USB</strong> <span style="color:var(--faint);">· new</span></li>
       </ul>
     </section>
     <section class="card">
       <div class="topic" style="margin-bottom:12px;">Medium priority</div>
       <ul class="tasklist">
+        <li>CLAUDE PROMPTS FOR SCHOOL <span style="color:var(--faint);">· new</span></li>
         <li>Desmos SAT Bootcamp (Sexton)</li>
         <li>Learn DECA succession planning</li>
-        <li>Complete MA DECA involvement guide <span style="color:var(--faint);">· moved from High</span></li>
+        <li>Complete MA DECA involvement guide</li>
         <li>Rebuild resume in Google Docs</li>
       </ul>
     </section>
@@ -133,11 +133,11 @@
   <div class="cards">
     <section class="card wide">
       <ul class="fu">
-        <li><span>Michael Horn / SEO doc — your #1; Danny wants to meet</span><span class="due soon">today</span></li>
-        <li><span>Decide next-year science course with Brett</span><span class="due soon">2:30 today</span></li>
-        <li><span>Keep EpiGuide alive (login / activity)</span><span class="due soon">today</span></li>
-        <li><span>SAT prep — Ben's new QBank before Sunday</span><span class="due">Aug 22</span></li>
+        <li><span>SAT prep — Ben's new QBank before Sunday</span><span class="due soon">Aug 22</span></li>
+        <li><span>Check the 5 GitHub Pages deploy failures</span><span class="due soon">today</span></li>
+        <li><span>Keep EpiGuide alive (login / activity)</span><span class="due soon">overdue</span></li>
         <li><span>Finish LEVRA modules for the certificate</span><span class="due soon">Fri Aug 14</span></li>
+        <li><span>Verify Michael Horn / SEO is wrapped (task left the list)</span><span class="due">check</span></li>
         <li><span>Panda Express fundraiser follow-up</span><span class="due soon">overdue</span></li>
         <li><span>DECA Dash 5K — chapter + Instagram promo</span><span class="due">Aug 15</span></li>
         <li><span>RSVP Mom's Kent's Place weekend</span><span class="due">Aug 29–30</span></li>
@@ -152,30 +152,30 @@
         <div>
           <div class="topic">Business &amp; markets</div>
           <ul class="news">
-            <li><a class="alink" href="https://finance.yahoo.com/markets/live/stock-market-today-thursday-august-6-dow-sp-nasdaq-091620000.html">S&amp;P snapped a 4-day win streak Tuesday</a><div class="why">Futures mixed; Q2 earnings tracking ~+47% YoY.</div></li>
-            <li><a class="alink" href="https://www.cnbc.com/2026/08/05/stock-market-today-live-updates.html">Weekly jobless claims out this morning</a><div class="why">Watched for labor softening / Fed cuts.</div></li>
-            <li><a class="alink" href="https://www.bloomberg.com/news/articles/2026-08-05/stock-market-today-dow-s-p-live-updates">Earnings roll on</a><div class="why">Warner Bros. Discovery pre-bell; Airbnb & Lyft after.</div></li>
+            <li><a class="alink" href="https://www.cnbc.com/2026/08/06/what-fridays-jobs-report-could-mean-for-investors.html">July jobs report this morning (8:30 ET)</a><div class="why">~+85–98k, 4.2% unemployment expected; soft print → Fed cuts.</div></li>
+            <li><a class="alink" href="https://www.kiplinger.com/investing/economy/jobs-report-july-2026-what-to-expect">ADP already flashed weak (+44k)</a><div class="why">Markets braced for a downside surprise.</div></li>
+            <li><a class="alink" href="https://www.benzinga.com/markets/equities/26/08/61031224/stock-market-today-dow-jones-futures-slip-sp-500-gains-ahead-of-july-jobs-report-atlassian-trade-desk-cloudflare-in-focus">Earnings movers</a><div class="why">Atlassian, The Trade Desk, Cloudflare.</div></li>
           </ul>
         </div>
         <div>
           <div class="topic">Tech &amp; AI</div>
           <ul class="news">
-            <li><a class="alink" href="https://www.techtimes.com/articles/321917/20260728/openai-anthropic-are-writing-threshold-their-rivals-must-clear-launch.htm">OpenAI & Anthropic co-writing the U.S. model-review bar</a><div class="why">Federal threshold for pre-release scrutiny.</div></li>
-            <li><a class="alink" href="https://www.cnbc.com/2026/06/26/openai-anthropic-new-ai-spending-reality-as-users-shift-to-efficiency.html">OpenAI preps a Q4 2026 IPO</a><div class="why">Racing Anthropic to the public markets.</div></li>
-            <li><a class="alink" href="https://www.anthropic.com/news">Anthropic names a Chief Global Affairs Officer</a><div class="why">Tino Cuéllar — Washington's central to the AI race.</div></li>
+            <li><a class="alink" href="https://llm-stats.com/llm-updates">Meta releases Muse Spark 1.2</a><div class="why">Newest frontier model on the tracker.</div></li>
+            <li><a class="alink" href="https://blog.mean.ceo/new-ai-model-releases-news-august-2026/">NVIDIA ships Alpamayo 2 Super</a><div class="why">Autonomous-driving reasoning for rare scenarios.</div></li>
+            <li><a class="alink" href="https://llm-stats.com/ai-news">The edge is task-fit, not size</a><div class="why">Models ship daily — pick the right one (useful for your builds).</div></li>
           </ul>
         </div>
         <div>
           <div class="topic">US &amp; world</div>
           <ul class="news">
-            <li><a class="alink" href="https://wng.org/podcasts/thursday-morning-news-august-6-2026-1785945055">Russian air attack on Kyiv kills ≥17</a><div class="why">Ukraine intercepted none; renewed Patriot appeals.</div></li>
-            <li><a class="alink" href="https://wng.org/podcasts/thursday-morning-news-august-6-2026-1785945055">No breakthrough yet on an Iran peace deal</a><div class="why">Trump says it could still land today/tomorrow.</div></li>
-            <li><a class="alink" href="https://www.usnews.com/news/us">Spokane wildfires still burning</a><div class="why">~¼ of the city displaced; a suspect arrested.</div></li>
+            <li><a class="alink" href="https://wng.org/podcasts/friday-morning-news-august-7-2026-1786036420">Israel & Hamas reach a deal</a><div class="why">Hamas to disarm; Israel halts strikes & withdraws; intl. force to secure Gaza.</div></li>
+            <li><a class="alink" href="https://wng.org/podcasts/friday-morning-news-august-7-2026-1786036420">WHO: Congo Ebola outpacing tracing</a><div class="why">Contact tracing falling behind the caseload.</div></li>
+            <li><a class="alink" href="https://wng.org/podcasts/friday-morning-news-august-7-2026-1786036420">Deadly school shooting in Thailand</a><div class="why">Casualties in Nonthaburi province; details emerging.</div></li>
           </ul>
         </div>
       </div>
     </section>
   </div>
 
-  <footer>Big one is the 2:30 with Brett — go in decided on the science course. Delivered by email + dashboard; reply to the email to change anything. Generated 6:48 AM ET.</footer>
+  <footer>Permit + shoes for 11, then work. Delivered by email + dashboard; reply to the email to change anything. Generated 6:49 AM ET.</footer>
 </div>

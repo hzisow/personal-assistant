@@ -3,18 +3,17 @@
 # moves them to resolved when done — explaining every change in the brief.
 
 open:
-  - what: "Michael Horn / Playlist & SEO Recommendations doc — now Henry's #1 Google Task ('DO MICHAEL HORN WORK'). Danny Curtis left NEW comments Aug 4 PM: (1) section '5. Education Policy, Choice & the Business of EdTech' — 'Let's find a new way to break this up'; (2) 'Video Separation Recommendations' — 'Are all of these YouTube videos or are some…' (clarify each clip's source). Doc: docs.google.com/document/d/1QnSuI2vozYGoXVbPK-00vibNzzQORBA5c8aS9ozUyi4"
+  - what: "Michael Horn / Playlist & SEO Recommendations doc — VERIFY it's wrapped. 'DO MICHAEL HORN WORK' dropped off the High task list Aug 7 (was #1 Aug 4–6; Danny had pushed to meet Aug 6). Don't assume done — confirm or re-add. Danny's Aug 4 asks: rework section '5. Education Policy, Choice & the Business of EdTech'; clarify which clips are YouTube. Doc: docs.google.com/document/d/1QnSuI2vozYGoXVbPK-00vibNzzQORBA5c8aS9ozUyi4"
     who: "Henry → Michael Horn / Danny"
-    due: 2026-08-06
+    due: 2026-08-07
     source: "Docs comment notifications Jul 15–17 + Aug 4 (Danny Curtis); Granola Jul 9 Danny/Michael Horn meeting"
     first_seen: 2026-07-17
-    note: "In motion now (Henry's top task) — no longer 'nag'; surface the specific next steps from Danny's comments. Aug 6: Danny replied 'Maybe' to the old meeting slot and proposed meeting TODAY 11:00–11:30 AM (thread 19fd1cf3f0756def) — surfaced as info; assistant did not touch the calendar."
-  - what: "Decide next year's science course with Brett (Spark Admissions) — his strong preference is a core science: advanced physics next year → AP Bio senior year (vs. statistics / no science). Henry's worry: not maxing the school's APs. Being discussed at today's 2:30 PM meeting."
-    who: "Henry → Brett Fuller"
-    due: 2026-08-06
-    source: "Gmail thread 'Schedule for Next Year', Aug 4–5 (brett@sparkadmissions.com)"
-    first_seen: 2026-08-06
-    note: "If unresolved after today's meeting, carry forward — school scheduling is deadline-driven."
+    note: "De-emphasized now that the task left the list — low-key 'verify' unless it resurfaces in email/Docs."
+  - what: "GitHub Pages deploys failed overnight Aug 6 on 5 repos — EpiGuide, BFF-Digital-Learning (x2), Youtube-Automation, Henry-PortfolioWebsite. Check whether the live sites are down and re-run / fix the workflows. Five at once suggests a common cause (shared workflow, quota, or a GitHub incident)."
+    who: "Henry"
+    due: 2026-08-08
+    source: "GitHub Actions failure emails, Aug 6 ~21:00 ET (notifications@github.com)"
+    first_seen: 2026-08-07
   - what: "SAT on Sat Aug 22 — work through Ben's new QBank (Math + R/W, sorted by domain & difficulty) hard questions before Sunday's lesson. Mom has the next two Sundays booked and is coordinating extra sessions with Ben."
     who: "Henry → Ben (ben@sextontestprep.com)"
     due: 2026-08-22
@@ -26,7 +25,7 @@ open:
     due: 2026-08-06
     source: "Supabase pause warnings Jul 18 + Aug 4 (project id lpgrbpblbtpyigzsrhgu, org 'Vibecoding Projects')"
     first_seen: 2026-07-17
-    note: "Not paused yet as of Aug 4; a login/any activity resets the 7-day timer. 90-day window to unpause if it does pause."
+    note: "Not confirmed paused as of Aug 7; a login/any activity resets the 7-day timer. 90-day window to unpause if it does. Aug 7: EpiGuide ALSO failed its GitHub Pages deploy overnight — the frontend may be down too (see the GitHub Pages follow-up)."
   - what: "Complete the 4 LEVRA modules by Fri Aug 14 for the Oxford 'Introduction to Human Skills' certificate. Optional: send a reflection to be featured as a 'LEVRA Future Leader.'"
     who: "Henry → LEVRA (emily@levra.me / gayeon@levra.me)"
     due: 2026-08-14
@@ -54,10 +53,13 @@ open:
 travel:
   - "Home as of Sat Aug 1: DL 59 landed BOS ~12:19 PM ET, then straight to Jonathan & Holly's wedding. Oxford Saïd programme finished (graduation Jul 31)."
   - "Back on Eastern time — brief times are ET going forward. Sun Aug 2 is a settle-in day with nothing scheduled; watch for jet lag."
-  - "Work: Braeburn Country Club Snack Bar. Next shift: Fri Aug 7 2:30–6:30 PM (calendar-confirmed; memory previously said 7:30 PM — corrected). 'Wash uniform' is a High Google Task to clear before it. Assistant never edits the calendar."
-  - "Recurring: behind-the-wheel driving lessons via Newton Driving School (Label_15). Requires a PRINTED permit + closed shoes or the lesson is canceled + fee; pickup-location changes need 24h email notice to newtondrivingschool@gmail.com. Next lesson: Fri Aug 7 11:00 AM–1:00 PM."
+  - "Work: Braeburn Country Club Snack Bar. Shifts are added to the Personal calendar ad hoc (e.g. Tue Aug 4, Fri Aug 7 2:30–6:30 PM). 'Wash uniform' recurs as a High task before shifts. Assistant never edits the calendar."
+  - "Recurring: behind-the-wheel driving lessons via Newton Driving School (Label_15). Requires a PRINTED permit + closed shoes or the lesson is canceled + fee; pickup-location changes need 24h email notice to newtondrivingschool@gmail.com. Aug 7 lesson: 11 AM–1 PM, pickup at home (45 Beethoven Ave) — Mom emailed the request."
 
 resolved:
+  - what: "Meet Brett (Spark Admissions) about next year's schedule / science course"
+    resolved_on: 2026-08-06
+    note: "The 2:30 PM Aug 6 meeting happened (was on the calendar). Brett's rec: advanced physics next year → AP Bio senior year (keeps APs maxed). No post-meeting email in the thread; if course registration still needs finalizing, that's Henry's to do — re-surface only if it comes back up."
   - what: "Reschedule the SAT session with Ben off the Tuesday work shift"
     resolved_on: 2026-08-03
     note: "Ben offered Mon Aug 3 1:30 PM; Mom confirmed; it's on the calendar (1:30–2:30 PM, Google Meet). Ongoing SAT prep continues via the 'Desmos SAT Bootcamp' Google Task."

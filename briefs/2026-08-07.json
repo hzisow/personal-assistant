@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-07",
+  "generated_at": "2026-08-07T06:49:00-04:00",
+  "headline": "Two things are locked in today: your 11 AM driving lesson — Mom asked the school to pick you up at the house (45 Beethoven Ave), and you MUST bring your printed permit + closed shoes or it's canceled plus a fee — then work 2:30–6:30. Before Sunday's SAT lesson, work through Ben's new QBank (SAT is Aug 22). One heads-up worth a look: five of your GitHub repos failed their Pages deploys last night (including EpiGuide), so a couple of your sites may be down. Warm and muggy, ~75°; the July jobs report lands this morning.",
+  "weather": {
+    "location": "Newton/Boston, MA",
+    "current_f": 75,
+    "condition": "Sunny & muggy (hazy AM)"
+  },
+  "schedule": [
+    {
+      "start": "2026-08-07T11:00:00-04:00",
+      "end": "2026-08-07T13:00:00-04:00",
+      "all_day": false,
+      "title": "Driving lesson (Newton Driving School)",
+      "calendar": "Personal",
+      "location": "Pickup at home — Mom asked the school to pick you up at 45 Beethoven Ave.",
+      "prep": "Bring your PRINTED permit + closed shoes or the lesson is canceled and you're charged a fee. Mom emailed the pickup request overnight; a behind-the-wheel reminder is in your inbox."
+    },
+    {
+      "start": "2026-08-07T14:30:00-04:00",
+      "end": "2026-08-07T18:30:00-04:00",
+      "all_day": false,
+      "title": "Work — Snack Bar (Braeburn CC)",
+      "calendar": "Personal",
+      "location": null,
+      "prep": "Straight after the lesson. (Your uniform task cleared off the list — assuming it's washed.)"
+    }
+  ],
+  "tomorrow_headsup": [
+    "Sat Aug 8: nothing on the calendar yet.",
+    "Sun Aug 9: SAT lesson with Ben (Mom has the next two Sundays booked) — come having sifted the new QBank.",
+    "Donna at the DECA Mastermind wraps today/tomorrow (Team 68, through Aug 8)."
+  ],
+  "email": [
+    {
+      "thread_id": "19fd777b591dd40d",
+      "from": "Newton Driving School (+ Mom)",
+      "subject": "Behind-the-Wheel reminder — today 11 AM",
+      "bucket": "important",
+      "why": "Today's lesson is on. Mom emailed the school overnight to pick you up at the house (45 Beethoven Ave). Bring your PRINTED permit + closed shoes or it's canceled + a fee.",
+      "age_days": 0
+    },
+    {
+      "thread_id": "19fd8f7cca67d3e9",
+      "from": "GitHub (Actions)",
+      "subject": "Pages build & deploy failed on 5 repos",
+      "bucket": "important",
+      "why": "Overnight, GitHub Pages builds failed on EpiGuide, BFF-Digital-Learning (x2), Youtube-Automation, and Henry-PortfolioWebsite. Five at once suggests a common cause — worth a look; some of those sites may be down. (EpiGuide is also the Supabase project that's about to pause.)",
+      "age_days": 1
+    },
+    {
+      "thread_id": "19fd40082a8e0872",
+      "from": "Ben (Sexton Test Prep)",
+      "subject": "SAT New QBank Questions",
+      "bucket": "important",
+      "why": "Carryover: fresh Math + R/W questions (by domain & difficulty; answers at the end). Sift the hard ones before Sunday's lesson — SAT is Sat Aug 22.",
+      "age_days": 2
+    },
+    {
+      "thread_id": "19fcb110ea65f8d6",
+      "from": "Supabase (Ant Wilson)",
+      "subject": "EpiGuide about to be paused",
+      "bucket": "important",
+      "why": "Carryover, now past its Aug 6 mark: EpiGuide flagged for >7 days inactivity. A quick login / any activity keeps it alive (or upgrade to Pro); 90 days to unpause if it does. Dashboard: supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu",
+      "age_days": 3
+    },
+    {
+      "thread_id": "19fd39ff09c54baf",
+      "from": "Mom (Michelle) ↔ Ben",
+      "subject": "Henry Zisow lessons",
+      "bucket": "fyi",
+      "why": "Mom is lining up SAT lessons before Aug 22 (next two Sundays booked); Ben will finalize the plan with you Sunday. Handled — just be ready to talk it through.",
+      "age_days": 2
+    }
+  ],
+  "tasks": {
+    "connected": true,
+    "auth_url": null,
+    "items": [
+      {"title": "Do Summer Reading", "list": "High Priority", "due": null, "overdue": false, "notes": "New — the summer-reading push (see the 4 Summer Work books + APUSH chapter below). School's coming."},
+      {"title": "Find USB", "list": "High Priority", "due": null, "overdue": false, "notes": "New."},
+      {"title": "CLAUDE PROMPTS FOR SCHOOL", "list": "Medium Priority", "due": null, "overdue": false, "notes": "New — a saved Notion prompt pack (orange-suit-849.notion.site)."},
+      {"title": "Do Desmos SAT Bootcamp through Sexton Test Prep", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Learn about succession planning for DECA", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Complete MA DECA involvement guide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Rebuild resume in Google Docs", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Build the app you can send TikToks to and add the sound to a playlist", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Make Involvement Guide automation tool", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Read \"Kindred\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read Chapter 1 in the AMSCO book (APUSH)", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"The Namesake\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"A Visit from the Goon Squad\"", "list": "Summer Work", "due": null, "overdue": false}
+    ]
+  },
+  "follow_ups": [
+    {
+      "what": "SAT on Sat Aug 22 — work through Ben's new QBank (Math + R/W) hard questions before Sunday's lesson. Mom has the next two Sundays booked.",
+      "who": "Henry → Ben (Sexton)",
+      "due": "2026-08-22",
+      "age_days": 1
+    },
+    {
+      "what": "GitHub Pages deploys failed overnight on 5 repos (EpiGuide, BFF-Digital-Learning, Youtube-Automation, Henry-PortfolioWebsite) — check whether the sites are down and re-run/fix the workflows.",
+      "who": "Henry",
+      "due": "2026-08-08",
+      "age_days": 0
+    },
+    {
+      "what": "Keep Supabase EpiGuide alive — flagged for >7 days inactivity; log in / add activity, or upgrade to Pro. (Past its Aug 6 mark; not confirmed paused.) Dashboard: supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu",
+      "who": "Henry",
+      "due": "2026-08-06",
+      "age_days": 21
+    },
+    {
+      "what": "Complete the 4 LEVRA modules by Fri Aug 14 for the Oxford 'Human Skills' certificate.",
+      "who": "Henry → LEVRA",
+      "due": "2026-08-14",
+      "age_days": 3
+    },
+    {
+      "what": "Michael Horn / Playlist & SEO doc — 'DO MICHAEL HORN WORK' dropped off the High task list Aug 7 (not assuming done). Danny's Aug 4 comments were: rework section 5; clarify which clips are YouTube. Verify it's wrapped or re-add if not.",
+      "who": "Henry → Michael Horn / Danny",
+      "due": "2026-08-07",
+      "age_days": 21
+    },
+    {
+      "what": "Panda Express fundraiser (approved) — follow up (past its Aug 2 target).",
+      "who": "Henry / Adam Benjamin",
+      "due": "2026-08-02",
+      "age_days": 15
+    },
+    {
+      "what": "DECA Dash 5K — chapter + Instagram promo with the officer team.",
+      "who": "Officer team (Ryan leading)",
+      "due": "2026-08-15",
+      "age_days": 21
+    },
+    {
+      "what": "RSVP to Mom's 'Kent's Place in Marion' weekend (Aug 29–30).",
+      "who": "Henry → Michelle Zisow",
+      "due": "2026-08-10",
+      "age_days": 7
+    }
+  ],
+  "news": [
+    {
+      "topic": "Business & markets",
+      "headline": "July jobs report lands this morning (8:30 ET)",
+      "why": "The week's main event: economists see ~+85–98k payrolls and 4.2% unemployment. A soft print pushes the Fed toward faster autumn cuts.",
+      "url": "https://www.cnbc.com/2026/08/06/what-fridays-jobs-report-could-mean-for-investors.html",
+      "source": "CNBC"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "ADP already flashed weak (+44k) — raises the odds of a soft payroll",
+      "why": "Wednesday's private-payroll number badly missed the ~75k estimate, so markets are braced for a downside surprise today.",
+      "url": "https://www.kiplinger.com/investing/economy/jobs-report-july-2026-what-to-expect",
+      "source": "Kiplinger"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "Earnings movers: Atlassian, The Trade Desk, Cloudflare",
+      "why": "Futures were mixed pre-jobs; these post-earnings names are driving the single-stock action into the print.",
+      "url": "https://www.benzinga.com/markets/equities/26/08/61031224/stock-market-today-dow-jones-futures-slip-sp-500-gains-ahead-of-july-jobs-report-atlassian-trade-desk-cloudflare-in-focus",
+      "source": "Benzinga"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Meta releases Muse Spark 1.2",
+      "why": "The newest frontier model on the tracker — the majors are now shipping updates almost weekly.",
+      "url": "https://llm-stats.com/llm-updates",
+      "source": "LLM-Stats"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "NVIDIA ships Alpamayo 2 Super for autonomous driving",
+      "why": "A reasoning model aimed at rare driving scenarios with inspectable decisions — pointed straight at robotaxis.",
+      "url": "https://blog.mean.ceo/new-ai-model-releases-news-august-2026/",
+      "source": "mean.ceo"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "The new edge: picking the right model, not the biggest",
+      "why": "With releases landing daily (DeepSeek-V4-Flash, GPT-5.6 Luna, Muse Spark), advantage now comes from task-fit, price, and privacy — useful framing for your own build projects.",
+      "url": "https://llm-stats.com/ai-news",
+      "source": "LLM-Stats"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Israel and Hamas reach a deal — Hamas to disarm, Israel to halt strikes and withdraw",
+      "why": "The Trump administration says the agreement winds down the Gaza war; an international force (Uganda, Morocco pledging troops) would secure the territory.",
+      "url": "https://wng.org/podcasts/friday-morning-news-august-7-2026-1786036420",
+      "source": "WORLD"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "WHO: Congo's Ebola outbreak spreading faster than it can be tracked",
+      "why": "Contact tracing is falling behind the caseload — the most serious flare-up in a while.",
+      "url": "https://wng.org/podcasts/friday-morning-news-august-7-2026-1786036420",
+      "source": "WORLD"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Deadly school shooting in Thailand's Nonthaburi province",
+      "why": "Casualties reported at a school outside Bangkok; details still emerging.",
+      "url": "https://wng.org/podcasts/friday-morning-news-august-7-2026-1786036420",
+      "source": "WORLD"
+    }
+  ],
+  "system_notes": [
+    "Calendar today: Driving lesson 11 AM–1 PM (Mom emailed the school overnight to pick Henry up at 45 Beethoven Ave) and Work 2:30–6:30 PM. Surfaced as information; calendar untouched.",
+    "Google Tasks: 13 open. New — 'Do Summer Reading' + 'Find USB' (High), 'CLAUDE PROMPTS FOR SCHOOL' (Medium). Dropped off since yesterday — 'Wash uniform' and 'DO MICHAEL HORN WORK' (both High); not assuming done, but Michael Horn de-emphasized since it left the list and Danny had pushed to meet Aug 6.",
+    "New signal: 5 GitHub repos failed Pages deploys overnight (EpiGuide, BFF-Digital-Learning x2, Youtube-Automation, Henry-PortfolioWebsite). Flagged to check; EpiGuide overlaps the Supabase pause follow-up.",
+    "Brett college-counseling meeting was yesterday (Aug 6, 2:30) — moved to resolved; his rec was advanced physics next year → AP Bio senior year. No post-meeting email in the thread.",
+    "Persistence note: yesterday's commit (Aug 6 brief) is still unpushed — the git push was blocked by the auto-mode permission classifier. Will attempt to push Aug 6 + Aug 7 together this run; if still blocked, surfacing to Henry.",
+    "Timing check: generated ~06:49 AM ET, inside the 6:25–6:55 window; delivered quietly (email + dashboard, no push)."
+  ]
+}
