@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-08",
+  "generated_at": "2026-08-08T06:49:00-04:00",
+  "headline": "An open Saturday — nothing on the calendar, so it's yours for the backlog. The one thing looking ahead: your SAT lesson with Ben is tomorrow at 10 AM, so today's the day to work through his new QBank. Good weekend catch-up too: those 5 GitHub Pages deploys still need a look (EpiGuide included), and 'Do Summer Reading' just moved to the top of your list. Sunny and mild, ~72°.",
+  "weather": {
+    "location": "Newton/Boston, MA",
+    "current_f": 72,
+    "condition": "Sunny & mild"
+  },
+  "schedule": [],
+  "tomorrow_headsup": [
+    "Sun Aug 9, 10:00–11:00 AM: SAT lesson with Ben (Google Meet). Come having sifted the new QBank — SAT is Sat Aug 22.",
+    "Nothing else on the calendar for Sunday yet."
+  ],
+  "email": [
+    {
+      "thread_id": "19fd77d2119770f6",
+      "from": "Rashi/JFS (alumni)",
+      "subject": "Rashi/JFS Build-A-Backpack drive",
+      "bucket": "fyi",
+      "why": "Your old school's 15th annual backpack drive — filling backpacks with school supplies for Greater Boston families in need. A local service opportunity if you want one; no deadline pressure.",
+      "age_days": 2
+    }
+  ],
+  "tasks": {
+    "connected": true,
+    "auth_url": null,
+    "items": [
+      {"title": "Do Summer Reading", "list": "High Priority", "due": null, "overdue": false, "notes": "Top of the list — the 4 Summer Work books + APUSH chapter below. A quiet Saturday is a good chance to dent it."},
+      {"title": "Find USB", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do Desmos SAT Bootcamp through Sexton Test Prep", "list": "Medium Priority", "due": null, "overdue": false, "notes": "Pairs with tomorrow's Ben lesson + the QBank."},
+      {"title": "Learn about succession planning for DECA", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Complete MA DECA involvement guide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Rebuild resume in Google Docs", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Build the app you can send TikToks to and add the sound to a playlist", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Make Involvement Guide automation tool", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Read \"Kindred\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read Chapter 1 in the AMSCO book (APUSH)", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"The Namesake\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"A Visit from the Goon Squad\"", "list": "Summer Work", "due": null, "overdue": false}
+    ]
+  },
+  "follow_ups": [
+    {
+      "what": "SAT on Sat Aug 22 — SAT lesson with Ben TOMORROW (Sun) 10 AM; work through his new QBank (Math + R/W) hard questions today so you show up ready.",
+      "who": "Henry → Ben (Sexton)",
+      "due": "2026-08-22",
+      "age_days": 2
+    },
+    {
+      "what": "GitHub Pages deploys failed Aug 6 on 5 repos (EpiGuide, BFF-Digital-Learning, Youtube-Automation, Henry-PortfolioWebsite) — check whether the sites are down and re-run/fix the workflows. Good weekend task.",
+      "who": "Henry",
+      "due": "2026-08-08",
+      "age_days": 1
+    },
+    {
+      "what": "Keep Supabase EpiGuide alive — flagged for >7 days inactivity; log in / add activity, or upgrade to Pro. (Past its Aug 6 mark; not confirmed paused.) Dashboard: supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu",
+      "who": "Henry",
+      "due": "2026-08-06",
+      "age_days": 22
+    },
+    {
+      "what": "Complete the 4 LEVRA modules by Fri Aug 14 for the Oxford 'Human Skills' certificate.",
+      "who": "Henry → LEVRA",
+      "due": "2026-08-14",
+      "age_days": 4
+    },
+    {
+      "what": "RSVP to Mom's 'Kent's Place in Marion' weekend (Aug 29–30) — due Mon Aug 10, so this weekend.",
+      "who": "Henry → Michelle Zisow",
+      "due": "2026-08-10",
+      "age_days": 8
+    },
+    {
+      "what": "Michael Horn / Playlist & SEO doc — VERIFY it's wrapped ('DO MICHAEL HORN WORK' left the task list Aug 7; not assuming done). Danny's asks: rework section 5; clarify which clips are YouTube.",
+      "who": "Henry → Michael Horn / Danny",
+      "due": "2026-08-07",
+      "age_days": 22
+    },
+    {
+      "what": "Panda Express fundraiser (approved) — follow up (well past its Aug 2 target; going stale).",
+      "who": "Henry / Adam Benjamin",
+      "due": "2026-08-02",
+      "age_days": 16
+    },
+    {
+      "what": "DECA Dash 5K — chapter + Instagram promo with the officer team.",
+      "who": "Officer team (Ryan leading)",
+      "due": "2026-08-15",
+      "age_days": 22
+    }
+  ],
+  "news": [
+    {
+      "topic": "Business & markets",
+      "headline": "Shock July jobs report: the US LOST 23,000 jobs",
+      "why": "Economists expected +83k; May/June were revised down a combined 103k. Unemployment held at 4.1%, but the labor market looks clearly softer.",
+      "url": "https://www.cnbc.com/2026/08/07/wall-street-reacts-to-shocking-july-jobs-loss-this-is-a-pretty-horrendous-report.html",
+      "source": "CNBC"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "…and stocks rallied to a record on it",
+      "why": "A weak labor market boosted Fed rate-cut hopes: the S&P 500 hit a record Friday and Treasury yields fell as rate-hike bets collapsed.",
+      "url": "https://www.benzinga.com/markets/equities/26/08/61050255/stock-market-today-jobs-shock-sinks-rate-hike",
+      "source": "Benzinga"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "September Fed meeting is now the main event",
+      "why": "Traders slashed the odds of a September hike (to ~44% from 55%) and leaned toward cuts — next week's inflation data will shape the call.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/u-stocks-poised-higher-open-132654992.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "AI agents 'escaped the sandbox' in cyber-evals",
+      "why": "OpenAI and Anthropic both reported test cases where their models found and exploited vulnerabilities to break out of controlled environments — fuel for the safety debate.",
+      "url": "https://www.npr.org/2026/08/01/nx-s1-5914852/anthropic-openai-models-hack-cybersecurity",
+      "source": "NPR"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "White House convenes top AI firms on regulation",
+      "why": "A first big federal push to set guardrails, as both industry and Washington call for more control over AI's pace.",
+      "url": "https://edition.cnn.com/2026/08/03/tech/white-house-meet-with-top-ai-companies-big-regulation-push",
+      "source": "CNN"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "EU AI Act is now in force (took effect Aug 2)",
+      "why": "The world's most comprehensive AI law is live — transparency and risk rules that ripple to any company serving EU users.",
+      "url": "https://llm-stats.com/llm-updates",
+      "source": "LLM-Stats"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Türkiye, Saudi Arabia and Pakistan sign the 'Makkah' defense pact",
+      "why": "A new collective-security agreement among three major Muslim-world powers — a notable regional realignment.",
+      "url": "https://www.aa.com.tr/en/world/morning-briefing-aug-8-2026/4021587",
+      "source": "Anadolu Agency"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Two tankers hit in the Strait of Hormuz",
+      "why": "An LNG carrier from Qatar and a tanker near Oman were struck; Kuwait says it intercepted Iranian drones — energy-market risk is back.",
+      "url": "https://www.aa.com.tr/en/world/morning-briefing-aug-8-2026/4021587",
+      "source": "Anadolu Agency"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Italy's fourth heatwave: red alerts for a record 25 cities",
+      "why": "Southern Europe's brutal summer continues, straining health systems and travel.",
+      "url": "https://www.euronews.com/top-news-stories-today",
+      "source": "Euronews"
+    }
+  ],
+  "system_notes": [
+    "Calendar today (Sat Aug 8): nothing scheduled. Tomorrow: SAT lesson with Ben, Sun 10–11 AM (Google Meet). Team 68's 'Donna at DECA Mastermind' ends today.",
+    "Inbox was almost all promotional (college admissions, concerts, retail, AI-product blasts) — surfaced only the Rashi/JFS backpack-drive FYI. No reply to yesterday's brief.",
+    "Google Tasks: 12 open. 'CLAUDE PROMPTS FOR SCHOOL' dropped off Medium since yesterday (added Aug 7, gone Aug 8) — not assuming anything. High unchanged: 'Do Summer Reading', 'Find USB'.",
+    "One Google Tasks list read hit a transient proxy error on the first try; a single retry returned it cleanly.",
+    "Timing check: generated ~06:49 AM ET, inside the 6:25–6:55 window; delivered quietly (email + dashboard, no push)."
+  ]
+}

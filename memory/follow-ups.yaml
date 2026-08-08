@@ -14,12 +14,12 @@ open:
     due: 2026-08-08
     source: "GitHub Actions failure emails, Aug 6 ~21:00 ET (notifications@github.com)"
     first_seen: 2026-08-07
-  - what: "SAT on Sat Aug 22 — work through Ben's new QBank (Math + R/W, sorted by domain & difficulty) hard questions before Sunday's lesson. Mom has the next two Sundays booked and is coordinating extra sessions with Ben."
+  - what: "SAT on Sat Aug 22 — SAT lesson with Ben is now on the calendar for Sun Aug 9, 10–11 AM (Google Meet). Work through his new QBank (Math + R/W) hard questions beforehand. Mom is coordinating the run of Sunday sessions before the test."
     who: "Henry → Ben (ben@sextontestprep.com)"
     due: 2026-08-22
-    source: "Gmail: Ben 'SAT New QBank Questions' + Mom↔Ben 'Henry Zisow lessons', Aug 5"
+    source: "Gmail: Ben 'SAT New QBank Questions' + Mom↔Ben 'Henry Zisow lessons', Aug 5; calendar 'H SAT w Ben' Sun Aug 9"
     first_seen: 2026-08-06
-    note: "Confirmed test date Aug 22. 'Bluebook Test 8 or 10' dropped off the High Google Task list Aug 6 — SAT prep is still active regardless."
+    note: "Confirmed test date Aug 22. Recurring Sunday-morning lessons with Ben. 'Bluebook Test 8 or 10' left the High list Aug 6 — SAT prep is still active regardless."
   - what: "Keep Supabase EpiGuide alive — flagged AGAIN for >7 days inactivity (Aug 4); will auto-pause soon. Log in / add any activity, or upgrade to Pro. Dashboard: supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu"
     who: "Henry"
     due: 2026-08-06
