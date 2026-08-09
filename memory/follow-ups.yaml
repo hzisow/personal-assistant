@@ -32,6 +32,11 @@ open:
     source: "LEVRA email 'Human Skills Certification', Aug 4"
     first_seen: 2026-08-04
     note: "The 'Do LEVRA' High-priority Google Task DROPPED OFF the list Aug 5 — do NOT assume it's completed; the Aug 14 email deadline stands independently. Re-surface as a follow-up until confirmed done."
+  - what: "Fill out the Braeburn 'Snack Bar 2026' end-of-season form (management asked all Snack Bar staff). Quick, low urgency."
+    who: "Henry → Braeburn (Maria Milian)"
+    due: 2026-08-15
+    source: "Gmail 'Re: Snack Bar 2026', Aug 8 (mariamilian@braeburngolf.com)"
+    first_seen: 2026-08-09
   - what: "Panda Express fundraiser (approved) — follow up when back"
     who: "Henry / Adam Benjamin"
     due: 2026-08-02
@@ -53,7 +58,7 @@ open:
 travel:
   - "Home as of Sat Aug 1: DL 59 landed BOS ~12:19 PM ET, then straight to Jonathan & Holly's wedding. Oxford Saïd programme finished (graduation Jul 31)."
   - "Back on Eastern time — brief times are ET going forward. Sun Aug 2 is a settle-in day with nothing scheduled; watch for jet lag."
-  - "Work: Braeburn Country Club Snack Bar. Shifts are added to the Personal calendar ad hoc (e.g. Tue Aug 4, Fri Aug 7 2:30–6:30 PM). 'Wash uniform' recurs as a High task before shifts. Assistant never edits the calendar."
+  - "Work: Braeburn Country Club Snack Bar. Shifts come via When I Work (noreply@wheniwork.com) weekly + sometimes the Personal calendar. Week of Aug 10–16: Tue Aug 11 2:00–6:30 PM (+ more shifts not fully captured — check the app). Season winding down (end-of-season staff form out Aug 8). 'Wash uniform' recurs as a High task before shifts. Assistant never edits the calendar."
   - "Recurring: behind-the-wheel driving lessons via Newton Driving School (Label_15). Requires a PRINTED permit + closed shoes or the lesson is canceled + fee; pickup-location changes need 24h email notice to newtondrivingschool@gmail.com. Aug 7 lesson: 11 AM–1 PM, pickup at home (45 Beethoven Ave) — Mom emailed the request."
 
 resolved:

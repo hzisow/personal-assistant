@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-09",
+  "generated_at": "2026-08-09T06:49:00-04:00",
+  "headline": "One thing on the calendar: your SAT lesson with Ben at 10 AM (Google Meet) — go in with the QBank done. Two quick weekend to-dos before they lapse: RSVP Mom's 'Kent's Place' weekend (due tomorrow, Aug 10) and, if you want, the Braeburn end-of-season form. Heads-up: next week's Snack Bar schedule is out — first shift Tue Aug 11, 2:00–6:30 PM. Sunny and mild, ~69°.",
+  "weather": {
+    "location": "Newton/Boston, MA",
+    "current_f": 69,
+    "condition": "Sunny & mild"
+  },
+  "schedule": [
+    {
+      "start": "2026-08-09T10:00:00-04:00",
+      "end": "2026-08-09T11:00:00-04:00",
+      "all_day": false,
+      "title": "SAT lesson with Ben",
+      "calendar": "Personal",
+      "location": "Google Meet (meet.google.com/ccw-bjwc-awm)",
+      "prep": "Show up having worked through Ben's new QBank (Math + R/W, the hard ones). This is the run-up to the SAT on Sat Aug 22."
+    }
+  ],
+  "tomorrow_headsup": [
+    "Mon Aug 10: RSVP deadline for Mom's 'Kent's Place in Marion' weekend (Aug 29–30) — do it today or tomorrow.",
+    "Work week starts Tue Aug 11: Snack Bar 2:00–6:30 PM (next week's schedule is posted; more shifts later in the week).",
+    "Team 68 'New Advisor Basic Training' runs Aug 10–11 (advisor-facing; FYI, not yours)."
+  ],
+  "email": [
+    {
+      "thread_id": "19fe1ec3d900c583",
+      "from": "When I Work (Braeburn scheduling)",
+      "subject": "Your schedule for Aug 10–16",
+      "bucket": "important",
+      "why": "Next week's Snack Bar shifts are posted. First one is Tue Aug 11, 2:00–6:30 PM (PM shift), plus more later in the week — open When I Work for the full week.",
+      "age_days": 1
+    },
+    {
+      "thread_id": "19fe349d14fcb212",
+      "from": "Maria Milian (Braeburn)",
+      "subject": "Re: Snack Bar 2026 — end-of-season form",
+      "bucket": "fyi",
+      "why": "Season's winding down; management asked the Snack Bar staff to fill out the 'Snack-Bar 2026 end of season' form. Quick one to knock out when you have a minute.",
+      "age_days": 1
+    }
+  ],
+  "tasks": {
+    "connected": true,
+    "auth_url": null,
+    "items": [
+      {"title": "Do Summer Reading", "list": "High Priority", "due": null, "overdue": false, "notes": "Still #1 — the 4 Summer Work books + APUSH chapter below."},
+      {"title": "Find USB", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do Desmos SAT Bootcamp through Sexton Test Prep", "list": "Medium Priority", "due": null, "overdue": false, "notes": "Ties into today's Ben lesson."},
+      {"title": "Learn about succession planning for DECA", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Complete MA DECA involvement guide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Rebuild resume in Google Docs", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Build the app you can send TikToks to and add the sound to a playlist", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Make Involvement Guide automation tool", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Read \"Kindred\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read Chapter 1 in the AMSCO book (APUSH)", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"The Namesake\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"A Visit from the Goon Squad\"", "list": "Summer Work", "due": null, "overdue": false}
+    ]
+  },
+  "follow_ups": [
+    {
+      "what": "RSVP to Mom's 'Kent's Place in Marion' weekend (Aug 29–30) — deadline Mon Aug 10, so this weekend.",
+      "who": "Henry → Michelle Zisow",
+      "due": "2026-08-10",
+      "age_days": 9
+    },
+    {
+      "what": "SAT on Sat Aug 22 — lesson with Ben is TODAY 10 AM; keep working the QBank between now and the test. Recurring Sunday sessions with Ben.",
+      "who": "Henry → Ben (Sexton)",
+      "due": "2026-08-22",
+      "age_days": 3
+    },
+    {
+      "what": "GitHub Pages deploys failed Aug 6 on 5 repos (EpiGuide, BFF-Digital-Learning, Youtube-Automation, Henry-PortfolioWebsite) — check whether the sites are down and re-run/fix the workflows.",
+      "who": "Henry",
+      "due": "2026-08-08",
+      "age_days": 2
+    },
+    {
+      "what": "Keep Supabase EpiGuide alive — flagged for >7 days inactivity; log in / add activity, or upgrade to Pro. (Past its Aug 6 mark; not confirmed paused.) Dashboard: supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu",
+      "who": "Henry",
+      "due": "2026-08-06",
+      "age_days": 23
+    },
+    {
+      "what": "Fill out the Braeburn 'Snack Bar 2026' end-of-season form (from Maria Milian) — quick.",
+      "who": "Henry → Braeburn",
+      "due": "2026-08-15",
+      "age_days": 0
+    },
+    {
+      "what": "Complete the 4 LEVRA modules by Fri Aug 14 for the Oxford 'Human Skills' certificate.",
+      "who": "Henry → LEVRA",
+      "due": "2026-08-14",
+      "age_days": 5
+    },
+    {
+      "what": "Michael Horn / Playlist & SEO doc — VERIFY it's wrapped ('DO MICHAEL HORN WORK' left the task list Aug 7; not assuming done).",
+      "who": "Henry → Michael Horn / Danny",
+      "due": "2026-08-07",
+      "age_days": 23
+    },
+    {
+      "what": "Panda Express fundraiser (approved) — follow up (well past its Aug 2 target; stale).",
+      "who": "Henry / Adam Benjamin",
+      "due": "2026-08-02",
+      "age_days": 17
+    },
+    {
+      "what": "DECA Dash 5K — chapter + Instagram promo with the officer team.",
+      "who": "Officer team (Ryan leading)",
+      "due": "2026-08-15",
+      "age_days": 23
+    }
+  ],
+  "news": [
+    {
+      "topic": "Business & markets",
+      "headline": "Wednesday's July CPI is the week's big test",
+      "why": "Stocks sit near records after the weak jobs report; core CPI is seen easing to ~2.5% YoY. A hot number would likely trigger a selloff; a soft one cements rate-cut bets.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/inflation-data-test-record-setting-100226016.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "A weak-labor-market read has all but killed rate-hike talk",
+      "why": "July payrolls fell 23k and wage growth hit a ~5-year low, so the Fed's next move is now framed as cut-or-hold, not hike — CPI/PPI this week are the confirmation.",
+      "url": "https://www.marketpulse.com/markets/get-ready-for-cpi-us-inflation-preview/",
+      "source": "MarketPulse"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "Earnings winding down: CoreWeave, Cisco, Applied Materials on deck",
+      "why": "A lighter but AI-heavy earnings week keeps the data-center trade in focus alongside the inflation prints.",
+      "url": "https://seekingalpha.com/article/4933857-wall-street-week-ahead",
+      "source": "Seeking Alpha"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Alibaba launches Qwen3.8-Max, its most capable model yet",
+      "why": "It claims performance rivaling top US and Chinese systems — the frontier race is now very much global.",
+      "url": "https://blog.mean.ceo/new-ai-model-releases-news-august-2026/",
+      "source": "mean.ceo"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "DeepSeek V4 Flash: near-frontier coding at ~99% less cost",
+      "why": "It approaches top-tier coding quality for a fraction of the price — part of a price war (OpenAI, Gemini Flash, Meta, Grok) that makes cheap, capable models the norm for builders like you.",
+      "url": "https://www.marketingprofs.com/opinions/2026/55472/ai-update-august-7-2026-ai-news-and-views-from-the-past-week",
+      "source": "MarketingProfs"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "As models converge, 'pick by cost, not brand' — and routers rise",
+      "why": "With quality gaps narrowing, smart model-routing (auto-pick the best model per task) is emerging as the real edge — worth knowing for your app projects.",
+      "url": "https://www.artificialintelligence-news.com/",
+      "source": "AI News"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Gaza ceasefire deal moves toward implementation",
+      "why": "Under the deal, Hamas disarms while Israel halts strikes and withdraws; an international force (Uganda, Morocco pledging troops) would secure the territory.",
+      "url": "https://wng.org/podcasts/friday-morning-news-august-7-2026-1786036420",
+      "source": "WORLD"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Shipping risk lingers in the Strait of Hormuz",
+      "why": "After tankers were struck last week, insurers and energy markets are watching the chokepoint closely — a swing factor for oil (and gas) prices.",
+      "url": "https://www.aa.com.tr/en/world/morning-briefing-aug-8-2026/4021587",
+      "source": "Anadolu Agency"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Europe's heatwave grinds on",
+      "why": "Italy has posted red heat alerts for a record number of cities as southern Europe bakes through a brutal stretch.",
+      "url": "https://www.euronews.com/top-news-stories-today",
+      "source": "Euronews"
+    }
+  ],
+  "system_notes": [
+    "Calendar today: SAT lesson with Ben, 10–11 AM (Google Meet). Tomorrow (Mon Aug 10): nothing personal on the calendar, but it's the RSVP deadline for Mom's Kent's Place weekend. Team 68 'New Advisor Basic Training' Aug 10–11 is advisor-facing (FYI).",
+    "New: next week's Snack Bar schedule posted (When I Work) — Tue Aug 11 2:00–6:30 PM is the first shift; couldn't read the full week from the email preview, so pointed Henry to the app.",
+    "Google Tasks: 12 open, unchanged from yesterday (High: Do Summer Reading, Find USB).",
+    "Inbox otherwise promotional; Uber ride receipts (Sat night, on Mom's family account) are informational only.",
+    "News integrity: search surfaced Ukraine 'Alaska summit' items dated 2025 — left them out rather than present possibly-stale news as current.",
+    "Timing check: generated ~06:49 AM ET, inside the 6:25–6:55 window; delivered quietly (email + dashboard, no push)."
+  ]
+}
