@@ -14,18 +14,18 @@ open:
     due: 2026-08-08
     source: "GitHub Actions failure emails, Aug 6 ~21:00 ET (notifications@github.com)"
     first_seen: 2026-08-07
-  - what: "SAT on Sat Aug 22 — SAT lesson with Ben is now on the calendar for Sun Aug 9, 10–11 AM (Google Meet). Work through his new QBank (Math + R/W) hard questions beforehand. Mom is coordinating the run of Sunday sessions before the test."
+  - what: "SAT on Sat Aug 22 — Sunday Aug 9 lesson with Ben happened; he assigned QBank homework ('SAT Homework (work through hard new q bank)' is now a High Google Task). SAT prep is Henry's current focus: 'Do PSAT', 'Do Desmos SAT Bootcamp' also on High. Recurring Sunday lessons continue."
     who: "Henry → Ben (ben@sextontestprep.com)"
     due: 2026-08-22
-    source: "Gmail: Ben 'SAT New QBank Questions' + Mom↔Ben 'Henry Zisow lessons', Aug 5; calendar 'H SAT w Ben' Sun Aug 9"
+    source: "Gmail: Ben 'SAT New QBank Questions' Aug 5; calendar 'H SAT w Ben' Sun Aug 9; Google Tasks reshuffle Aug 10"
     first_seen: 2026-08-06
-    note: "Confirmed test date Aug 22. Recurring Sunday-morning lessons with Ben. 'Bluebook Test 8 or 10' left the High list Aug 6 — SAT prep is still active regardless."
-  - what: "Keep Supabase EpiGuide alive — flagged AGAIN for >7 days inactivity (Aug 4); will auto-pause soon. Log in / add any activity, or upgrade to Pro. Dashboard: supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu"
+    note: "Confirmed test date Aug 22. Recurring Sunday-morning lessons with Ben. SAT/PSAT is the dominant theme on the High list as of Aug 10."
+  - what: "EpiGuide — Henry is ACTIVELY working it again (Aug 10 added a High task 'See how to actually train the ML model for EpiGuide'). Good: activity resets the Supabase 7-day auto-pause timer. Still confirm a Supabase login (project lpgrbpblbtpyigzsrhgu, org 'Vibecoding Projects') + re-run the failed GitHub Pages deploy so the frontend is live. Dashboard: supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu"
     who: "Henry"
-    due: 2026-08-06
-    source: "Supabase pause warnings Jul 18 + Aug 4 (project id lpgrbpblbtpyigzsrhgu, org 'Vibecoding Projects')"
+    due: 2026-08-11
+    source: "Supabase pause warnings Jul 18 + Aug 4; GitHub Pages fail Aug 6; Google Task 'train the ML model for EpiGuide' Aug 10"
     first_seen: 2026-07-17
-    note: "Not confirmed paused as of Aug 7; a login/any activity resets the 7-day timer. 90-day window to unpause if it does. Aug 7: EpiGuide ALSO failed its GitHub Pages deploy overnight — the frontend may be down too (see the GitHub Pages follow-up)."
+    note: "Was flagged to auto-pause (not confirmed paused as of Aug 10); 90-day unpause window if it ever does. Now that Henry's building on it again, pause risk is lower — but the ML-training task is a real open work item too."
   - what: "Complete the 4 LEVRA modules by Fri Aug 14 for the Oxford 'Introduction to Human Skills' certificate. Optional: send a reflection to be featured as a 'LEVRA Future Leader.'"
     who: "Henry → LEVRA (emily@levra.me / gayeon@levra.me)"
     due: 2026-08-14

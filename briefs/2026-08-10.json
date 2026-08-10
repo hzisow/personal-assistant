@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-10",
+  "generated_at": "2026-08-10T06:50:00-04:00",
+  "headline": "Clear calendar today — and after last night's planning session your High list tells the story: SAT/PSAT prep is front and center now (Ben's QBank homework from yesterday's lesson, plus 'Do PSAT' and Desmos moved up), and you've queued the EpiGuide ML-training work. One hard deadline: RSVP Mom's 'Kent's Place' weekend is due TODAY. Work resumes tomorrow (Tue 2:00–6:30). Sunny and cool, ~63°.",
+  "weather": {
+    "location": "Newton/Boston, MA",
+    "current_f": 63,
+    "condition": "Sunny & cool"
+  },
+  "schedule": [],
+  "tomorrow_headsup": [
+    "Tue Aug 11: Work — Snack Bar 2:00–6:30 PM (first shift of the week).",
+    "Wed Aug 13 (economy): July CPI lands — the market's big test this week.",
+    "Nothing else on the calendar for today or tomorrow."
+  ],
+  "email": [
+    {
+      "thread_id": "19fe899981d54a35",
+      "from": "Google (account notices)",
+      "subject": "You signed into TikTok with Google (Aug 9)",
+      "bucket": "fyi",
+      "why": "Just confirming your own logins (Sun 6:16–6:17 PM) — probably research for the 'TikTok → playlist' app on your list. No action; flagging only because it's an account-security notice, not marketing.",
+      "age_days": 1
+    }
+  ],
+  "tasks": {
+    "connected": true,
+    "auth_url": null,
+    "items": [
+      {"title": "Do PSAT", "list": "High Priority", "due": null, "overdue": false, "notes": "New (added overnight). PSAT prep alongside the SAT push."},
+      {"title": "See how to actually train the ML model for EpiGuide", "list": "High Priority", "due": null, "overdue": false, "notes": "New — you're back on EpiGuide. Bonus: activity here also keeps the Supabase project from auto-pausing."},
+      {"title": "Do Summer Reading", "list": "High Priority", "due": null, "overdue": false, "notes": "Still on the High list — the 4 Summer Work books + APUSH chapter below."},
+      {"title": "Do Desmos SAT Bootcamp through Sexton Test Prep", "list": "High Priority", "due": null, "overdue": false, "notes": "Moved up from Medium — SAT prep escalated."},
+      {"title": "SAT Homework (work through the hard new QBank)", "list": "High Priority", "due": null, "overdue": false, "notes": "New — Ben's assignment from Sunday's lesson. SAT is Aug 22."},
+      {"title": "Learn about succession planning for DECA", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Find USB", "list": "Medium Priority", "due": null, "overdue": false, "notes": "Moved down from High."},
+      {"title": "Complete MA DECA involvement guide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Rebuild resume in Google Docs", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Build the TikTok send-to audio/playlist app", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Make Involvement Guide automation tool", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Read \"Kindred\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read Chapter 1 in the AMSCO book (APUSH)", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"The Namesake\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"A Visit from the Goon Squad\"", "list": "Summer Work", "due": null, "overdue": false}
+    ]
+  },
+  "follow_ups": [
+    {
+      "what": "RSVP to Mom's 'Kent's Place in Marion' weekend (Aug 29–30) — deadline is TODAY (Mon Aug 10).",
+      "who": "Henry → Michelle Zisow",
+      "due": "2026-08-10",
+      "age_days": 10
+    },
+    {
+      "what": "SAT on Sat Aug 22 — do Ben's QBank homework from Sunday's lesson (now its own High task) and keep up Desmos. Recurring Sunday sessions.",
+      "who": "Henry → Ben (Sexton)",
+      "due": "2026-08-22",
+      "age_days": 4
+    },
+    {
+      "what": "EpiGuide is active again (new High task: 'train the ML model'). While you're in there: make sure the Supabase project is logged into (was flagged to auto-pause) and re-run the failed GitHub Pages deploy so the site is live.",
+      "who": "Henry",
+      "due": "2026-08-11",
+      "age_days": 24
+    },
+    {
+      "what": "GitHub Pages deploys failed Aug 6 on 5 repos (EpiGuide, BFF-Digital-Learning, Youtube-Automation, Henry-PortfolioWebsite) — re-run/fix the workflows; check the sites.",
+      "who": "Henry",
+      "due": "2026-08-11",
+      "age_days": 3
+    },
+    {
+      "what": "Complete the 4 LEVRA modules by Fri Aug 14 for the Oxford 'Human Skills' certificate.",
+      "who": "Henry → LEVRA",
+      "due": "2026-08-14",
+      "age_days": 6
+    },
+    {
+      "what": "Fill out the Braeburn 'Snack Bar 2026' end-of-season form (from Maria Milian) — quick.",
+      "who": "Henry → Braeburn",
+      "due": "2026-08-15",
+      "age_days": 1
+    },
+    {
+      "what": "Michael Horn / Playlist & SEO doc — VERIFY it's wrapped ('DO MICHAEL HORN WORK' left the task list Aug 7; not assuming done).",
+      "who": "Henry → Michael Horn / Danny",
+      "due": "2026-08-07",
+      "age_days": 24
+    },
+    {
+      "what": "Panda Express fundraiser (approved) — follow up (well past its Aug 2 target; stale — consider dropping if still dead next week).",
+      "who": "Henry / Adam Benjamin",
+      "due": "2026-08-02",
+      "age_days": 18
+    },
+    {
+      "what": "DECA Dash 5K — chapter + Instagram promo with the officer team.",
+      "who": "Officer team (Ryan leading)",
+      "due": "2026-08-15",
+      "age_days": 24
+    }
+  ],
+  "news": [
+    {
+      "topic": "Business & markets",
+      "headline": "Stocks at record highs, but Monday futures dip as oil climbs",
+      "why": "The S&P closed at a record 7,758 Friday on rate-cut hopes; futures softened this morning as oil rose on fading hopes for a Strait of Hormuz reopening.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-081128237.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "Wednesday's July CPI is the week's main event",
+      "why": "Headline inflation is seen ~3.4% YoY; a hot print would jolt the record-high market, a soft one cements September rate-cut bets. PPI follows Thursday.",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262090642-weekly-preview-us-cpi-ppi-data-market-focus-crwv-amat-earnings-reports-tradingkey",
+      "source": "TradingKey"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "AI earnings in focus: CoreWeave and Applied Materials",
+      "why": "A lighter but AI-heavy earnings week keeps the data-center trade front and center alongside the inflation data.",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262090642-weekly-preview-us-cpi-ppi-data-market-focus-crwv-amat-earnings-reports-tradingkey",
+      "source": "TradingKey"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "DeepSeek's V4-Flash retrain now tops its own 'Pro' on agentic coding",
+      "why": "A cheap 'flash' model beating the pricier tier on coding benchmarks — the clearest sign yet that open models are closing the gap for builders.",
+      "url": "https://llm-stats.com/ai-news",
+      "source": "LLM-Stats"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "The 'agentic' era: models that orchestrate multi-step workflows",
+      "why": "August's releases lean hard into agents that can run complex tasks semi-autonomously — the capability behind tools like your build projects.",
+      "url": "https://blog.mean.ceo/new-ai-model-releases-news-august-2026/",
+      "source": "mean.ceo"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Heads-up for builders: model retirements + an Aug 31 'price cliff'",
+      "why": "Several hosted models are being retired later this month and pricing changes hit Aug 31 — worth checking if any of your projects call those endpoints.",
+      "url": "https://www.digitalapplied.com/blog/ai-model-releases-august-2026-tracker",
+      "source": "Digital Applied"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Israel rejects Trump's 15-point Gaza plan",
+      "why": "Netanyahu says forces won't withdraw until Hamas fully disarms — a setback for the ceasefire framework that looked close last week.",
+      "url": "https://wng.org/podcasts/monday-morning-news-august-10-2026-1786299318",
+      "source": "WORLD"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Iran sets steep conditions to reopen the Strait of Hormuz",
+      "why": "Tehran wants sanctions lifted, forces withdrawn and war damages paid first — keeping a bid under oil prices and inflation risk.",
+      "url": "https://wng.org/podcasts/monday-morning-news-august-10-2026-1786299318",
+      "source": "WORLD"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Zelenskyy: up to 50,000 North Korean troops headed to Russia",
+      "why": "A major reported escalation in Pyongyang's support for Moscow's war effort.",
+      "url": "https://wng.org/podcasts/monday-morning-news-august-10-2026-1786299318",
+      "source": "WORLD"
+    }
+  ],
+  "system_notes": [
+    "Calendar clear today; tomorrow (Tue Aug 11) Work 2:00–6:30 PM. Team 68 'New Advisor Basic Training' (advisor-facing) didn't return on today's calendar query — omitted.",
+    "Google Tasks: big overnight reorg (edits stamped ~3–5 AM). 15 open now. New High items: 'Do PSAT', 'See how to actually train the ML model for EpiGuide', 'SAT Homework (hard new QBank)'. 'Do Desmos SAT Bootcamp' moved Medium→High; 'Find USB' moved High→Medium. SAT/PSAT prep is clearly the current focus.",
+    "EpiGuide is being actively worked again (new ML-training task) — good news for the Supabase auto-pause risk (activity resets the timer). Still worth a Supabase login + re-running the failed GitHub Pages deploy.",
+    "Inbox is essentially clear (looks like Henry cleaned it out) — only a college webinar (noise) and Google's 'you signed into TikTok' notices (his own logins). No reply to yesterday's brief.",
+    "Reliability: the Zapier weather call and one Google Tasks read returned transient 504s on the first try; retried and both came back cleanly.",
+    "Timing check: generated ~06:50 AM ET, inside the 6:25–6:55 window; delivered quietly (email + dashboard, no push)."
+  ]
+}
