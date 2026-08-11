@@ -3,23 +3,23 @@
 # moves them to resolved when done — explaining every change in the brief.
 
 open:
-  - what: "Michael Horn / Playlist & SEO Recommendations doc — VERIFY it's wrapped. 'DO MICHAEL HORN WORK' dropped off the High task list Aug 7 (was #1 Aug 4–6; Danny had pushed to meet Aug 6). Don't assume done — confirm or re-add. Danny's Aug 4 asks: rework section '5. Education Policy, Choice & the Business of EdTech'; clarify which clips are YouTube. Doc: docs.google.com/document/d/1QnSuI2vozYGoXVbPK-00vibNzzQORBA5c8aS9ozUyi4"
+  - what: "Michael Horn socials work — ACTIVE again & Henry's #1 Google Task ('Michael horn email'). Aug 10: Danny asked Michael to add Henry to the 'Michael B. Horn' YouTube channel so he can run analytics on the socials; Michael granted Editor (limited) access. Next: actually do the YouTube/social analytics and report back. (Same workstream as the earlier Playlist & SEO doc — doc: docs.google.com/document/d/1QnSuI2vozYGoXVbPK-00vibNzzQORBA5c8aS9ozUyi4)"
     who: "Henry → Michael Horn / Danny"
-    due: 2026-08-07
-    source: "Docs comment notifications Jul 15–17 + Aug 4 (Danny Curtis); Granola Jul 9 Danny/Michael Horn meeting"
+    due: 2026-08-13
+    source: "Gmail 'Adding Henry to Youtube' Aug 10 (Danny + michael.b.horn@gmail.com); Docs comments Jul 15–Aug 4; Granola Jul 9 meeting"
     first_seen: 2026-07-17
-    note: "De-emphasized now that the task left the list — low-key 'verify' unless it resurfaces in email/Docs."
+    note: "Access was granted to Henry's SCHOOL email 28hzisow@gannacademy.org (Gann Academy) — his personal Gmail is banned from YouTube, so YouTube-related items go to the school account."
   - what: "GitHub Pages deploys failed overnight Aug 6 on 5 repos — EpiGuide, BFF-Digital-Learning (x2), Youtube-Automation, Henry-PortfolioWebsite. Check whether the live sites are down and re-run / fix the workflows. Five at once suggests a common cause (shared workflow, quota, or a GitHub incident)."
     who: "Henry"
     due: 2026-08-08
     source: "GitHub Actions failure emails, Aug 6 ~21:00 ET (notifications@github.com)"
     first_seen: 2026-08-07
-  - what: "SAT on Sat Aug 22 — Sunday Aug 9 lesson with Ben happened; he assigned QBank homework ('SAT Homework (work through hard new q bank)' is now a High Google Task). SAT prep is Henry's current focus: 'Do PSAT', 'Do Desmos SAT Bootcamp' also on High. Recurring Sunday lessons continue."
+  - what: "SAT on Sat Aug 22 — lessons with Ben ramping: Sun Aug 9 done, and a 2ND lesson is on the calendar Wed Aug 12 2:00–3:00 PM (Google Meet). 'SAT Homework (hard new QBank)' + 'Do Desmos SAT Bootcamp' are on the High list; 'Do PSAT' on Medium. Do the QBank before each lesson."
     who: "Henry → Ben (ben@sextontestprep.com)"
     due: 2026-08-22
-    source: "Gmail: Ben 'SAT New QBank Questions' Aug 5; calendar 'H SAT w Ben' Sun Aug 9; Google Tasks reshuffle Aug 10"
+    source: "Gmail Ben 'SAT New QBank' Aug 5; calendar 'H SAT w Ben' Sun Aug 9 + Wed Aug 12; Google Tasks"
     first_seen: 2026-08-06
-    note: "Confirmed test date Aug 22. Recurring Sunday-morning lessons with Ben. SAT/PSAT is the dominant theme on the High list as of Aug 10."
+    note: "Confirmed test date Aug 22. Lessons now more than weekly as the test nears. SAT/PSAT is a dominant theme on the High list."
   - what: "EpiGuide — Henry is ACTIVELY working it again (Aug 10 added a High task 'See how to actually train the ML model for EpiGuide'). Good: activity resets the Supabase 7-day auto-pause timer. Still confirm a Supabase login (project lpgrbpblbtpyigzsrhgu, org 'Vibecoding Projects') + re-run the failed GitHub Pages deploy so the frontend is live. Dashboard: supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu"
     who: "Henry"
     due: 2026-08-11
