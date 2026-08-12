@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-12",
+  "generated_at": "2026-08-12T06:50:00-04:00",
+  "headline": "Your 2nd SAT session with Ben is at 2 PM today — and 'SAT Homework' is now your #1 task, so finish the QBank first. Before that, the July CPI drops at 8:30 AM: the swing factor for whether the Fed hikes in September (futures near 50/50). Heads-up for tomorrow: a long work shift, 10 AM–4 PM. Sunny and cool, ~65°.",
+  "weather": {
+    "location": "Newton/Boston, MA",
+    "current_f": 65,
+    "condition": "Sunny & cool"
+  },
+  "schedule": [
+    {
+      "start": "2026-08-12T14:00:00-04:00",
+      "end": "2026-08-12T15:00:00-04:00",
+      "all_day": false,
+      "title": "SAT lesson with Ben",
+      "calendar": "Personal",
+      "location": "Google Meet (meet.google.com/rra-evta-wyx)",
+      "prep": "2nd session this week. 'SAT Homework (hard new QBank)' is your #1 task — do it before the lesson. SAT is Sat Aug 22."
+    }
+  ],
+  "tomorrow_headsup": [
+    "Thu Aug 13: Work — Snack Bar 10:00 AM–4:00 PM (a long shift).",
+    "Thursday also brings July PPI; retail sales land Friday — the rest of the inflation-data week.",
+    "Nothing else on the calendar for today/tomorrow."
+  ],
+  "email": [
+    {
+      "thread_id": "19feceac60efd7de",
+      "from": "Michael Horn / Danny (carryover)",
+      "subject": "You're on the YouTube channel — run the analytics",
+      "bucket": "important",
+      "why": "No new messages since Monday, so the ball's still in your court: you have Editor access to the 'Michael B. Horn' channel (on your school email) to pull the social analytics. Still your #1 work task ('Michael horn email').",
+      "age_days": 2
+    },
+    {
+      "thread_id": "19ff3230fab5182d",
+      "from": "Alpaca Markets",
+      "subject": "Welcome to Alpaca (trading API)",
+      "bucket": "fyi",
+      "why": "You signed up for Alpaca — a developer-first trading API (stocks/options/crypto). Noting it as a new project thread (pairs with your Fidelity activity + build interests); no action needed.",
+      "age_days": 1
+    }
+  ],
+  "tasks": {
+    "connected": true,
+    "auth_url": null,
+    "items": [
+      {"title": "SAT Homework (work through the hard new QBank)", "list": "High Priority", "due": null, "overdue": false, "notes": "#1 — do it before today's 2 PM lesson."},
+      {"title": "Michael horn email", "list": "High Priority", "due": null, "overdue": false, "notes": "You have the YouTube access — run the social analytics / follow up."},
+      {"title": "Do Summer Reading", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do Desmos SAT Bootcamp through Sexton Test Prep", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "add new chapter toolkit to the website", "list": "High Priority", "due": null, "overdue": false, "notes": "New — DECA chapter toolkit onto the site."},
+      {"title": "Do PSAT", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "See how to actually train the ML model for EpiGuide", "list": "Medium Priority", "due": null, "overdue": false, "notes": "Moved down from High."},
+      {"title": "Find 1 TB USB", "list": "Medium Priority", "due": null, "overdue": false, "notes": "Retitled from 'Find USB' — 1 TB (likely for the ML / video-gen data)."},
+      {"title": "Run minimax h3 locally for video generation", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Learn about succession planning for DECA", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Complete MA DECA involvement guide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Rebuild resume in Google Docs", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Build the TikTok send-to audio/playlist app", "list": "Low Priority", "due": null, "overdue": false, "notes": "Carried from yesterday — Low list couldn't be read live today."},
+      {"title": "Make Involvement Guide automation tool", "list": "Low Priority", "due": null, "overdue": false, "notes": "Carried from yesterday."},
+      {"title": "Read \"Kindred\"", "list": "Summer Work", "due": null, "overdue": false, "notes": "Carried from yesterday — Summer list couldn't be read live today."},
+      {"title": "Read Chapter 1 in the AMSCO book (APUSH)", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"The Namesake\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"A Visit from the Goon Squad\"", "list": "Summer Work", "due": null, "overdue": false}
+    ]
+  },
+  "follow_ups": [
+    {
+      "what": "SAT on Sat Aug 22 — 2nd lesson with Ben TODAY 2–3 PM. 'SAT Homework (hard QBank)' is your #1 task — finish it before the lesson. Desmos + PSAT also queued.",
+      "who": "Henry → Ben (Sexton)",
+      "due": "2026-08-22",
+      "age_days": 6
+    },
+    {
+      "what": "Michael Horn socials analytics — you have Editor access to the 'Michael B. Horn' YouTube channel (school email). Run the analytics and report back. #1 Google Task ('Michael horn email').",
+      "who": "Henry → Michael Horn / Danny",
+      "due": "2026-08-13",
+      "age_days": 26
+    },
+    {
+      "what": "EpiGuide — ML-training task (now on Medium). While in there: confirm a Supabase login (auto-pause risk) + re-run the failed GitHub Pages deploy. New adjacent task: 'add new chapter toolkit to the website'.",
+      "who": "Henry",
+      "due": "2026-08-13",
+      "age_days": 26
+    },
+    {
+      "what": "Complete the 4 LEVRA modules by Fri Aug 14 for the Oxford 'Human Skills' certificate — 2 days out.",
+      "who": "Henry → LEVRA",
+      "due": "2026-08-14",
+      "age_days": 8
+    },
+    {
+      "what": "RSVP to Mom's 'Kent's Place in Marion' weekend (Aug 29–30) — was due Mon Aug 10; confirm it's sent.",
+      "who": "Henry → Michelle Zisow",
+      "due": "2026-08-10",
+      "age_days": 12
+    },
+    {
+      "what": "Fill out the Braeburn 'Snack Bar 2026' end-of-season form (from Maria Milian) — quick.",
+      "who": "Henry → Braeburn",
+      "due": "2026-08-15",
+      "age_days": 3
+    },
+    {
+      "what": "Panda Express fundraiser (approved) — follow up (well past its Aug 2 target; stale — dropping soon if no movement).",
+      "who": "Henry / Adam Benjamin",
+      "due": "2026-08-02",
+      "age_days": 20
+    },
+    {
+      "what": "DECA Dash 5K — chapter + Instagram promo with the officer team (Fri Aug 15).",
+      "who": "Officer team (Ryan leading)",
+      "due": "2026-08-15",
+      "age_days": 26
+    }
+  ],
+  "news": [
+    {
+      "topic": "Business & markets",
+      "headline": "July CPI drops at 8:30 AM — the week's decisive read",
+      "why": "Headline is seen easing to 3.4% (from 3.5%), core to 2.5%. It's the swing factor for the Fed: futures are near 50/50 on a September hike, so a hot print could sting the record-high market.",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-august-12-dow-sp-500-nasdaq-cpi-report-091555133.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "Stocks sit near record highs into the print",
+      "why": "Futures firmed pre-CPI (Nasdaq +0.6%) even with oil elevated — the market's betting inflation cooled further.",
+      "url": "https://www.schwab.com/learn/story/stock-market-update-open",
+      "source": "Charles Schwab"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "Then PPI Thursday + retail sales Friday",
+      "why": "Back-to-back inflation and spending data finish a heavy week that sets up the Fed's September call.",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262090642-weekly-preview-us-cpi-ppi-data-market-focus-crwv-amat-earnings-reports-tradingkey",
+      "source": "TradingKey"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "NVIDIA's Nemotron 3.5 Lightning runs on your own device",
+      "why": "A 30B (3B-active) open model built for agents that runs locally — right in your lane (EpiGuide ML, minimax video, local models). It hit your inbox via Ollama.",
+      "url": "https://llm-stats.com/llm-updates",
+      "source": "LLM-Stats"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Google ships the Gemini 3.6 Flash family",
+      "why": "Flash, Flash-Lite and a 'Cyber' variant tuned for cheap, fast agentic workflows — the model price/efficiency war keeps accelerating.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
+      "source": "Google"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "EU AI Act's high-risk rules are now enforceable",
+      "why": "Chatbots must ID themselves and synthetic media must be watermarked, with fines up to €15M or 3% of global revenue — shaping how any product ships to EU users.",
+      "url": "https://etcjournal.com/2026/08/01/august-2026-where-ai-is-headed-in-next-5-years/",
+      "source": "ETC Journal"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Colombia earthquake toll climbs past 180",
+      "why": "At least 181 dead and ~2,600 injured, with scores still missing — one of the country's deadliest quakes in years.",
+      "url": "https://wng.org/podcasts/wednesday-morning-news-august-12-2026-1786477811",
+      "source": "WORLD"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Türkiye moves to pardon Kurdish militants in a peace push",
+      "why": "Parliament approved a conditional pardon for thousands of fighters — a major step in ending a decades-long insurgency.",
+      "url": "https://wng.org/podcasts/wednesday-morning-news-august-12-2026-1786477811",
+      "source": "WORLD"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Congo's Ebola outbreak began earlier than thought",
+      "why": "Health officials now say the virus was spreading before it was detected — complicating containment.",
+      "url": "https://wng.org/podcasts/wednesday-morning-news-august-12-2026-1786477811",
+      "source": "WORLD"
+    }
+  ],
+  "system_notes": [
+    "Calendar: SAT lesson with Ben 2:00–3:00 PM today (2nd this week). Tomorrow (Thu Aug 13) Work 10:00 AM–4:00 PM (long shift).",
+    "Google Tasks: High + Medium read live (12 items). New: 'add new chapter toolkit to the website' (High); 'See how to train the ML model for EpiGuide' moved High→Medium; 'Find USB' retitled 'Find 1 TB USB'. The Low + Summer lists returned a Zapier error ('insufficient tasks on account') on 3 tries, so those 6 items are carried from yesterday and may be stale — re-verify next run. Total shown: 18.",
+    "Inbox mostly promotional; the Michael Horn YouTube thread is carryover (no new activity). New: Henry signed up for Alpaca (trading API) — logged as a project FYI.",
+    "CPI releases 8:30 AM ET, after this brief goes out — framed forward-looking.",
+    "Timing check: generated ~06:50 AM ET, inside the 6:25–6:55 window; delivered quietly (email + dashboard, no push).",
+    "News integrity: kept to Aug 12-dated sources; no stale/２025 items."
+  ]
+}
