@@ -17,6 +17,9 @@
   .wrap{max-width:1120px;margin:0 auto;padding:clamp(20px,4vw,36px) clamp(16px,4vw,40px) 48px;}
   .hello{font-size:clamp(24px,4vw,30px);font-weight:700;margin:6px 0 8px;letter-spacing:-.02em;}
   .sub{color:var(--muted);font-size:16px;max-width:66ch;margin:0 0 18px;text-wrap:balance;}
+  .alert{background:#FBEEE9;border:1px solid var(--urgent);border-radius:14px;padding:14px 18px;margin:4px 0 20px;font-size:14px;color:var(--ink);}
+  @media (prefers-color-scheme:dark){.alert{background:#2A2018;}}
+  .alert b{color:var(--urgent);}
   .stats{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:8px;}
   .stat{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line-strong);border-radius:999px;padding:7px 14px;font-size:13px;font-weight:600;background:var(--card);}
   .stat .d{width:8px;height:8px;border-radius:50%;background:var(--blue);flex:none;} .stat.warn .d{background:var(--urgent);} .stat .num{font-variant-numeric:tabular-nums;}
@@ -29,8 +32,8 @@
   .flight{background:var(--blue-soft);border-radius:14px;padding:16px 18px;} .flight .route{font-size:26px;font-weight:800;} .flight .route .arr{color:var(--blue);font-weight:400;} .flight .fmeta{color:var(--muted);font-size:13px;margin-top:4px;font-variant-numeric:tabular-nums;}
   .warn-note{color:var(--urgent);font-weight:600;font-size:13.5px;margin-top:10px;}
   .rows{list-style:none;margin:0;padding:0;} .rows li{display:flex;align-items:flex-start;gap:12px;padding:11px 0;border-top:1px solid var(--line);} .rows li:first-child{border-top:0;padding-top:0;}
-  .ic{flex:none;width:36px;height:36px;border-radius:11px;background:var(--blue-soft);color:var(--blue);font-weight:700;font-size:14px;display:flex;align-items:center;justify-content:center;} .ic.u{background:#FBEEE9;color:var(--urgent);}
-  @media (prefers-color-scheme:dark){.ic.u{background:#2A2018;}}
+  .ic{flex:none;width:36px;height:36px;border-radius:11px;background:var(--blue-soft);color:var(--blue);font-weight:700;font-size:14px;display:flex;align-items:center;justify-content:center;} .ic.u{background:#FBEEE9;color:var(--urgent);} .ic.g{background:#E7F5EC;color:#127A3E;}
+  @media (prefers-color-scheme:dark){.ic.u{background:#2A2018;} .ic.g{background:#16281C;color:#5FBE85;}}
   .rows .from{font-weight:600;} .rows .why{color:var(--muted);font-size:13px;margin-top:1px;}
   .fu{list-style:none;margin:0;padding:0;font-size:14px;} .fu li{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:9px 0;border-top:1px solid var(--line);} .fu li:first-child{border-top:0;padding-top:0;}
   .due{flex:none;border-radius:999px;padding:3px 11px;font-size:12px;font-weight:700;border:1px solid var(--line-strong);color:var(--faint);white-space:nowrap;} .due.soon{color:var(--urgent);border-color:currentColor;}
@@ -45,68 +48,69 @@
 <nav>
   <div class="navin">
     <span class="brand"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="14" r="5.5" fill="currentColor"/><path d="M2 20h20M12 3v3M4.9 6.9l2.1 2.1M19.1 6.9 17 9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Morning Brief</span>
-    <div class="datepill" role="text"><span>Wed, Aug 12</span><span class="soft">SAT lesson 2 PM · CPI day</span><span class="soft">☀️ 65°</span></div>
+    <div class="datepill" role="text"><span>Thu, Aug 13</span><span class="soft">Internship in! · Work 10–4</span><span class="soft">🌧 76°</span></div>
     <div class="avatar" aria-hidden="true">H</div>
   </div>
 </nav>
 <div class="wrap">
   <h1 class="hello">Good morning, Henry</h1>
-  <p class="sub">Your 2nd SAT session with Ben is at 2 PM today — and "SAT Homework" is now your #1 task, so finish the QBank first. Before that, the July CPI drops at 8:30 AM: the swing factor for whether the Fed hikes in September (futures near 50/50). Heads-up for tomorrow: a long work shift, 10–4. Sunny and cool.</p>
+  <p class="sub">Good news to act on: you're IN — Leadership Initiatives accepted you into their 2026–27 International Internship Program, with a "final step to confirm your spot." Today is a long work shift (10–4), and a wet one — showers and thunderstorms likely after 1 PM, so pack rain gear. Also worth a quick login: Supabase is threatening to pause EpiGuide again.</p>
+  <div class="alert">⚠️ <b>Email is down (day 2).</b> The brief email still can't send — <b>Zapier is out of task quota</b> ("insufficient tasks on account"), which also blocked Google Tasks + weather this morning. This is <b>dashboard-only</b> until you top up Zapier (zapier.com → Settings → Usage &amp; Billing); email + tasks resume automatically once it's back.</div>
   <div class="stats">
-    <span class="stat"><span class="d"></span>✏️ SAT lesson 2 PM — QBank first</span>
-    <span class="stat"><span class="d"></span>📉 CPI at 8:30 AM</span>
-    <span class="stat"><span class="d"></span>🎬 Michael Horn analytics — #1 work</span>
-    <span class="stat"><span class="d"></span>💼 Tomorrow: work 10–4</span>
+    <span class="stat"><span class="d"></span>🎉 Internship accepted — confirm it</span>
+    <span class="stat"><span class="d"></span>💼 Work 10 AM–4 PM</span>
+    <span class="stat warn"><span class="d"></span>🌧 Storms after 1 PM</span>
+    <span class="stat warn"><span class="d"></span>EpiGuide — log into Supabase</span>
   </div>
 
   <h2>Today</h2>
   <div class="cards">
     <section class="card wide">
       <ul class="tl">
-        <li><time>8:30 AM</time><div class="what"><strong>July CPI</strong> releases — the week's decisive market read</div></li>
-        <li><time>2:00–3:00 PM</time><div class="what"><strong>SAT lesson with Ben</strong> · <a class="alink" href="https://meet.google.com/rra-evta-wyx">Google Meet</a> · <span style="color:var(--faint);">2nd this week</span><div class="prep">"SAT Homework (hard QBank)" is your #1 task — do it before the lesson. SAT is Aug 22.</div></div></li>
+        <li><time>10:00 AM–4:00 PM</time><div class="what"><strong>Work</strong> — Snack Bar (Braeburn CC)<div class="prep">A 6-hour shift. <b>Rain/thunderstorms after 1 PM</b> (70%, gusts to 23 mph) — bring rain gear.</div></div></li>
       </ul>
     </section>
   </div>
 
-  <h2>Inbox</h2>
+  <h2>Inbox — worth acting on</h2>
   <div class="cards">
     <section class="card wide">
       <ul class="rows">
-        <li><span class="ic">🎬</span><div><div class="from">Michael Horn / Danny <span style="color:var(--faint);font-weight:400;">· carryover</span></div><div class="why">No new messages — the ball's in your court to run the YouTube analytics (you have Editor access on your school email). Still your #1 work task.</div></div></li>
-        <li><span class="ic">💵</span><div><div class="from">Alpaca → welcome <span style="color:var(--faint);font-weight:400;">· FYI</span></div><div class="why">You signed up for Alpaca (a trading API — stocks/options/crypto). Noting it as a new project thread.</div></div></li>
-        <li><span class="ic">🔕</span><div><div class="from">Otherwise promotional</div><div class="why">College blasts + retail. No reply to yesterday's brief.</div></div></li>
+        <li><span class="ic g">🎉</span><div><div class="from">Leadership Initiatives → you're accepted (IIP)</div><div class="why">The free ~7-month business track you ran past Brett. There's a <b>final step to confirm your spot</b> — lock it in. Brett's take: worth it, keeps the door open despite a tight year.</div></div></li>
+        <li><span class="ic u">⏸</span><div><div class="from">Supabase → EpiGuide pause warning (again)</div><div class="why">Flagged Aug 12; your ML work doesn't reset the timer — <b>log into the Supabase dashboard</b>.</div></div><a class="alink" style="margin-left:auto;font-size:12.5px;white-space:nowrap;align-self:center;" href="https://supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu">Dashboard ›</a></li>
+        <li><span class="ic">🔐</span><div><div class="from">Google → new sign-in <span style="color:var(--faint);font-weight:400;">· FYI</span></div><div class="why">1:39 AM (Aug 13) — almost certainly you. No action unless it wasn't.</div></div></li>
       </ul>
     </section>
   </div>
 
-  <h2>Tomorrow (Thu Aug 13)</h2>
+  <h2>Tomorrow (Fri Aug 14)</h2>
   <div class="cards">
     <section class="card wide">
       <ul class="rows">
-        <li><span class="ic">💼</span><div><div class="from">10:00 AM–4:00 PM — Work</div><div class="why">Snack Bar (Braeburn CC) — a long shift. Also: PPI Thursday, retail sales Friday.</div></div></li>
+        <li><span class="ic">🚗</span><div><div class="from">11:00 AM–1:00 PM — Driving lesson</div><div class="why">Newton Driving School. Bring your <b>printed permit + closed shoes</b> or it's canceled + a fee.</div></div></li>
+        <li><span class="ic u">🎓</span><div><div class="from">LEVRA certificate deadline</div><div class="why">Finish the 4 modules for the Oxford "Human Skills" cert.</div></div></li>
       </ul>
     </section>
   </div>
 
-  <h2>Tasks <span style="font-weight:400;color:var(--faint);font-size:14px;">· Google Tasks ✓ · 18 open</span></h2>
+  <h2>Tasks <span style="font-weight:400;color:var(--faint);font-size:14px;">· Google Tasks — couldn't read today (Zapier down); carried from yesterday</span></h2>
   <div class="cards">
     <section class="card">
       <div class="topic" style="margin-bottom:12px;">High priority</div>
       <ul class="tasklist">
-        <li><strong>SAT Homework</strong> — hard new QBank <span style="color:var(--urgent);">· #1</span></li>
+        <li>SAT Homework — hard QBank</li>
         <li>Michael horn email</li>
         <li>Do Summer Reading</li>
         <li>Desmos SAT Bootcamp</li>
-        <li><strong>add new chapter toolkit to the website</strong> <span style="color:var(--faint);">· new</span></li>
+        <li>add new chapter toolkit to the website</li>
       </ul>
     </section>
     <section class="card">
       <div class="topic" style="margin-bottom:12px;">Medium priority</div>
       <ul class="tasklist">
         <li>Do PSAT</li>
-        <li>Train the ML model for EpiGuide <span style="color:var(--faint);">· moved down</span></li>
-        <li>Find 1 TB USB <span style="color:var(--faint);">· retitled</span></li>
+        <li>Train the ML model for EpiGuide</li>
+        <li>Find 1 TB USB</li>
         <li>Run minimax h3 locally for video gen</li>
         <li>Learn DECA succession planning</li>
         <li>Complete MA DECA involvement guide</li>
@@ -130,19 +134,18 @@
       </ul>
     </section>
   </div>
-  <p style="color:var(--faint);font-size:12px;margin:10px 2px 0;">Low + Summer lists hit a Tasks-API hiccup this morning — shown from yesterday; will re-verify next run.</p>
 
   <h2>Follow-ups</h2>
   <div class="cards">
     <section class="card wide">
       <ul class="fu">
-        <li><span>Finish SAT homework before the 2 PM lesson (test Aug 22)</span><span class="due soon">today</span></li>
-        <li><span>Michael Horn analytics — you have the YouTube access</span><span class="due soon">active</span></li>
+        <li><span>Confirm the Leadership Initiatives IIP internship</span><span class="due soon">now</span></li>
+        <li><span>Log into Supabase to keep EpiGuide alive</span><span class="due soon">today</span></li>
         <li><span>Finish LEVRA modules for the certificate</span><span class="due soon">Fri Aug 14</span></li>
-        <li><span>EpiGuide: Supabase login + re-run failed Pages deploy</span><span class="due">this week</span></li>
+        <li><span>Michael Horn analytics (you have the YouTube access)</span><span class="due">active</span></li>
+        <li><span>SAT QBank — test Aug 22</span><span class="due">ongoing</span></li>
         <li><span>RSVP Mom's Kent's Place — was due Aug 10</span><span class="due soon">slipped</span></li>
-        <li><span>Braeburn end-of-season form</span><span class="due">quick</span></li>
-        <li><span>Panda Express (stale) · DECA Dash promo</span><span class="due">Fri Aug 15</span></li>
+        <li><span>Braeburn end-of-season form · Panda Express · DECA Dash</span><span class="due">Aug 15</span></li>
       </ul>
     </section>
   </div>
@@ -154,30 +157,30 @@
         <div>
           <div class="topic">Business &amp; markets</div>
           <ul class="news">
-            <li><a class="alink" href="https://finance.yahoo.com/markets/live/stock-market-today-wednesday-august-12-dow-sp-500-nasdaq-cpi-report-091555133.html">July CPI drops at 8:30 AM — the week's decisive read</a><div class="why">Headline seen 3.4%; futures near 50/50 on a Sept hike.</div></li>
-            <li><a class="alink" href="https://www.schwab.com/learn/story/stock-market-update-open">Stocks sit near record highs into the print</a><div class="why">Nasdaq futures +0.6% pre-CPI.</div></li>
-            <li><a class="alink" href="https://www.tradingkey.com/analysis/stocks/us-stocks/262090642-weekly-preview-us-cpi-ppi-data-market-focus-crwv-amat-earnings-reports-tradingkey">PPI Thursday + retail sales Friday</a><div class="why">Finishing a heavy data week.</div></li>
+            <li><a class="alink" href="https://www.schwab.com/learn/story/stock-market-update-open">Tame July CPI freed the market</a><div class="why">Hike now seen December, not September; AI-earnings rally extended.</div></li>
+            <li><a class="alink" href="https://www.investing.com/news/stock-market-news/ppi-and-jobless-claims-highlight-economic-data-due-thursday-93CH-4855846">PPI + jobless claims this morning</a><div class="why">Producer prices seen cooling to 4.9%.</div></li>
+            <li><a class="alink" href="https://www.cnbc.com/2026/08/11/stock-market-today-live-updates.html">AI earnings kept the tape strong</a><div class="why">CoreWeave, Applied Materials.</div></li>
           </ul>
         </div>
         <div>
           <div class="topic">Tech &amp; AI</div>
           <ul class="news">
-            <li><a class="alink" href="https://llm-stats.com/llm-updates">NVIDIA's Nemotron 3.5 Lightning runs on your own device</a><div class="why">A 30B open agent model — right in your lane.</div></li>
-            <li><a class="alink" href="https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/">Google ships the Gemini 3.6 Flash family</a><div class="why">Cheap, fast agentic models.</div></li>
-            <li><a class="alink" href="https://etcjournal.com/2026/08/01/august-2026-where-ai-is-headed-in-next-5-years/">EU AI Act's high-risk rules now enforceable</a><div class="why">Chatbot disclosure + watermarks; big fines.</div></li>
+            <li><a class="alink" href="https://blog.mean.ceo/new-ai-model-releases-news-august-2026/">ByteDance's Seedance 2.5 video model is out</a><div class="why">Right next to your minimax video experiment.</div></li>
+            <li><a class="alink" href="https://llm-stats.com/llm-updates">Alibaba ships Qwen Image 3.0 Pro</a><div class="why">Another strong, cheap image model.</div></li>
+            <li><a class="alink" href="https://www.buildfastwithai.com/blogs/collection/ai-industry-news-trends">Agents now run in production at thousands of companies</a><div class="why">Demo → daily use.</div></li>
           </ul>
         </div>
         <div>
           <div class="topic">US &amp; world</div>
           <ul class="news">
-            <li><a class="alink" href="https://wng.org/podcasts/wednesday-morning-news-august-12-2026-1786477811">Colombia earthquake toll climbs past 180</a><div class="why">~2,600 injured; scores missing.</div></li>
-            <li><a class="alink" href="https://wng.org/podcasts/wednesday-morning-news-august-12-2026-1786477811">Türkiye moves to pardon Kurdish militants</a><div class="why">A major step in a decades-long peace push.</div></li>
-            <li><a class="alink" href="https://wng.org/podcasts/wednesday-morning-news-august-12-2026-1786477811">Congo's Ebola outbreak began earlier than thought</a><div class="why">Complicating containment.</div></li>
+            <li><a class="alink" href="https://www.presstv.co.uk/Detail/2026/08/13/774252/Press-TV-s-news-headlines-">Iran rejects Trump's Hormuz "open &amp; under US control" claim</a><div class="why">Shipping/oil standoff unresolved.</div></li>
+            <li><a class="alink" href="https://globalnation.inquirer.net/">China threatens to arrest Filipino workers</a><div class="why">South China Sea tensions escalate.</div></li>
+            <li><a class="alink" href="https://globalnation.inquirer.net/">China–India border tensions flare again</a><div class="why">Over renamed places in Arunachal Pradesh.</div></li>
           </ul>
         </div>
       </div>
     </section>
   </div>
 
-  <footer>QBank, then the 2 PM lesson — and glance at CPI when it lands. Delivered by email + dashboard; reply to the email to change anything. Generated 6:50 AM ET.</footer>
+  <footer>Congrats on the internship — confirm it when you get a sec. Dashboard-only today (email's down on Zapier quota). Generated 6:50 AM ET.</footer>
 </div>

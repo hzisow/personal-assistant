@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-13",
+  "generated_at": "2026-08-13T06:50:00-04:00",
+  "headline": "Good news to act on: you're IN — Leadership Initiatives accepted you into their 2026–27 International Internship Program, and there's a 'final step to confirm your spot.' Today is a long work shift (10 AM–4 PM), and a wet one — showers and thunderstorms likely, especially after 1 PM, so pack rain gear. Also worth a quick login: Supabase is threatening to pause EpiGuide again. (Heads-up: the brief email still can't send — Zapier is out of task quota, day 2 — so today is dashboard-only until it's topped up.)",
+  "weather": {
+    "location": "Newton/Boston, MA",
+    "current_f": 71,
+    "condition": "Showers & thunderstorms likely (high ~76°)"
+  },
+  "schedule": [
+    {
+      "start": "2026-08-13T10:00:00-04:00",
+      "end": "2026-08-13T16:00:00-04:00",
+      "all_day": false,
+      "title": "Work — Snack Bar (Braeburn CC)",
+      "calendar": "Personal",
+      "location": null,
+      "prep": "A 6-hour shift. Rain/thunderstorms likely after 1 PM (70% chance, gusts to 23 mph) — bring rain gear for the commute."
+    }
+  ],
+  "tomorrow_headsup": [
+    "Fri Aug 14, 11:00 AM–1:00 PM: Driving lesson (Newton Driving School) — bring your PRINTED permit + closed shoes or it's canceled + a fee.",
+    "Fri Aug 14 is also the LEVRA certificate deadline (4 modules).",
+    "Data: PPI + jobless claims today; retail sales Friday."
+  ],
+  "email": [
+    {
+      "thread_id": "19ff834254dc69f8",
+      "from": "Leadership Initiatives (IIP)",
+      "subject": "Accepted into the International Internship Program — confirm your spot",
+      "bucket": "needs_reply",
+      "why": "You're in! Leadership Initiatives accepted you into the 2026–27 International Internship Program (the free ~7-month business track you ran past Brett). There's a 'final step to confirm' your place — do that to lock it in. Brett's take: worth it, keeps the door open despite a tight year.",
+      "age_days": 1
+    },
+    {
+      "thread_id": "19ff68501519c580",
+      "from": "Supabase (Ant Wilson)",
+      "subject": "EpiGuide is going to be paused (again)",
+      "bucket": "important",
+      "why": "Another >7-day-inactivity flag on the EpiGuide project (Aug 12). Your ML-training work doesn't count as project activity — you need to actually log into the Supabase dashboard to reset the timer. supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu",
+      "age_days": 1
+    },
+    {
+      "thread_id": "19ff8c5d2dac5234",
+      "from": "Google",
+      "subject": "Security alert — new sign-in",
+      "bucket": "fyi",
+      "why": "A new sign-in to your Google account at 1:39 AM (Aug 13). Almost certainly you (you've been up late building) — no action unless it wasn't.",
+      "age_days": 0
+    }
+  ],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": [
+      {"title": "SAT Homework (work through the hard new QBank)", "list": "High Priority", "due": null, "overdue": false, "notes": "Carried from Aug 12 — Google Tasks couldn't be read today (Zapier quota)."},
+      {"title": "Michael horn email", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do Summer Reading", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do Desmos SAT Bootcamp through Sexton Test Prep", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "add new chapter toolkit to the website", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do PSAT", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "See how to actually train the ML model for EpiGuide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Find 1 TB USB", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Run minimax h3 locally for video generation", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Learn about succession planning for DECA", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Complete MA DECA involvement guide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Rebuild resume in Google Docs", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Build the TikTok send-to audio/playlist app", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Make Involvement Guide automation tool", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Read \"Kindred\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read Chapter 1 in the AMSCO book (APUSH)", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"The Namesake\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"A Visit from the Goon Squad\"", "list": "Summer Work", "due": null, "overdue": false}
+    ]
+  },
+  "follow_ups": [
+    {
+      "what": "Confirm your Leadership Initiatives IIP spot — you were ACCEPTED Aug 12 into the 2026–27 International Internship Program (free ~7-month business track, lichange.org / liempower.org/iipbusiness). Complete the 'final step to confirm.' Brett endorsed applying.",
+      "who": "Henry → Leadership Initiatives",
+      "due": "2026-08-16",
+      "age_days": 0
+    },
+    {
+      "what": "Keep Supabase EpiGuide alive — flagged AGAIN Aug 12 for >7-day inactivity. LOG IN to the Supabase dashboard (the ML-training work doesn't reset the timer). supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu",
+      "who": "Henry",
+      "due": "2026-08-14",
+      "age_days": 27
+    },
+    {
+      "what": "Complete the 4 LEVRA modules — deadline is TOMORROW (Fri Aug 14) for the Oxford 'Human Skills' certificate.",
+      "who": "Henry → LEVRA",
+      "due": "2026-08-14",
+      "age_days": 9
+    },
+    {
+      "what": "SAT on Sat Aug 22 — keep working the QBank (Ben lessons Sun + Wed done this week). 'SAT Homework' + Desmos on the High list.",
+      "who": "Henry → Ben (Sexton)",
+      "due": "2026-08-22",
+      "age_days": 7
+    },
+    {
+      "what": "Michael Horn socials analytics — you have Editor access to the YouTube channel (school email); run the analytics. #1 work task ('Michael horn email').",
+      "who": "Henry → Michael Horn / Danny",
+      "due": "2026-08-14",
+      "age_days": 27
+    },
+    {
+      "what": "RSVP to Mom's 'Kent's Place in Marion' weekend (Aug 29–30) — was due Aug 10; confirm it's sent.",
+      "who": "Henry → Michelle Zisow",
+      "due": "2026-08-10",
+      "age_days": 13
+    },
+    {
+      "what": "Fill out the Braeburn 'Snack Bar 2026' end-of-season form (Maria Milian) — quick.",
+      "who": "Henry → Braeburn",
+      "due": "2026-08-15",
+      "age_days": 4
+    },
+    {
+      "what": "DECA Dash 5K — chapter + Instagram promo with the officer team (tomorrow-ish, Fri Aug 15).",
+      "who": "Officer team (Ryan leading)",
+      "due": "2026-08-15",
+      "age_days": 27
+    }
+  ],
+  "news": [
+    {
+      "topic": "Business & markets",
+      "headline": "Tame July CPI freed the market — rate hike now seen in December, not September",
+      "why": "Yesterday's CPI landed in-line (3.4% headline, 2.5% core), so stocks extended an AI-earnings rally; markets pushed any Fed hike toward year-end.",
+      "url": "https://www.schwab.com/learn/story/stock-market-update-open",
+      "source": "Charles Schwab"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "PPI + jobless claims land this morning",
+      "why": "Producer prices are seen cooling to 4.9% YoY (from 5.5%). PPI leads CPI, so a soft read reinforces the 'no near-term hike' story; retail sales close the week Friday.",
+      "url": "https://www.investing.com/news/stock-market-news/ppi-and-jobless-claims-highlight-economic-data-due-thursday-93CH-4855846",
+      "source": "Investing.com"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "AI earnings kept the tape strong",
+      "why": "Data-center names (CoreWeave, Applied Materials) helped indexes to fresh highs alongside the cool inflation print.",
+      "url": "https://www.cnbc.com/2026/08/11/stock-market-today-live-updates.html",
+      "source": "CNBC"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "ByteDance's Seedance 2.5 video model is out",
+      "why": "A fresh text/image-to-video model (now on tools like QuickFrame, which hit your inbox) — right next to your 'minimax h3 video generation' experiment.",
+      "url": "https://blog.mean.ceo/new-ai-model-releases-news-august-2026/",
+      "source": "mean.ceo"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Alibaba ships Qwen Image 3.0 Pro",
+      "why": "Another strong open-ish image model in a fast-moving month — cheap, capable generation keeps landing for builders.",
+      "url": "https://llm-stats.com/llm-updates",
+      "source": "LLM-Stats"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Agents are now running in production at thousands of companies",
+      "why": "AI that browses the web, writes code and manages files autonomously has crossed from demo to daily use — the backdrop to your build projects.",
+      "url": "https://www.buildfastwithai.com/blogs/collection/ai-industry-news-trends",
+      "source": "BuildFastWithAI"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Iran rejects Trump's claim the Strait of Hormuz is 'open and under US control'",
+      "why": "Tehran pushed back hard, keeping the shipping/oil standoff — and inflation risk — unresolved.",
+      "url": "https://www.presstv.co.uk/Detail/2026/08/13/774252/Press-TV-s-news-headlines-",
+      "source": "Press TV"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "China threatens to arrest Filipino workers amid South China Sea tensions",
+      "why": "A sharp escalation in the Manila–Beijing standoff, raised at a Philippine Senate hearing.",
+      "url": "https://globalnation.inquirer.net/",
+      "source": "Inquirer"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "China–India border tensions flare again",
+      "why": "Beijing calls the frontier 'generally stable' but rejected India's renaming of 27 places in Arunachal Pradesh — a recurring flashpoint between the two powers.",
+      "url": "https://globalnation.inquirer.net/",
+      "source": "Inquirer"
+    }
+  ],
+  "system_notes": [
+    "DELIVERY / AUTH HEALTH: Zapier is STILL out of task quota ('insufficient tasks on account') — 2nd day. It blocked the Gmail send AND all Google Tasks reads AND the Zapier weather call this run. Fix: Henry tops up / upgrades the Zapier plan (zapier.com → Settings → Usage & Billing); the email + tasks resume automatically once quota is back. The dashboard (Artifact) and git are unaffected.",
+    "Weather came from a web-search fallback (Zapier weather down): showers/thunderstorms likely, esp. after 1 PM, high ~76° — overlaps Henry's 10–4 shift.",
+    "Google Tasks couldn't be read (Zapier) — the task list is carried from Aug 12 and may be stale; re-verify when Zapier is back.",
+    "Real email signal today: Henry was ACCEPTED into the Leadership Initiatives IIP (needs to confirm) and Supabase re-flagged EpiGuide for pause. Otherwise college-admissions/retail promos.",
+    "Calendar: Work 10 AM–4 PM today; Driving lesson Fri Aug 14 11 AM–1 PM (permit + shoes). LEVRA deadline is tomorrow.",
+    "Timing check: generated ~06:50 AM ET, inside the 6:25–6:55 window. Delivery is DEGRADED (dashboard only) — surfaced to Henry + push, per the failed-send exception.",
+    "Attempted the email send once this run to confirm state; if it failed on quota, it's noted here and Henry was alerted."
+  ]
+}

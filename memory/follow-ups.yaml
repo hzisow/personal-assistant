@@ -3,6 +3,17 @@
 # moves them to resolved when done — explaining every change in the brief.
 
 open:
+  - what: "Confirm the Leadership Initiatives IIP internship — Henry was ACCEPTED Aug 12 into the 2026–27 International Internship Program (free, ~7-month business track that runs through the year; lichange.org / liempower.org/iipbusiness). There's a 'final step to confirm your spot' in the acceptance email (iip@lichange.org). Brett (counselor) endorsed applying — worth it, keeps the door open despite a tight junior year."
+    who: "Henry → Leadership Initiatives"
+    due: 2026-08-16
+    source: "Gmail: 'Welcome to the IIP' iip@lichange.org Aug 12 + Brett thread 'Internship Opportunity' Aug 11–12"
+    first_seen: 2026-08-13
+  - what: "EpiGuide Supabase pause — RE-FLAGGED Aug 12 (another >7-day-inactivity warning). Henry's ML-training work does NOT reset the timer; he must actually LOG INTO the Supabase dashboard (project lpgrbpblbtpyigzsrhgu, org 'Vibecoding Projects'). Also still: re-run the failed GitHub Pages deploy. Dashboard: supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu"
+    who: "Henry"
+    due: 2026-08-14
+    source: "Supabase pause warnings Jul 18 + Aug 4 + Aug 12; GitHub Pages fail Aug 6"
+    first_seen: 2026-07-17
+    note: "Recurring — 3rd pause warning. A dashboard login (not just local ML work) is what resets it."
   - what: "Michael Horn socials work — ACTIVE again & Henry's #1 Google Task ('Michael horn email'). Aug 10: Danny asked Michael to add Henry to the 'Michael B. Horn' YouTube channel so he can run analytics on the socials; Michael granted Editor (limited) access. Next: actually do the YouTube/social analytics and report back. (Same workstream as the earlier Playlist & SEO doc — doc: docs.google.com/document/d/1QnSuI2vozYGoXVbPK-00vibNzzQORBA5c8aS9ozUyi4)"
     who: "Henry → Michael Horn / Danny"
     due: 2026-08-13
@@ -20,12 +31,6 @@ open:
     source: "Gmail Ben 'SAT New QBank' Aug 5; calendar 'H SAT w Ben' Sun Aug 9 + Wed Aug 12; Google Tasks"
     first_seen: 2026-08-06
     note: "Confirmed test date Aug 22. Lessons now more than weekly as the test nears. SAT/PSAT is a dominant theme on the High list."
-  - what: "EpiGuide — Henry is ACTIVELY working it again (Aug 10 added a High task 'See how to actually train the ML model for EpiGuide'). Good: activity resets the Supabase 7-day auto-pause timer. Still confirm a Supabase login (project lpgrbpblbtpyigzsrhgu, org 'Vibecoding Projects') + re-run the failed GitHub Pages deploy so the frontend is live. Dashboard: supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu"
-    who: "Henry"
-    due: 2026-08-11
-    source: "Supabase pause warnings Jul 18 + Aug 4; GitHub Pages fail Aug 6; Google Task 'train the ML model for EpiGuide' Aug 10"
-    first_seen: 2026-07-17
-    note: "Was flagged to auto-pause (not confirmed paused as of Aug 10); 90-day unpause window if it ever does. Now that Henry's building on it again, pause risk is lower — but the ML-training task is a real open work item too."
   - what: "Complete the 4 LEVRA modules by Fri Aug 14 for the Oxford 'Introduction to Human Skills' certificate. Optional: send a reflection to be featured as a 'LEVRA Future Leader.'"
     who: "Henry → LEVRA (emily@levra.me / gayeon@levra.me)"
     due: 2026-08-14
