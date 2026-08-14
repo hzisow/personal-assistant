@@ -17,9 +17,9 @@
   .wrap{max-width:1120px;margin:0 auto;padding:clamp(20px,4vw,36px) clamp(16px,4vw,40px) 48px;}
   .hello{font-size:clamp(24px,4vw,30px);font-weight:700;margin:6px 0 8px;letter-spacing:-.02em;}
   .sub{color:var(--muted);font-size:16px;max-width:66ch;margin:0 0 18px;text-wrap:balance;}
-  .alert{background:#FBEEE9;border:1px solid var(--urgent);border-radius:14px;padding:14px 18px;margin:4px 0 20px;font-size:14px;color:var(--ink);}
-  @media (prefers-color-scheme:dark){.alert{background:#2A2018;}}
-  .alert b{color:var(--urgent);}
+  .alert{background:#E7F5EC;border:1px solid #127A3E;border-radius:14px;padding:14px 18px;margin:4px 0 20px;font-size:14px;color:var(--ink);}
+  @media (prefers-color-scheme:dark){.alert{background:#16281C;}}
+  .alert b{color:#127A3E;} @media (prefers-color-scheme:dark){.alert b{color:#5FBE85;}}
   .stats{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:8px;}
   .stat{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line-strong);border-radius:999px;padding:7px 14px;font-size:13px;font-weight:600;background:var(--card);}
   .stat .d{width:8px;height:8px;border-radius:50%;background:var(--blue);flex:none;} .stat.warn .d{background:var(--urgent);} .stat .num{font-variant-numeric:tabular-nums;}
@@ -48,26 +48,35 @@
 <nav>
   <div class="navin">
     <span class="brand"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="14" r="5.5" fill="currentColor"/><path d="M2 20h20M12 3v3M4.9 6.9l2.1 2.1M19.1 6.9 17 9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Morning Brief</span>
-    <div class="datepill" role="text"><span>Thu, Aug 13</span><span class="soft">Internship in! · Work 10–4</span><span class="soft">🌧 76°</span></div>
+    <div class="datepill" role="text"><span>Fri, Aug 14</span><span class="soft">Driving 11 · Dash tmrw</span><span class="soft">☀️ 83°</span></div>
     <div class="avatar" aria-hidden="true">H</div>
   </div>
 </nav>
 <div class="wrap">
   <h1 class="hello">Good morning, Henry</h1>
-  <p class="sub">Good news to act on: you're IN — Leadership Initiatives accepted you into their 2026–27 International Internship Program, with a "final step to confirm your spot." Today is a long work shift (10–4), and a wet one — showers and thunderstorms likely after 1 PM, so pack rain gear. Also worth a quick login: Supabase is threatening to pause EpiGuide again.</p>
-  <div class="alert">⚠️ <b>Email is down (day 2).</b> The brief email still can't send — <b>Zapier is out of task quota</b> ("insufficient tasks on account"), which also blocked Google Tasks + weather this morning. This is <b>dashboard-only</b> until you top up Zapier (zapier.com → Settings → Usage &amp; Billing); email + tasks resume automatically once it's back.</div>
+  <p class="sub">Gorgeous day — sunny and 83°. Today: your driving lesson at 11 (bring the printed permit + closed shoes). Tomorrow's an early one — the DECA Dash 5K is at Horn Pond, 9:00–11:30 AM. Two deadlines in view: LEVRA's 4 modules are due today, and your internship still needs its final confirmation (you looped Brett in overnight).</p>
+  <div class="alert">✅ <b>Email's back — via a backup path.</b> Zapier is still out of task quota (day 3), so today's email went out through the <b>Gmail connector</b> instead. To restore Google Tasks + the normal send, top up Zapier (zapier.com → Settings → Usage &amp; Billing). Tell me if you'd rather I <i>not</i> use the Gmail fallback.</div>
   <div class="stats">
-    <span class="stat"><span class="d"></span>🎉 Internship accepted — confirm it</span>
-    <span class="stat"><span class="d"></span>💼 Work 10 AM–4 PM</span>
-    <span class="stat warn"><span class="d"></span>🌧 Storms after 1 PM</span>
-    <span class="stat warn"><span class="d"></span>EpiGuide — log into Supabase</span>
+    <span class="stat"><span class="d"></span>🚗 Driving lesson 11 AM</span>
+    <span class="stat"><span class="d"></span>🏃 DECA Dash tmrw 9 AM</span>
+    <span class="stat warn"><span class="d"></span>🎓 LEVRA due today</span>
+    <span class="stat"><span class="d"></span>🎉 Confirm the internship</span>
   </div>
 
   <h2>Today</h2>
   <div class="cards">
     <section class="card wide">
       <ul class="tl">
-        <li><time>10:00 AM–4:00 PM</time><div class="what"><strong>Work</strong> — Snack Bar (Braeburn CC)<div class="prep">A 6-hour shift. <b>Rain/thunderstorms after 1 PM</b> (70%, gusts to 23 mph) — bring rain gear.</div></div></li>
+        <li><time>11:00 AM–1:00 PM</time><div class="what"><strong>Driving lesson</strong> — Newton Driving School<div class="prep"><b>Printed permit + closed shoes</b> or it's canceled + a fee. Clear, dry day.</div></div></li>
+      </ul>
+    </section>
+  </div>
+
+  <h2>Tomorrow (Sat Aug 15)</h2>
+  <div class="cards">
+    <section class="card wide">
+      <ul class="tl">
+        <li><time>9:00–11:30 AM</time><div class="what"><strong>DECA Dash 5K</strong> @ Horn Pond · <span style="color:var(--faint);">Team 68</span><div class="prep">The chapter event you've been promoting — be there early.</div></div></li>
       </ul>
     </section>
   </div>
@@ -76,24 +85,16 @@
   <div class="cards">
     <section class="card wide">
       <ul class="rows">
-        <li><span class="ic g">🎉</span><div><div class="from">Leadership Initiatives → you're accepted (IIP)</div><div class="why">The free ~7-month business track you ran past Brett. There's a <b>final step to confirm your spot</b> — lock it in. Brett's take: worth it, keeps the door open despite a tight year.</div></div></li>
-        <li><span class="ic u">⏸</span><div><div class="from">Supabase → EpiGuide pause warning (again)</div><div class="why">Flagged Aug 12; your ML work doesn't reset the timer — <b>log into the Supabase dashboard</b>.</div></div><a class="alink" style="margin-left:auto;font-size:12.5px;white-space:nowrap;align-self:center;" href="https://supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu">Dashboard ›</a></li>
-        <li><span class="ic">🔐</span><div><div class="from">Google → new sign-in <span style="color:var(--faint);font-weight:400;">· FYI</span></div><div class="why">1:39 AM (Aug 13) — almost certainly you. No action unless it wasn't.</div></div></li>
+        <li><span class="ic u">🌐</span><div><div class="from">Cloudflare → finish henryzisow.com setup <span style="color:var(--faint);font-weight:400;">· action required</span></div><div class="why">The domain lapsed after 4 weeks — re-add it / complete nameserver setup. Ties to your portfolio site + GitHub Pages.</div></div></li>
+        <li><span class="ic">✏️</span><div><div class="from">Ben (Sexton) → SAT Math Study Guide</div><div class="why">Grab the attachment for your Aug 22 prep.</div></div></li>
+        <li><span class="ic g">🎉</span><div><div class="from">Leadership Initiatives (IIP) <span style="color:var(--faint);font-weight:400;">· carryover</span></div><div class="why">You forwarded the acceptance to Brett; complete the <b>final confirm</b> once you two decide.</div></div></li>
+        <li><span class="ic u">⏸</span><div><div class="from">Supabase → EpiGuide <span style="color:var(--faint);font-weight:400;">· carryover</span></div><div class="why"><b>Log into the dashboard</b> to stop the auto-pause.</div></div><a class="alink" style="margin-left:auto;font-size:12.5px;white-space:nowrap;align-self:center;" href="https://supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu">Dashboard ›</a></li>
+        <li><span class="ic">🏊</span><div><div class="from">Braeburn → staff pool party Aug 31 <span style="color:var(--faint);font-weight:400;">· FYI</span></div><div class="why">End-of-season fun. (Also: you bought LinkedIn Premium + Amazon — busy week on the accounts.)</div></div></li>
       </ul>
     </section>
   </div>
 
-  <h2>Tomorrow (Fri Aug 14)</h2>
-  <div class="cards">
-    <section class="card wide">
-      <ul class="rows">
-        <li><span class="ic">🚗</span><div><div class="from">11:00 AM–1:00 PM — Driving lesson</div><div class="why">Newton Driving School. Bring your <b>printed permit + closed shoes</b> or it's canceled + a fee.</div></div></li>
-        <li><span class="ic u">🎓</span><div><div class="from">LEVRA certificate deadline</div><div class="why">Finish the 4 modules for the Oxford "Human Skills" cert.</div></div></li>
-      </ul>
-    </section>
-  </div>
-
-  <h2>Tasks <span style="font-weight:400;color:var(--faint);font-size:14px;">· Google Tasks — couldn't read today (Zapier down); carried from yesterday</span></h2>
+  <h2>Tasks <span style="font-weight:400;color:var(--faint);font-size:14px;">· Google Tasks — couldn't read (Zapier down 3rd day); carried from Aug 12</span></h2>
   <div class="cards">
     <section class="card">
       <div class="topic" style="margin-bottom:12px;">High priority</div>
@@ -139,13 +140,13 @@
   <div class="cards">
     <section class="card wide">
       <ul class="fu">
-        <li><span>Confirm the Leadership Initiatives IIP internship</span><span class="due soon">now</span></li>
+        <li><span>LEVRA modules for the certificate</span><span class="due soon">due today</span></li>
+        <li><span>DECA Dash 5K @ Horn Pond</span><span class="due soon">Sat 9 AM</span></li>
         <li><span>Log into Supabase to keep EpiGuide alive</span><span class="due soon">today</span></li>
-        <li><span>Finish LEVRA modules for the certificate</span><span class="due soon">Fri Aug 14</span></li>
-        <li><span>Michael Horn analytics (you have the YouTube access)</span><span class="due">active</span></li>
-        <li><span>SAT QBank — test Aug 22</span><span class="due">ongoing</span></li>
-        <li><span>RSVP Mom's Kent's Place — was due Aug 10</span><span class="due soon">slipped</span></li>
-        <li><span>Braeburn end-of-season form · Panda Express · DECA Dash</span><span class="due">Aug 15</span></li>
+        <li><span>Confirm the Leadership Initiatives internship</span><span class="due">in motion</span></li>
+        <li><span>Finish henryzisow.com (Cloudflare)</span><span class="due">this week</span></li>
+        <li><span>SAT prep — Ben's Math guide (test Aug 22) · Michael Horn analytics</span><span class="due">ongoing</span></li>
+        <li><span>RSVP Mom's Kent's Place (slipped) · Braeburn form</span><span class="due">Aug 15</span></li>
       </ul>
     </section>
   </div>
@@ -157,30 +158,30 @@
         <div>
           <div class="topic">Business &amp; markets</div>
           <ul class="news">
-            <li><a class="alink" href="https://www.schwab.com/learn/story/stock-market-update-open">Tame July CPI freed the market</a><div class="why">Hike now seen December, not September; AI-earnings rally extended.</div></li>
-            <li><a class="alink" href="https://www.investing.com/news/stock-market-news/ppi-and-jobless-claims-highlight-economic-data-due-thursday-93CH-4855846">PPI + jobless claims this morning</a><div class="why">Producer prices seen cooling to 4.9%.</div></li>
-            <li><a class="alink" href="https://www.cnbc.com/2026/08/11/stock-market-today-live-updates.html">AI earnings kept the tape strong</a><div class="why">CoreWeave, Applied Materials.</div></li>
+            <li><a class="alink" href="https://finance.yahoo.com/markets/live/stock-market-today-friday-august-14-dow-sp-500-nasdaq-102635519.html">S&P 500 at record highs; retail sales at 8:30 AM</a><div class="why">Cool inflation eased hike fears; today's consumer read.</div></li>
+            <li><a class="alink" href="https://www.investing.com/news/stock-market-news/retail-sales-and-core-retail-sales-among-economic-data-due-friday-93CH-4858936">A calmer Fed picture into September</a><div class="why">CPI + PPI tame; any hike pushed to year-end.</div></li>
+            <li><a class="alink" href="https://www.fidelity.com/">FYI: your Amazon buy confirmed this morning</a><div class="why">Personal-account note (Fidelity), not market news.</div></li>
           </ul>
         </div>
         <div>
           <div class="topic">Tech &amp; AI</div>
           <ul class="news">
-            <li><a class="alink" href="https://blog.mean.ceo/new-ai-model-releases-news-august-2026/">ByteDance's Seedance 2.5 video model is out</a><div class="why">Right next to your minimax video experiment.</div></li>
-            <li><a class="alink" href="https://llm-stats.com/llm-updates">Alibaba ships Qwen Image 3.0 Pro</a><div class="why">Another strong, cheap image model.</div></li>
-            <li><a class="alink" href="https://www.buildfastwithai.com/blogs/collection/ai-industry-news-trends">Agents now run in production at thousands of companies</a><div class="why">Demo → daily use.</div></li>
+            <li><a class="alink" href="https://www.artificialintelligence-news.com/">Google's Gemini crosses 1 billion monthly users</a><div class="why">Roughly matching ChatGPT's reach.</div></li>
+            <li><a class="alink" href="https://aiweekly.co/ai-news-today">Manus exits its Meta deal under a Beijing order</a><div class="why">Going independent again.</div></li>
+            <li><a class="alink" href="https://goelzerinc.com/insights_post/august-12-2026-ais-promise-remains-intact-despite-roadblocks/">Cheaper Chinese models pressure AI pricing</a><div class="why">Good leverage for builders.</div></li>
           </ul>
         </div>
         <div>
           <div class="topic">US &amp; world</div>
           <ul class="news">
-            <li><a class="alink" href="https://www.presstv.co.uk/Detail/2026/08/13/774252/Press-TV-s-news-headlines-">Iran rejects Trump's Hormuz "open &amp; under US control" claim</a><div class="why">Shipping/oil standoff unresolved.</div></li>
-            <li><a class="alink" href="https://globalnation.inquirer.net/">China threatens to arrest Filipino workers</a><div class="why">South China Sea tensions escalate.</div></li>
-            <li><a class="alink" href="https://globalnation.inquirer.net/">China–India border tensions flare again</a><div class="why">Over renamed places in Arunachal Pradesh.</div></li>
+            <li><a class="alink" href="https://wng.org/podcasts/friday-morning-news-august-14-2026-1786641744">Iran: "we decide who sails through Hormuz," not the US</a><div class="why">Oil/shipping standoff stays live.</div></li>
+            <li><a class="alink" href="https://wng.org/podcasts/friday-morning-news-august-14-2026-1786641744">US envoy condemns West Bank settlers' siege</a><div class="why">A notable rebuke of settler violence.</div></li>
+            <li><a class="alink" href="https://wng.org/podcasts/friday-morning-news-august-14-2026-1786641744">Colombia earthquake toll keeps climbing</a><div class="why">Search-and-rescue continues.</div></li>
           </ul>
         </div>
       </div>
     </section>
   </div>
 
-  <footer>Congrats on the internship — confirm it when you get a sec. Dashboard-only today (email's down on Zapier quota). Generated 6:50 AM ET.</footer>
+  <footer>Enjoy the sunshine — permit + shoes for 11, and rest up for the Dash tomorrow. Email came via the Gmail backup today (Zapier still needs a top-up). Generated 6:52 AM ET.</footer>
 </div>

@@ -3,6 +3,11 @@
 # moves them to resolved when done — explaining every change in the brief.
 
 open:
+  - what: "Finish henryzisow.com domain setup on Cloudflare — nameserver setup lapsed after 4 weeks (Cloudflare 'action required' email Aug 14). Re-add the domain / complete setup so the portfolio site resolves. Ties to the Henry-PortfolioWebsite repo + the GitHub Pages deploys that failed Aug 6."
+    who: "Henry"
+    due: 2026-08-18
+    source: "Gmail: Cloudflare 'Add henryzisow.com again to finish setup', Aug 14"
+    first_seen: 2026-08-14
   - what: "Confirm the Leadership Initiatives IIP internship — Henry was ACCEPTED Aug 12 into the 2026–27 International Internship Program (free, ~7-month business track that runs through the year; lichange.org / liempower.org/iipbusiness). There's a 'final step to confirm your spot' in the acceptance email (iip@lichange.org). Brett (counselor) endorsed applying — worth it, keeps the door open despite a tight junior year."
     who: "Henry → Leadership Initiatives"
     due: 2026-08-16

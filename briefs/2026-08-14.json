@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-14",
+  "generated_at": "2026-08-14T06:52:00-04:00",
+  "headline": "Gorgeous day — sunny and 83°. Today: your driving lesson at 11 (bring the printed permit + closed shoes). Tomorrow's an early one — the DECA Dash 5K is at Horn Pond, 9:00–11:30 AM. Two deadlines in view: LEVRA's 4 modules are due today, and your Leadership Initiatives internship still needs its final confirmation (you looped Brett in overnight). Email is flowing again via a backup path — but Zapier still needs a top-up to restore Tasks + the normal send.",
+  "weather": {
+    "location": "Newton/Boston, MA",
+    "current_f": 64,
+    "condition": "Sunny (high ~83°)"
+  },
+  "schedule": [
+    {
+      "start": "2026-08-14T11:00:00-04:00",
+      "end": "2026-08-14T13:00:00-04:00",
+      "all_day": false,
+      "title": "Driving lesson (Newton Driving School)",
+      "calendar": "Personal",
+      "location": null,
+      "prep": "Bring your PRINTED permit + closed shoes or it's canceled + a fee. Clear, dry day — no weather issues. (A behind-the-wheel reminder is in your inbox.)"
+    }
+  ],
+  "tomorrow_headsup": [
+    "Sat Aug 15, 9:00–11:30 AM: DECA Dash 5K at Horn Pond (Team 68). This is the chapter event you've been promoting — be there early.",
+    "Retail sales + consumer sentiment (markets) land today; no market events tomorrow.",
+    "Nothing else on the calendar for the weekend yet."
+  ],
+  "email": [
+    {
+      "thread_id": "19ffe74f11fc894f",
+      "from": "Cloudflare",
+      "subject": "[Action required] Add henryzisow.com again to finish setup",
+      "bucket": "important",
+      "why": "Your henryzisow.com domain didn't finish nameserver setup within 4 weeks, so Cloudflare needs you to re-add it. Ties into your portfolio site (Henry-PortfolioWebsite) and the GitHub Pages deploys — worth finishing so the domain actually resolves.",
+      "age_days": 0
+    },
+    {
+      "thread_id": "19ffbe0c84197d87",
+      "from": "Ben (Sexton Test Prep)",
+      "subject": "SAT Math Study Guide",
+      "bucket": "important",
+      "why": "Ben sent his SAT Math Study Guide (attachment) — a fast way to review the key topics. Grab it for your Aug 22 prep.",
+      "age_days": 1
+    },
+    {
+      "thread_id": "19ff834254dc69f8",
+      "from": "Leadership Initiatives (IIP) — carryover",
+      "subject": "Confirm your internship spot (you looped Brett in)",
+      "bucket": "needs_reply",
+      "why": "You forwarded the acceptance to Brett overnight (getting his read before you commit) — good. The 'final step to confirm your spot' is still outstanding; lock it in once you and Brett are settled.",
+      "age_days": 2
+    },
+    {
+      "thread_id": "19ff68501519c580",
+      "from": "Supabase — carryover",
+      "subject": "EpiGuide pause warning",
+      "bucket": "important",
+      "why": "Still open from Aug 12: log into the Supabase dashboard to keep EpiGuide from auto-pausing (the ML work doesn't reset the timer). supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu",
+      "age_days": 2
+    },
+    {
+      "thread_id": "19ffc842fc113979",
+      "from": "Braeburn (Katie Dugan)",
+      "subject": "Summer Employee Pool Party — Mon Aug 31",
+      "bucket": "fyi",
+      "why": "A staff pool party Aug 31 — end-of-season fun. No action; just on the radar. (Also FYI: you bought LinkedIn Premium Career + Amazon in Fidelity — you've been busy on the accounts.)",
+      "age_days": 1
+    }
+  ],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": [
+      {"title": "SAT Homework (work through the hard new QBank)", "list": "High Priority", "due": null, "overdue": false, "notes": "Carried from Aug 12 — Google Tasks still unreadable (Zapier quota)."},
+      {"title": "Michael horn email", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do Summer Reading", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do Desmos SAT Bootcamp through Sexton Test Prep", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "add new chapter toolkit to the website", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do PSAT", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "See how to actually train the ML model for EpiGuide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Find 1 TB USB", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Run minimax h3 locally for video generation", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Learn about succession planning for DECA", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Complete MA DECA involvement guide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Rebuild resume in Google Docs", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Build the TikTok send-to audio/playlist app", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Make Involvement Guide automation tool", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Read \"Kindred\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read Chapter 1 in the AMSCO book (APUSH)", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"The Namesake\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"A Visit from the Goon Squad\"", "list": "Summer Work", "due": null, "overdue": false}
+    ]
+  },
+  "follow_ups": [
+    {
+      "what": "DECA Dash 5K — TOMORROW Sat Aug 15, 9:00–11:30 AM at Horn Pond (Team 68). The chapter event you've been promoting; be there early.",
+      "who": "Henry / officer team",
+      "due": "2026-08-15",
+      "age_days": 28
+    },
+    {
+      "what": "Complete the 4 LEVRA modules — DUE TODAY (Fri Aug 14) for the Oxford 'Human Skills' certificate.",
+      "who": "Henry → LEVRA",
+      "due": "2026-08-14",
+      "age_days": 10
+    },
+    {
+      "what": "Confirm your Leadership Initiatives IIP spot — you forwarded the acceptance to Brett Aug 14 (getting his read first). Complete the 'final step to confirm' once you decide to commit.",
+      "who": "Henry → Leadership Initiatives",
+      "due": "2026-08-16",
+      "age_days": 1
+    },
+    {
+      "what": "Finish henryzisow.com domain setup on Cloudflare — re-add the domain / complete nameserver setup (it lapsed after 4 weeks). Ties to the portfolio site + GitHub Pages.",
+      "who": "Henry",
+      "due": "2026-08-18",
+      "age_days": 0
+    },
+    {
+      "what": "Keep Supabase EpiGuide alive — LOG IN to the Supabase dashboard (3rd pause warning; ML work doesn't reset the timer). supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu",
+      "who": "Henry",
+      "due": "2026-08-15",
+      "age_days": 28
+    },
+    {
+      "what": "SAT on Sat Aug 22 — grab Ben's new SAT Math Study Guide + keep working the QBank. 'SAT Homework' + Desmos on the High list.",
+      "who": "Henry → Ben (Sexton)",
+      "due": "2026-08-22",
+      "age_days": 8
+    },
+    {
+      "what": "Michael Horn socials analytics — you have Editor access to the YouTube channel (school email); run the analytics. #1 work task.",
+      "who": "Henry → Michael Horn / Danny",
+      "due": "2026-08-15",
+      "age_days": 28
+    },
+    {
+      "what": "RSVP to Mom's 'Kent's Place in Marion' weekend (Aug 29–30) — was due Aug 10; confirm it's sent. Also: Braeburn end-of-season form.",
+      "who": "Henry → Michelle Zisow / Braeburn",
+      "due": "2026-08-15",
+      "age_days": 14
+    }
+  ],
+  "news": [
+    {
+      "topic": "Business & markets",
+      "headline": "S&P 500 at record highs; retail sales land at 8:30 AM",
+      "why": "Cool inflation this week eased rate-hike fears and lifted stocks to records. July retail sales (seen ~+0.3%) + consumer sentiment are today's read on the U.S. consumer.",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-14-dow-sp-500-nasdaq-102635519.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "A calmer Fed picture into September",
+      "why": "With CPI and PPI both tame, markets have pushed any Fed hike toward year-end — good backdrop, but retail sales could still move things.",
+      "url": "https://www.investing.com/news/stock-market-news/retail-sales-and-core-retail-sales-among-economic-data-due-friday-93CH-4858936",
+      "source": "Investing.com"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "Fidelity note: you bought Amazon this morning",
+      "why": "A personal-account FYI (not market news) — your AMZN buy confirmed at 9:28 AM, on top of a busy week of trades and a LinkedIn Premium purchase.",
+      "url": "https://www.fidelity.com/",
+      "source": "Fidelity"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Google's Gemini app crosses 1 billion monthly users",
+      "why": "Pichai says it's Google's fastest product to a billion — roughly matching ChatGPT's reach. The assistant race is now a two-horse sprint at massive scale.",
+      "url": "https://www.artificialintelligence-news.com/",
+      "source": "AI News"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Manus exits its Meta deal under a Beijing order",
+      "why": "The AI-agent startup says it'll 'return to operating as an independent company' — a sign of how geopolitics is reshaping AI M&A.",
+      "url": "https://aiweekly.co/ai-news-today",
+      "source": "AI Weekly"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Cheaper Chinese models are pressuring AI pricing",
+      "why": "Even as cloud/AI demand accelerates, low-cost Chinese models are gaining adoption — squeezing the frontier labs' pricing (handy leverage for builders).",
+      "url": "https://goelzerinc.com/insights_post/august-12-2026-ais-promise-remains-intact-despite-roadblocks/",
+      "source": "Goelzer"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Iran: 'we decide who sails through Hormuz,' not the US",
+      "why": "Tehran rebuffed Trump's claim of control over the strait — the oil/shipping standoff stays live.",
+      "url": "https://wng.org/podcasts/friday-morning-news-august-14-2026-1786641744",
+      "source": "WORLD"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "US envoy condemns West Bank settlers besieging an American family's home",
+      "why": "Ambassador Huckabee's rebuke is a notable break, spotlighting settler violence in the occupied West Bank.",
+      "url": "https://wng.org/podcasts/friday-morning-news-august-14-2026-1786641744",
+      "source": "WORLD"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Colombia earthquake death toll keeps climbing",
+      "why": "Search-and-rescue continues after the quake that has now killed well over 180.",
+      "url": "https://wng.org/podcasts/friday-morning-news-august-14-2026-1786641744",
+      "source": "WORLD"
+    }
+  ],
+  "system_notes": [
+    "DELIVERY: Zapier is STILL out of task quota (day 3) — the weather + tasks reads failed again. TODAY the brief email is being sent via the GMAIL CONNECTOR (mcp Gmail send_message) as a fallback, to hzisow@gmail.com only — the one outbound email boundary #2 explicitly allows. Flagged to Henry so he can veto the fallback if he prefers. Still needs: Henry tops up Zapier (zapier.com → Usage & Billing) to restore Google Tasks + the normal send path.",
+    "Weather via web fallback (Zapier down): sunny, high ~83°, 4% precip — a clear, dry day (good for the 11 AM driving lesson).",
+    "Google Tasks unreadable (Zapier) for a 3rd day — task list carried from Aug 12; re-verify when Zapier is back.",
+    "Calendar: Driving lesson 11 AM–1 PM today; DECA Dash 5K tomorrow (Sat Aug 15) 9–11:30 AM at Horn Pond — moved that follow-up to a real scheduled event.",
+    "Real email: Cloudflare needs henryzisow.com re-added (domain setup lapsed); Ben sent an SAT Math Study Guide; Henry forwarded the IIP acceptance to Brett (internship in motion). Otherwise college/retail promos + personal-account notices (LinkedIn Premium, AMZN buy).",
+    "Timing: fired 06:50 ET (in the 6:25–6:55 window, ~10 min later than the usual 06:41 — scheduler jitter, still in-window, no cron change). Delivery is interactive today (Henry ran it) — replying normally + noting the fallback."
+  ]
+}
