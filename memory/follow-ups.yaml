@@ -30,18 +30,18 @@ open:
     due: 2026-08-08
     source: "GitHub Actions failure emails, Aug 6 ~21:00 ET (notifications@github.com)"
     first_seen: 2026-08-07
-  - what: "SAT on Sat Aug 22 — lessons with Ben ramping: Sun Aug 9 done, and a 2ND lesson is on the calendar Wed Aug 12 2:00–3:00 PM (Google Meet). 'SAT Homework (hard new QBank)' + 'Do Desmos SAT Bootcamp' are on the High list; 'Do PSAT' on Medium. Do the QBank before each lesson."
+  - what: "SAT on Sat Aug 22 (one week out) — next lesson with Ben is TOMORROW Sun Aug 16 10:00–11:00 AM (Google Meet, meet.google.com/ybc-asgu-nuk). Bring the QBank + Ben's new SAT Math Study Guide (emailed, still to grab). 'SAT Homework (hard new QBank)' + 'Do Desmos SAT Bootcamp' are on the High list; 'Do PSAT' on Medium."
     who: "Henry → Ben (ben@sextontestprep.com)"
     due: 2026-08-22
-    source: "Gmail Ben 'SAT New QBank' Aug 5; calendar 'H SAT w Ben' Sun Aug 9 + Wed Aug 12; Google Tasks"
+    source: "Gmail Ben 'SAT New QBank' Aug 5 + 'SAT Math Study Guide' Aug 13; calendar 'H SAT w Ben' Sun Aug 9 + Wed Aug 12 (done) + Sun Aug 16; Google Tasks"
     first_seen: 2026-08-06
-    note: "Confirmed test date Aug 22. Lessons now more than weekly as the test nears. SAT/PSAT is a dominant theme on the High list."
-  - what: "Complete the 4 LEVRA modules by Fri Aug 14 for the Oxford 'Introduction to Human Skills' certificate. Optional: send a reflection to be featured as a 'LEVRA Future Leader.'"
+    note: "Confirmed test date Aug 22 — now a week out. Lessons more than weekly as the test nears. SAT/PSAT is a dominant theme on the High list. Grab the Math Study Guide attachment before tomorrow's lesson."
+  - what: "LEVRA — the 4-module Oxford 'Introduction to Human Skills' certificate was due Fri Aug 14 (now PAST). If not finished, check whether LEVRA still accepts a late submission; optional reflection to be featured as a 'LEVRA Future Leader.'"
     who: "Henry → LEVRA (emily@levra.me / gayeon@levra.me)"
     due: 2026-08-14
     source: "LEVRA email 'Human Skills Certification', Aug 4"
     first_seen: 2026-08-04
-    note: "The 'Do LEVRA' High-priority Google Task DROPPED OFF the list Aug 5 — do NOT assume it's completed; the Aug 14 email deadline stands independently. Re-surface as a follow-up until confirmed done."
+    note: "Deadline (Aug 14) has passed. The 'Do LEVRA' High-priority Google Task DROPPED OFF the list Aug 5 — do NOT assume completed. Re-surface as a slipped item until confirmed done or clearly abandoned; drop after Aug 18 if no signal."
   - what: "Fill out the Braeburn 'Snack Bar 2026' end-of-season form (management asked all Snack Bar staff). Quick, low urgency."
     who: "Henry → Braeburn (Maria Milian)"
     due: 2026-08-15
@@ -52,17 +52,23 @@ open:
     due: 2026-08-02
     source: "fwd from adambenjaminf@gmail.com, Jul 21"
     first_seen: 2026-07-23
-  - what: "DECA Dash 5K — chapter + Instagram promo with the officer team"
+  - what: "DECA Dash 5K — HAPPENING TODAY (Sat Aug 15) 9:00–11:30 AM at Horn Pond (Team 68). The chapter event Henry + the officer team (Ryan leading) promoted all summer. Get there early to help run it. → Move to resolved in tomorrow's brief once it's done."
     who: "Officer team (Ryan leading)"
     due: 2026-08-15
-    source: "email thread 'DECA Dash'"
+    source: "email thread 'DECA Dash'; now a real calendar event today"
     first_seen: 2026-07-17
   - what: "RSVP to Mom's 'Kent's Place in Marion' weekend (Aug 29–30) once home"
     who: "Henry → Michelle Zisow"
     due: 2026-08-10
     source: "Google Calendar invite from mkzisow@gmail.com, Jul 30"
     first_seen: 2026-07-31
-    note: "Low urgency."
+    note: "SLIPPED — was due Aug 10, still unconfirmed. Low urgency but the weekend is Aug 29–30; nail it down."
+  - what: "Optional: finish the Alpaca live trading-API application — Henry started a live trading account but didn't complete it. Only matters if he wants to actually trade through the API (ties to his build + investing interests)."
+    who: "Henry → Alpaca"
+    due: 2026-08-22
+    source: "Gmail: Alpaca 'Finish your live trading application', Aug 14"
+    first_seen: 2026-08-15
+    note: "Genuinely optional — surface lightly, drop if ignored a few days."
 
 # Travel / logistics context (not a to-do, but load-bearing for scheduling)
 travel:

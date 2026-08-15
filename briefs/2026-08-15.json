@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-15",
+  "generated_at": "2026-08-15T06:52:00-04:00",
+  "headline": "It's DECA Dash day — your chapter 5K is at Horn Pond, 9:00–11:30 AM, so head over early (nice weather for it, high ~78°). Tomorrow's a full one: your Xolair, an SAT lesson with Ben at 10, and family dinner at 6:15. Quiet inbox otherwise — a Caremark package lands by noon today. (Email's coming through the Gmail backup again — Zapier's still out of quota, day 4.)",
+  "weather": {
+    "location": "Newton/Boston, MA",
+    "current_f": 64,
+    "condition": "Pleasant (high ~78°)"
+  },
+  "schedule": [
+    {
+      "start": "2026-08-15T09:00:00-04:00",
+      "end": "2026-08-15T11:30:00-04:00",
+      "all_day": false,
+      "title": "DECA Dash 5K @ Horn Pond",
+      "calendar": "Personal / Team 68",
+      "location": "Horn Pond",
+      "prep": "The chapter event you and the officer team (Ryan leading) have been promoting. Get there early to help set up. High ~78° — good running weather."
+    }
+  ],
+  "tomorrow_headsup": [
+    "Sun Aug 16: Xolair (your medication) — the monthly reminder is on the calendar.",
+    "Sun Aug 16, 10:00–11:00 AM: SAT lesson with Ben (Google Meet). Bring the QBank + Ben's new Math Study Guide.",
+    "Sun Aug 16, 6:15–9:15 PM: Dinner — Zisow's / Greenwoods (family: Matthew, Sam, Emily)."
+  ],
+  "email": [
+    {
+      "thread_id": "1a0018e00e0076d4",
+      "from": "UPS",
+      "subject": "Caremark package arriving today by 12 PM",
+      "bucket": "fyi",
+      "why": "A CVS Caremark (pharmacy) package is scheduled to land today by noon — you'll be back from the Dash by then. Likely a prescription; just so you know to grab it.",
+      "age_days": 0
+    },
+    {
+      "thread_id": "1a002aba80394f9d",
+      "from": "Alpaca Markets",
+      "subject": "Finish your live trading application",
+      "bucket": "fyi",
+      "why": "You started an Alpaca live trading-API account but didn't finish the application. Complete it if you want to actually trade through the API (ties to your build + investing interests).",
+      "age_days": 1
+    },
+    {
+      "thread_id": "19ffbe0c84197d87",
+      "from": "Ben (Sexton) — carryover",
+      "subject": "SAT Math Study Guide",
+      "bucket": "important",
+      "why": "Grab Ben's SAT Math Study Guide attachment before tomorrow's 10 AM lesson — a fast review of the key topics ahead of the Aug 22 test.",
+      "age_days": 2
+    }
+  ],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": [
+      {"title": "SAT Homework (work through the hard new QBank)", "list": "High Priority", "due": null, "overdue": false, "notes": "Carried from Aug 12 — Google Tasks still unreadable (Zapier quota, day 4)."},
+      {"title": "Michael horn email", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do Summer Reading", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do Desmos SAT Bootcamp through Sexton Test Prep", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "add new chapter toolkit to the website", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do PSAT", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "See how to actually train the ML model for EpiGuide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Find 1 TB USB", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Run minimax h3 locally for video generation", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Learn about succession planning for DECA", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Complete MA DECA involvement guide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Rebuild resume in Google Docs", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Build the TikTok send-to audio/playlist app", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Make Involvement Guide automation tool", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Read \"Kindred\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read Chapter 1 in the AMSCO book (APUSH)", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"The Namesake\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"A Visit from the Goon Squad\"", "list": "Summer Work", "due": null, "overdue": false}
+    ]
+  },
+  "follow_ups": [
+    {
+      "what": "DECA Dash 5K — TODAY 9:00–11:30 AM at Horn Pond (Team 68). The chapter event you've been promoting; get there early to help run it.",
+      "who": "Henry / officer team",
+      "due": "2026-08-15",
+      "age_days": 29
+    },
+    {
+      "what": "SAT on Sat Aug 22 — lesson with Ben tomorrow (Sun) 10 AM; bring the QBank + Ben's new Math Study Guide. 'SAT Homework' + Desmos on the High list.",
+      "who": "Henry → Ben (Sexton)",
+      "due": "2026-08-22",
+      "age_days": 9
+    },
+    {
+      "what": "Confirm the Leadership Initiatives IIP internship — you looped Brett in Aug 14; complete the 'final step to confirm your spot' once you two decide.",
+      "who": "Henry → Leadership Initiatives",
+      "due": "2026-08-16",
+      "age_days": 2
+    },
+    {
+      "what": "Finish henryzisow.com domain setup on Cloudflare — re-add the domain (setup lapsed after 4 weeks). Ties to the portfolio site + GitHub Pages.",
+      "who": "Henry",
+      "due": "2026-08-18",
+      "age_days": 1
+    },
+    {
+      "what": "Keep Supabase EpiGuide alive — LOG IN to the dashboard (the ML work doesn't reset the timer). supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu",
+      "who": "Henry",
+      "due": "2026-08-16",
+      "age_days": 29
+    },
+    {
+      "what": "Michael Horn socials analytics — you have Editor access to the YouTube channel (school email); run the analytics. #1 work task.",
+      "who": "Henry → Michael Horn / Danny",
+      "due": "2026-08-17",
+      "age_days": 29
+    },
+    {
+      "what": "RSVP to Mom's 'Kent's Place in Marion' weekend (Aug 29–30) — was due Aug 10; confirm it's sent. Also: Braeburn end-of-season form.",
+      "who": "Henry → Michelle Zisow / Braeburn",
+      "due": "2026-08-17",
+      "age_days": 15
+    },
+    {
+      "what": "Optional: finish the Alpaca live trading-API application if you want to trade through it.",
+      "who": "Henry → Alpaca",
+      "due": "2026-08-22",
+      "age_days": 0
+    }
+  ],
+  "news": [
+    {
+      "topic": "Business & markets",
+      "headline": "S&P slipped from a record Friday as retail sales fell 0.6%",
+      "why": "July retail sales posted their biggest drop in over a year (vs +0.1% expected) — a soft consumer read — but stocks still booked a 3rd straight weekly gain and the Russell 2000 hit a record.",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-14-dow-sp-500-nasdaq-102635519.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "27 record closes and counting for the S&P in 2026",
+      "why": "The index cleared 7,800 on Thursday before Friday's profit-taking — cool inflation this week kept the melt-up intact heading into a quiet data stretch.",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-14-2026",
+      "source": "TheStreet"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "Weekend read: the consumer is the thing to watch",
+      "why": "With CPI/PPI tame and hikes pushed out, the soft retail number is the one crack — next week's Fed minutes + Jackson Hole build-up take over.",
+      "url": "https://eurasiabusinessnews.com/2026/08/14/stock-market-today-sp-500-slips-from-record-as-us-retail-sales-fall/",
+      "source": "Eurasia Business News"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Meta open-sources 'Muse Glimmer' (30B) for local agentic use",
+      "why": "Apache-2.0, 131K context, tuned for tool use + coding on a single GPU — squarely in your lane (EpiGuide ML, minimax, local models).",
+      "url": "https://aiweekly.co/ai-news-today",
+      "source": "AI Weekly"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "xAI's Grok 4.6 matches GPT-5.6 at the same price",
+      "why": "Frontier-level scores with a 500K-token context at unchanged pricing — the price/perf race keeps tilting toward builders.",
+      "url": "https://aitoolsrecap.com/Blog/AINewsAugust2026.aspx",
+      "source": "AI Tools Recap"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "AI notetaker 'tl;dv' exposed 181k meeting records",
+      "why": "A missing access rule left 84k users' Zoom/Meet/Teams transcripts queryable — a reminder to lock down tenant isolation in anything you build (and to mind what AI notetakers capture).",
+      "url": "https://aiweekly.co/ai-news-today",
+      "source": "AI Weekly"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Ukrainian drones hit Crimea — power, fuel and cell outages",
+      "why": "Deep strikes are disrupting the peninsula Russia seized in 2014, widening the war's reach.",
+      "url": "https://www.npr.org/sections/world/",
+      "source": "NPR"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "West Bank settler standoff drags on",
+      "why": "A dayslong siege of an American-Palestinian family's home spotlights Israel's reluctance to rein in settler violence.",
+      "url": "https://www.usnews.com/news/world",
+      "source": "U.S. News"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Myanmar says 300k+ Rohingya in Bangladesh camps are verified former residents",
+      "why": "A potential step on repatriation for one of the world's largest refugee populations — though returns remain fraught.",
+      "url": "https://globalnation.inquirer.net/",
+      "source": "Inquirer"
+    }
+  ],
+  "system_notes": [
+    "DELIVERY: Zapier out of quota for a 4th day (weather + tasks probes failed). Brief email sent via the GMAIL CONNECTOR fallback again (to hzisow@gmail.com only). Henry didn't reply 'stop' to yesterday's fallback disclosure, so continuing it; still needs a Zapier top-up (zapier.com → Usage & Billing) to restore Tasks + the normal path.",
+    "Weather via web fallback: high ~78°, low ~62° — pleasant for the outdoor 5K.",
+    "Google Tasks unreadable (Zapier) 4th day — task list carried from Aug 12.",
+    "Calendar: DECA Dash 9–11:30 AM today @ Horn Pond. Tomorrow (Sun Aug 16) is busy — Xolair (meds), SAT lesson w Ben 10–11 AM, family dinner 6:15–9:15 PM (Zisow's/Greenwoods).",
+    "Inbox thin: UPS Caremark package by noon today; Alpaca 'finish your application'; Ben's SAT Math guide (carryover). Rest college/retail promos.",
+    "Timing: fired 06:41 ET (in-window). Interactive run (Henry triggered it) — replying normally; noted the Gmail fallback."
+  ]
+}
