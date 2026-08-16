@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-16",
+  "generated_at": "2026-08-16T06:52:00-04:00",
+  "headline": "Full Sunday: SAT lesson with Ben at 10 AM (one week from the test — grab his Math Study Guide from email first), your Xolair, and family dinner at 6:15 at Zisow's/Greenwoods. Mostly sunny and warm (high ~83°) but PM storms are possible around dinnertime. (Email's via the Gmail backup again — Zapier's out of quota, day 5.)",
+  "weather": {
+    "location": "Newton/Boston, MA",
+    "current_f": 62,
+    "condition": "Mostly sunny, warm — high ~83°, PM showers/storms possible"
+  },
+  "schedule": [
+    {
+      "start": "2026-08-16T00:00:00-04:00",
+      "end": "2026-08-16T23:59:59-04:00",
+      "all_day": true,
+      "title": "Xolair (medication reminder)",
+      "calendar": "Personal",
+      "location": "",
+      "prep": "Your monthly Xolair reminder. Take/administer as usual."
+    },
+    {
+      "start": "2026-08-16T10:00:00-04:00",
+      "end": "2026-08-16T11:00:00-04:00",
+      "all_day": false,
+      "title": "SAT lesson with Ben",
+      "calendar": "Personal",
+      "location": "Google Meet (meet.google.com/ybc-asgu-nuk)",
+      "prep": "One week out from the Aug 22 SAT. Bring the hard new QBank and — grab Ben's SAT Math Study Guide from your email (he sent it Aug 13) before you start."
+    },
+    {
+      "start": "2026-08-16T18:15:00-04:00",
+      "end": "2026-08-16T21:15:00-04:00",
+      "all_day": false,
+      "title": "Dinner — Zisow's / Greenwoods",
+      "calendar": "Personal",
+      "location": "",
+      "prep": "Family dinner with Mom, Matthew, Sam, and Emily. Storms are possible in the evening — grab a jacket/umbrella if you're heading out."
+    }
+  ],
+  "tomorrow_headsup": [
+    "Mon Aug 17, 2:00–6:30 PM: Work (on the Personal calendar)."
+  ],
+  "email": [
+    {
+      "thread_id": "19ffbe0c84197d87",
+      "from": "Ben (Sexton Test Prep)",
+      "subject": "SAT Math Study Guide",
+      "bucket": "important",
+      "why": "Ben's SAT Math Study Guide (sent Aug 13) — grab the attachment before today's 10 AM lesson. A fast review of the key topics ahead of the Aug 22 test.",
+      "age_days": 3
+    },
+    {
+      "thread_id": "1a002aba80394f9d",
+      "from": "Alpaca Markets",
+      "subject": "You're almost ready to trade",
+      "bucket": "fyi",
+      "why": "Reminder that your live trading-API application is unfinished. Optional — complete it only if you actually want to trade through Alpaca.",
+      "age_days": 2
+    }
+  ],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": [
+      {"title": "SAT Homework (work through the hard new QBank)", "list": "High Priority", "due": null, "overdue": false, "notes": "Carried from Aug 12 — Google Tasks still unreadable (Zapier quota, day 5)."},
+      {"title": "Michael horn email", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do Summer Reading", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do Desmos SAT Bootcamp through Sexton Test Prep", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "add new chapter toolkit to the website", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do PSAT", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "See how to actually train the ML model for EpiGuide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Find 1 TB USB", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Run minimax h3 locally for video generation", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Learn about succession planning for DECA", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Complete MA DECA involvement guide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Rebuild resume in Google Docs", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Build the TikTok send-to audio/playlist app", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Make Involvement Guide automation tool", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Read \"Kindred\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read Chapter 1 in the AMSCO book (APUSH)", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"The Namesake\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"A Visit from the Goon Squad\"", "list": "Summer Work", "due": null, "overdue": false}
+    ]
+  },
+  "follow_ups": [
+    {
+      "what": "SAT on Sat Aug 22 (ONE WEEK out) — lesson with Ben TODAY 10 AM (Meet). Bring the hard QBank + Ben's new SAT Math Study Guide (grab the email attachment). 'SAT Homework' + Desmos on the High list.",
+      "who": "Henry → Ben (Sexton)",
+      "due": "2026-08-22",
+      "age_days": 10
+    },
+    {
+      "what": "Confirm/complete the Leadership Initiatives IIP internship — Henry was actively filling out the application Aug 12 (Brett endorsed it). Finish the application + the 'final step to confirm your spot' (iip@lichange.org).",
+      "who": "Henry → Leadership Initiatives",
+      "due": "2026-08-18",
+      "age_days": 3
+    },
+    {
+      "what": "Finish henryzisow.com domain setup on Cloudflare — re-add the domain (setup lapsed after 4 weeks). Ties to the portfolio site + GitHub Pages.",
+      "who": "Henry",
+      "due": "2026-08-18",
+      "age_days": 2
+    },
+    {
+      "what": "Keep Supabase EpiGuide alive — LOG IN to the dashboard (the ML work doesn't reset the timer). supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu",
+      "who": "Henry",
+      "due": "2026-08-18",
+      "age_days": 30
+    },
+    {
+      "what": "Michael Horn socials analytics — you have Editor access to the YouTube channel (school email); run the analytics. #1 work task.",
+      "who": "Henry → Michael Horn / Danny",
+      "due": "2026-08-17",
+      "age_days": 30
+    },
+    {
+      "what": "RSVP to Mom's 'Kent's Place in Marion' weekend (Aug 29–30) — was due Aug 10; confirm it's sent. Also: Braeburn end-of-season form.",
+      "who": "Henry → Michelle Zisow / Braeburn",
+      "due": "2026-08-17",
+      "age_days": 16
+    },
+    {
+      "what": "Optional: finish the Alpaca live trading-API application if you want to trade through it.",
+      "who": "Henry → Alpaca",
+      "due": "2026-08-22",
+      "age_days": 1
+    }
+  ],
+  "news": [
+    {
+      "topic": "Business & markets",
+      "headline": "Markets head into a quiet week with the VIX at 2026 lows",
+      "why": "The S&P closed Friday at ~7,786 — just off Thursday's record — for a 3rd straight weekly gain; volatility is near its lowest of the year (VIX ~14.5). Light data ahead until the Fed's Jackson Hole symposium (Aug 27–29), the next big catalyst.",
+      "url": "https://www.schwab.com/learn/story/stock-market-update-open",
+      "source": "Charles Schwab"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "Soft retail sales are the one crack in the melt-up",
+      "why": "Friday's 0.6% drop in July retail sales — the biggest in over a year — is the standout weak spot against cool CPI and strong earnings. Energy led the week (+6%), with healthcare and financials also outperforming.",
+      "url": "https://www.cnbc.com/2026/08/13/stock-market-today-live-updates.html",
+      "source": "CNBC"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Qwen 3.8-27B lands on Ollama for local use",
+      "why": "Alibaba's new open model (big jump in coding + long-horizon agentic tasks) is now one-command to run locally — squarely in your lane (EpiGuide ML, minimax, local models). It hit your inbox too.",
+      "url": "https://llm-stats.com/ai-news",
+      "source": "LLM-Stats / Ollama"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Open-weight race heats up: GLM-5.3 also drops",
+      "why": "Z.ai's GLM-5.3 shipped the same day as Qwen 3.8 — capable open models keep arriving weekly, so the edge is picking the right one per task/price rather than any single 'best' model.",
+      "url": "https://llm-stats.com/ai-news",
+      "source": "LLM-Stats"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Ukraine launches hundreds of drones across Russia overnight",
+      "why": "One of the largest drone barrages of the war; at least six people reported killed. Deep strikes keep widening the conflict's reach.",
+      "url": "https://www.euronews.com/news/international",
+      "source": "Euronews"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Massive wildfire burns 27+ sq km in eastern Belgium",
+      "why": "Crews are battling an unusually large blaze for the region — a marker of the hot, dry stretch across parts of Europe.",
+      "url": "https://www.euronews.com/news/international",
+      "source": "Euronews"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Bus crash in Hungary kills 12",
+      "why": "A passenger bus went off a highway and overturned early Sunday, one of the weekend's deadliest accidents in Europe.",
+      "url": "https://www.usnews.com/news/world",
+      "source": "U.S. News / AP"
+    }
+  ],
+  "system_notes": [
+    "DELIVERY: Zapier out of quota for a 5TH day (weather + tasks probes failed with 'insufficient tasks on account'). Brief email sent via the GMAIL CONNECTOR fallback again (to hzisow@gmail.com only). Henry hasn't replied 'stop' to the fallback disclosures, so continuing it; still needs a Zapier top-up (zapier.com → Usage & Billing) to restore Tasks + the normal send path.",
+    "Weather via web fallback: high ~83°, low ~57°, mostly sunny but PM showers/storms possible (relevant to the 6:15 PM outdoor-ish family dinner).",
+    "Google Tasks unreadable (Zapier) 5th day — task list carried from Aug 12.",
+    "Calendar: today (Sun Aug 16) — Xolair (meds, all-day), SAT lesson w Ben 10–11 AM (Meet), family dinner 6:15–9:15 PM (Zisow's/Greenwoods). Tomorrow Mon Aug 17: Work 2:00–6:30 PM. Other schedule calendars (Team 68, MA DECA, State Officer, Canvas, Recall) empty.",
+    "DECA Dash (Aug 15) is DONE — moved to resolved in follow-ups.",
+    "Inbox thin/promotional: only live items are Ben's SAT Math Study Guide (for today's lesson) and the Alpaca reminder. Everything else is college marketing + retail promos. No brief-email reply/instruction from Henry.",
+    "Timing: fired ~06:41 ET (in-window) — no DST cron change."
+  ]
+}

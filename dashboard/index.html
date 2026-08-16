@@ -36,7 +36,8 @@
   @media (prefers-color-scheme:dark){.ic.u{background:#2A2018;} .ic.g{background:#16281C;color:#5FBE85;}}
   .rows .from{font-weight:600;} .rows .why{color:var(--muted);font-size:13px;margin-top:1px;}
   .fu{list-style:none;margin:0;padding:0;font-size:14px;} .fu li{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:9px 0;border-top:1px solid var(--line);} .fu li:first-child{border-top:0;padding-top:0;}
-  .due{flex:none;border-radius:999px;padding:3px 11px;font-size:12px;font-weight:700;border:1px solid var(--line-strong);color:var(--faint);white-space:nowrap;} .due.soon{color:var(--urgent);border-color:currentColor;}
+  .due{flex:none;border-radius:999px;padding:3px 11px;font-size:12px;font-weight:700;border:1px solid var(--line-strong);color:var(--faint);white-space:nowrap;} .due.soon{color:var(--urgent);border-color:currentColor;} .due.done{color:#127A3E;border-color:currentColor;}
+  @media (prefers-color-scheme:dark){.due.done{color:#5FBE85;}}
   .connect{display:flex;align-items:center;gap:14px;background:var(--blue-soft);border-radius:12px;padding:14px 16px;font-size:13.5px;flex-wrap:wrap;}
   .newsgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:24px;}
   .topic{font-weight:700;font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--faint);margin-bottom:8px;}
@@ -48,37 +49,37 @@
 <nav>
   <div class="navin">
     <span class="brand"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="14" r="5.5" fill="currentColor"/><path d="M2 20h20M12 3v3M4.9 6.9l2.1 2.1M19.1 6.9 17 9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Morning Brief</span>
-    <div class="datepill" role="text"><span>Sat, Aug 15</span><span class="soft">DECA Dash 9 AM</span><span class="soft">☀️ 78°</span></div>
+    <div class="datepill" role="text"><span>Sun, Aug 16</span><span class="soft">SAT lesson 10 AM</span><span class="soft">☀️ 83°</span></div>
     <div class="avatar" aria-hidden="true">H</div>
   </div>
 </nav>
 <div class="wrap">
   <h1 class="hello">Good morning, Henry</h1>
-  <p class="sub">It's DECA Dash day — your chapter 5K is at Horn Pond, 9:00–11:30 AM, so head over early (nice weather, high ~78°). Tomorrow's a full one: your Xolair, an SAT lesson with Ben at 10, and family dinner at 6:15. Quiet inbox otherwise — a Caremark package lands by noon today.</p>
-  <div class="alert">✅ <b>Email via the Gmail backup again.</b> Zapier's still out of task quota (day 4), which is also why Tasks are carried from Tuesday. Top up Zapier (Settings → Usage &amp; Billing) to restore the normal send + Tasks. Reply "stop" to turn off the fallback.</div>
+  <p class="sub">A full Sunday: your SAT lesson with Ben is at 10 AM (one week from the test — grab his Math Study Guide from email first), plus your Xolair and family dinner at 6:15. Warm and mostly sunny (high ~83°), but storms are possible around dinnertime.</p>
+  <div class="alert">✅ <b>Email via the Gmail backup again.</b> Zapier's still out of task quota (day 5), which is also why Tasks are carried from Tuesday. Top up Zapier (Settings → Usage &amp; Billing) to restore the normal send + Tasks. Reply "stop" to turn off the fallback.</div>
   <div class="stats">
-    <span class="stat"><span class="d"></span>🏃 DECA Dash 9–11:30 @ Horn Pond</span>
-    <span class="stat"><span class="d"></span>💉 Xolair tomorrow</span>
-    <span class="stat"><span class="d"></span>✏️ SAT lesson tmrw 10 AM</span>
-    <span class="stat"><span class="d"></span>🍽 Family dinner tmrw 6:15</span>
+    <span class="stat"><span class="d"></span>✏️ SAT lesson 10 AM</span>
+    <span class="stat"><span class="d"></span>💉 Xolair today</span>
+    <span class="stat"><span class="d"></span>🍽 Family dinner 6:15</span>
+    <span class="stat warn"><span class="d"></span>📅 SAT in 6 days (Aug 22)</span>
   </div>
 
   <h2>Today</h2>
   <div class="cards">
     <section class="card wide">
       <ul class="tl">
-        <li><time>9:00–11:30 AM</time><div class="what"><strong>DECA Dash 5K</strong> @ Horn Pond · <span style="color:var(--faint);">Team 68</span><div class="prep">The chapter event you've been promoting — get there early to help set up. Good running weather.</div></div></li>
+        <li><time>all day</time><div class="what"><strong>Xolair</strong> — your medication <span style="color:var(--faint);">· monthly reminder</span></div></li>
+        <li><time>10:00–11:00 AM</time><div class="what"><strong>SAT lesson with Ben</strong> · <a class="alink" href="https://meet.google.com/ybc-asgu-nuk">Meet</a><div class="prep">One week out from Aug 22. Bring the hard QBank + <b>grab Ben's SAT Math Study Guide</b> from your email first.</div></div></li>
+        <li><time>6:15–9:15 PM</time><div class="what"><strong>Dinner — Zisow's / Greenwoods</strong><div class="prep">Family: Mom, Matthew, Sam, Emily. PM storms possible — plan for weather.</div></div></li>
       </ul>
     </section>
   </div>
 
-  <h2>Tomorrow (Sun Aug 16) — a full day</h2>
+  <h2>Tomorrow (Mon Aug 17)</h2>
   <div class="cards">
     <section class="card wide">
       <ul class="tl">
-        <li><time>all day</time><div class="what"><strong>Xolair</strong> — your medication <span style="color:var(--faint);">· monthly reminder</span></div></li>
-        <li><time>10:00–11:00 AM</time><div class="what"><strong>SAT lesson with Ben</strong> · <a class="alink" href="https://meet.google.com/ybc-asgu-nuk">Meet</a><div class="prep">Bring the QBank + Ben's new Math Study Guide.</div></div></li>
-        <li><time>6:15–9:15 PM</time><div class="what"><strong>Dinner — Zisow's / Greenwoods</strong><div class="prep">Family: Matthew, Sam, Emily.</div></div></li>
+        <li><time>2:00–6:30 PM</time><div class="what"><strong>Work</strong> <span style="color:var(--faint);">· on your Personal calendar</span></div></li>
       </ul>
     </section>
   </div>
@@ -87,14 +88,14 @@
   <div class="cards">
     <section class="card wide">
       <ul class="rows">
-        <li><span class="ic">📦</span><div><div class="from">UPS → Caremark package by noon today <span style="color:var(--faint);font-weight:400;">· FYI</span></div><div class="why">Likely a prescription; grab it after the Dash.</div></div></li>
-        <li><span class="ic">💵</span><div><div class="from">Alpaca → finish your trading application <span style="color:var(--faint);font-weight:400;">· FYI</span></div><div class="why">You started a live trading-API account; complete it if you want to trade through it.</div></div></li>
-        <li><span class="ic">✏️</span><div><div class="from">Ben (Sexton) → SAT Math Study Guide <span style="color:var(--faint);font-weight:400;">· carryover</span></div><div class="why">Grab the attachment for tomorrow's lesson.</div></div></li>
+        <li><span class="ic u">✏️</span><div><div class="from">Ben (Sexton) → SAT Math Study Guide <span style="color:var(--faint);font-weight:400;">· important</span></div><div class="why">Grab the attachment for today's 10 AM lesson — a fast review before Aug 22.</div></div></li>
+        <li><span class="ic">💵</span><div><div class="from">Alpaca → "almost ready to trade" <span style="color:var(--faint);font-weight:400;">· FYI, optional</span></div><div class="why">Your live trading-API application is unfinished; complete it only if you want to trade through it.</div></div></li>
+        <li><span class="ic g">✓</span><div><div class="from">Otherwise all quiet <span style="color:var(--faint);font-weight:400;">· nothing needs you</span></div><div class="why">The rest is college marketing (UF, Purdue, Middlebury, Yale/Harvard sessions) + retail promos.</div></div></li>
       </ul>
     </section>
   </div>
 
-  <h2>Tasks <span style="font-weight:400;color:var(--faint);font-size:14px;">· Google Tasks — couldn't read (Zapier down 4th day); carried from Aug 12</span></h2>
+  <h2>Tasks <span style="font-weight:400;color:var(--faint);font-size:14px;">· Google Tasks — couldn't read (Zapier down 5th day); carried from Aug 12</span></h2>
   <div class="cards">
     <section class="card">
       <div class="topic" style="margin-bottom:12px;">High priority</div>
@@ -140,12 +141,12 @@
   <div class="cards">
     <section class="card wide">
       <ul class="fu">
-        <li><span>DECA Dash 5K @ Horn Pond</span><span class="due soon">today 9 AM</span></li>
+        <li><span>SAT lesson today — bring Ben's Math guide (test Aug 22)</span><span class="due soon">today 10 AM</span></li>
         <li><span>Log into Supabase to keep EpiGuide alive</span><span class="due soon">today</span></li>
-        <li><span>SAT lesson tomorrow — Ben's Math guide (test Aug 22)</span><span class="due">Sun 10 AM</span></li>
-        <li><span>Confirm the Leadership Initiatives internship</span><span class="due">in motion</span></li>
+        <li><span>Confirm/finish the Leadership Initiatives internship application</span><span class="due">this week</span></li>
         <li><span>Finish henryzisow.com (Cloudflare) · Michael Horn analytics</span><span class="due">this week</span></li>
         <li><span>RSVP Mom's Kent's Place (slipped) · Braeburn form · Alpaca app</span><span class="due">soon</span></li>
+        <li><span>🎉 DECA Dash 5K — ran yesterday</span><span class="due done">done ✓</span></li>
       </ul>
     </section>
   </div>
@@ -157,30 +158,28 @@
         <div>
           <div class="topic">Business &amp; markets</div>
           <ul class="news">
-            <li><a class="alink" href="https://finance.yahoo.com/markets/live/stock-market-today-friday-august-14-dow-sp-500-nasdaq-102635519.html">S&P slipped from a record Friday as retail sales fell 0.6%</a><div class="why">Biggest drop in a year; still a 3rd weekly gain.</div></li>
-            <li><a class="alink" href="https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-14-2026">27 record closes and counting</a><div class="why">S&P cleared 7,800 Thursday before profit-taking.</div></li>
-            <li><a class="alink" href="https://eurasiabusinessnews.com/2026/08/14/stock-market-today-sp-500-slips-from-record-as-us-retail-sales-fall/">Weekend read: watch the consumer</a><div class="why">Fed minutes + Jackson Hole build-up next.</div></li>
+            <li><a class="alink" href="https://www.schwab.com/learn/story/stock-market-update-open">Quiet week ahead, VIX at 2026 lows</a><div class="why">S&P closed Friday ~7,786 for a 3rd weekly gain; Jackson Hole (Aug 27–29) is the next catalyst.</div></li>
+            <li><a class="alink" href="https://www.cnbc.com/2026/08/13/stock-market-today-live-updates.html">Soft retail sales are the one crack</a><div class="why">July's 0.6% drop stands out vs cool inflation; energy led the week (+6%).</div></li>
           </ul>
         </div>
         <div>
           <div class="topic">Tech &amp; AI</div>
           <ul class="news">
-            <li><a class="alink" href="https://aiweekly.co/ai-news-today">Meta open-sources "Muse Glimmer" (30B) for local agentic use</a><div class="why">Apache-2.0, single-GPU — in your lane.</div></li>
-            <li><a class="alink" href="https://aitoolsrecap.com/Blog/AINewsAugust2026.aspx">xAI's Grok 4.6 matches GPT-5.6 at the same price</a><div class="why">Price/perf keeps tilting to builders.</div></li>
-            <li><a class="alink" href="https://aiweekly.co/ai-news-today">AI notetaker "tl;dv" exposed 181k meeting records</a><div class="why">Lock down tenant isolation in anything you build.</div></li>
+            <li><a class="alink" href="https://llm-stats.com/ai-news">Qwen 3.8-27B lands on Ollama</a><div class="why">New open model, big coding + agentic gains, one command to run locally. It hit your inbox too.</div></li>
+            <li><a class="alink" href="https://llm-stats.com/ai-news">GLM-5.3 drops the same day</a><div class="why">Open-weight race stays weekly — pick the right model per task, not one "best."</div></li>
           </ul>
         </div>
         <div>
           <div class="topic">US &amp; world</div>
           <ul class="news">
-            <li><a class="alink" href="https://www.npr.org/sections/world/">Ukrainian drones hit Crimea</a><div class="why">Power, fuel and cell outages.</div></li>
-            <li><a class="alink" href="https://www.usnews.com/news/world">West Bank settler standoff drags on</a><div class="why">Spotlight on unchecked settler violence.</div></li>
-            <li><a class="alink" href="https://globalnation.inquirer.net/">Myanmar verifies 300k+ Rohingya as former residents</a><div class="why">A fraught step toward repatriation.</div></li>
+            <li><a class="alink" href="https://www.euronews.com/news/international">Ukraine launches hundreds of drones across Russia</a><div class="why">One of the war's largest barrages; at least six reported killed.</div></li>
+            <li><a class="alink" href="https://www.euronews.com/news/international">Wildfire burns 27+ sq km in eastern Belgium</a><div class="why">Unusually large for the region amid a hot, dry stretch.</div></li>
+            <li><a class="alink" href="https://www.usnews.com/news/world">Bus crash in Hungary kills 12</a><div class="why">A passenger bus overturned off a highway early Sunday.</div></li>
           </ul>
         </div>
       </div>
     </section>
   </div>
 
-  <footer>Go get the Dash — nice day for it. Email came via the Gmail backup again (Zapier still needs a top-up). Generated 6:52 AM ET.</footer>
+  <footer>Good luck at the lesson — one week to go. Email came via the Gmail backup again (Zapier still needs a top-up). Generated 6:52 AM ET · Sunday, August 16, 2026.</footer>
 </div>
