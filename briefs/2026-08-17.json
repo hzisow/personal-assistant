@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-17",
+  "generated_at": "2026-08-17T06:52:00-04:00",
+  "headline": "Lighter Monday — one work block this afternoon (2:00–6:30 PM), and it's a damp, cloudy day with showers likely this morning (high ~76°). With the SAT now 5 days out, the open morning is a good QBank/Desmos block. Your LEVRA 'Human Skills' certificate link should land today or tomorrow. (Email's via the Gmail backup again — Zapier's out of quota, day 6.)",
+  "weather": {
+    "location": "Newton/Boston, MA",
+    "current_f": 66,
+    "condition": "Cloudy, AM showers likely (60%), patchy fog — high ~76°"
+  },
+  "schedule": [
+    {
+      "start": "2026-08-17T14:00:00-04:00",
+      "end": "2026-08-17T18:30:00-04:00",
+      "all_day": false,
+      "title": "Work",
+      "calendar": "Personal",
+      "location": "Google Meet (meet.google.com/txk-mmqa-oef)",
+      "prep": "2:00–6:30 PM block on your Personal calendar (has a Meet link attached). Should be past the morning showers by then — cloudy and ~75°."
+    }
+  ],
+  "tomorrow_headsup": [
+    "Tue Aug 18, 7:30–9:00 PM: Family Dinner (Mom, Matthew, Sam, Emily)."
+  ],
+  "email": [
+    {
+      "thread_id": "19fcbf7f11920942",
+      "from": "LEVRA (emily@levra.me)",
+      "subject": "LEVRA — Human Skills Certification",
+      "bucket": "important",
+      "why": "New this morning: LEVRA says they're sharing the certificate download link today/tomorrow for those who finished the 4 Human Skills modules. If you completed them, watch for the link to grab your Oxford 'Introduction to Human Skills' certificate. (The earlier reminder emails are in your Trash.)",
+      "age_days": 0
+    },
+    {
+      "thread_id": "1a002aba80394f9d",
+      "from": "Alpaca Markets",
+      "subject": "You're almost ready to trade",
+      "bucket": "fyi",
+      "why": "Still-unfinished live trading-API application. Optional — only if you want to trade through Alpaca.",
+      "age_days": 3
+    }
+  ],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": [
+      {"title": "SAT Homework (work through the hard new QBank)", "list": "High Priority", "due": null, "overdue": false, "notes": "Carried from Aug 12 — Google Tasks still unreadable (Zapier quota, day 6). SAT is Aug 22 (5 days out)."},
+      {"title": "Michael horn email", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do Summer Reading", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do Desmos SAT Bootcamp through Sexton Test Prep", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "add new chapter toolkit to the website", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do PSAT", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "See how to actually train the ML model for EpiGuide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Find 1 TB USB", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Run minimax h3 locally for video generation", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Learn about succession planning for DECA", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Complete MA DECA involvement guide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Rebuild resume in Google Docs", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Build the TikTok send-to audio/playlist app", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Make Involvement Guide automation tool", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Read \"Kindred\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read Chapter 1 in the AMSCO book (APUSH)", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"The Namesake\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"A Visit from the Goon Squad\"", "list": "Summer Work", "due": null, "overdue": false}
+    ]
+  },
+  "follow_ups": [
+    {
+      "what": "SAT on Sat Aug 22 (5 days out) — lesson with Ben was yesterday; now it's final review. Work the hard QBank + Desmos SAT Bootcamp (both High-list). Bring/keep Ben's Math Study Guide handy.",
+      "who": "Henry → Ben (Sexton)",
+      "due": "2026-08-22",
+      "age_days": 11
+    },
+    {
+      "what": "LEVRA 'Human Skills' certificate — LEVRA is sending the download link today/tomorrow (Aug 17 email). If you completed the 4 modules, grab the certificate when the link arrives. If you didn't finish, that window has likely closed.",
+      "who": "Henry → LEVRA",
+      "due": "2026-08-18",
+      "age_days": 13
+    },
+    {
+      "what": "Finish + confirm the Leadership Initiatives IIP internship — as of Aug 12 Henry was mid-application (drafting answers, told Brett). Complete the application + the 'final step to confirm your spot' (iip@lichange.org).",
+      "who": "Henry → Leadership Initiatives",
+      "due": "2026-08-18",
+      "age_days": 4
+    },
+    {
+      "what": "Finish henryzisow.com domain setup on Cloudflare — re-add the domain (setup lapsed after 4 weeks). Ties to the portfolio site + GitHub Pages.",
+      "who": "Henry",
+      "due": "2026-08-18",
+      "age_days": 3
+    },
+    {
+      "what": "Keep Supabase EpiGuide alive — LOG IN to the dashboard (the ML work doesn't reset the timer). supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu",
+      "who": "Henry",
+      "due": "2026-08-18",
+      "age_days": 31
+    },
+    {
+      "what": "Michael Horn socials analytics — you have Editor access to the YouTube channel (school email); run the analytics + report back. Danny's checked in on next steps. #1 work task.",
+      "who": "Henry → Michael Horn / Danny",
+      "due": "2026-08-18",
+      "age_days": 31
+    },
+    {
+      "what": "RSVP to Mom's 'Kent's Place in Marion' weekend (Aug 29–30) — was due Aug 10; confirm it's sent. Also: Braeburn end-of-season form.",
+      "who": "Henry → Michelle Zisow / Braeburn",
+      "due": "2026-08-18",
+      "age_days": 17
+    },
+    {
+      "what": "Optional: finish the Alpaca live trading-API application if you want to trade through it.",
+      "who": "Henry → Alpaca",
+      "due": "2026-08-22",
+      "age_days": 2
+    }
+  ],
+  "news": [
+    {
+      "topic": "Business & markets",
+      "headline": "Big-box earnings week is the consumer's report card",
+      "why": "Walmart, Target, Home Depot and Lowe's all report this week — a direct read on the shopper after Friday's soft retail-sales number. Futures opened roughly flat (Nasdaq +0.4%, Dow -0.1%) after a 3rd straight weekly gain.",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-17-dow-sp-500-nasdaq-094421171.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "Week ahead: retailers + the Jackson Hole build-up",
+      "why": "With inflation cool and the VIX near 2026 lows, retail earnings and the run-up to the Fed's Aug 27–29 Jackson Hole symposium are the catalysts for the Aug 17–21 week.",
+      "url": "https://www.cnbc.com/2026/08/14/stock-market-next-week-outlook-for-aug-17-21-2026.html",
+      "source": "CNBC"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Stripe to buy AI gateway OpenRouter for $7B+",
+      "why": "OpenRouter routes across 400+ models (OpenAI, Anthropic, Google, Meta, DeepSeek) for ~8M developers — the plumbing a lot of AI apps run on. A >5x markup from its May valuation shows how strategic model-routing has become; relevant to anything you build on multiple model APIs.",
+      "url": "https://aiweekly.co/ai-news-today",
+      "source": "AI Weekly (Bloomberg/TechCrunch)"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "OpenAI previews 'Ultrafast' GPT-5.6 on Cerebras (~750 tok/s)",
+      "why": "A limited API preview claims up to ~14x faster output — inference speed keeps jumping, which matters for agentic/real-time apps.",
+      "url": "https://aiweekly.co/ai-news-today",
+      "source": "AI Weekly"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Anthropic nudges its misalignment risk rating up a notch",
+      "why": "Its August risk report moved catastrophic-misalignment from 'very low' to 'low' — citing rising uncertainty, not a failed test — and referenced an unreleased, more-capable internal model. A signal of how frontier labs are pacing releases.",
+      "url": "https://llm-stats.com/ai-news",
+      "source": "LLM-Stats"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Record flooding in Indiana kills at least six",
+      "why": "11+ inches of rain over three days broke marks set in 1913; crews pulled ~100 people from the water in Indianapolis as the White River crested.",
+      "url": "https://www.npr.org/sections/news",
+      "source": "NPR"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Kushner meets Hamas leadership in Egypt on Gaza ceasefire",
+      "why": "A rare direct meeting in a renewed push to unstick stalled ceasefire talks.",
+      "url": "https://www.usnews.com/news/world",
+      "source": "U.S. News"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Ukraine launches one of its largest drone barrages on Russia",
+      "why": "Hundreds of drones over the weekend, at least six killed — the air war keeps widening.",
+      "url": "https://www.npr.org/sections/world/",
+      "source": "NPR"
+    }
+  ],
+  "system_notes": [
+    "DELIVERY: Zapier out of quota for a 6TH day ('insufficient tasks on account' — weather + tasks probes failed). Brief email sent via the GMAIL CONNECTOR fallback again (to hzisow@gmail.com only). Henry hasn't replied 'stop', so continuing; still needs a Zapier top-up (zapier.com → Usage & Billing) to restore Tasks + the normal send.",
+    "Weather via web fallback: high ~76°, low ~65°, AM showers likely (60%), patchy fog, mostly cloudy.",
+    "Google Tasks unreadable (Zapier) 6th day — task list carried from Aug 12.",
+    "Calendar: today (Mon Aug 17) — Work 2:00–6:30 PM (Personal cal, has a Meet link). Tomorrow (Tue Aug 18) — Family Dinner 7:30–9:00 PM. Other schedule calendars (Team 68, MA DECA, State Officer, Canvas, Recall) empty.",
+    "Inbox: NEW LEVRA email (Aug 17) — certificate download link coming today/tomorrow for module-completers (surfaced + follow-up updated). Alpaca reminder (optional). No brief-email reply from Henry. Rest is college marketing + retail promos.",
+    "SAT is Aug 22 (5 days out); yesterday's Ben lesson was the last before the test — now final QBank/Desmos review.",
+    "Timing: fired 06:41 ET (in-window) — no DST cron change."
+  ]
+}
