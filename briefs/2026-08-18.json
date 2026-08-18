@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-18",
+  "generated_at": "2026-08-18T06:52:00-04:00",
+  "headline": "Easy Tuesday until the evening — haircut with Frankie at 5:15, then family dinner at 7:30. Warm and mostly sunny (high ~83°), though an isolated storm is possible late. Heads-up: another SAT lesson with Ben tomorrow at noon, so today's a good QBank day. Nice work clearing the DECA site update for Donna last night. (Email's via the Gmail backup again — Zapier's out of quota, day 7.)",
+  "weather": {
+    "location": "Newton/Boston, MA",
+    "current_f": 66,
+    "condition": "Warm, mostly sunny — high ~83°; isolated PM storm possible"
+  },
+  "schedule": [
+    {
+      "start": "2026-08-18T17:15:00-04:00",
+      "end": "2026-08-18T18:15:00-04:00",
+      "all_day": false,
+      "title": "Haircut with Frankie",
+      "calendar": "Personal",
+      "location": "",
+      "prep": "5:15 PM cut. Leaves you time to get to the 7:30 family dinner."
+    },
+    {
+      "start": "2026-08-18T19:30:00-04:00",
+      "end": "2026-08-18T21:00:00-04:00",
+      "all_day": false,
+      "title": "Family Dinner",
+      "calendar": "Personal",
+      "location": "",
+      "prep": "With Mom, Matthew, Sam, and Emily. Isolated storms possible this evening — check the sky if you're driving."
+    }
+  ],
+  "tomorrow_headsup": [
+    "Wed Aug 19, 12:00–1:00 PM: SAT lesson with Ben (Google Meet) — one more before Saturday's test. Bring the QBank + Ben's Math guide."
+  ],
+  "email": [
+    {
+      "thread_id": "1a0112cad1f1fa26",
+      "from": "Donna McFadden (BHCC) + Elif Koparan",
+      "subject": "website — DECA conference updates",
+      "bucket": "important",
+      "why": "A DECA advisor asked you and Elif to update the district & state conference info on the website while she builds the Advisor's Guide this week. You already replied last night that you updated everything — nicely handled. Just watch for a reply if she wants tweaks.",
+      "age_days": 1
+    },
+    {
+      "thread_id": "1a01030c313ab801",
+      "from": "OpenRouter",
+      "subject": "Gemini 3.7 Flash now live (50% off intro)",
+      "bucket": "fyi",
+      "why": "OpenRouter (which you use) added Gemini 3.7 Flash at half-price intro pricing — relevant if you want a cheap, strong coding/agent model for your builds.",
+      "age_days": 1
+    }
+  ],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": [
+      {"title": "SAT Homework (work through the hard new QBank)", "list": "High Priority", "due": null, "overdue": false, "notes": "Carried from Aug 12 — Google Tasks still unreadable (Zapier quota, day 7). SAT is Aug 22 (4 days out); lesson w Ben tomorrow."},
+      {"title": "Michael horn email", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do Summer Reading", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do Desmos SAT Bootcamp through Sexton Test Prep", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "add new chapter toolkit to the website", "list": "High Priority", "due": null, "overdue": false, "notes": "Related: you updated the DECA district/state conference info on the site last night (Donna McFadden request)."},
+      {"title": "Do PSAT", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "See how to actually train the ML model for EpiGuide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Find 1 TB USB", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Run minimax h3 locally for video generation", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Learn about succession planning for DECA", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Complete MA DECA involvement guide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Rebuild resume in Google Docs", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Build the TikTok send-to audio/playlist app", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Make Involvement Guide automation tool", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Read \"Kindred\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read Chapter 1 in the AMSCO book (APUSH)", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"The Namesake\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"A Visit from the Goon Squad\"", "list": "Summer Work", "due": null, "overdue": false}
+    ]
+  },
+  "follow_ups": [
+    {
+      "what": "SAT on Sat Aug 22 (4 days out) — ANOTHER lesson with Ben tomorrow Wed Aug 19, 12:00–1:00 PM (Meet). Work the hard QBank + Desmos today; bring Ben's Math Study Guide. Correction: lessons aren't done — this one was added.",
+      "who": "Henry → Ben (Sexton)",
+      "due": "2026-08-22",
+      "age_days": 12
+    },
+    {
+      "what": "LEVRA 'Human Skills' certificate — the Aug 17 email said the download link is coming 'today/tomorrow' for module-completers. Not seen yet; watch the inbox Aug 18–20 and grab it if you finished the 4 modules.",
+      "who": "Henry → LEVRA",
+      "due": "2026-08-20",
+      "age_days": 14
+    },
+    {
+      "what": "DECA website — you updated the district/state conference info per Donna McFadden (BHCC) on Aug 17 and replied 'done.' She's building the Advisor's Guide this week; watch for any change requests. Ties to your State Officer / MA DECA involvement.",
+      "who": "Henry → Donna McFadden / Elif Koparan",
+      "due": "2026-08-20",
+      "age_days": 1
+    },
+    {
+      "what": "Finish + confirm the Leadership Initiatives IIP internship — as of Aug 12 Henry was mid-application. Complete it + the 'final step to confirm your spot' (iip@lichange.org).",
+      "who": "Henry → Leadership Initiatives",
+      "due": "2026-08-20",
+      "age_days": 5
+    },
+    {
+      "what": "Finish henryzisow.com domain setup on Cloudflare — re-add the domain (setup lapsed after 4 weeks). Ties to the portfolio site + GitHub Pages.",
+      "who": "Henry",
+      "due": "2026-08-20",
+      "age_days": 4
+    },
+    {
+      "what": "Keep Supabase EpiGuide alive — LOG IN to the dashboard (the ML work doesn't reset the timer). supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu",
+      "who": "Henry",
+      "due": "2026-08-20",
+      "age_days": 32
+    },
+    {
+      "what": "Michael Horn socials analytics — you have Editor access to the YouTube channel (school email); run the analytics + report back. #1 work task.",
+      "who": "Henry → Michael Horn / Danny",
+      "due": "2026-08-20",
+      "age_days": 32
+    },
+    {
+      "what": "RSVP to Mom's 'Kent's Place in Marion' weekend (Aug 29–30) — was due Aug 10; confirm it's sent. Also: Braeburn end-of-season form.",
+      "who": "Henry → Michelle Zisow / Braeburn",
+      "due": "2026-08-20",
+      "age_days": 18
+    }
+  ],
+  "news": [
+    {
+      "topic": "Business & markets",
+      "headline": "Home Depot reports before the open — a big consumer read",
+      "why": "HD's Q2 (≈$4.71 EPS on ~$47B revenue) lands pre-market as part of the big-box earnings week. Stocks pulled back Monday (S&P -0.5% to 7,745) from records; futures soft again.",
+      "url": "https://247wallst.com/cards/home-depot-reports-at-6-00-am-et-confirmed-and-comparable-hd-earnings-calendar-01m0a1pgbr5aw0g9zqbwz77d58",
+      "source": "24/7 Wall St."
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "Housing data + retail earnings drive the tape today",
+      "why": "July housing starts and import prices (8:30 ET), industrial production (9:15), and pending home sales (10:00) hit alongside HD earnings — a full day of consumer/housing signals before Jackson Hole.",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-17-2026",
+      "source": "TheStreet"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Gemini 3.7 Flash is live — and now on OpenRouter at 50% off",
+      "why": "Google's new 'workhorse' posts big coding/agent jumps (DeepSWE 49%→65%) at cheap intro pricing ($0.75/M in). It just landed on OpenRouter (your inbox) — a strong, low-cost option for your builds.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+      "source": "Google / OpenRouter"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "The model stack keeps consolidating",
+      "why": "Fresh models (Gemini 3.7 Flash) are landing on aggregators like OpenRouter — the same gateway Stripe agreed to buy for $7B+ this week. The 'pick the right model per task' layer is where a lot of value is moving.",
+      "url": "https://9to5google.com/2026/08/13/gemini-3-7-flash-launch/",
+      "source": "9to5Google"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Four states sue Meta over kids' mental health",
+      "why": "The suits allege Instagram/Facebook were designed to hook children and that Meta hid the risks — the latest escalation of the youth-safety fight over social platforms.",
+      "url": "https://www.npr.org/sections/news/",
+      "source": "NPR"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Kushner meets Netanyahu on Gaza's future",
+      "why": "A day after meeting Hamas leadership in Egypt, the US envoy sat with Israel's PM — active shuttle diplomacy on a stalled ceasefire.",
+      "url": "https://www.usnews.com/news/world",
+      "source": "U.S. News"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Middle East tensions rise; US carrier repositions",
+      "why": "The USS Washington is heading to the region to relieve the USS Lincoln as tensions climb — a factor weighing on markets today too.",
+      "url": "https://www.npr.org/sections/world/",
+      "source": "NPR"
+    }
+  ],
+  "system_notes": [
+    "DELIVERY: Zapier out of quota for a 7TH day ('insufficient tasks on account' — weather + tasks probes failed). Brief email sent via the GMAIL CONNECTOR fallback again (to hzisow@gmail.com only). Henry hasn't replied 'stop', so continuing; still needs a Zapier top-up (zapier.com → Usage & Billing) to restore Tasks + the normal send. Decision flagged to Henry Aug 16–17 (top up vs. make Gmail permanent) — no reply yet.",
+    "Weather via web fallback: high ~83°, mostly sunny but isolated severe storms possible in the Boston area PM.",
+    "Google Tasks unreadable (Zapier) 7th day — task list carried from Aug 12.",
+    "Calendar: today (Tue Aug 18) — Haircut w Frankie 5:15–6:15 PM, Family Dinner 7:30–9:00 PM. Tomorrow (Wed Aug 19) — SAT lesson w Ben 12:00–1:00 PM (Meet). Other schedule calendars empty.",
+    "CORRECTION to Aug 17 brief: SAT lessons with Ben are NOT finished — a new one is on the calendar Wed Aug 19 12 PM (added Aug 16). Test is Sat Aug 22 (4 days out).",
+    "Inbox: Donna McFadden (BHCC, DECA) asked Henry + Elif to update district/state conference info on the website; Henry replied Aug 17 that he updated everything (self-resolved, follow-up added to watch for change requests). OpenRouter: Gemini 3.7 Flash now available (FYI). TikTok Shop order placed then cancelled by Henry (self-resolved, not surfaced). Rest college marketing + promos. No brief-email reply from Henry.",
+    "Timing: fired 06:41 ET (in-window) — no DST cron change."
+  ]
+}

@@ -30,18 +30,24 @@ open:
     due: 2026-08-08
     source: "GitHub Actions failure emails, Aug 6 ~21:00 ET (notifications@github.com)"
     first_seen: 2026-08-07
-  - what: "SAT on Sat Aug 22 (5 days out) — Ben lessons are DONE (last was Sun Aug 16); now it's final self-review. Work the hard QBank + 'Do Desmos SAT Bootcamp' (both High-list); keep Ben's Math Study Guide handy. 'Do PSAT' on Medium."
+  - what: "SAT on Sat Aug 22 (4 days out) — ONE MORE lesson with Ben tomorrow Wed Aug 19, 12:00–1:00 PM (Meet, fhd-haoc-xtt). Work the hard QBank + 'Do Desmos SAT Bootcamp' today; bring Ben's Math Study Guide. 'Do PSAT' on Medium."
     who: "Henry → Ben (ben@sextontestprep.com)"
     due: 2026-08-22
-    source: "Gmail Ben 'SAT New QBank' Aug 5 + 'SAT Math Study Guide' Aug 13; calendar 'H SAT w Ben' Aug 9 + Aug 12 + Aug 16 (all done); Google Tasks"
+    source: "Gmail Ben 'SAT New QBank' Aug 5 + 'SAT Math Study Guide' Aug 13; calendar 'H SAT w Ben' Aug 9 + Aug 12 + Aug 16 (done) + Aug 19 12 PM (upcoming); Google Tasks"
     first_seen: 2026-08-06
-    note: "Confirmed test date Aug 22. Lessons finished — no more on the calendar before the test. Focus is final QBank/Desmos review. SAT/PSAT dominates the High list."
-  - what: "LEVRA 'Human Skills' certificate — Aug 17 email: LEVRA is sharing the certificate download link 'today/tomorrow' to everyone who completed the 4 modules. If Henry finished them, GRAB the Oxford 'Introduction to Human Skills' certificate when the link lands (watch inbox Aug 17–18). If he didn't finish, that window has effectively closed."
+    note: "CORRECTION to Aug 17 note: lessons NOT finished — a 4th was added for Wed Aug 19 12 PM (created Aug 16). Confirmed test date Aug 22. SAT/PSAT dominates the High list."
+  - what: "LEVRA 'Human Skills' certificate — Aug 17 email said the download link is coming 'today/tomorrow' for module-completers. As of Aug 18 the link has NOT arrived yet. Keep watching the inbox (Aug 18–20) and grab the Oxford 'Introduction to Human Skills' certificate when it lands, if Henry finished the 4 modules."
     who: "Henry → LEVRA (emily@levra.me / gayeon@levra.me)"
-    due: 2026-08-18
+    due: 2026-08-20
     source: "LEVRA thread 'Human Skills Certification' Aug 4 + Aug 12 reminder (both trashed) + Aug 17 'certificate link coming' email"
     first_seen: 2026-08-04
-    note: "Aug 14 deadline passed; Aug 17 email is congratulatory/wrap-up (cert distribution). Earlier reminders are in Henry's Trash — plausibly he completed the modules, but unconfirmed. Resolve once the cert is downloaded or clearly skipped; drop after Aug 20 if no signal."
+    note: "Aug 14 deadline passed; Aug 17 email is congratulatory/wrap-up (cert distribution). Link not yet seen as of Aug 18. Earlier reminders are in Henry's Trash — plausibly he completed the modules, but unconfirmed. Resolve once the cert is downloaded or clearly skipped; drop after Aug 21 if no signal."
+  - what: "DECA website — Donna McFadden (BHCC) asked Henry + Elif Koparan (Aug 17) to update the district & state conference info on the site while she builds the Advisor's Guide this week. Henry replied Aug 17 that he 'updated everything.' MOSTLY DONE — just watch for a reply if Donna wants changes. Ties to his State Officer / MA DECA involvement + the 'add new chapter toolkit to the website' High task."
+    who: "Henry → Donna McFadden (DMcFadden@bhcc.edu) / Elif Koparan"
+    due: 2026-08-20
+    source: "Gmail thread 'website' Aug 17 (McFadden→Henry+Elif; Henry replied 'Just updated everything')"
+    first_seen: 2026-08-18
+    note: "Self-resolved unless Donna requests tweaks. Keep as a light watch, then move to resolved."
   - what: "Fill out the Braeburn 'Snack Bar 2026' end-of-season form (management asked all Snack Bar staff). Quick, low urgency."
     who: "Henry → Braeburn (Maria Milian)"
     due: 2026-08-15
