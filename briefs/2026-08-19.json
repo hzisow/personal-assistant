@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-19",
+  "generated_at": "2026-08-19T06:52:00-04:00",
+  "headline": "Today's your last SAT lesson with Ben (noon) before Saturday's test — then the haircut with Frankie at 2 (moved to today). Damp start, showers likely this morning then clearing, high ~76°. Quiet inbox; the market action is the Fed minutes at 2 PM plus Target/Lowe's earnings. (Email's via the Gmail backup again — Zapier's out of quota, day 8.)",
+  "weather": {
+    "location": "Newton/Boston, MA",
+    "current_f": 67,
+    "condition": "Damp AM (showers likely, ~60%), clearing later — high ~76°"
+  },
+  "schedule": [
+    {
+      "start": "2026-08-19T12:00:00-04:00",
+      "end": "2026-08-19T13:00:00-04:00",
+      "all_day": false,
+      "title": "SAT lesson with Ben (last before the test)",
+      "calendar": "Personal",
+      "location": "Google Meet (meet.google.com/fhd-haoc-xtt)",
+      "prep": "Your final lesson before Saturday's SAT. Bring the hard QBank + Ben's Math Study Guide, and come with the questions you want to nail down."
+    },
+    {
+      "start": "2026-08-19T14:00:00-04:00",
+      "end": "2026-08-19T15:00:00-04:00",
+      "all_day": false,
+      "title": "Haircut with Frankie",
+      "calendar": "Personal",
+      "location": "",
+      "prep": "Rescheduled from yesterday to today, 2:00 PM — right after the SAT lesson."
+    }
+  ],
+  "tomorrow_headsup": [
+    "Thu Aug 20: nothing scheduled yet — a clean day for final SAT self-review (QBank + Desmos) before Saturday."
+  ],
+  "email": [
+    {
+      "thread_id": "1a014882427e43a2",
+      "from": "DECA Direct (deca.org)",
+      "subject": "DECA Direct Weekly — Aug 18",
+      "bucket": "fyi",
+      "why": "The new 2026–27 DECA membership video is out to watch/download, plus the #DECAICDC 2027 promo — useful for kicking off chapter recruiting as an officer this fall. Newsletter, no action needed.",
+      "age_days": 1
+    }
+  ],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": [
+      {"title": "SAT Homework (work through the hard new QBank)", "list": "High Priority", "due": null, "overdue": false, "notes": "Carried from Aug 12 — Google Tasks still unreadable (Zapier quota, day 8). SAT is Sat Aug 22 (3 days out); last lesson today."},
+      {"title": "Michael horn email", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do Summer Reading", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do Desmos SAT Bootcamp through Sexton Test Prep", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "add new chapter toolkit to the website", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do PSAT", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "See how to actually train the ML model for EpiGuide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Find 1 TB USB", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Run minimax h3 locally for video generation", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Learn about succession planning for DECA", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Complete MA DECA involvement guide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Rebuild resume in Google Docs", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Build the TikTok send-to audio/playlist app", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Make Involvement Guide automation tool", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Read \"Kindred\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read Chapter 1 in the AMSCO book (APUSH)", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"The Namesake\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"A Visit from the Goon Squad\"", "list": "Summer Work", "due": null, "overdue": false}
+    ]
+  },
+  "follow_ups": [
+    {
+      "what": "SAT on Sat Aug 22 (3 days out) — LAST lesson with Ben is today Wed Aug 19, 12–1 PM (Meet). After today it's self-review: hard QBank + Desmos Thu/Fri. Bring Ben's Math Study Guide.",
+      "who": "Henry → Ben (Sexton)",
+      "due": "2026-08-22",
+      "age_days": 13
+    },
+    {
+      "what": "LEVRA 'Human Skills' certificate — the download link was said to be coming 'today/tomorrow' in the Aug 17 email; STILL not arrived as of Aug 19. Keep watching through ~Aug 21 and grab it if you finished the 4 modules.",
+      "who": "Henry → LEVRA",
+      "due": "2026-08-21",
+      "age_days": 15
+    },
+    {
+      "what": "DECA website — you updated the district/state conference info per Donna McFadden (BHCC) and replied 'done' Aug 17. No reply back yet; light watch for change requests as she builds the Advisor's Guide.",
+      "who": "Henry → Donna McFadden / Elif Koparan",
+      "due": "2026-08-21",
+      "age_days": 2
+    },
+    {
+      "what": "Finish + confirm the Leadership Initiatives IIP internship — as of Aug 12 Henry was mid-application. Complete it + the 'final step to confirm your spot' (iip@lichange.org).",
+      "who": "Henry → Leadership Initiatives",
+      "due": "2026-08-21",
+      "age_days": 6
+    },
+    {
+      "what": "Finish henryzisow.com domain setup on Cloudflare — re-add the domain (setup lapsed after 4 weeks). Ties to the portfolio site + GitHub Pages.",
+      "who": "Henry",
+      "due": "2026-08-21",
+      "age_days": 5
+    },
+    {
+      "what": "Keep Supabase EpiGuide alive — LOG IN to the dashboard (the ML work doesn't reset the timer). supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu",
+      "who": "Henry",
+      "due": "2026-08-21",
+      "age_days": 33
+    },
+    {
+      "what": "Michael Horn socials analytics — you have Editor access to the YouTube channel (school email); run the analytics + report back. #1 work task.",
+      "who": "Henry → Michael Horn / Danny",
+      "due": "2026-08-21",
+      "age_days": 33
+    },
+    {
+      "what": "RSVP to Mom's 'Kent's Place in Marion' weekend (Aug 29–30) — was due Aug 10; confirm it's sent. Also: Braeburn end-of-season form.",
+      "who": "Henry → Michelle Zisow / Braeburn",
+      "due": "2026-08-21",
+      "age_days": 19
+    }
+  ],
+  "news": [
+    {
+      "topic": "Business & markets",
+      "headline": "Fed minutes at 2 PM + Target and Lowe's earnings",
+      "why": "The July FOMC minutes drop at 2:00 ET for clues on rate cuts, alongside big-box results: Target beat and raised guidance (turnaround signs), while Lowe's slid ~2% on soft guidance. Stocks are on a 3-day slide.",
+      "url": "https://finance.yahoo.com/video/target-lowes-earnings-fed-meeting-230000333.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "Rising yields and oil are interrupting the rally",
+      "why": "The 30-year Treasury yield hit its highest in decades and oil climbed on US–Iran tensions, pressuring stocks (and an Asian sell-off hit futures). The melt-up has paused right before Jackson Hole (Aug 27–29).",
+      "url": "https://www.schwab.com/learn/story/stock-market-update-open",
+      "source": "Charles Schwab"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Google's new DeepMind chief inherits the race vs OpenAI & Anthropic",
+      "why": "A leadership reshuffle puts a new AI boss (Koray Kavukcuoglu) over Google's model efforts as it pushes to close the gap — org signal for where the frontier competition is heading.",
+      "url": "https://www.cnbc.com/2026/08/12/google-deepmind-koray-kavukcuoglu.html",
+      "source": "CNBC"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Cheap, capable models keep shipping weekly",
+      "why": "Gemini 3.7 Flash (cut-rate intro pricing) and last week's Qwen 3.8-27B keep pushing coding/agent benchmarks up while prices fall — good for anyone building on the API layer (you).",
+      "url": "https://llm-stats.com/ai-news",
+      "source": "LLM-Stats"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Indiana seeks federal disaster aid after historic floods",
+      "why": "A week on, tens of thousands are still without power; the governor requested a major disaster declaration to route money to homeowners.",
+      "url": "https://www.usnews.com/news/world",
+      "source": "U.S. News"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Primary night: Donalds wins Florida GOP governor nod",
+      "why": "Rep. Byron Donalds took the GOP nomination for FL governor (David Jolly won the Dem side); Wyoming and Alaska also held Senate primaries — the 2026 midterm field is taking shape.",
+      "url": "https://www.npr.org/sections/news/",
+      "source": "NPR"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "US–Iran tensions push oil higher",
+      "why": "Escalating tensions (with a US carrier repositioning to the region) lifted crude and rattled markets — a geopolitical wildcard to watch.",
+      "url": "https://www.usnews.com/news/world",
+      "source": "U.S. News"
+    }
+  ],
+  "system_notes": [
+    "DELIVERY: Zapier out of quota for an 8TH day ('insufficient tasks on account' — weather + tasks probes failed). Brief email sent via the GMAIL CONNECTOR fallback again (to hzisow@gmail.com only). Henry hasn't replied 'stop'; still needs a Zapier top-up (zapier.com → Usage & Billing) to restore Tasks + the normal send. Decision (top up vs. make Gmail permanent) flagged Aug 16–17; keeping chat brief to avoid daily nag.",
+    "Weather via web fallback: high ~76°, showers likely AM then clearing (note: NWS zone forecast mirrored Monday's — treat as approximate).",
+    "Google Tasks unreadable (Zapier) 8th day — task list carried from Aug 12.",
+    "Calendar: today (Wed Aug 19) — SAT lesson w Ben 12–1 PM (Meet; LAST before the test), Haircut w Frankie 2–3 PM (rescheduled from Tue Aug 18). Tomorrow (Thu Aug 20) — nothing scheduled. Other schedule calendars empty.",
+    "Inbox all promos/newsletters today — only DECA Direct weekly (new membership video) noted as a light FYI. No personal asks, no brief-email reply from Henry. LEVRA cert link still not arrived (watch through ~Aug 21). Donna McFadden DECA-site thread: no reply back yet.",
+    "SAT is Sat Aug 22 (3 days out); today is the last Ben lesson — then self-review Thu/Fri.",
+    "Timing: fired 06:41 ET (in-window) — no DST cron change."
+  ]
+}
