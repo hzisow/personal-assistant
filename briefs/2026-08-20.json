@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-20",
+  "generated_at": "2026-08-20T06:52:00-04:00",
+  "headline": "You booked golf for 10:00 AM at Brookline (9 holes) last night — heads up that there's a ~50% chance of showers rolling in right around then, so check the radar and have a rain plan. It's not on your calendar, so this is your reminder. Otherwise the day's open for SAT review (test Saturday). Warm and humid, high ~85°. (Email's via the Gmail backup again — Zapier's out of quota, day 9.)",
+  "weather": {
+    "location": "Newton/Boston, MA",
+    "current_f": 69,
+    "condition": "Warm, humid — high ~85°; showers likely 10am–5pm (~50%)"
+  },
+  "schedule": [
+    {
+      "start": "2026-08-20T10:00:00-04:00",
+      "end": "2026-08-20T12:00:00-04:00",
+      "all_day": false,
+      "title": "Golf — Brookline GC (booked, NOT on your calendar)",
+      "calendar": "Gmail reservation (foreUP)",
+      "location": "Brookline Golf Course (Robert T. Lynch Municipal), 1281 West Roxbury Pkwy",
+      "prep": "Tee time 10:00 AM, 9 holes, 2 players (front nine). You booked it last night via foreUP. NOTE: it's not on your Google Calendar, and there's a ~50% chance of showers starting ~10am — check the radar and have a rain-check plan before you head out."
+    }
+  ],
+  "tomorrow_headsup": [
+    "Fri Aug 21: nothing scheduled yet — the last full SAT-review day before Saturday's test."
+  ],
+  "email": [
+    {
+      "thread_id": "1a01d0a6703957f5",
+      "from": "Brookline Golf Course (foreUP)",
+      "subject": "Reservation — today 10:00 AM, 9 holes",
+      "bucket": "important",
+      "why": "Your tee time today: 10:00 AM at Brookline GC, 9 holes, 2 players (booked last night). It's NOT on your calendar — flagging so it doesn't slip. Watch the weather (showers possible ~10am).",
+      "age_days": 0
+    }
+  ],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": [
+      {"title": "SAT Homework (work through the hard new QBank)", "list": "High Priority", "due": null, "overdue": false, "notes": "Carried from Aug 12 — Google Tasks still unreadable (Zapier quota, day 9). SAT is Sat Aug 22 (2 days out)."},
+      {"title": "Michael horn email", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do Summer Reading", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do Desmos SAT Bootcamp through Sexton Test Prep", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "add new chapter toolkit to the website", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do PSAT", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "See how to actually train the ML model for EpiGuide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Find 1 TB USB", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Run minimax h3 locally for video generation", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Learn about succession planning for DECA", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Complete MA DECA involvement guide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Rebuild resume in Google Docs", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Build the TikTok send-to audio/playlist app", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Make Involvement Guide automation tool", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Read \"Kindred\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read Chapter 1 in the AMSCO book (APUSH)", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"The Namesake\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"A Visit from the Goon Squad\"", "list": "Summer Work", "due": null, "overdue": false}
+    ]
+  },
+  "follow_ups": [
+    {
+      "what": "SAT on Sat Aug 22 (2 days out) — Ben lessons are done. Today + tomorrow are self-review: hard QBank + Desmos SAT Bootcamp. Confirm the test-day logistics (admission ticket, ID, calculator, location) before Saturday.",
+      "who": "Henry → Ben (Sexton)",
+      "due": "2026-08-22",
+      "age_days": 14
+    },
+    {
+      "what": "LEVRA 'Human Skills' certificate — link was said to be coming 'today/tomorrow' in the Aug 17 email; STILL not arrived as of Aug 20. Keep watching through ~Aug 22; grab it if you finished the 4 modules.",
+      "who": "Henry → LEVRA",
+      "due": "2026-08-22",
+      "age_days": 16
+    },
+    {
+      "what": "DECA website — you updated the district/state conference info per Donna McFadden and replied 'done' Aug 17. No reply back; light watch for change requests.",
+      "who": "Henry → Donna McFadden / Elif Koparan",
+      "due": "2026-08-22",
+      "age_days": 3
+    },
+    {
+      "what": "Finish + confirm the Leadership Initiatives IIP internship — as of Aug 12 Henry was mid-application. Complete it + the 'final step to confirm your spot' (iip@lichange.org).",
+      "who": "Henry → Leadership Initiatives",
+      "due": "2026-08-22",
+      "age_days": 7
+    },
+    {
+      "what": "Finish henryzisow.com domain setup on Cloudflare — re-add the domain (setup lapsed after 4 weeks). Ties to the portfolio site + GitHub Pages.",
+      "who": "Henry",
+      "due": "2026-08-22",
+      "age_days": 6
+    },
+    {
+      "what": "Keep Supabase EpiGuide alive — LOG IN to the dashboard (the ML work doesn't reset the timer). supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu",
+      "who": "Henry",
+      "due": "2026-08-22",
+      "age_days": 34
+    },
+    {
+      "what": "Michael Horn socials analytics — you have Editor access to the YouTube channel (school email); run the analytics + report back. #1 work task.",
+      "who": "Henry → Michael Horn / Danny",
+      "due": "2026-08-22",
+      "age_days": 34
+    },
+    {
+      "what": "RSVP to Mom's 'Kent's Place in Marion' weekend (Aug 29–30) — was due Aug 10; confirm it's sent. Also: Braeburn end-of-season form.",
+      "who": "Henry → Michelle Zisow / Braeburn",
+      "due": "2026-08-22",
+      "age_days": 20
+    }
+  ],
+  "news": [
+    {
+      "topic": "Business & markets",
+      "headline": "Walmart earnings — the season's definitive consumer read",
+      "why": "WMT reports today (with Alibaba, Deere, Ross) and is the clearest gauge of shopper health after mixed big-box results. Weekly jobless claims (est. 210k) + Philly Fed also land at 8:30 ET; futures point slightly higher after the S&P snapped a 3-day slide.",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262111746-walmart-wmt-august-20-earnings-consumer-health-e-commerce-26-percent-advertising-37-percent-tradingkey",
+      "source": "TradingKey"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "Jackson Hole is now the main event (Aug 27–29)",
+      "why": "With data cooling, next week's Fed symposium — and Chair Warsh's keynote — is the next big catalyst for the rate path. This week is the calm before it.",
+      "url": "https://www.regardsofwallstreet.com/news/jackson-hole-2026-dates-schedule-warsh-first-speech",
+      "source": "Regards of Wall Street"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Anthropic posts $10.9B Q2 revenue and its first operating profit",
+      "why": "Revenue up ~130% with a $559M operating profit — a sign the economics of frontier AI (the Claude maker's) are turning real, not just growth-at-all-costs.",
+      "url": "https://aitoolsrecap.com/Blog/AINewsAugust2026.aspx",
+      "source": "AI Tools Recap"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "OpenAI's IPO paperwork reportedly expected soon",
+      "why": "An S-1 filing is said to be imminent — the biggest AI IPO yet would be a milestone for the whole sector (and interesting for your investing side).",
+      "url": "https://aitoolsrecap.com/Blog/AINewsAugust2026.aspx",
+      "source": "AI Tools Recap"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Trump says US–Canada trade deal reached (not yet signed)",
+      "why": "Canada would drop tariffs on US farm goods; the White House says nothing's signed yet, with a tariff deadline tomorrow night — a live trade story.",
+      "url": "https://www.npr.org/sections/news",
+      "source": "NPR"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Middle East heats up as US–Iran MOU expires",
+      "why": "Iran threatens a new offensive as an understanding with the US lapses, and Houthis claim another Red Sea attack — the driver behind this week's oil bump.",
+      "url": "https://www.usnews.com/news/world",
+      "source": "U.S. News"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "California adopts the strictest home-hardening fire rules",
+      "why": "New rules require homeowners to clear vegetation around houses to slow wildfires — effective but drawing strong pushback.",
+      "url": "https://www.npr.org/sections/news",
+      "source": "NPR"
+    }
+  ],
+  "system_notes": [
+    "DELIVERY: Zapier out of quota for a 9TH day ('insufficient tasks on account' — weather + tasks probes failed). Brief email sent via the GMAIL CONNECTOR fallback again (to hzisow@gmail.com only). Henry hasn't replied 'stop'; still needs a Zapier top-up. (Aside: a Zapier MARKETING email Aug 19 said the Google Tasks connection is 'still live' — consistent with quota-block, not a disconnect.)",
+    "Weather via web fallback: high ~85°, humid, showers likely 10am–5pm (~50%) — directly relevant to the 10 AM golf tee time.",
+    "Google Tasks unreadable (Zapier) 9th day — task list carried from Aug 12.",
+    "Calendar: Personal + all schedule calendars EMPTY today and tomorrow. BUT email triage caught a golf reservation NOT on the calendar: Brookline GC today 10:00 AM, 9 holes, 2 players (foreUP confirmation, booked Aug 19 ~10:40pm). Surfaced as today's key item.",
+    "Inbox otherwise all promos/newsletters (college marketing, Chipotle, Apify/Mosaic dev newsletters). No personal asks besides the golf booking. No brief-email reply from Henry. LEVRA cert link still not arrived.",
+    "SAT test Sat Aug 22 (2 days out); Ben lessons done — self-review Thu/Fri. Added a follow-up nudge to confirm test-day logistics (ticket/ID/calculator).",
+    "Timing: fired 06:40 ET (in-window) — no DST cron change."
+  ]
+}
