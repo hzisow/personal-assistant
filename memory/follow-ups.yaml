@@ -30,12 +30,12 @@ open:
     due: 2026-08-08
     source: "GitHub Actions failure emails, Aug 6 ~21:00 ET (notifications@github.com)"
     first_seen: 2026-08-07
-  - what: "SAT THIS SATURDAY Aug 22 (2 days out) — all Ben lessons are done (last was Aug 19). Thu + Fri are self-review: hard QBank + 'Do Desmos SAT Bootcamp'. ALSO confirm test-day logistics before Saturday: admission ticket, photo ID, approved calculator, test-center location + arrival time. 'Do PSAT' on Medium."
-    who: "Henry → Ben (ben@sextontestprep.com)"
+  - what: "SAT IS TOMORROW — Sat Aug 22 at DEDHAM HIGH SCHOOL. Calendar: 'Appointment at DEDHAM HS' 7:45 AM (check-in) + 'H SAT @ Dedham High School' 8:00 AM–12:00 PM (Mom + Dad on the invite). Bag: admission ticket, photo ID, approved calculator, #2 pencils, snack, water. Rain before 8am → leave early. College Board sent a 'final readiness' checklist Aug 20."
+    who: "Henry"
     due: 2026-08-22
-    source: "Gmail Ben 'SAT New QBank' Aug 5 + 'SAT Math Study Guide' Aug 13; calendar 'H SAT w Ben' Aug 9/12/16/19 (all done); Google Tasks"
+    source: "Calendar (Dedham HS events) + College Board 'final readiness' email Aug 20; Ben lessons Aug 9/12/16/19 all done"
     first_seen: 2026-08-06
-    note: "Lessons finished. Test Sat Aug 22 AM. Added test-day-logistics nudge for the Fri brief. This item resolves after the test (then shift to 'how'd it go / score-report watch')."
+    note: "Location + timing now concrete (Dedham HS, 7:45 check-in, 8–12). AFTER the test → RESOLVE this item and switch to a light 'how'd it go / score-report' watch. Don't keep nagging SAT prep once it's done."
   - what: "LEVRA 'Human Skills' certificate — Aug 17 email said the download link is coming 'today/tomorrow'; STILL not arrived as of Aug 20 (3 days on). Keep watching through ~Aug 22, then downgrade to a very light watch — grab the Oxford 'Introduction to Human Skills' certificate if/when it lands (assuming Henry finished the 4 modules)."
     who: "Henry → LEVRA (emily@levra.me / gayeon@levra.me)"
     due: 2026-08-22
