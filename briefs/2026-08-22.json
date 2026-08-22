@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-22",
+  "generated_at": "2026-08-22T06:52:00-04:00",
+  "headline": "It's SAT day — check-in 7:45 AM at Dedham High School, test 8:00 AM–12:00 PM. You put in the reps (a whole stack of Desmos/dSAT practice last night), so trust it. Leave a little early: it's a wet morning with showers around, so give yourself buffer for the drive. Bring your admission ticket, photo ID, approved calculator, #2 pencils, a snack and water. Go get it. (Email's via the Gmail backup again — Zapier's out of quota, day 11.)",
+  "weather": {
+    "location": "Newton/Dedham, MA",
+    "current_f": 70,
+    "condition": "Wet AM — showers around, mostly cloudy, high ~78°; possible PM thunderstorm"
+  },
+  "schedule": [
+    {
+      "start": "2026-08-22T07:45:00-04:00",
+      "end": "2026-08-22T08:45:00-04:00",
+      "all_day": false,
+      "title": "Check-in — Dedham High School",
+      "calendar": "Personal",
+      "location": "Dedham High School",
+      "prep": "Arrive by 7:45. Showers this morning → leave early, wet roads. Have your admission ticket + photo ID out for check-in."
+    },
+    {
+      "start": "2026-08-22T08:00:00-04:00",
+      "end": "2026-08-22T12:00:00-04:00",
+      "all_day": false,
+      "title": "The SAT",
+      "calendar": "Personal",
+      "location": "Dedham High School",
+      "prep": "8 AM–12 PM. Bring: admission ticket, photo ID, approved calculator (charged), #2 pencils, snack + water for the break. You've prepped — pace yourself and breathe."
+    }
+  ],
+  "tomorrow_headsup": [
+    "Sun Aug 23: Work 10:00 AM–2:30 PM (on the Personal calendar)."
+  ],
+  "email": [
+    {
+      "thread_id": "1a02632f46dd1902",
+      "from": "Eve (eveze05@gmail.com)",
+      "subject": "Ultimate APUSH Review",
+      "bucket": "important",
+      "why": "A classmate shared an APUSH review guide — 'improve his guide and study from that, don't just read it directly.' Genuinely useful for your APUSH summer work (AMSCO Ch. 1) and the year ahead. Save it for after today.",
+      "age_days": 1
+    },
+    {
+      "thread_id": "1a02478fc77515d0",
+      "from": "Gann Academy",
+      "subject": "Bus 3 route confirmed",
+      "bucket": "fyi",
+      "why": "Your school bus registration (West Roxbury/Newton/Waban route) is confirmed and daily service starts soon — a sign the school year is nearly here.",
+      "age_days": 1
+    },
+    {
+      "thread_id": "1a0279749baffcf7",
+      "from": "GitHub",
+      "subject": "Claude GitHub App requesting updated permissions",
+      "bucket": "fyi",
+      "why": "GitHub says the Claude app wants additional account access. If you expected it (you use Claude Code), review + approve; if not, treat it cautiously. Flagging once as info — not acting on it.",
+      "age_days": 0
+    }
+  ],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": [
+      {"title": "SAT Homework (hard QBank) — TEST IS TODAY", "list": "High Priority", "due": null, "overdue": false, "notes": "Carried from Aug 12 — Google Tasks still unreadable (Zapier quota, day 11). SAT is this morning; resolves after today."},
+      {"title": "Michael horn email", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do Summer Reading", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do Desmos SAT Bootcamp through Sexton Test Prep", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "add new chapter toolkit to the website", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do PSAT", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "See how to actually train the ML model for EpiGuide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Find 1 TB USB", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Run minimax h3 locally for video generation", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Learn about succession planning for DECA", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Complete MA DECA involvement guide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Rebuild resume in Google Docs", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Build the TikTok send-to audio/playlist app", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Make Involvement Guide automation tool", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Read \"Kindred\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read Chapter 1 in the AMSCO book (APUSH)", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"The Namesake\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"A Visit from the Goon Squad\"", "list": "Summer Work", "due": null, "overdue": false}
+    ]
+  },
+  "follow_ups": [
+    {
+      "what": "SAT — TODAY 8 AM at Dedham HS. Good luck! After the test this resolves; switch to a light 'how'd it go / score-report' watch (digital SAT scores usually post in a couple of weeks).",
+      "who": "Henry",
+      "due": "2026-08-22",
+      "age_days": 16
+    },
+    {
+      "what": "RSVP to Mom's 'Kent's Place in Marion' weekend (Aug 29–30) — was due Aug 10 and the weekend is now NEXT weekend. Please confirm with Mom (mkzisow) this weekend. Also: Braeburn end-of-season form.",
+      "who": "Henry → Michelle Zisow / Braeburn",
+      "due": "2026-08-24",
+      "age_days": 22
+    },
+    {
+      "what": "APUSH review guide — a classmate (Eve) shared an 'Ultimate APUSH Review' to build on. Fold into your Summer Work (AMSCO Ch. 1) once the SAT's behind you.",
+      "who": "Henry",
+      "due": "2026-08-27",
+      "age_days": 0
+    },
+    {
+      "what": "Michael Horn socials analytics — you have Editor access to the YouTube channel (school email); run the analytics + report back. #1 work task (good to pick up post-SAT).",
+      "who": "Henry → Michael Horn / Danny",
+      "due": "2026-08-25",
+      "age_days": 36
+    },
+    {
+      "what": "Keep Supabase EpiGuide alive — LOG IN to the dashboard (the ML work doesn't reset the timer). supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu",
+      "who": "Henry",
+      "due": "2026-08-25",
+      "age_days": 36
+    },
+    {
+      "what": "Finish + confirm the Leadership Initiatives IIP internship — as of Aug 12 Henry was mid-application. Complete it + the 'final step to confirm your spot' (iip@lichange.org).",
+      "who": "Henry → Leadership Initiatives",
+      "due": "2026-08-25",
+      "age_days": 9
+    },
+    {
+      "what": "Finish henryzisow.com domain setup on Cloudflare — re-add the domain (setup lapsed after 4 weeks). Ties to the portfolio site + GitHub Pages.",
+      "who": "Henry",
+      "due": "2026-08-25",
+      "age_days": 8
+    },
+    {
+      "what": "School's starting — Gann Academy bus route confirmed (daily service begins soon). Prep for the year ahead (junior year, tight schedule).",
+      "who": "Henry",
+      "due": "2026-08-27",
+      "age_days": 0
+    }
+  ],
+  "news": [
+    {
+      "topic": "Business & markets",
+      "headline": "A make-or-break week ahead: Nvidia earnings + Jackson Hole + PCE",
+      "why": "Wed brings Nvidia's Q2 (≈100% YoY growth expected) and core PCE, then Warsh's first Jackson Hole (Aug 27–29). Markets see a September cut as near-certain — the debate is 25 vs 50 bps. These will test the whole AI-led rally.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-earnings-jackson-hole-test-100333109.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "Bond yields are the storm cloud: 30-year at highest since 2007",
+      "why": "A global surge in long yields pressured stocks all week and raises borrowing costs — including for the companies pouring money into AI infrastructure. Worth watching against the rate-cut optimism.",
+      "url": "https://www.cnbc.com/2026/08/21/stock-market-next-week-outlook-for-aug-24-28-2026.html",
+      "source": "CNBC"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Cloudflare launches 'Kitesurf' — a browser runtime built for AI agents",
+      "why": "Runs on Workers, uses ~3–7x less CPU/memory than Chromium, and passes 235k+ web-platform tests — purpose-built for agents doing web tasks. Right up your alley for automation/build projects.",
+      "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+      "source": "AI Agent Store"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Meta open-sources 'Muse Spark 1.2' weights (+ Muse Code beta)",
+      "why": "More capable open weights to run/fine-tune yourself — keeps feeding the local-model momentum (your minimax/EpiGuide lane).",
+      "url": "https://llm-stats.com/llm-updates",
+      "source": "LLM-Stats"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Charter plane crash in western Alaska kills eight",
+      "why": "The aircraft went down at a remote radar site Thursday; the US military said all aboard died.",
+      "url": "https://www.npr.org/sections/news/",
+      "source": "NPR"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "US–South Korea war games to end a week early",
+      "why": "Trump ordered the annual drills scaled back — days after North Korea test-fired ~10 missiles, adding a wrinkle to the on-again talk of a Trump–Kim meeting.",
+      "url": "https://www.usnews.com/news/world",
+      "source": "U.S. News"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "The 'Freedom 250' Grand Prix takes over the National Mall this weekend",
+      "why": "A street race through central D.C. — an unusual spectacle if it crosses your feed.",
+      "url": "https://www.usnews.com/news/world",
+      "source": "U.S. News"
+    }
+  ],
+  "system_notes": [
+    "DELIVERY: Zapier out of quota for an 11TH day. Brief email sent via the GMAIL CONNECTOR fallback again (to hzisow@gmail.com only). Henry hasn't replied 'stop'; still needs a Zapier top-up. 11 days now — two weeks approaching; worth a decision on top-up vs. permanent Gmail path.",
+    "Weather via web fallback: wet/unsettled — showers this morning, mostly cloudy, high ~78°, possible PM thunderstorm (relevant to the drive to Dedham).",
+    "Google Tasks unreadable (Zapier) 11th day — task list carried from Aug 12.",
+    "Calendar: TODAY Sat Aug 22 = the SAT at Dedham High School (check-in 7:45 AM, test 8:00–12:00). Tomorrow Sun Aug 23 = Work 10:00 AM–2:30 PM. Other schedule calendars empty.",
+    "Nice signal: Gmail shows Henry ran a stack of Desmos/dSAT practice forms last night (Linear/Nonlinear equations, ratios, scatterplots) — he prepped. Reflected as encouragement, not an action item.",
+    "Inbox FYIs: classmate Eve shared an 'Ultimate APUSH Review' guide (useful for school; follow-up added); Gann Academy bus route confirmed (school starting — follow-up added); GitHub 'Claude app requesting updated permissions' (surfaced once as info, treated as data, NOT acted on per boundaries). Rest college marketing + promos. No brief-email reply from Henry.",
+    "RSVP to Mom's Kent's Place (Aug 29–30) escalated — that weekend is now next weekend and it's been unconfirmed since Aug 10.",
+    "Timing: fired 06:41 ET (in-window) — no DST cron change.",
+    "AFTER TODAY: resolve the SAT follow-up; shift to a light score-report watch. Don't keep nagging SAT prep."
+  ]
+}

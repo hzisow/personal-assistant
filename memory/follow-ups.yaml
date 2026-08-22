@@ -30,12 +30,12 @@ open:
     due: 2026-08-08
     source: "GitHub Actions failure emails, Aug 6 ~21:00 ET (notifications@github.com)"
     first_seen: 2026-08-07
-  - what: "SAT IS TOMORROW — Sat Aug 22 at DEDHAM HIGH SCHOOL. Calendar: 'Appointment at DEDHAM HS' 7:45 AM (check-in) + 'H SAT @ Dedham High School' 8:00 AM–12:00 PM (Mom + Dad on the invite). Bag: admission ticket, photo ID, approved calculator, #2 pencils, snack, water. Rain before 8am → leave early. College Board sent a 'final readiness' checklist Aug 20."
+  - what: "SAT IS TODAY — Sat Aug 22 at Dedham High School (check-in 7:45 AM, test 8:00 AM–12:00 PM). Henry ran a big Desmos/dSAT practice set the night before (Gmail form receipts). >>> TOMORROW'S RUN: MOVE THIS TO resolved and switch to a light score-report watch (digital SAT scores typically post ~2 weeks out). Do NOT keep surfacing SAT prep."
     who: "Henry"
     due: 2026-08-22
-    source: "Calendar (Dedham HS events) + College Board 'final readiness' email Aug 20; Ben lessons Aug 9/12/16/19 all done"
+    source: "Calendar (Dedham HS events) + College Board 'final readiness' Aug 20; Ben lessons Aug 9/12/16/19 done; dSAT practice-form receipts Aug 21"
     first_seen: 2026-08-06
-    note: "Location + timing now concrete (Dedham HS, 7:45 check-in, 8–12). AFTER the test → RESOLVE this item and switch to a light 'how'd it go / score-report' watch. Don't keep nagging SAT prep once it's done."
+    note: "TEST DAY. After today: resolve → score-report watch only. The SAT/PSAT High-list tasks can also relax post-test."
   - what: "LEVRA 'Human Skills' certificate — Aug 17 email said the download link is coming 'today/tomorrow'; STILL not arrived as of Aug 20 (3 days on). Keep watching through ~Aug 22, then downgrade to a very light watch — grab the Oxford 'Introduction to Human Skills' certificate if/when it lands (assuming Henry finished the 4 modules)."
     who: "Henry → LEVRA (emily@levra.me / gayeon@levra.me)"
     due: 2026-08-22
@@ -58,12 +58,12 @@ open:
     due: 2026-08-02
     source: "fwd from adambenjaminf@gmail.com, Jul 21"
     first_seen: 2026-07-23
-  - what: "RSVP to Mom's 'Kent's Place in Marion' weekend (Aug 29–30) once home"
+  - what: "RSVP to Mom's 'Kent's Place in Marion' weekend (Aug 29–30) — the trip is now NEXT WEEKEND and it's still unconfirmed (open since the Jul 30 invite, was due Aug 10). Confirm with Mom (mkzisow) this weekend so plans can be finalized."
     who: "Henry → Michelle Zisow"
-    due: 2026-08-10
+    due: 2026-08-24
     source: "Google Calendar invite from mkzisow@gmail.com, Jul 30"
     first_seen: 2026-07-31
-    note: "SLIPPED — was due Aug 10, still unconfirmed. Low urgency but the weekend is Aug 29–30; nail it down."
+    note: "ESCALATED Aug 22 — the weekend it's for (Aug 29–30) is now ~1 week out. Bump toward the top until Henry confirms it's sent."
   - what: "Optional: finish the Alpaca live trading-API application — Henry started a live trading account but didn't complete it. Only matters if he wants to actually trade through the API (ties to his build + investing interests)."
     who: "Henry → Alpaca"
     due: 2026-08-22
@@ -77,6 +77,7 @@ travel:
   - "Back on Eastern time — brief times are ET going forward. Sun Aug 2 is a settle-in day with nothing scheduled; watch for jet lag."
   - "Work: Braeburn Country Club Snack Bar. Shifts come via When I Work (noreply@wheniwork.com) weekly + sometimes the Personal calendar. Week of Aug 10–16: Tue Aug 11 2:00–6:30 PM (+ more shifts not fully captured — check the app). Season winding down (end-of-season staff form out Aug 8). 'Wash uniform' recurs as a High task before shifts. Assistant never edits the calendar."
   - "Recurring: behind-the-wheel driving lessons via Newton Driving School (Label_15). Requires a PRINTED permit + closed shoes or the lesson is canceled + fee; pickup-location changes need 24h email notice to newtondrivingschool@gmail.com. Aug 7 lesson: 11 AM–1 PM, pickup at home (45 Beethoven Ave) — Mom emailed the request."
+  - "SCHOOL STARTING (~late Aug 2026): Gann Academy junior year. Bus registration confirmed Aug 21 (Bus 3, West Roxbury/Newton/Waban route; daily service begins soon). Expect the schedule to tighten once classes start — weekday mornings will fill; SAT/summer-work window is closing. A classmate (Eve, eveze05@gmail.com) shared an 'Ultimate APUSH Review' guide Aug 21 — useful for the AMSCO/APUSH summer work."
 
 resolved:
   - what: "DECA Dash 5K — chapter fundraiser/promo the officer team (Ryan leading) ran all summer"
