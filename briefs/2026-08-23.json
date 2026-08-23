@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-23",
+  "generated_at": "2026-08-23T06:52:00-04:00",
+  "headline": "Hope the SAT went well yesterday — nice work getting it done. Today's lighter: a work block 10:00 AM–2:30 PM, with showers early then clouds (high ~77°). One thing genuinely needs you: Supabase is warning AGAIN that your EpiGuide project will be paused for inactivity — a quick dashboard log-in stops it. And per your reply: you said 'stop,' so I've turned off the Gmail email backup — with Zapier still down, the brief email is paused for now, but this dashboard stays live every day.",
+  "delivery_status": "dashboard_only — Gmail email fallback turned OFF at Henry's request (replied 'stop' to the Aug 22 brief). Zapier still down (day 12), so no brief email is being sent today. Dashboard published as normal.",
+  "weather": {
+    "location": "Newton/Boston, MA",
+    "current_f": 68,
+    "condition": "Showers early, then cloudy — high ~77°, low ~63° (50% AM rain)"
+  },
+  "schedule": [
+    {
+      "start": "2026-08-23T10:00:00-04:00",
+      "end": "2026-08-23T14:30:00-04:00",
+      "all_day": false,
+      "title": "Work",
+      "calendar": "Personal",
+      "location": "",
+      "prep": "10:00 AM–2:30 PM. Showers early then cloudy — grab a layer."
+    }
+  ],
+  "tomorrow_headsup": [
+    "Mon Aug 24, 11:00–11:30 AM: Meeting with Danny Curtis (Google Meet) — the Michael Horn socials workstream. Come ready to talk next steps + the analytics.",
+    "Mon Aug 24, 3:00–5:00 PM: Lifeguarding at the Mindlins' (78 Pheasant Landing Rd)."
+  ],
+  "email": [
+    {
+      "thread_id": "1a02bf2e5413f6fd",
+      "from": "Supabase (ant.wilson@supabase.com)",
+      "subject": "Your EpiGuide project is going to be paused",
+      "bucket": "important",
+      "why": "Recurring low-activity warning — EpiGuide has had no dashboard activity for 7+ days and is slated to be PAUSED. Fix: log into the Supabase dashboard (a login resets the timer; your local ML work doesn't). This is the same item that's been on your follow-ups — worth 2 minutes to stop the pause. supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu",
+      "age_days": 0
+    }
+  ],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": [
+      {"title": "Michael horn email", "list": "High Priority", "due": null, "overdue": false, "notes": "Danny meeting is Mon Aug 24 11 AM — this workstream is active. Carried from Aug 12 (Zapier quota, day 12)."},
+      {"title": "Do Summer Reading", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "add new chapter toolkit to the website", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "SAT Homework / Desmos SAT Bootcamp", "list": "High Priority", "due": null, "overdue": false, "notes": "SAT was Aug 22 — these can relax now (PSAT still ahead)."},
+      {"title": "Do PSAT", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "See how to actually train the ML model for EpiGuide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Find 1 TB USB", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Run minimax h3 locally for video generation", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Learn about succession planning for DECA", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Complete MA DECA involvement guide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Rebuild resume in Google Docs", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Build the TikTok send-to audio/playlist app", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Make Involvement Guide automation tool", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Read \"Kindred\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read Chapter 1 in the AMSCO book (APUSH)", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"The Namesake\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"A Visit from the Goon Squad\"", "list": "Summer Work", "due": null, "overdue": false}
+    ]
+  },
+  "follow_ups": [
+    {
+      "what": "Supabase EpiGuide — RE-FLAGGED Aug 23 (new pause warning). LOG INTO the dashboard to stop the pause (ML work doesn't reset it). This keeps recurring — worth doing today. supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu",
+      "who": "Henry",
+      "due": "2026-08-24",
+      "age_days": 37
+    },
+    {
+      "what": "Michael Horn socials analytics — MEETING with Danny Curtis Mon Aug 24 11:00 AM (Henry set it up). Bring the YouTube/social analytics status (Editor access on the school email) + next steps. #1 work task, now moving.",
+      "who": "Henry → Danny / Michael Horn",
+      "due": "2026-08-24",
+      "age_days": 37
+    },
+    {
+      "what": "RSVP to Mom's 'Kent's Place in Marion' weekend (Aug 29–30) — NEXT weekend, still unconfirmed since Aug 10. Confirm with Mom (mkzisow) today/tomorrow.",
+      "who": "Henry → Michelle Zisow",
+      "due": "2026-08-24",
+      "age_days": 23
+    },
+    {
+      "what": "Finish + confirm the Leadership Initiatives IIP internship — as of Aug 12 Henry was mid-application. Complete it + the 'final step to confirm your spot' (iip@lichange.org). Good post-SAT to-do.",
+      "who": "Henry → Leadership Initiatives",
+      "due": "2026-08-26",
+      "age_days": 10
+    },
+    {
+      "what": "Finish henryzisow.com domain setup on Cloudflare — re-add the domain (setup lapsed after 4 weeks). Ties to the portfolio site + GitHub Pages.",
+      "who": "Henry",
+      "due": "2026-08-26",
+      "age_days": 9
+    },
+    {
+      "what": "Braeburn 'Snack Bar 2026' end-of-season form — quick, still outstanding. Also: Eve's 'Ultimate APUSH Review' guide to fold into summer work.",
+      "who": "Henry → Braeburn / school",
+      "due": "2026-08-27",
+      "age_days": 14
+    },
+    {
+      "what": "DELIVERY: Henry replied 'stop' (Aug 22) → Gmail email fallback is OFF. Decide the email path: (a) top up Zapier to restore the normal daily email, (b) keep email off / dashboard-only, or (c) re-enable the Gmail backup. Assistant will keep publishing the dashboard daily meanwhile and will NOT email until told.",
+      "who": "Henry",
+      "due": "2026-08-25",
+      "age_days": 0
+    }
+  ],
+  "news": [
+    {
+      "topic": "Business & markets",
+      "headline": "The week that decides the rally: Nvidia + Jackson Hole + PCE",
+      "why": "Nvidia's Q2 and core PCE land Wednesday; Warsh's first Jackson Hole runs Aug 27–29. A September cut looks near-certain — the fight is 25 vs 50 bps. Markets are jittery: the 30-yr Treasury yield sits at its highest since 2007.",
+      "url": "https://www.cnbc.com/2026/08/21/stock-market-next-week-outlook-for-aug-24-28-2026.html",
+      "source": "CNBC"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "New MiniMax flagship: 1M context, video input, ~1/20th the compute",
+      "why": "MiniMax's newest (428B MoE / ~23B active) adds native text+image+VIDEO input via sparse attention at a fraction of the cost — directly relevant to your 'run minimax locally for video generation' task.",
+      "url": "https://llm-stats.com/llm-updates",
+      "source": "LLM-Stats"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Google's Gemini 3.1 Pro / Deep Think push to a 2M-token window",
+      "why": "Huge single-window context (text/video/audio/code) at cheap intro pricing — useful if you're feeding whole projects or long media into a model.",
+      "url": "https://llm-stats.com/ai-news",
+      "source": "LLM-Stats"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "US–Iran tensions escalate as Washington readies an economic squeeze",
+      "why": "Iran's military says Tehran 'will not submit'; the standoff is a live wildcard for oil and markets heading into the Fed week.",
+      "url": "https://www.usnews.com/news/world",
+      "source": "U.S. News"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "US–Mexico cattle trade set to resume after a yearlong ban",
+      "why": "Northern-Mexico ranchers prepare to ship cattle north again — a small but real easing in cross-border food trade (and beef prices).",
+      "url": "https://www.npr.org/sections/news/",
+      "source": "NPR"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Astronomers find 'black hole stars' in the early universe",
+      "why": "Those mysterious 'little red dots' from deep-field images may be a whole new class of object — a fun science read for a Sunday.",
+      "url": "https://www.npr.org/sections/news/",
+      "source": "NPR"
+    }
+  ],
+  "system_notes": [
+    "DELIVERY CHANGE: Henry REPLIED 'STOP' to the Aug 22 brief (confirmed via get_thread — reply body is exactly 'Stop'). Every recent brief said 'Reply \"stop\" to turn off the fallback,' so this is an explicit instruction to DISABLE the Gmail-connector email fallback. Applied: NO email sent today; did NOT call send_message. This is an explicit user-directed pause (not a silent one) — surfaced on the dashboard + chat + memory. Cannot email an acknowledgment (boundary #2 bars replies). Zapier still down (day 12), so the normal email path is also unavailable → dashboard-only delivery today.",
+    "OPEN DECISION for Henry (can't be resolved without him): (a) top up Zapier → normal daily email resumes; (b) keep email off / dashboard-only; (c) re-enable the Gmail backup. Assistant keeps publishing the dashboard daily meanwhile and will NOT send email until told.",
+    "Weather via web fallback: high ~77°, low ~63°, showers early then cloudy (50% AM).",
+    "Google Tasks unreadable (Zapier) 12th day — task list carried from Aug 12.",
+    "Calendar: today (Sun Aug 23) Work 10:00 AM–2:30 PM. Tomorrow (Mon Aug 24): Danny Curtis meeting 11:00–11:30 AM (Michael Horn workstream — now active) + Lifeguarding at the Mindlins' 3:00–5:00 PM (78 Pheasant Landing Rd). Other schedule calendars empty.",
+    "SAT was YESTERDAY (Aug 22) — moved to RESOLVED; now a light score-report watch (~2 weeks). Henry prepped hard (dSAT practice Aug 21).",
+    "Inbox: Supabase EpiGuide pause warning (surfaced + follow-up bumped — genuinely actionable). Rest college marketing + promos/newsletters. No NEW brief-email instruction beyond the 'stop'.",
+    "Timing: fired 06:41 ET (in-window) — no DST cron change."
+  ]
+}

@@ -3,6 +3,12 @@
 # moves them to resolved when done — explaining every change in the brief.
 
 open:
+  - what: "EMAIL DELIVERY DECISION — Henry replied 'stop' to the Aug 22 brief (which offered 'reply stop to turn off the fallback'). Gmail-connector fallback is now DISABLED (preferences.yaml delivery.email_gmail_fallback:false). With Zapier out of quota, NO brief email is being sent — dashboard-only. Henry needs to choose: (a) top up Zapier (Settings→Usage&Billing) to restore the normal daily email; (b) keep email off / dashboard-only; or (c) tell the assistant to re-enable the Gmail backup. DO NOT email until he says so (can't even acknowledge his 'stop' by email — boundary #2). Keep publishing the dashboard daily."
+    who: "Henry (assistant awaits his call)"
+    due: 2026-08-26
+    source: "Gmail: Henry's 'Stop' reply to the Aug 22 brief (msg 1a0291cccc47d78a), confirmed via get_thread"
+    first_seen: 2026-08-23
+    note: "This is an EXPLICIT user-directed pause of the fallback — honored, and surfaced on the dashboard + chat. Not a silent pause. When/if Zapier quota returns, the NORMAL Zapier gmail_send_email path is technically separate from 'the fallback' — but given the 'stop', confirm with Henry before resuming any email."
   - what: "Finish henryzisow.com domain setup on Cloudflare — nameserver setup lapsed after 4 weeks (Cloudflare 'action required' email Aug 14). Re-add the domain / complete setup so the portfolio site resolves. Ties to the Henry-PortfolioWebsite repo + the GitHub Pages deploys that failed Aug 6."
     who: "Henry"
     due: 2026-08-18
@@ -13,29 +19,29 @@ open:
     due: 2026-08-18
     source: "Gmail: 'Welcome to the IIP' iip@lichange.org Aug 12 + Brett thread 'Internship Opportunity' Aug 11–12 (Henry drafting application Aug 12)"
     first_seen: 2026-08-13
-  - what: "EpiGuide Supabase pause — RE-FLAGGED Aug 12 (another >7-day-inactivity warning). Henry's ML-training work does NOT reset the timer; he must actually LOG INTO the Supabase dashboard (project lpgrbpblbtpyigzsrhgu, org 'Vibecoding Projects'). Also still: re-run the failed GitHub Pages deploy. Dashboard: supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu"
+  - what: "EpiGuide Supabase pause — RE-FLAGGED AGAIN Aug 23 (new low-activity email from ant.wilson@supabase.com: project 'going to be paused'). Henry's ML-training work does NOT reset the timer; he must LOG INTO the Supabase dashboard (project lpgrbpblbtpyigzsrhgu, org 'Vibecoding Projects'). Also still: re-run the failed GitHub Pages deploy. Dashboard: supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu"
     who: "Henry"
-    due: 2026-08-14
-    source: "Supabase pause warnings Jul 18 + Aug 4 + Aug 12; GitHub Pages fail Aug 6"
+    due: 2026-08-24
+    source: "Supabase pause warnings Jul 18 + Aug 4 + Aug 12 + Aug 23; GitHub Pages fail Aug 6"
     first_seen: 2026-07-17
-    note: "Recurring — 3rd pause warning. A dashboard login (not just local ML work) is what resets it."
-  - what: "Michael Horn socials work — ACTIVE again & Henry's #1 Google Task ('Michael horn email'). Aug 10: Danny asked Michael to add Henry to the 'Michael B. Horn' YouTube channel so he can run analytics on the socials; Michael granted Editor (limited) access. Next: actually do the YouTube/social analytics and report back. (Same workstream as the earlier Playlist & SEO doc — doc: docs.google.com/document/d/1QnSuI2vozYGoXVbPK-00vibNzzQORBA5c8aS9ozUyi4)"
-    who: "Henry → Michael Horn / Danny"
-    due: 2026-08-13
-    source: "Gmail 'Adding Henry to Youtube' Aug 10 (Danny + michael.b.horn@gmail.com); Docs comments Jul 15–Aug 4; Granola Jul 9 meeting"
+    note: "Recurring — 4th+ pause warning (now most-nagging open item). A dashboard LOGIN (not local ML work) resets it. Consider: if Henry doesn't want to babysit this, the project may just pause — only a real problem if he needs it live."
+  - what: "Michael Horn socials work — MEETING WITH DANNY CURTIS on the calendar Mon Aug 24 11:00–11:30 AM (Google Meet, ckc-twdq-bfo; Henry created it Aug 21, Danny invited). Henry's #1 Google Task ('Michael horn email'). Prep: YouTube/social analytics status (Editor access on the SCHOOL email) + next steps to bring to the meeting. (Same workstream as the Playlist & SEO doc: docs.google.com/document/d/1QnSuI2vozYGoXVbPK-00vibNzzQORBA5c8aS9ozUyi4)"
+    who: "Henry → Danny Curtis / Michael Horn"
+    due: 2026-08-24
+    source: "Calendar 'Henry & Danny Meeting' Mon Aug 24 11 AM (created Aug 21); Gmail 'Adding Henry to Youtube' Aug 10; Docs comments Jul 15–Aug 4"
     first_seen: 2026-07-17
-    note: "Access was granted to Henry's SCHOOL email 28hzisow@gannacademy.org (Gann Academy) — his personal Gmail is banned from YouTube, so YouTube-related items go to the school account."
+    note: "Access is on Henry's SCHOOL email 28hzisow@gannacademy.org (personal Gmail is YouTube-banned). Now has a concrete meeting — the workstream is moving."
   - what: "GitHub Pages deploys failed overnight Aug 6 on 5 repos — EpiGuide, BFF-Digital-Learning (x2), Youtube-Automation, Henry-PortfolioWebsite. Check whether the live sites are down and re-run / fix the workflows. Five at once suggests a common cause (shared workflow, quota, or a GitHub incident)."
     who: "Henry"
     due: 2026-08-08
     source: "GitHub Actions failure emails, Aug 6 ~21:00 ET (notifications@github.com)"
     first_seen: 2026-08-07
-  - what: "SAT IS TODAY — Sat Aug 22 at Dedham High School (check-in 7:45 AM, test 8:00 AM–12:00 PM). Henry ran a big Desmos/dSAT practice set the night before (Gmail form receipts). >>> TOMORROW'S RUN: MOVE THIS TO resolved and switch to a light score-report watch (digital SAT scores typically post ~2 weeks out). Do NOT keep surfacing SAT prep."
+  - what: "SAT score-report watch (LIGHT) — Henry took the SAT Sat Aug 22 at Dedham HS. Digital scores usually post ~2 weeks out (early Sept). Just watch for the College Board 'scores are ready' email and surface it once; no prep nagging. If he mentions how it went, note it."
     who: "Henry"
-    due: 2026-08-22
-    source: "Calendar (Dedham HS events) + College Board 'final readiness' Aug 20; Ben lessons Aug 9/12/16/19 done; dSAT practice-form receipts Aug 21"
-    first_seen: 2026-08-06
-    note: "TEST DAY. After today: resolve → score-report watch only. The SAT/PSAT High-list tasks can also relax post-test."
+    due: 2026-09-05
+    source: "SAT taken Aug 22; digital SAT scores typically ~2 weeks"
+    first_seen: 2026-08-22
+    note: "Downgraded from the active SAT-prep item (now resolved). Purely a score-watch."
   - what: "LEVRA 'Human Skills' certificate — Aug 17 email said the download link is coming 'today/tomorrow'; STILL not arrived as of Aug 20 (3 days on). Keep watching through ~Aug 22, then downgrade to a very light watch — grab the Oxford 'Introduction to Human Skills' certificate if/when it lands (assuming Henry finished the 4 modules)."
     who: "Henry → LEVRA (emily@levra.me / gayeon@levra.me)"
     due: 2026-08-22
@@ -80,6 +86,9 @@ travel:
   - "SCHOOL STARTING (~late Aug 2026): Gann Academy junior year. Bus registration confirmed Aug 21 (Bus 3, West Roxbury/Newton/Waban route; daily service begins soon). Expect the schedule to tighten once classes start — weekday mornings will fill; SAT/summer-work window is closing. A classmate (Eve, eveze05@gmail.com) shared an 'Ultimate APUSH Review' guide Aug 21 — useful for the AMSCO/APUSH summer work."
 
 resolved:
+  - what: "SAT prep + test (Aug 22) — the whole summer arc: Ben lessons (Aug 9/12/16/19), the hard QBank, Desmos SAT Bootcamp, and a big dSAT practice set the night before. Henry sat the test Sat Aug 22, 8 AM–12 PM at Dedham High School."
+    resolved_on: 2026-08-22
+    note: "Test taken. Successor: a LIGHT score-report watch (open list) for the ~early-Sept score email. Stop all SAT-prep nagging."
   - what: "DECA Dash 5K — chapter fundraiser/promo the officer team (Ryan leading) ran all summer"
     resolved_on: 2026-08-15
     note: "Happened Sat Aug 15, 9:00–11:30 AM at Horn Pond (Team 68) as a real calendar event. Done — drop unless there's post-event follow-up (thank-yous, recap, finances)."

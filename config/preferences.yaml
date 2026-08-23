@@ -21,6 +21,12 @@ brief:
     for truly time-sensitive items. Change content daily, never the design, unless asked.
   delivery:
     email: true                  # PRIMARY — Henry confirmed 2026-07-30 "do gmails each day". Must send daily.
+    email_gmail_fallback: false  # 2026-08-22 Henry replied "stop" to the brief (which offered "reply stop to turn
+                                 # off the fallback"). DO NOT send the brief via the Gmail-connector send_message.
+                                 # While Zapier is out this means NO brief email goes out — dashboard-only delivery,
+                                 # surfaced to Henry (not a silent pause; he asked for it). Re-enable ONLY if Henry
+                                 # says so. When Zapier quota is restored, the NORMAL Zapier email path (gmail_send_email)
+                                 # may resume — that is not "the fallback" — but confirm with Henry first given the "stop".
     dashboard: true              # private artifact page, stable URL (see state/state.json)
     push: false                  # 2026-08-01 Henry: stop notifying me when the brief is sent
     quiet_chat: true             # 2026-08-01 Henry: on SCHEDULED runs, deliver silently — no post-send chat
