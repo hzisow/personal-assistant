@@ -19,12 +19,12 @@ open:
     due: 2026-08-18
     source: "Gmail: 'Welcome to the IIP' iip@lichange.org Aug 12 + Brett thread 'Internship Opportunity' Aug 11–12 (Henry drafting application Aug 12)"
     first_seen: 2026-08-13
-  - what: "EpiGuide Supabase pause — RE-FLAGGED AGAIN Aug 23 (new low-activity email from ant.wilson@supabase.com: project 'going to be paused'). Henry's ML-training work does NOT reset the timer; he must LOG INTO the Supabase dashboard (project lpgrbpblbtpyigzsrhgu, org 'Vibecoding Projects'). Also still: re-run the failed GitHub Pages deploy. Dashboard: supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu"
+  - what: "EpiGuide Supabase pause — LIKELY ADDRESSED. After the Aug 23 warning, Henry SIGNED INTO EpiGuide twice on Aug 23 (4:21 + 4:29 PM, Google sign-in) and ran an iOS build — that project activity should reset the inactivity timer. Downgrade to a light watch: only re-surface if ANOTHER pause warning arrives. Separate loose ends: the Aug 23 iOS build FAILED (GitHub Actions), and the older Aug 6 GitHub Pages deploy failures. Dashboard: supabase.com/dashboard/project/lpgrbpblbtpyigzsrhgu"
     who: "Henry"
-    due: 2026-08-24
-    source: "Supabase pause warnings Jul 18 + Aug 4 + Aug 12 + Aug 23; GitHub Pages fail Aug 6"
+    due: 2026-08-30
+    source: "Supabase warnings Jul 18/Aug 4/Aug 12/Aug 23; Gmail 'signed into EpiGuide' Aug 23 (Google) + GitHub iOS build fail Aug 23"
     first_seen: 2026-07-17
-    note: "Recurring — 4th+ pause warning (now most-nagging open item). A dashboard LOGIN (not local ML work) resets it. Consider: if Henry doesn't want to babysit this, the project may just pause — only a real problem if he needs it live."
+    note: "Recurring pause warnings — but Henry now actively works on EpiGuide, so app activity should keep it alive. Stop nagging the login unless a fresh pause email lands. The iOS build failure is the newer, more real dev issue."
   - what: "Michael Horn socials work — MEETING WITH DANNY CURTIS on the calendar Mon Aug 24 11:00–11:30 AM (Google Meet, ckc-twdq-bfo; Henry created it Aug 21, Danny invited). Henry's #1 Google Task ('Michael horn email'). Prep: YouTube/social analytics status (Editor access on the SCHOOL email) + next steps to bring to the meeting. (Same workstream as the Playlist & SEO doc: docs.google.com/document/d/1QnSuI2vozYGoXVbPK-00vibNzzQORBA5c8aS9ozUyi4)"
     who: "Henry → Danny Curtis / Michael Horn"
     due: 2026-08-24
@@ -64,7 +64,7 @@ open:
     due: 2026-08-02
     source: "fwd from adambenjaminf@gmail.com, Jul 21"
     first_seen: 2026-07-23
-  - what: "RSVP to Mom's 'Kent's Place in Marion' weekend (Aug 29–30) — the trip is now NEXT WEEKEND and it's still unconfirmed (open since the Jul 30 invite, was due Aug 10). Confirm with Mom (mkzisow) this weekend so plans can be finalized."
+  - what: "RSVP to Mom's 'Kent's Place in Marion' weekend (Aug 29–30) — that's THIS COMING WEEKEND (5–6 days out) and STILL unconfirmed since the Jul 30 invite / Aug 10 due date. Most-slipped item — confirm with Mom (mkzisow) now so the weekend can be finalized."
     who: "Henry → Michelle Zisow"
     due: 2026-08-24
     source: "Google Calendar invite from mkzisow@gmail.com, Jul 30"

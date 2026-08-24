@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-24",
+  "generated_at": "2026-08-24T06:52:00-04:00",
+  "headline": "A two-thing Monday — your meeting with Danny at 11 AM (Michael Horn work) and lifeguarding 3–5 PM — but the real headline is tomorrow: first day of school at Gann. Finally a clear, sunny day (high ~82°). Nice work signing into EpiGuide yesterday; that should settle the Supabase pause. Heads up: email's still off per your 'stop' — this dashboard is your daily brief until you top up Zapier or turn the backup back on.",
+  "delivery_status": "dashboard_only — Gmail email fallback OFF at Henry's request ('stop', Aug 22). Zapier still down (day 13). No brief email sent. No new reply from Henry this run.",
+  "weather": {
+    "location": "Newton/Boston, MA",
+    "current_f": 62,
+    "condition": "Sunny and clear — high ~82°, low ~58° (a break from the rain)"
+  },
+  "schedule": [
+    {
+      "start": "2026-08-24T11:00:00-04:00",
+      "end": "2026-08-24T11:30:00-04:00",
+      "all_day": false,
+      "title": "Meeting with Danny Curtis",
+      "calendar": "Personal",
+      "location": "Google Meet (meet.google.com/ckc-twdq-bfo)",
+      "prep": "The Michael Horn socials workstream. Bring the YouTube/social analytics status (Editor access is on your school email) + your proposed next steps. Danny hasn't RSVP'd yet — worth a nudge if he's quiet at 11."
+    },
+    {
+      "start": "2026-08-24T15:00:00-04:00",
+      "end": "2026-08-24T17:00:00-04:00",
+      "all_day": false,
+      "title": "Lifeguarding @ the Mindlins'",
+      "calendar": "Personal",
+      "location": "78 Pheasant Landing Rd",
+      "prep": "3:00–5:00 PM. Sunny and ~82° — good pool weather; bring water + sunscreen."
+    }
+  ],
+  "tomorrow_headsup": [
+    "Tue Aug 25 — FIRST DAY OF SCHOOL at Gann Academy (junior year). Bus 3 route is set; lay out what you need tonight (schedule, supplies, charged laptop). Early start after a long summer.",
+    "Tue Aug 25, 8:00–9:30 PM: Baltimore fantasy football draft (family — Dad, Mom, Sam; Google Meet)."
+  ],
+  "email": [
+    {
+      "thread_id": "1a030497bdf6b39d",
+      "from": "Google / Supabase (EpiGuide)",
+      "subject": "You signed into EpiGuide (Aug 23)",
+      "bucket": "fyi",
+      "why": "You signed into EpiGuide twice yesterday afternoon (4:21 + 4:29 PM) and pushed code (an iOS build ran). That activity should reset the Supabase inactivity timer — so the pause warning is likely handled. Nice. Watch for another warning only if it recurs.",
+      "age_days": 1
+    },
+    {
+      "thread_id": "1a0304b4dac4535f",
+      "from": "GitHub Actions (hzisow/EpiGuide)",
+      "subject": "iOS build failed (d334513)",
+      "bucket": "fyi",
+      "why": "Your EpiGuide iOS workflow failed to build (simulator, unsigned) yesterday — since you're actively in it, worth a glance at the run log when you're back at the machine.",
+      "age_days": 1
+    },
+    {
+      "thread_id": "1a0305256ee215c4",
+      "from": "Google security",
+      "subject": "New sign-in on your henryzisow@gmail.com account",
+      "bucket": "fyi",
+      "why": "Google flagged a new Apple-device sign-in to henryzisow@gmail.com (recovery = your main Gmail). Almost certainly you (you were active yesterday) — just glance to confirm it was you.",
+      "age_days": 1
+    }
+  ],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": [
+      {"title": "Michael horn email", "list": "High Priority", "due": null, "overdue": false, "notes": "Danny meeting is TODAY 11 AM. Carried from Aug 12 (Zapier quota, day 13)."},
+      {"title": "Do Summer Reading", "list": "High Priority", "due": null, "overdue": false, "notes": "School starts tomorrow — last call on summer reading."},
+      {"title": "add new chapter toolkit to the website", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do PSAT", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "See how to actually train the ML model for EpiGuide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Find 1 TB USB", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Run minimax h3 locally for video generation", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Learn about succession planning for DECA", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Complete MA DECA involvement guide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Rebuild resume in Google Docs", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Build the TikTok send-to audio/playlist app", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Make Involvement Guide automation tool", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Read \"Kindred\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read Chapter 1 in the AMSCO book (APUSH)", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"The Namesake\"", "list": "Summer Work", "due": null, "overdue": false},
+      {"title": "Read \"A Visit from the Goon Squad\"", "list": "Summer Work", "due": null, "overdue": false}
+    ]
+  },
+  "follow_ups": [
+    {
+      "what": "Michael Horn socials analytics — MEETING with Danny Curtis TODAY 11:00 AM (Meet). Bring the analytics status (YouTube Editor access on the school email) + next steps. #1 work task, now active.",
+      "who": "Henry → Danny / Michael Horn",
+      "due": "2026-08-24",
+      "age_days": 38
+    },
+    {
+      "what": "RSVP to Mom's 'Kent's Place in Marion' weekend (Aug 29–30) — THIS WEEKEND now, still unconfirmed since Aug 10. Confirm with Mom (mkzisow) today — it's the last loose end before the weekend.",
+      "who": "Henry → Michelle Zisow",
+      "due": "2026-08-24",
+      "age_days": 24
+    },
+    {
+      "what": "School starts TOMORROW (Tue Aug 25) — Gann junior year. Finish any summer reading (Kindred / The Namesake / Goon Squad / APUSH AMSCO Ch. 1) and prep first-day logistics tonight (Bus 3 is set).",
+      "who": "Henry",
+      "due": "2026-08-25",
+      "age_days": 2
+    },
+    {
+      "what": "Finish + confirm the Leadership Initiatives IIP internship — mid-application since Aug 12. Complete it + the 'final step to confirm your spot' (iip@lichange.org). Do it before school swallows the time.",
+      "who": "Henry → Leadership Initiatives",
+      "due": "2026-08-26",
+      "age_days": 11
+    },
+    {
+      "what": "Finish henryzisow.com domain setup on Cloudflare — re-add the domain (setup lapsed after 4 weeks). Ties to the portfolio site + GitHub Pages.",
+      "who": "Henry",
+      "due": "2026-08-27",
+      "age_days": 10
+    },
+    {
+      "what": "EpiGuide upkeep — you signed in Aug 23 (should quiet the Supabase pause). Two loose ends when you're back at it: the failed iOS build (GitHub Actions) and the older GitHub Pages deploy failures.",
+      "who": "Henry",
+      "due": "2026-08-28",
+      "age_days": 38
+    },
+    {
+      "what": "EMAIL DECISION (still open) — fallback is OFF per your 'stop.' Top up Zapier to restore the daily email, keep dashboard-only, or tell me to re-enable the backup. Dashboard keeps publishing meanwhile.",
+      "who": "Henry",
+      "due": "2026-08-27",
+      "age_days": 1
+    },
+    {
+      "what": "SAT score watch (light) — took the test Aug 22; digital scores usually post ~early September. Watch for the College Board 'scores ready' email.",
+      "who": "Henry",
+      "due": "2026-09-05",
+      "age_days": 2
+    }
+  ],
+  "news": [
+    {
+      "topic": "Business & markets",
+      "headline": "Cautious open as US–Canada trade talks break down",
+      "why": "Futures slipped (Nasdaq -0.7%) to start the final week of August after last week's Canada deal fell apart. The real catalysts: Nvidia earnings Wednesday and the Fed's Jackson Hole (Thu–Sat). Trump is also expected to detail new Iran sanctions.",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-24-dow-sp-500-nasdaq-080306047.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Agent standards consolidate: Google's A2A joins the Linux Foundation alongside MCP",
+      "why": "Google's agent-to-agent (A2A) protocol moved under the neutral Agentic AI Foundation — the same governance as Anthropic's MCP (which your assistant runs on). Interoperable-agent plumbing is standardizing fast, which matters for anything you build.",
+      "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+      "source": "AI Agent Store"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "The model firehose keeps up — 12 releases in August, multimodal by default",
+      "why": "New models (GLM-5.2 Turbo, Seed 2.1 Turbo, Meta's Muse line) now treat text+image+video (±audio) as baseline — the 'pick the right cheap model per task' era continues.",
+      "url": "https://llm-stats.com/llm-updates",
+      "source": "LLM-Stats"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Tropical Storm Moke could drop a foot of rain on Hawaii's Big Island",
+      "why": "NOAA is warning of flooding rains — the standout weather story as the mainland finally dries out.",
+      "url": "https://www.npr.org/sections/news",
+      "source": "NPR"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "US readies fresh sanctions on Iran",
+      "why": "The administration is expected to detail new economic penalties as the standoff hardens — a live driver for oil and markets.",
+      "url": "https://www.usnews.com/news/world",
+      "source": "U.S. News"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "US–Canada trade talks collapse",
+      "why": "The deal floated last week is off, reintroducing tariff uncertainty between the two economies just as markets wanted one less variable.",
+      "url": "https://www.aol.com/articles/stock-market-today-dow-p-080306000.html",
+      "source": "AOL / Yahoo Finance"
+    }
+  ],
+  "system_notes": [
+    "DELIVERY: NO EMAIL (Gmail fallback disabled by Henry's 'stop' Aug 22; preferences.email_gmail_fallback:false). Zapier still out (day 13). Dashboard-only, as yesterday. Checked for a NEW reply from Henry this run — none found (brief-reply search empty; no new instruction in inbox). So the email decision is still open; not resuming email without his say-so.",
+    "Weather via web fallback: sunny, high ~82°, low ~58° — first clear day after the rainy weekend.",
+    "Google Tasks unreadable (Zapier) 13th day — task list carried from Aug 12.",
+    "Calendar: today (Mon Aug 24) Danny Curtis meeting 11:00–11:30 AM (Michael Horn workstream) + Lifeguarding @ Mindlins 3:00–5:00 PM. TOMORROW (Tue Aug 25): FIRST DAY OF SCHOOL at Gann (all-day) + Baltimore fantasy football draft 8:00–9:30 PM (family). Other schedule calendars empty.",
+    "GOOD: Henry acted on yesterday's Supabase flag — Gmail shows he signed into EpiGuide twice Aug 23 (4:21 + 4:29 PM) and ran an iOS build (which failed). That activity should reset the Supabase pause timer; downgraded that follow-up. Also surfaced the iOS build failure + a Google new-sign-in security alert (both light FYIs).",
+    "Inbox otherwise college marketing + promos. No SAT score email yet (expected ~early Sept).",
+    "RSVP to Mom's Kent's Place (Aug 29–30) is now THIS weekend and still unconfirmed — kept near the top.",
+    "Timing: fired 06:41 ET (in-window) — no DST cron change."
+  ]
+}
