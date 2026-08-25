@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T06:52:00-04:00",
+  "headline": "First day of school at Gann — junior year's officially here. Clear and pleasant for it (high ~80°, low humidity). Tonight you've got the family fantasy football draft at 8. Nothing else needs you today, so ease back into the routine. (Email's still off from your 'stop' — this dashboard is your daily brief for now.)",
+  "delivery_status": "dashboard_only — Gmail email fallback OFF at Henry's request ('stop', Aug 22). Zapier still down (day 14). No brief email. Checked again this run: no new reply/instruction from Henry.",
+  "weather": {
+    "location": "Newton/Boston, MA",
+    "current_f": 62,
+    "condition": "Sunny with some clouds — high ~80°, low ~57° (crisp, low humidity)"
+  },
+  "schedule": [
+    {
+      "start": "2026-08-25T00:00:00-04:00",
+      "end": "2026-08-25T23:59:59-04:00",
+      "all_day": true,
+      "title": "First day of school — Gann Academy (junior year)",
+      "calendar": "Personal",
+      "location": "Gann Academy",
+      "prep": "Junior year begins. Bus 3 route is set. Good weather — easy first day. New schedule to learn; keep the syllabi/handouts."
+    },
+    {
+      "start": "2026-08-25T20:00:00-04:00",
+      "end": "2026-08-25T21:30:00-04:00",
+      "all_day": false,
+      "title": "Baltimore fantasy football draft",
+      "calendar": "Personal",
+      "location": "Google Meet (meet.google.com/spy-mtth-soq)",
+      "prep": "Family draft with Dad, Mom, and Sam (8:00–9:30 PM). Have your rankings/cheat sheet ready."
+    }
+  ],
+  "tomorrow_headsup": [
+    "Wed Aug 26: nothing scheduled yet — first real school day of the routine. (Markets: Nvidia earnings after the close.)"
+  ],
+  "email": [
+    {
+      "thread_id": "1a03530807acf10c",
+      "from": "Alpaca Markets",
+      "subject": "AI Trading Agents Hackathon ($5,000 prize)",
+      "bucket": "fyi",
+      "why": "Alpaca + lablab.ai are running an online 'build an AI trading agent' hackathon with a $5k prize pool. Right at the intersection of your interests (Alpaca account, AI agents, building) — a fun optional project if you have bandwidth once school settles.",
+      "age_days": 1
+    }
+  ],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": [
+      {"title": "Michael horn email", "list": "High Priority", "due": null, "overdue": false, "notes": "Danny meeting happened Aug 24. Carried from Aug 12 (Zapier quota, day 14)."},
+      {"title": "add new chapter toolkit to the website", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do PSAT", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "See how to actually train the ML model for EpiGuide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Find 1 TB USB", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Run minimax h3 locally for video generation", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Learn about succession planning for DECA", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Complete MA DECA involvement guide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Rebuild resume in Google Docs", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Build the TikTok send-to audio/playlist app", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Make Involvement Guide automation tool", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Summer reading — Kindred / The Namesake / Goon Squad / AMSCO Ch.1", "list": "Summer Work", "due": null, "overdue": true, "notes": "School has started — this is now real coursework, not 'summer'. Whatever's unfinished carries into the year."}
+    ]
+  },
+  "follow_ups": [
+    {
+      "what": "RSVP to Mom's 'Kent's Place in Marion' weekend (Aug 29–30) — THIS weekend (4 days out), still unconfirmed since Aug 10. This is the most-slipped item — a 30-second yes/no to Mom (mkzisow) closes it.",
+      "who": "Henry → Michelle Zisow",
+      "due": "2026-08-27",
+      "age_days": 25
+    },
+    {
+      "what": "Finish + confirm the Leadership Initiatives IIP internship — mid-application since Aug 12. Complete it + the 'final step to confirm your spot' (iip@lichange.org). Do it soon before junior-year workload builds.",
+      "who": "Henry → Leadership Initiatives",
+      "due": "2026-08-28",
+      "age_days": 12
+    },
+    {
+      "what": "Finish henryzisow.com domain setup on Cloudflare — re-add the domain (setup lapsed after 4 weeks). Ties to the portfolio site + GitHub Pages.",
+      "who": "Henry",
+      "due": "2026-08-29",
+      "age_days": 11
+    },
+    {
+      "what": "Michael Horn socials analytics — Danny meeting happened Aug 24. Follow through on whatever next steps you two agreed (run/report the YouTube analytics on the school-email Editor access).",
+      "who": "Henry → Danny / Michael Horn",
+      "due": "2026-08-29",
+      "age_days": 39
+    },
+    {
+      "what": "EpiGuide dev — the iOS build failed Aug 23 (GitHub Actions); older GitHub Pages deploys also still failing. Supabase pause is quiet now (you signed in Aug 23). Pick up when you're back at the machine.",
+      "who": "Henry",
+      "due": "2026-08-30",
+      "age_days": 39
+    },
+    {
+      "what": "EMAIL DECISION (open) — fallback OFF per your 'stop.' Top up Zapier to restore the daily email, keep dashboard-only, or tell me to re-enable the backup. Dashboard keeps publishing meanwhile.",
+      "who": "Henry",
+      "due": "2026-08-29",
+      "age_days": 3
+    },
+    {
+      "what": "SAT score watch (light) — took the test Aug 22; digital scores usually post ~early September. Watch for the College Board 'scores ready' email.",
+      "who": "Henry",
+      "due": "2026-09-05",
+      "age_days": 3
+    }
+  ],
+  "news": [
+    {
+      "topic": "Business & markets",
+      "headline": "All eyes on Nvidia (Wed) — the earnings-season grand finale",
+      "why": "NVDA reports after tomorrow's close with ~97% sales growth to ~$92B expected — the referendum on the whole AI-capex trade. Today: Conference Board consumer confidence (10 ET) + Case-Shiller home prices. Futures firmer after Monday's chip-led selloff.",
+      "url": "https://www.cnbc.com/2026/08/24/stock-market-today-live-updates.html",
+      "source": "CNBC"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "Macro overhang: 50% Canada tariffs + an Iran 'economic D-Day'",
+      "why": "The US is set to slap 50% tariffs on ~$20B of Canadian goods after talks collapsed, and Treasury's Bessent unveiled secondary sanctions to squeeze anyone dealing with Iran. Both add trade/geopolitical risk under the market.",
+      "url": "https://www.usnews.com/news/world",
+      "source": "U.S. News"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Nvidia's number is the AI trade's verdict",
+      "why": "Beyond the stock, the guidance tells you whether the AI-infrastructure boom (data centers, GPUs, the whole build-out you're adjacent to) keeps accelerating or cools. Watch the data-center outlook, not just EPS.",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262128847-nvda-earnings-report-mu-avgo-drag-memory-chip-sector-tradingkey",
+      "source": "TradingKey"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Cheap, capable models keep coming",
+      "why": "August's wave (GLM-5.2 Turbo, Qwen3.8, Meta's Muse line) keeps pushing frontier-level performance to lower cost with multimodal as standard — good for building on a student budget.",
+      "url": "https://llm-stats.com/llm-updates",
+      "source": "LLM-Stats"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Tropical Storm Moke lashes Hawaii's Big Island",
+      "why": "Over a foot of rain and serious flooding risk as the storm moves through — the day's big natural-disaster story.",
+      "url": "https://www.npr.org/sections/news",
+      "source": "NPR"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "US escalates on Iran with 'economic D-Day' sanctions",
+      "why": "Treasury announced secondary sanctions targeting any entity that deals with Tehran — a sharp new phase in the post-conflict standoff.",
+      "url": "https://www.usnews.com/news/world",
+      "source": "U.S. News"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "US military strikes another boat in the eastern Pacific",
+      "why": "The Pentagon says two alleged drug traffickers were killed — the latest in a series of contentious interdiction strikes.",
+      "url": "https://www.npr.org/sections/news",
+      "source": "NPR"
+    }
+  ],
+  "system_notes": [
+    "DELIVERY: NO EMAIL (fallback disabled by Henry's 'stop' Aug 22). Zapier still out (day 14 / two full weeks). Dashboard-only. Re-checked for a new reply from Henry — brief-reply search empty; no new inbox instruction. Email decision still open; not resuming email without his say-so.",
+    "Weather via web fallback: sunny, high ~80°, low ~57°, low humidity — nice first day of school.",
+    "Google Tasks unreadable (Zapier) 14th day — task list carried from Aug 12 (SAT items dropped as done; summer reading now school coursework).",
+    "Calendar: TODAY Tue Aug 25 = FIRST DAY OF SCHOOL at Gann (all-day) + Baltimore fantasy football draft 8:00–9:30 PM (family). Tomorrow Wed Aug 26 clear on Personal (Nvidia earnings after the close, market-wise). Other schedule calendars empty.",
+    "Inbox all promos/marketing. Only light FYI: Alpaca AI Trading Agents Hackathon ($5k) — aligns with Henry's interests. No SAT score email yet. Supabase quiet (login Aug 23 held). No new Henry instruction.",
+    "RSVP to Mom's Kent's Place (Aug 29–30) is THIS weekend and still the top-slipped item.",
+    "Timing: fired 06:41 ET (in-window) — no DST cron change.",
+    "One Gmail search returned a transient 'service unavailable' — retried successfully; no impact."
+  ]
+}

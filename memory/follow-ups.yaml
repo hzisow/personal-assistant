@@ -25,12 +25,12 @@ open:
     source: "Supabase warnings Jul 18/Aug 4/Aug 12/Aug 23; Gmail 'signed into EpiGuide' Aug 23 (Google) + GitHub iOS build fail Aug 23"
     first_seen: 2026-07-17
     note: "Recurring pause warnings — but Henry now actively works on EpiGuide, so app activity should keep it alive. Stop nagging the login unless a fresh pause email lands. The iOS build failure is the newer, more real dev issue."
-  - what: "Michael Horn socials work — MEETING WITH DANNY CURTIS on the calendar Mon Aug 24 11:00–11:30 AM (Google Meet, ckc-twdq-bfo; Henry created it Aug 21, Danny invited). Henry's #1 Google Task ('Michael horn email'). Prep: YouTube/social analytics status (Editor access on the SCHOOL email) + next steps to bring to the meeting. (Same workstream as the Playlist & SEO doc: docs.google.com/document/d/1QnSuI2vozYGoXVbPK-00vibNzzQORBA5c8aS9ozUyi4)"
+  - what: "Michael Horn socials work — the Danny Curtis meeting HAPPENED Mon Aug 24 11 AM. Follow through on whatever next steps they agreed: run/report the YouTube + social analytics (Editor access is on Henry's SCHOOL email). Still Henry's #1 Google Task ('Michael horn email'). Watch for a recap/next-steps email from Danny; surface it if it comes. (Playlist & SEO doc: docs.google.com/document/d/1QnSuI2vozYGoXVbPK-00vibNzzQORBA5c8aS9ozUyi4)"
     who: "Henry → Danny Curtis / Michael Horn"
-    due: 2026-08-24
-    source: "Calendar 'Henry & Danny Meeting' Mon Aug 24 11 AM (created Aug 21); Gmail 'Adding Henry to Youtube' Aug 10; Docs comments Jul 15–Aug 4"
+    due: 2026-08-29
+    source: "Meeting 'Henry & Danny' Aug 24 (occurred); Gmail 'Adding Henry to Youtube' Aug 10; Docs comments Jul 15–Aug 4"
     first_seen: 2026-07-17
-    note: "Access is on Henry's SCHOOL email 28hzisow@gannacademy.org (personal Gmail is YouTube-banned). Now has a concrete meeting — the workstream is moving."
+    note: "Access on Henry's SCHOOL email 28hzisow@gannacademy.org (personal Gmail YouTube-banned). Post-meeting: the ask is execution (do + report the analytics). Don't nag the meeting (done); nudge the deliverable."
   - what: "GitHub Pages deploys failed overnight Aug 6 on 5 repos — EpiGuide, BFF-Digital-Learning (x2), Youtube-Automation, Henry-PortfolioWebsite. Check whether the live sites are down and re-run / fix the workflows. Five at once suggests a common cause (shared workflow, quota, or a GitHub incident)."
     who: "Henry"
     due: 2026-08-08
