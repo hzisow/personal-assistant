@@ -3,6 +3,12 @@
 # moves them to resolved when done — explaining every change in the brief.
 
 open:
+  - what: "Back-to-school admin (surfaced Aug 26): (1) GitHub — accept the '@moden-coding' org invite if it's Henry's Gann CS class (handle @modengann; 'Classroom 50' OAuth app authorized Aug 25 with broad scopes admin:org/repo/workflow — normal for GitHub Classroom, but verify the sender since scopes are broad). (2) ESPN fantasy football draft scheduled ~Sep 6–7 ('Henry's Heated Team') — confirm the real date/time; separate league from the Aug 25 Baltimore draft."
+    who: "Henry"
+    due: 2026-08-28
+    source: "Gmail Aug 25: GitHub org invite (@modengann→@moden-coding) + 'Classroom 50' OAuth auth; ESPN 'draft scheduled' Sep 6/7"
+    first_seen: 2026-08-26
+    note: "GitHub items are almost certainly the CS class (day-2-of-school timing, 'gann' in the handle). ESPN draft is a real dated commitment — re-surface ~Sep 5."
   - what: "EMAIL DELIVERY DECISION — Henry replied 'stop' to the Aug 22 brief (which offered 'reply stop to turn off the fallback'). Gmail-connector fallback is now DISABLED (preferences.yaml delivery.email_gmail_fallback:false). With Zapier out of quota, NO brief email is being sent — dashboard-only. Henry needs to choose: (a) top up Zapier (Settings→Usage&Billing) to restore the normal daily email; (b) keep email off / dashboard-only; or (c) tell the assistant to re-enable the Gmail backup. DO NOT email until he says so (can't even acknowledge his 'stop' by email — boundary #2). Keep publishing the dashboard daily."
     who: "Henry (assistant awaits his call)"
     due: 2026-08-26
