@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-27",
+  "generated_at": "2026-08-27T06:52:00-04:00",
+  "headline": "Another clear, quiet one — nothing on the calendar (day 3 of school), high ~80°. Nice: you said yes to the Rashi Alumni Panel yesterday, so just watch for their prep-call + panel date. Tomorrow is family dinner with the Norden's at 6. Market headline: Nvidia blew past estimates and guided way up — the AI build-out is accelerating, not cooling. (Email's still off from your 'stop' — this dashboard is your brief.)",
+  "delivery_status": "dashboard_only — Gmail fallback OFF at Henry's request ('stop', Aug 22). Zapier still down (day 16). No brief email. No new reply/instruction from Henry this run (he IS reading email — replied to the Rashi panel himself Aug 26).",
+  "weather": {
+    "location": "Newton/Boston, MA",
+    "current_f": 62,
+    "condition": "Sunshine and some clouds — high ~80°, low ~61°"
+  },
+  "schedule": [
+    {
+      "start": "2026-08-27T00:00:00-04:00",
+      "end": "2026-08-27T23:59:59-04:00",
+      "all_day": true,
+      "title": "No events — school day (day 3 of junior year)",
+      "calendar": "Personal",
+      "location": "",
+      "prep": "Clear calendar. Good afternoon/evening to finally close the RSVP to Mom (Kent's Place is this weekend) and, if you have energy, the IIP internship."
+    }
+  ],
+  "tomorrow_headsup": [
+    "Fri Aug 28, 6:00–9:00 PM: Family Dinner with the Norden's (Mom, Dad, Sam). Then the weekend: Mom's 'Kent's Place in Marion' is Aug 29–30 — that's the RSVP still hanging."
+  ],
+  "email": [
+    {
+      "thread_id": "1a03df1f6e832b2d",
+      "from": "Lauren Cooke (Rashi School)",
+      "subject": "Rashi Alumni Panel — you're confirmed",
+      "bucket": "important",
+      "why": "You accepted the invite yesterday to speak on Rashi's alumni panel about your high-school experience — nicely done. Next: they'll send details for a prep Zoom call + the panel date. Nothing to do now except watch for those and put the date on your calendar when it lands.",
+      "age_days": 1
+    }
+  ],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": [
+      {"title": "Michael horn email", "list": "High Priority", "due": null, "overdue": false, "notes": "Post-Danny-meeting: do + report the analytics. Carried from Aug 12 (Zapier quota, day 16)."},
+      {"title": "add new chapter toolkit to the website", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do PSAT", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "See how to actually train the ML model for EpiGuide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Find 1 TB USB", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Run minimax h3 locally for video generation", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Learn about succession planning for DECA", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Complete MA DECA involvement guide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Rebuild resume in Google Docs", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Build the TikTok send-to audio/playlist app", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Make Involvement Guide automation tool", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "School reading — Kindred / The Namesake / Goon Squad / AMSCO Ch.1", "list": "coursework", "due": null, "overdue": true}
+    ]
+  },
+  "follow_ups": [
+    {
+      "what": "RSVP to Mom's 'Kent's Place in Marion' weekend (Aug 29–30) — it's THIS weekend (2 days out) and still unconfirmed since Aug 10. The longest-open item; a quick yes/no to Mom (mkzisow) closes it. (Note: family dinner w Norden's is Fri Aug 28, then Kent's Place Sat–Sun.)",
+      "who": "Henry → Michelle Zisow",
+      "due": "2026-08-28",
+      "age_days": 27
+    },
+    {
+      "what": "Rashi Alumni Panel — Henry ACCEPTED Aug 26 (replied to Lauren Cooke, lcooke@rashi.org). Awaiting details for a prep Zoom call + the panel date. Watch for the follow-up email; add the date to the calendar when it arrives.",
+      "who": "Henry ← Rashi (Lauren Cooke / J. Fishman)",
+      "due": "2026-09-05",
+      "age_days": 1
+    },
+    {
+      "what": "Back-to-school admin: accept/verify the GitHub '@moden-coding' class org invite; confirm the ESPN fantasy draft date (~Sep 6–7).",
+      "who": "Henry",
+      "due": "2026-08-29",
+      "age_days": 1
+    },
+    {
+      "what": "Finish + confirm the Leadership Initiatives IIP internship — mid-application since Aug 12. Complete it + the 'final step to confirm your spot' (iip@lichange.org).",
+      "who": "Henry → Leadership Initiatives",
+      "due": "2026-08-30",
+      "age_days": 14
+    },
+    {
+      "what": "Finish henryzisow.com domain setup on Cloudflare — re-add the domain (setup lapsed after 4 weeks).",
+      "who": "Henry",
+      "due": "2026-08-31",
+      "age_days": 13
+    },
+    {
+      "what": "Michael Horn socials analytics — Danny meeting happened Aug 24. Follow through: run + report the YouTube/social analytics (Editor access on the school email).",
+      "who": "Henry → Danny / Michael Horn",
+      "due": "2026-08-31",
+      "age_days": 41
+    },
+    {
+      "what": "EMAIL DECISION (open) — fallback OFF per your 'stop.' Top up Zapier for the daily email, keep dashboard-only, or re-enable the backup. (You're clearly reading email fine, so no rush unless you want the brief in your inbox.)",
+      "who": "Henry",
+      "due": "2026-08-31",
+      "age_days": 5
+    },
+    {
+      "what": "SAT score watch (light) — took the test Aug 22; digital scores usually post ~early September. Watch for the College Board 'scores ready' email.",
+      "who": "Henry",
+      "due": "2026-09-05",
+      "age_days": 5
+    }
+  ],
+  "news": [
+    {
+      "topic": "Business & markets",
+      "headline": "Nvidia blows past estimates — the AI boom is accelerating",
+      "why": "Q2 revenue $96.2B (+106%), data-center $89B (+117%), and it guided next quarter to $108B (above the ~$104B expected). CEO Huang sees big FY28 growth; AWS is buying ~2M GPUs; hyperscaler capex is headed toward $1.3T in 2027 (from $800B). The AI-infrastructure verdict: full steam ahead.",
+      "url": "https://www.cnbc.com/2026/08/26/nvidia-nvda-earnings-report-q2-2027-live-updates.html",
+      "source": "CNBC"
+    },
+    {
+      "topic": "Business & markets",
+      "headline": "Jackson Hole opens today — Warsh's first keynote is Friday",
+      "why": "The Fed's marquee symposium (Aug 27–29) runs alongside the Nvidia afterglow and this week's cool inflation. Chair Warsh's Friday speech is the tell on the rate-cut path into September.",
+      "url": "https://www.techtimes.com/articles/325228/20260821/jackson-hole-2026-what-watch-when-warsh-steps-podium-friday.htm",
+      "source": "TechTimes"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "What Nvidia's number means for builders",
+      "why": "Record data-center demand + $1.3T of planned hyperscaler capex means cheaper, more abundant compute and more open models downstream — a tailwind for anything you build (EpiGuide ML, local video models, agents).",
+      "url": "https://www.kiplinger.com/investing/live/nvidia-earnings-live-updates-and-commentary-august-2026",
+      "source": "Kiplinger"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Claude Desktop can now use Ollama as a gateway",
+      "why": "You can wire local open models into Claude Desktop via Ollama — handy for your local-model work (run open models in Claude, cloud models for heavier coding). Landed in your inbox.",
+      "url": "https://ollama.com/blog",
+      "source": "Ollama"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "US turns the screws on Iran; oil chokepoint in focus",
+      "why": "Treasury's Bessent is pressing sanctions meant to 'collapse the regime,' warning of secondary penalties on buyers (China takes 80%+ of Iran's oil) — days after a tanker was crippled in the Strait of Hormuz. A live risk for oil prices.",
+      "url": "https://www.usnews.com/news/world",
+      "source": "U.S. News"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Canada retaliates in the US trade war",
+      "why": "Ottawa is countering after the US move to 50% tariffs — tit-for-tat escalation between two big trading partners.",
+      "url": "https://www.npr.org/sections/world/",
+      "source": "NPR"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Tropical Storm Moke keeps soaking Hawaii's Big Island",
+      "why": "Persistent flooding rains — the week's ongoing US natural-disaster story.",
+      "url": "https://www.npr.org/sections/news/",
+      "source": "NPR"
+    }
+  ],
+  "system_notes": [
+    "DELIVERY: NO EMAIL (fallback disabled by Henry's 'stop' Aug 22). Zapier still out (day 16). Dashboard-only. No new reply/instruction from Henry. IMPORTANT OBSERVATION: Henry is actively reading + replying to email (he replied to the Rashi panel invite himself Aug 26) — so dashboard-only isn't leaving him blind on important threads; the email decision is genuinely low-urgency for him.",
+    "Weather via web fallback: sunshine + some clouds, high ~80°, low ~61°.",
+    "Google Tasks unreadable (Zapier) 16th day — carried from Aug 12.",
+    "Calendar: today (Thu Aug 27) EMPTY (day 3 of school). Tomorrow (Fri Aug 28): Family Dinner w Norden's 6:00–9:00 PM. Weekend: Mom's Kent's Place (Aug 29–30) — the pending RSVP. Other schedule calendars empty.",
+    "Inbox signal: Rashi Alumni Panel — Henry accepted Aug 26; awaiting prep-call + panel date (tracked). Rest college marketing + promos + app sign-ins (Crackd, Ollama/Claude-Desktop newsletter, Alpaca paper-trading skill). No SAT score email yet.",
+    "News: Nvidia crushed Q2 (rev $96.2B +106%, DC $89B +117%, guide $108B; hyperscaler capex → $1.3T '27) — AI boom accelerating. Jackson Hole opens today (Warsh keynote Fri). Iran sanctions/Hormuz + Canada trade war ongoing.",
+    "Timing: fired 06:40 ET (in-window) — no DST cron change."
+  ]
+}

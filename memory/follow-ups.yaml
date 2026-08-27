@@ -3,6 +3,12 @@
 # moves them to resolved when done — explaining every change in the brief.
 
 open:
+  - what: "Rashi Alumni Panel — Henry ACCEPTED Aug 26 (replied to Lauren Cooke, lcooke@rashi.org, cc J. Fishman + parents) to speak on the panel about his HS experience (Milton → Gann transfer story). NEXT: Rashi sends details for a prep Zoom call + the panel date. Watch for that follow-up email and add the date to the calendar when it lands. Henry handled the acceptance himself — do NOT nag; just surface the details when they arrive."
+    who: "Henry ← Rashi (Lauren Cooke / Joni Fishman)"
+    due: 2026-09-08
+    source: "Gmail thread 'Rashi Alumni Panel-We'd love to hear from you!' Aug 26 (Henry accepted same day)"
+    first_seen: 2026-08-27
+    note: "Positive/personal item. Also a good data point: Henry is actively reading + replying to email himself, so dashboard-only delivery isn't leaving him blind."
   - what: "Back-to-school admin (surfaced Aug 26): (1) GitHub — accept the '@moden-coding' org invite if it's Henry's Gann CS class (handle @modengann; 'Classroom 50' OAuth app authorized Aug 25 with broad scopes admin:org/repo/workflow — normal for GitHub Classroom, but verify the sender since scopes are broad). (2) ESPN fantasy football draft scheduled ~Sep 6–7 ('Henry's Heated Team') — confirm the real date/time; separate league from the Aug 25 Baltimore draft."
     who: "Henry"
     due: 2026-08-28
