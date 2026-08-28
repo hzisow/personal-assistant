@@ -54,12 +54,12 @@ open:
     source: "SAT taken Aug 22; digital SAT scores typically ~2 weeks"
     first_seen: 2026-08-22
     note: "Downgraded from the active SAT-prep item (now resolved). Purely a score-watch."
-  - what: "LEVRA 'Human Skills' certificate — Aug 17 email said the download link is coming 'today/tomorrow'; STILL not arrived as of Aug 20 (3 days on). Keep watching through ~Aug 22, then downgrade to a very light watch — grab the Oxford 'Introduction to Human Skills' certificate if/when it lands (assuming Henry finished the 4 modules)."
-    who: "Henry → LEVRA (emily@levra.me / gayeon@levra.me)"
-    due: 2026-08-22
-    source: "LEVRA thread 'Human Skills Certification' Aug 4 + Aug 12 reminder (both trashed) + Aug 17 'certificate link coming' email"
+  - what: "LEVRA 'Human Skills' certificate — REVIVED Aug 27: new email gives ~48 HOURS to COMPLETE the 4 modules and earn the Oxford 'Introduction to Human Skills' cert (for CV/resume/LinkedIn). Window closes ~Sat Aug 29 — and Henry is at Kent's Place/Marion this weekend, so the realistic time to do it is TODAY (Fri Aug 28). Surface once as time-sensitive; if he skips it, that's the final call and the item is DONE (window closed)."
+    who: "Henry → LEVRA (emily@levra.me)"
+    due: 2026-08-29
+    source: "LEVRA thread 'Human Skills Certification' — Aug 4/12/17 (trashed) + Aug 27 '48 hours to complete' reminder (in INBOX)"
     first_seen: 2026-08-04
-    note: "Aug 14 deadline passed; Aug 17 email is congratulatory/wrap-up. Link still not seen as of Aug 20 — LEVRA is slow/on their own timeline; stop surfacing prominently. Resolve once the cert is downloaded or clearly skipped; drop after Aug 24 if still nothing."
+    note: "Earlier the modules seemed abandoned; the Aug 27 email is a hard extension to DO them (not just download). Only genuinely useful if Henry wants the credential. After Aug 29 the window is closed — resolve either way."
   - what: "DECA website — Donna McFadden (BHCC) asked Henry + Elif Koparan (Aug 17) to update the district & state conference info on the site while she builds the Advisor's Guide this week. Henry replied Aug 17 that he 'updated everything.' MOSTLY DONE — just watch for a reply if Donna wants changes. Ties to his State Officer / MA DECA involvement + the 'add new chapter toolkit to the website' High task."
     who: "Henry → Donna McFadden (DMcFadden@bhcc.edu) / Elif Koparan"
     due: 2026-08-20
@@ -76,8 +76,14 @@ open:
     due: 2026-08-02
     source: "fwd from adambenjaminf@gmail.com, Jul 21"
     first_seen: 2026-07-23
-  - what: "RSVP to Mom's 'Kent's Place in Marion' weekend (Aug 29–30) — that's THIS COMING WEEKEND (5–6 days out) and STILL unconfirmed since the Jul 30 invite / Aug 10 due date. Most-slipped item — confirm with Mom (mkzisow) now so the weekend can be finalized."
+  - what: "Kent's Place in Marion — the family weekend is TOMORROW (Sat Aug 29). It's a real calendar event ('Saturday at Kent's Place in Marion', all-day) but Henry's invite still shows responseStatus=needsAction. So the long-running 'RSVP' just means: accept the calendar invite / confirm with Mom, and pack tonight. After the weekend, RESOLVE this. (Also today Fri Aug 28: Family Dinner w Norden's 6–9 PM.)"
     who: "Henry → Michelle Zisow"
+  - what: "New items surfaced Aug 27–28: (1) DECA — Donna McFadden emailed the officer team (Henry, Elif, Ryan, +others) the Celtics schedule; pick games ('Balcony' column) for the NOVEMBER DECA-night outing and reply. Real State-Officer task. (2) Hack Club — 'nora' invited Henry to the Hack Club Slack (teen coders community); join if interested. (3) Physics tutoring — 'Henry Physics' calendar invites from jeonghoonchoi2000@gmail.com (evening sessions, junior-yr physics support); accept so they're on the calendar."
+    who: "Henry"
+    due: 2026-09-02
+    source: "Gmail Aug 27: Donna McFadden 'Celtics schedule' (DECA officers) + Hack Club Slack invite (nora) + 'Henry Physics' invites (Jeonghoon Choi)"
+    first_seen: 2026-08-28
+    note: "DECA Celtics is the actionable one (officer duty). Hack Club + physics are lighter. Ryan Latchford (latchfordryan11) + Elif Koparan are on the DECA officer thread."
     due: 2026-08-24
     source: "Google Calendar invite from mkzisow@gmail.com, Jul 30"
     first_seen: 2026-07-31

@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-28",
+  "generated_at": "2026-08-28T06:52:00-04:00",
+  "headline": "Busier inbox than the calendar today. The time-sensitive one: LEVRA reopened a 48-hour window to finish your Human Skills modules and get the certificate — it closes ~Saturday, and you're at Marion this weekend, so today's really the day. Also: Donna wants the DECA officer team to pick Celtics games. Tonight it's family dinner with the Norden's at 6 (watch for afternoon storms), then Kent's Place in Marion tomorrow. (Email still off per your 'stop' — this dashboard is your brief.)",
+  "delivery_status": "dashboard_only — Gmail fallback OFF at Henry's request ('stop', Aug 22). Zapier still down (day 17). No brief email. No new reply/instruction from Henry.",
+  "weather": {
+    "location": "Newton/Boston, MA",
+    "current_f": 63,
+    "condition": "Warm, high ~81°; scattered PM thunderstorms possible (~50%), low ~57°"
+  },
+  "schedule": [
+    {
+      "start": "2026-08-28T18:00:00-04:00",
+      "end": "2026-08-28T21:00:00-04:00",
+      "all_day": false,
+      "title": "Family Dinner with the Norden's",
+      "calendar": "Personal",
+      "location": "",
+      "prep": "6:00–9:00 PM (Mom, Dad, Sam). Scattered thunderstorms possible in the afternoon/evening — grab a jacket if you're heading out."
+    },
+    {
+      "start": "2026-08-29T00:00:00-04:00",
+      "end": "2026-08-29T23:59:59-04:00",
+      "all_day": true,
+      "title": "Saturday at Kent's Place in Marion",
+      "calendar": "Personal",
+      "location": "Marion, MA",
+      "prep": "Tomorrow — the family weekend Mom's been planning (Aug 29–30). Your calendar RSVP still shows 'needs action' — just accept it / confirm with Mom. Pack tonight."
+    }
+  ],
+  "tomorrow_headsup": [
+    "Sat Aug 29: Kent's Place in Marion (family weekend, all day). If you want the LEVRA certificate, finish the modules BEFORE you go."
+  ],
+  "email": [
+    {
+      "thread_id": "19fcbf7f11920942",
+      "from": "LEVRA (emily@levra.me)",
+      "subject": "48 hours to finish the Human Skills modules + get the certificate",
+      "bucket": "important",
+      "why": "LEVRA reopened the window (Aug 27 email): finish the 4 Human Skills modules within ~48 hours to earn the Oxford 'Introduction to Human Skills' certificate for your CV/LinkedIn. That's ~this Saturday — and you're in Marion this weekend, so do it TODAY if you want it. It's a real, resume-worthy credential from the Oxford program.",
+      "age_days": 1
+    },
+    {
+      "thread_id": "1a043cad6c3d7e19",
+      "from": "Donna McFadden (BHCC) — DECA",
+      "subject": "Celtics schedule — pick games for the DECA outing",
+      "bucket": "important",
+      "why": "Donna asked the DECA officer team (you + Elif, Ryan, and others) to look at the attached Celtics schedule (the 'Balcony' column) and suggest games for the chapter's November DECA-night outing. As a State Officer, worth a quick reply with a couple of picks.",
+      "age_days": 1
+    },
+    {
+      "thread_id": "1a045d3e437a85c3",
+      "from": "Hack Club (via nora)",
+      "subject": "Invite to join Hack Club",
+      "bucket": "fyi",
+      "why": "'Nora' invited you to a Hack Club Slack — the teen coders/makers community. Squarely your lane (building projects); join if you want to plug into it.",
+      "age_days": 0
+    },
+    {
+      "thread_id": "1a045dff2891a86d",
+      "from": "Jeonghoon Choi",
+      "subject": "'Henry Physics' tutoring invite",
+      "bucket": "fyi",
+      "why": "A calendar invite for physics tutoring ('Henry Physics') came through (last one was Thu 9:30–10:30 PM). Looks like your junior-year physics support is starting — accept the invites so the sessions land on your calendar.",
+      "age_days": 1
+    }
+  ],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": [
+      {"title": "Michael horn email", "list": "High Priority", "due": null, "overdue": false, "notes": "Carried from Aug 12 (Zapier quota, day 17)."},
+      {"title": "add new chapter toolkit to the website", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do PSAT", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "See how to actually train the ML model for EpiGuide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Find 1 TB USB", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Run minimax h3 locally for video generation", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Learn about succession planning for DECA", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Complete MA DECA involvement guide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Rebuild resume in Google Docs", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Build the TikTok send-to audio/playlist app", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Make Involvement Guide automation tool", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "School reading — Kindred / The Namesake / Goon Squad / AMSCO Ch.1", "list": "coursework", "due": null, "overdue": true}
+    ]
+  },
+  "follow_ups": [
+    {
+      "what": "LEVRA Human Skills certificate — REVIVED: Aug 27 email gives ~48 hours (closes ~Sat Aug 29) to finish the 4 modules and earn the Oxford cert (CV/LinkedIn-worthy). Do it TODAY since Henry's at Marion this weekend. If he skips it, that's the final call — the window closes.",
+      "who": "Henry → LEVRA",
+      "due": "2026-08-29",
+      "age_days": 24
+    },
+    {
+      "what": "DECA — reply to Donna McFadden's 'Celtics schedule': pick games (Balcony column) for the November DECA Celtics outing. Officer-team ask (Henry + Elif, Ryan, others).",
+      "who": "Henry → Donna McFadden / DECA officers",
+      "due": "2026-09-02",
+      "age_days": 1
+    },
+    {
+      "what": "Kent's Place in Marion — the family weekend is TOMORROW (Sat Aug 29). Henry's calendar RSVP still shows 'needsAction'; accept it / confirm with Mom + pack tonight. (This closes the long-running RSVP item.)",
+      "who": "Henry → Michelle Zisow",
+      "due": "2026-08-29",
+      "age_days": 28
+    },
+    {
+      "what": "Rashi Alumni Panel — accepted Aug 26; awaiting prep-call + panel date from Lauren Cooke. Watch for it and add the date to the calendar.",
+      "who": "Henry ← Rashi",
+      "due": "2026-09-08",
+      "age_days": 2
+    },
+    {
+      "what": "New invites/context: Hack Club (join if interested); physics tutoring w Jeonghoon Choi (accept the calendar invites); GitHub '@moden-coding' class org; ESPN fantasy draft (~Sep 6–7).",
+      "who": "Henry",
+      "due": "2026-08-31",
+      "age_days": 0
+    },
+    {
+      "what": "Finish + confirm the Leadership Initiatives IIP internship — mid-application since Aug 12 (iip@lichange.org). Also: henryzisow.com Cloudflare setup + Michael Horn analytics follow-through.",
+      "who": "Henry",
+      "due": "2026-09-01",
+      "age_days": 16
+    },
+    {
+      "what": "EMAIL DECISION (open, low-urgency) — fallback OFF per your 'stop.' Top up Zapier for the daily email, keep dashboard-only, or re-enable the backup. (Henry's reading email fine, so no rush.)",
+      "who": "Henry",
+      "due": "2026-09-01",
+      "age_days": 6
+    },
+    {
+      "what": "SAT score watch (light) — took the test Aug 22; digital scores usually post ~early September.",
+      "who": "Henry",
+      "due": "2026-09-05",
+      "age_days": 6
+    }
+  ],
+  "news": [
+    {
+      "topic": "Business & markets",
+      "headline": "Warsh's first Jackson Hole keynote is today — the marquee event",
+      "why": "New Fed Chair Kevin Warsh gives his inaugural symposium speech; markets want clarity on the rate path (hold, cut, or hike) into the Sept 16 FOMC, with inflation still above 2% and the 10-yr near 4.7%. Futures are cautious after Nvidia's blowout earlier this week.",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-27/stock-market-today-dow-s-p-live-updates",
+      "source": "Bloomberg"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Post-Nvidia: the AI-capex boom is confirmed, not cooling",
+      "why": "Nvidia's guide-up (+ $1.3T of planned 2027 hyperscaler capex) reset expectations for more compute and more open models downstream — a durable tailwind for anyone building on AI (your lane).",
+      "url": "https://www.kiplinger.com/investing/live/nvidia-earnings-live-updates-and-commentary-august-2026",
+      "source": "Kiplinger"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Iran standoff + Hormuz keep oil on edge",
+      "why": "US sanctions pressure and the crippled tanker in the Strait of Hormuz keep a bid under oil and a risk over markets heading into the weekend.",
+      "url": "https://www.usnews.com/news/world",
+      "source": "U.S. News"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "US–Canada trade war escalates",
+      "why": "Tit-for-tat tariffs continue after the US 50% move and Canada's retaliation — a drag on cross-border trade to watch.",
+      "url": "https://www.npr.org/sections/world/",
+      "source": "NPR"
+    }
+  ],
+  "system_notes": [
+    "DELIVERY: NO EMAIL (fallback disabled by Henry's 'stop' Aug 22). Zapier still out (day 17). Dashboard-only. No new reply/instruction from Henry. He continues to handle his own email actively.",
+    "Weather via web fallback: warm, high ~81°, scattered PM thunderstorms possible (~50%), low ~57°.",
+    "Google Tasks unreadable (Zapier) 17th day — carried from Aug 12.",
+    "Calendar: today (Fri Aug 28) Family Dinner w Norden's 6–9 PM. Tomorrow (Sat Aug 29) Kent's Place in Marion (all-day family weekend; Henry's invite still needsAction). Other schedule calendars empty.",
+    "BUSY INBOX: (1) LEVRA REVIVED — 48h window (email Aug 27) to finish modules + earn the Oxford cert, closes ~Sat Aug 29; flagged as today's time-sensitive item given the Marion trip. (2) DECA — Donna McFadden asked the officer team to pick Celtics games for the Nov DECA outing (real officer task). (3) Hack Club invite from 'nora' (FYI). (4) Physics tutoring 'Henry Physics' w Jeonghoon Choi (accept invites; junior-yr physics support starting). Rest college marketing + promos.",
+    "News: Warsh's first Jackson Hole keynote today (rate-path event); Nvidia afterglow (AI-capex boom confirmed); Iran/Hormuz + Canada trade war ongoing.",
+    "Timing: fired 06:40 ET (in-window) — no DST cron change."
+  ]
+}
