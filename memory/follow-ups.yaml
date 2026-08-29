@@ -54,12 +54,6 @@ open:
     source: "SAT taken Aug 22; digital SAT scores typically ~2 weeks"
     first_seen: 2026-08-22
     note: "Downgraded from the active SAT-prep item (now resolved). Purely a score-watch."
-  - what: "LEVRA 'Human Skills' certificate — REVIVED Aug 27: new email gives ~48 HOURS to COMPLETE the 4 modules and earn the Oxford 'Introduction to Human Skills' cert (for CV/resume/LinkedIn). Window closes ~Sat Aug 29 — and Henry is at Kent's Place/Marion this weekend, so the realistic time to do it is TODAY (Fri Aug 28). Surface once as time-sensitive; if he skips it, that's the final call and the item is DONE (window closed)."
-    who: "Henry → LEVRA (emily@levra.me)"
-    due: 2026-08-29
-    source: "LEVRA thread 'Human Skills Certification' — Aug 4/12/17 (trashed) + Aug 27 '48 hours to complete' reminder (in INBOX)"
-    first_seen: 2026-08-04
-    note: "Earlier the modules seemed abandoned; the Aug 27 email is a hard extension to DO them (not just download). Only genuinely useful if Henry wants the credential. After Aug 29 the window is closed — resolve either way."
   - what: "DECA website — Donna McFadden (BHCC) asked Henry + Elif Koparan (Aug 17) to update the district & state conference info on the site while she builds the Advisor's Guide this week. Henry replied Aug 17 that he 'updated everything.' MOSTLY DONE — just watch for a reply if Donna wants changes. Ties to his State Officer / MA DECA involvement + the 'add new chapter toolkit to the website' High task."
     who: "Henry → Donna McFadden (DMcFadden@bhcc.edu) / Elif Koparan"
     due: 2026-08-20
@@ -76,18 +70,18 @@ open:
     due: 2026-08-02
     source: "fwd from adambenjaminf@gmail.com, Jul 21"
     first_seen: 2026-07-23
-  - what: "Kent's Place in Marion — the family weekend is TOMORROW (Sat Aug 29). It's a real calendar event ('Saturday at Kent's Place in Marion', all-day) but Henry's invite still shows responseStatus=needsAction. So the long-running 'RSVP' just means: accept the calendar invite / confirm with Mom, and pack tonight. After the weekend, RESOLVE this. (Also today Fri Aug 28: Family Dinner w Norden's 6–9 PM.)"
-    who: "Henry → Michelle Zisow"
+  - what: "Kent's Place in Marion — the family weekend is HERE (Sat Aug 29–Sun Aug 30). Real all-day calendar event ('Saturday at Kent's Place in Marion'); Henry's invite still shows responseStatus=needsAction but that's moot now — he's on-site. RESOLVE this Mon Aug 31 once the weekend's over."
+    who: "Henry → Michelle Zisow (mkzisow@gmail.com)"
+    due: 2026-08-29
+    source: "Google Calendar invite from mkzisow@gmail.com, Jul 30; on-calendar all-day event Aug 29"
+    first_seen: 2026-07-31
+    note: "Same commitment as the earlier 'beach house RSVP' (Mom's Jul 30 invite for the Aug 29–30 weekend) — merged. Henry's there, so effectively fulfilled; resolve after the weekend. (Cleaned up malformed duplicate-key YAML here on Aug 29.)"
   - what: "New items surfaced Aug 27–28: (1) DECA — Donna McFadden emailed the officer team (Henry, Elif, Ryan, +others) the Celtics schedule; pick games ('Balcony' column) for the NOVEMBER DECA-night outing and reply. Real State-Officer task. (2) Hack Club — 'nora' invited Henry to the Hack Club Slack (teen coders community); join if interested. (3) Physics tutoring — 'Henry Physics' calendar invites from jeonghoonchoi2000@gmail.com (evening sessions, junior-yr physics support); accept so they're on the calendar."
     who: "Henry"
     due: 2026-09-02
     source: "Gmail Aug 27: Donna McFadden 'Celtics schedule' (DECA officers) + Hack Club Slack invite (nora) + 'Henry Physics' invites (Jeonghoon Choi)"
     first_seen: 2026-08-28
     note: "DECA Celtics is the actionable one (officer duty). Hack Club + physics are lighter. Ryan Latchford (latchfordryan11) + Elif Koparan are on the DECA officer thread."
-    due: 2026-08-24
-    source: "Google Calendar invite from mkzisow@gmail.com, Jul 30"
-    first_seen: 2026-07-31
-    note: "ESCALATED Aug 22 — the weekend it's for (Aug 29–30) is now ~1 week out. Bump toward the top until Henry confirms it's sent."
   - what: "Optional: finish the Alpaca live trading-API application — Henry started a live trading account but didn't complete it. Only matters if he wants to actually trade through the API (ties to his build + investing interests)."
     who: "Henry → Alpaca"
     due: 2026-08-22
@@ -104,6 +98,9 @@ travel:
   - "SCHOOL STARTING (~late Aug 2026): Gann Academy junior year. Bus registration confirmed Aug 21 (Bus 3, West Roxbury/Newton/Waban route; daily service begins soon). Expect the schedule to tighten once classes start — weekday mornings will fill; SAT/summer-work window is closing. A classmate (Eve, eveze05@gmail.com) shared an 'Ultimate APUSH Review' guide Aug 21 — useful for the AMSCO/APUSH summer work."
 
 resolved:
+  - what: "LEVRA 'Human Skills' certificate — the Aug 27 email gave ~48 hours to finish the 4 modules and earn the Oxford 'Introduction to Human Skills' cert. The window closed ~Sat Aug 29 with Henry at Kent's Place in Marion; no completion confirmation seen. Resolved either way per plan — done or expired."
+    resolved_on: 2026-08-29
+    note: "Long arc (Aug 4/12/17 trashed reminders → Aug 27 hard 48h extension). Only mattered if Henry wanted the credential; window has closed. If a future email says he still has access, it can be re-opened, but stop surfacing it now."
   - what: "SAT prep + test (Aug 22) — the whole summer arc: Ben lessons (Aug 9/12/16/19), the hard QBank, Desmos SAT Bootcamp, and a big dSAT practice set the night before. Henry sat the test Sat Aug 22, 8 AM–12 PM at Dedham High School."
     resolved_on: 2026-08-22
     note: "Test taken. Successor: a LIGHT score-report watch (open list) for the ~early-Sept score email. Stop all SAT-prep nagging."

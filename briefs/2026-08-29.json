@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-29",
+  "generated_at": "2026-08-29T06:52:00-04:00",
+  "headline": "Enjoy Marion — it's a gorgeous beach weekend (sunny, high ~87° today, ~85° tomorrow). Nothing on the calendar but the family time at Kent's Place. Inbox is quiet; the one thing still waiting for whenever you're back is your DECA Celtics-games reply to Donna. Have a good one. (Email's still off from your 'stop' — this dashboard is your brief.)",
+  "delivery_status": "dashboard_only — Gmail fallback OFF at Henry's request ('stop', Aug 22). Zapier still down (day 18). No brief email. No new reply/instruction from Henry.",
+  "weather": {
+    "location": "Marion, MA (Kent's Place weekend)",
+    "current_f": 66,
+    "condition": "Sunny — high ~87° today, ~85° Sun; SW wind 7–14 mph. Beautiful coast weekend."
+  },
+  "schedule": [
+    {
+      "start": "2026-08-29T00:00:00-04:00",
+      "end": "2026-08-29T23:59:59-04:00",
+      "all_day": true,
+      "title": "Saturday at Kent's Place in Marion",
+      "calendar": "Personal",
+      "location": "Marion, MA",
+      "prep": "The family weekend (Mom, Dad, Sam). Sunny and 87° — perfect for the water. Sunscreen + hydrate; enjoy the day off."
+    }
+  ],
+  "tomorrow_headsup": [
+    "Sun Aug 30: nothing scheduled — likely the tail of the Marion weekend / heading home. Sunny again (~85°)."
+  ],
+  "email": [
+    {
+      "thread_id": "1a043cad6c3d7e19",
+      "from": "Donna McFadden (BHCC) — DECA",
+      "subject": "Celtics schedule — pick games (still open)",
+      "bucket": "fyi",
+      "why": "Still waiting on your input (from Thu): look at the Celtics schedule 'Balcony' column and suggest games for the November DECA outing. No rush this weekend — reply when you're back at a keyboard.",
+      "age_days": 2
+    }
+  ],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": [
+      {"title": "Michael horn email", "list": "High Priority", "due": null, "overdue": false, "notes": "Carried from Aug 12 (Zapier quota, day 18)."},
+      {"title": "add new chapter toolkit to the website", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do PSAT", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "See how to actually train the ML model for EpiGuide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Find 1 TB USB", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Run minimax h3 locally for video generation", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Learn about succession planning for DECA", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Complete MA DECA involvement guide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Rebuild resume in Google Docs", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Build the TikTok send-to audio/playlist app", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Make Involvement Guide automation tool", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "School reading — Kindred / The Namesake / Goon Squad / AMSCO Ch.1", "list": "coursework", "due": null, "overdue": true}
+    ]
+  },
+  "follow_ups": [
+    {
+      "what": "DECA — reply to Donna McFadden's 'Celtics schedule' (pick games, Balcony column) for the November DECA outing. Officer-team ask; do it when back from Marion.",
+      "who": "Henry → Donna McFadden / DECA officers",
+      "due": "2026-09-02",
+      "age_days": 2
+    },
+    {
+      "what": "LEVRA Human Skills cert — the 48-hour window to finish the modules closes ~TODAY (Aug 29). If Henry did them Fri, done; if not (likely, given the Marion trip), the window closes and this item is finished either way. No further nagging.",
+      "who": "Henry → LEVRA",
+      "due": "2026-08-29",
+      "age_days": 25
+    },
+    {
+      "what": "Rashi Alumni Panel — accepted Aug 26; awaiting prep-call + panel date from Lauren Cooke. Watch for it; add to calendar when it lands.",
+      "who": "Henry ← Rashi",
+      "due": "2026-09-08",
+      "age_days": 3
+    },
+    {
+      "what": "Back-from-weekend queue: reply to DECA Celtics · accept Hack Club / physics-tutoring / GitHub-class invites · confirm ESPN draft (~Sep 6–7) · finish/confirm the IIP internship · henryzisow.com (Cloudflare) · Michael Horn analytics.",
+      "who": "Henry",
+      "due": "2026-09-02",
+      "age_days": 1
+    },
+    {
+      "what": "EMAIL DECISION (open, low-urgency) — fallback OFF per your 'stop.' Top up Zapier for the daily email, keep dashboard-only, or re-enable the backup.",
+      "who": "Henry",
+      "due": "2026-09-02",
+      "age_days": 7
+    },
+    {
+      "what": "SAT score watch (light) — took the test Aug 22; digital scores usually post ~early September. Watch for the College Board email.",
+      "who": "Henry",
+      "due": "2026-09-05",
+      "age_days": 7
+    }
+  ],
+  "news": [
+    {
+      "topic": "Business & markets",
+      "headline": "Markets digest Warsh's Jackson Hole debut into September",
+      "why": "The new Fed Chair delivered his first symposium keynote Friday; the weekend take is what it means for the Sept 16 FOMC — set against Nvidia's blowout week. Quiet until the data picks back up next week.",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-27/stock-market-today-dow-s-p-live-updates",
+      "source": "Bloomberg"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Z.ai's GLM-5.3 lands — a top open-weight coding model",
+      "why": "GLM-5.3 (and a Flash version) shipped this week and is being called the strongest open-weight model on coding evals — now on Ollama (US/EU, zero retention) and Tinker. Squarely your lane for local/open-model builds.",
+      "url": "https://ollama.com/blog",
+      "source": "Ollama / Thinking Machines"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Iran standoff + Hormuz keep oil in focus",
+      "why": "US sanctions pressure and the crippled tanker in the Strait of Hormuz remain the geopolitical wildcard into next week.",
+      "url": "https://www.usnews.com/news/world",
+      "source": "U.S. News"
+    }
+  ],
+  "system_notes": [
+    "DELIVERY: NO EMAIL (fallback disabled by Henry's 'stop' Aug 22). Zapier still out (day 18). Dashboard-only. No new reply/instruction from Henry. Deliberately LIGHT brief — Henry's on a family weekend in Marion; no work push.",
+    "Weather via web fallback (Marion, since Henry's there): sunny, high ~87° Sat / ~85° Sun — beautiful coast weekend.",
+    "Google Tasks unreadable (Zapier) 18th day — carried from Aug 12.",
+    "Calendar: today (Sat Aug 29) Kent's Place in Marion (all-day family weekend; invite still needsAction — moot, he's there). Tomorrow (Sun Aug 30) clear. Other schedule calendars empty.",
+    "Inbox: quiet/weekend. Carried: DECA Celtics reply (Donna) still open — deferred to when he's back. Hack Club invite (carried). AI newsletters: GLM-5.3 released (notable open-weight coding model; surfaced as AI news). No new personal actionable items. No LEVRA completion confirmation seen — the 48h window closes ~today; item resolves either way.",
+    "Timing: fired 06:40 ET (in-window) — no DST cron change.",
+    "REMINDER for next runs: after the weekend, RESOLVE the Kent's Place item; LEVRA is closed; keep the DECA Celtics reply + Rashi panel watch alive."
+  ]
+}
