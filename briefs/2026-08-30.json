@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-30",
+  "generated_at": "2026-08-30T06:50:00-04:00",
+  "headline": "Weather flips today — after a sunny Marion Saturday, Sunday turns wet: showers and a possible thunderstorm developing after ~1 PM, high ~76°. If you're driving home, beating the early-afternoon storms is the move. Nothing on the calendar today or tomorrow. Inbox is quiet — the year's DECA calendar went out (FYI), and your Celtics-games reply to Donna is still the one open thread. (Email's still off from your 'stop' — this dashboard is your brief.)",
+  "delivery_status": "dashboard_only — Gmail fallback OFF at Henry's request ('stop', Aug 22). Zapier still down (day 19). No brief email. No new reply/instruction from Henry (from:me empty over last 3d).",
+  "weather": {
+    "location": "Newton/Boston, MA (heading home from Marion)",
+    "current_f": 66,
+    "condition": "Cloudy AM, then showers likely + a possible thunderstorm after ~1 PM; some heavy downpours. High ~76°, SE wind 8–13 mph (gusts to 23), 70% chance of rain (½–¾\"). Marion coast is wet too — pack up and drive before the 1 PM storms."
+  },
+  "schedule": [],
+  "tomorrow_headsup": [
+    "Mon Aug 31: nothing scheduled. Back-to-school season is here (Gann junior year — bus registered), but nothing's on the calendar yet."
+  ],
+  "email": [
+    {
+      "thread_id": "1a04e7771b944133",
+      "from": "Donna McFadden (BHCC) — DECA",
+      "subject": "DECA Calendar (MA DECA + DECA Inc)",
+      "bucket": "fyi",
+      "why": "The full-year DECA calendar went out to the officer team Sat and is on the shared Drive; Donna's finishing the Advisor Guide by Tuesday. Ryan wants to do the annual update-recap post once it's ready. No direct ask of you — informational, but it's your officer world.",
+      "age_days": 1
+    },
+    {
+      "thread_id": "1a043cad6c3d7e19",
+      "from": "Donna McFadden (BHCC) — DECA",
+      "subject": "Celtics schedule — pick games (still open)",
+      "bucket": "fyi",
+      "why": "Carried: still waiting on your game picks (Balcony column) for the November DECA outing. No rush — reply when you're back at a keyboard.",
+      "age_days": 3
+    }
+  ],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": [
+      {"title": "Michael horn email", "list": "High Priority", "due": null, "overdue": false, "notes": "Carried from Aug 12 (Zapier quota, day 19)."},
+      {"title": "add new chapter toolkit to the website", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do PSAT", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "See how to actually train the ML model for EpiGuide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Find 1 TB USB", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Run minimax h3 locally for video generation", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Learn about succession planning for DECA", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Complete MA DECA involvement guide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Rebuild resume in Google Docs", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Build the TikTok send-to audio/playlist app", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Make Involvement Guide automation tool", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "School reading — Kindred / The Namesake / Goon Squad / AMSCO Ch.1", "list": "coursework", "due": null, "overdue": true}
+    ]
+  },
+  "follow_ups": [
+    {
+      "what": "DECA — reply to Donna McFadden's 'Celtics schedule' (pick games, Balcony column) for the November DECA outing. Officer-team ask; do it when back from Marion / at a keyboard.",
+      "who": "Henry → Donna McFadden / DECA officers",
+      "due": "2026-09-02",
+      "age_days": 3
+    },
+    {
+      "what": "Back-to-school queue: accept the Hack Club / physics-tutoring / GitHub-class (@moden-coding) invites · confirm the ESPN fantasy draft (~Sep 6–7) · finish/confirm the IIP internship · henryzisow.com (Cloudflare) · Michael Horn analytics.",
+      "who": "Henry",
+      "due": "2026-09-02",
+      "age_days": 3
+    },
+    {
+      "what": "Rashi Alumni Panel — accepted Aug 26; awaiting prep-call + panel date from Lauren Cooke. Watch for it; add to calendar when it lands.",
+      "who": "Henry ← Rashi",
+      "due": "2026-09-08",
+      "age_days": 4
+    },
+    {
+      "what": "EMAIL DECISION (open, low-urgency) — fallback OFF per your 'stop.' Top up Zapier for the daily email, keep dashboard-only, or re-enable the backup.",
+      "who": "Henry",
+      "due": "2026-09-02",
+      "age_days": 8
+    },
+    {
+      "what": "SAT score watch (light) — took the test Aug 22; digital scores usually post ~early September. Watch for the College Board email.",
+      "who": "Henry",
+      "due": "2026-09-05",
+      "age_days": 8
+    }
+  ],
+  "news": [
+    {
+      "topic": "Business & markets",
+      "headline": "Big data week ahead — August jobs report headlines, ahead of the Sept 16 Fed",
+      "why": "A packed calendar into the Sept 15–16 FOMC: ADP (Wed), ISM services + jobless claims (Thu), and the August payrolls report (Fri) — the read that shapes the size of the next rate cut. Warsh is holding a hawkish, anti-inflation line even as some data softens.",
+      "url": "https://www.schaeffersresearch.com/content/news/2026/08/27/the-week-ahead-august-jobs-report-takes-center-stage",
+      "source": "Schaeffer's / CNBC"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Frontier models now ship like patches — GLM-5.3-Flash (Aug 26) is the newest",
+      "why": "The open-weight wave keeps rolling: after GLM-5.3 this week, Z.ai's faster Flash variant is the latest frontier drop, and trackers note models are now iterating in small, frequent releases rather than big-bang launches. Useful backdrop for your local/open-model builds.",
+      "url": "https://llm-stats.com/ai-news",
+      "source": "LLM-Stats"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Ukraine hit by ~72 hours of near-constant drone strikes",
+      "why": "A sustained wave of strikes has disrupted daily life across Ukraine — the main overseas story into the week. (Quiet US weekend otherwise.)",
+      "url": "https://www.npr.org/sections/national/",
+      "source": "NPR"
+    }
+  ],
+  "system_notes": [
+    "DELIVERY: NO EMAIL (fallback disabled by Henry's 'stop' Aug 22). Zapier still out (day 19). Dashboard-only. from:me search empty over last 3d — no new reply/instruction from Henry. Light Sunday brief.",
+    "Weather via web fallback (home base Newton/Boston, since he's heading back from Marion): cloudy AM → showers + possible T-storm after ~1 PM, high ~76°, 70% precip. A wet drive-home day — real change from the sunny weekend. Marion/SE coast wet too.",
+    "Google Tasks unreadable (Zapier) 19th day — carried from Aug 12.",
+    "Calendar: NOTHING scheduled Sun Aug 30 or Mon Aug 31 across all schedule calendars (Personal, Canvas, MA DECA, State Officer, Team 68, Recall). Kent's Place weekend (Aug 29) is now behind us — heading home today.",
+    "Inbox: quiet/weekend. NEW: Donna McFadden distributed the year's DECA calendar to the officer team (Sat) + Advisor Guide coming Tuesday — surfaced as FYI (no direct ask of Henry). Carried: DECA Celtics reply still open. Noise: college-admissions marketing (Binghamton/Pitt/Siena/Yale info-session blast), promos (Domino's/Chipotle/Shopify), newsletters (Stratechery, Zapier, Claude Code), Anthropic data-export ready (self-initiated), Fidelity trade confirmation (self-initiated — sold KO), Google security alerts = Henry's own Claude/Instinct sign-ins (Aug 30 12:0x AM) — not surfaced.",
+    "News integrity: DROPPED unverified aggregator items from the US/world search (a celebrity-death claim, measles/cholesterol items) — used only well-sourced items (markets week-ahead, AI model cadence, Ukraine).",
+    "Timing: fired 06:40:49 ET (in-window 06:25–06:55) — no DST cron change.",
+    "MEMORY: LEVRA resolved yesterday (window closed). Kent's Place item to RESOLVE tomorrow (Mon Aug 31) now the weekend's over. Keep DECA Celtics + Rashi panel + back-to-school watches alive."
+  ]
+}

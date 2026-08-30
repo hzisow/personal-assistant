@@ -3,7 +3,7 @@
 <style>
   :root{--bg:#FFFFFF;--card:#FFFFFF;--ink:#222;--muted:#6A6A6A;--faint:#8E8E8E;--line:#EBEBEB;--line-strong:#DDD;--blue:#1E6AE1;--blue-hover:#1656BE;--blue-soft:#EEF4FE;--urgent:#C13515;--pillshadow:0 1px 2px rgba(0,0,0,.08),0 4px 12px rgba(0,0,0,.05);--hovershadow:0 6px 16px rgba(0,0,0,.12);--font:"Cereal","Circular",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;}
   @media (prefers-color-scheme:dark){:root{--bg:#121212;--card:#1E1E1E;--ink:#F7F7F7;--muted:#B0B0B0;--faint:#7E7E7E;--line:#2E2E2E;--line-strong:#3D3D3D;--blue:#6EA1F0;--blue-hover:#94BCF6;--blue-soft:#1B2A44;--urgent:#E07856;--pillshadow:none;--hovershadow:0 6px 16px rgba(0,0,0,.5);}}
-  :root[data-theme="light"]{--bg:#FFFFFF;--card:#FFFFFF;--ink:#222;--muted:#6A6A6A;--faint:#8E8E8E;--line:#EBEBEB;--line-strong:#DDD;--blue:#1E6AE1;--blue-hover:#1656BE;--blue-soft:#EEF4FE;--urgent:#C13515;--pillshadow:0 1px 2px rgba(0,0,0,.08),0 4px 12px rgba(0,0,0,.05);--hovershadow:0 6px 16px rgba(0,0,0,.12);}
+  :root[data-theme="light"]{--bg:#FFFFFF;--card:#FFFFFF;--ink:#222;--muted:#6A6A6A;--faint:#8E8E8E;--line:#EBEBEB;--line-strong:#DDD;--blue:#1E6AE1;--blue-hover:#1656BE;--blue-soft:#EEF4FE;--urgent:#C13515;--pillshadow:0 1px 2px rgba(0,0,0,.08),0 4px 12px rgba(0,0,0,.05);}
   :root[data-theme="dark"]{--bg:#121212;--card:#1E1E1E;--ink:#F7F7F7;--muted:#B0B0B0;--faint:#7E7E7E;--line:#2E2E2E;--line-strong:#3D3D3D;--blue:#6EA1F0;--blue-hover:#94BCF6;--blue-soft:#1B2A44;--urgent:#E07856;--pillshadow:none;--hovershadow:0 6px 16px rgba(0,0,0,.5);}
   *{box-sizing:border-box;} body{margin:0;background:var(--bg);color:var(--ink);font:14.5px/1.5 var(--font);-webkit-font-smoothing:antialiased;}
   a{color:inherit;text-decoration:none;} .alink{color:var(--blue);font-weight:600;} .alink:hover{color:var(--blue-hover);text-decoration:underline;}
@@ -51,17 +51,17 @@
 <nav>
   <div class="navin">
     <span class="brand"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="14" r="5.5" fill="currentColor"/><path d="M2 20h20M12 3v3M4.9 6.9l2.1 2.1M19.1 6.9 17 9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Morning Brief</span>
-    <div class="datepill" role="text"><span>Sat, Aug 29</span><span class="soft">Marion weekend</span><span class="soft">☀️ 87°</span></div>
+    <div class="datepill" role="text"><span>Sun, Aug 30</span><span class="soft">heading home</span><span class="soft">🌧️ 76°</span></div>
     <div class="avatar" aria-hidden="true">H</div>
   </div>
 </nav>
 <div class="wrap">
   <h1 class="hello">Good morning, Henry</h1>
-  <p class="sub">Enjoy Marion — it's a gorgeous one. Sunny and ~87° today, ~85° tomorrow, with a light SW breeze. Nothing on the calendar but family time at Kent's Place. Inbox is quiet; the only thing still waiting (for whenever you're back) is your DECA Celtics-games reply to Donna. Have a great one.</p>
-  <div class="alert info">✋ <b>Email is still off</b> — you replied "stop," so the Gmail backup stays disabled (Zapier's out, day 18). This dashboard updates every morning regardless. Flip email back whenever (top up Zapier, or tell me to re-enable the backup).</div>
+  <p class="sub">The weather flips today. After a sunny Marion Saturday, Sunday turns wet — showers likely and a possible thunderstorm after ~1 PM, high ~76°. If you're driving home, beating the early-afternoon storms is the move. Nothing on the calendar today or tomorrow — a real day off to close the weekend.</p>
+  <div class="alert info">✋ <b>Email is still off</b> — you replied "stop," so the Gmail backup stays disabled (Zapier's out, day 19). This dashboard updates every morning regardless. Flip email back whenever (top up Zapier, or tell me to re-enable the backup).</div>
   <div class="stats">
-    <span class="stat"><span class="d"></span>🌊 Marion — family weekend</span>
-    <span class="stat"><span class="d"></span>☀️ Sunny · ~87°</span>
+    <span class="stat warn"><span class="d"></span>🌧️ Storms after ~1 PM — drive early</span>
+    <span class="stat"><span class="d"></span>📅 Calendar clear · today &amp; Mon</span>
     <span class="stat"><span class="d"></span>🏀 DECA reply — when you're back</span>
     <span class="stat"><span class="d"></span>✉️ Email off (your call)</span>
   </div>
@@ -70,16 +70,16 @@
   <div class="cards">
     <section class="card wide">
       <ul class="tl">
-        <li><time>all day</time><div class="what"><strong>Kent's Place in Marion</strong> <span style="color:var(--faint);">· family weekend (Mom, Dad, Sam)</span><div class="prep">Sunny and 87° — perfect for the water. Sunscreen + hydrate, and take the day off.</div></div></li>
+        <li><time>—</time><div class="what"><strong>Nothing scheduled</strong> <span style="color:var(--faint);">· likely the drive home from Marion</span><div class="prep">Watch the timing: <b>rain and possible storms build after ~1 PM</b>. An earlier departure = a drier trip. High ~76°, SE wind gusting to 23.</div></div></li>
       </ul>
     </section>
   </div>
 
-  <h2>Tomorrow (Sun Aug 30)</h2>
+  <h2>Tomorrow (Mon Aug 31)</h2>
   <div class="cards">
     <section class="card wide">
       <ul class="tl">
-        <li><time>—</time><div class="what"><strong>Nothing scheduled</strong><div class="prep">Likely the tail of the weekend / heading home. Sunny again (~85°).</div></div></li>
+        <li><time>—</time><div class="what"><strong>Nothing scheduled</strong><div class="prep">Back-to-school season is here (Gann junior year — bus is registered), but nothing's on the calendar yet.</div></div></li>
       </ul>
     </section>
   </div>
@@ -88,13 +88,14 @@
   <div class="cards">
     <section class="card wide">
       <ul class="rows">
-        <li><span class="ic">🏀</span><div><div class="from">DECA → Donna's "Celtics schedule" <span style="color:var(--faint);font-weight:400;">· no rush</span></div><div class="why">Still waiting on your game picks (Balcony column) for the November outing — reply when you're back at a keyboard.</div></div></li>
-        <li><span class="ic g">✓</span><div><div class="from">Otherwise all quiet <span style="color:var(--faint);font-weight:400;">· weekend</span></div><div class="why">Newsletters + promos — nothing that needs you.</div></div></li>
+        <li><span class="ic">📅</span><div><div class="from">DECA → Donna's "DECA Calendar" <span style="color:var(--faint);font-weight:400;">· FYI</span></div><div class="why">The full-year MA DECA + DECA Inc calendar went out to the officer team Saturday (on the shared Drive); the Advisor Guide lands Tuesday. Ryan wants an update-recap post once it's ready. No direct ask of you.</div></div></li>
+        <li><span class="ic">🏀</span><div><div class="from">DECA → Donna's "Celtics schedule" <span style="color:var(--faint);font-weight:400;">· no rush, carried</span></div><div class="why">Still waiting on your game picks (Balcony column) for the November outing — reply when you're back at a keyboard.</div></div></li>
+        <li><span class="ic g">✓</span><div><div class="from">Otherwise all quiet <span style="color:var(--faint);font-weight:400;">· weekend</span></div><div class="why">Newsletters, college-admissions blasts, and promos — nothing that needs you.</div></div></li>
       </ul>
     </section>
   </div>
 
-  <h2>Tasks <span style="font-weight:400;color:var(--faint);font-size:14px;">· Google Tasks — couldn't read (Zapier down 18th day); carried from Aug 12</span></h2>
+  <h2>Tasks <span style="font-weight:400;color:var(--faint);font-size:14px;">· Google Tasks — couldn't read (Zapier down 19th day); carried from Aug 12</span></h2>
   <div class="cards">
     <section class="card">
       <div class="topic" style="margin-bottom:12px;">High priority</div>
@@ -133,15 +134,15 @@
     </section>
   </div>
 
-  <h2>Follow-ups <span style="font-weight:400;color:var(--faint);font-size:14px;">· all can wait till you're back</span></h2>
+  <h2>Follow-ups <span style="font-weight:400;color:var(--faint);font-size:14px;">· all can wait</span></h2>
   <div class="cards">
     <section class="card wide">
       <ul class="fu">
         <li><span>Reply to Donna re Celtics games (DECA)</span><span class="due">when back</span></li>
-        <li><span>Accept Hack Club / physics-tutoring / GitHub-class invites · confirm ESPN draft</span><span class="due">soon</span></li>
+        <li><span>Accept Hack Club / physics-tutoring / GitHub-class invites · confirm ESPN draft (~Sep 6–7)</span><span class="due">soon</span></li>
         <li><span>Finish/confirm the IIP internship · henryzisow.com · Michael Horn analytics</span><span class="due">next week</span></li>
         <li><span>Watch for the Rashi panel prep-call + date</span><span class="due">soon</span></li>
-        <li><span>LEVRA cert window closes ~today · SAT scores (~early Sept)</span><span class="due">tracking</span></li>
+        <li><span>SAT scores (~early Sept) · the email path (your call)</span><span class="due">tracking</span></li>
       </ul>
     </section>
   </div>
@@ -153,24 +154,24 @@
         <div>
           <div class="topic">Business &amp; markets</div>
           <ul class="news">
-            <li><a class="alink" href="https://www.bloomberg.com/news/articles/2026-08-27/stock-market-today-dow-s-p-live-updates">Markets digest Warsh's Jackson Hole debut</a><div class="why">His first keynote (Fri) into the Sept 16 FOMC — a quiet weekend after Nvidia's blowout week.</div></li>
+            <li><a class="alink" href="https://www.schaeffersresearch.com/content/news/2026/08/27/the-week-ahead-august-jobs-report-takes-center-stage">Big data week ahead — August jobs report headlines</a><div class="why">ADP (Wed), ISM services + claims (Thu), payrolls (Fri) into the Sept 16 Fed — the read on the next rate cut. Warsh holding a hawkish line.</div></li>
           </ul>
         </div>
         <div>
           <div class="topic">Tech &amp; AI</div>
           <ul class="news">
-            <li><a class="alink" href="https://ollama.com/blog">Z.ai's GLM-5.3 lands — a top open-weight coding model</a><div class="why">Now on Ollama (US/EU, zero retention) + Tinker. Right in your lane for local/open-model builds.</div></li>
+            <li><a class="alink" href="https://llm-stats.com/ai-news">Frontier models now ship like patches</a><div class="why">After GLM-5.3 this week, Z.ai's faster GLM-5.3-Flash (Aug 26) is the newest drop — small, frequent releases over big launches. Backdrop for your open-model builds.</div></li>
           </ul>
         </div>
         <div>
           <div class="topic">US &amp; world</div>
           <ul class="news">
-            <li><a class="alink" href="https://www.usnews.com/news/world">Iran standoff + Hormuz keep oil in focus</a><div class="why">The geopolitical wildcard into next week.</div></li>
+            <li><a class="alink" href="https://www.npr.org/sections/national/">Ukraine hit by ~72 hours of near-constant drone strikes</a><div class="why">A sustained wave disrupting daily life — the main overseas story into the week.</div></li>
           </ul>
         </div>
       </div>
     </section>
   </div>
 
-  <footer>Soak up the sun, Henry — everything else keeps till Monday. This dashboard keeps updating daily; email's paused until you top up Zapier or turn the backup back on. Generated 6:52 AM ET · Saturday, August 29, 2026.</footer>
+  <footer>Quiet close to the weekend, Henry — just mind the rain on the way home. This dashboard keeps updating daily; email's paused until you top up Zapier or turn the backup back on. Generated 6:50 AM ET · Sunday, August 30, 2026.</footer>
 </div>
