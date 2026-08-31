@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31T06:52:00-04:00",
+  "headline": "Quiet, clear Monday — nothing on the calendar, likely your last easy day before the week kicks in. Tomorrow ramps up: the Gann fitness block and your first physics tutoring session with Jeon both start, and the Northeastern 'Next Up' founder competition opens. The one to circle: SAT scores land Friday (per Mom's note to Ben), with a tentative tutoring catch-up the Sunday after. Afternoon storms roll through today (~81°). (Email's still off from your 'stop' — this dashboard is your brief.)",
+  "delivery_status": "dashboard_only — Gmail fallback OFF at Henry's request ('stop', Aug 22). Zapier still down (day 20, confirmed error). No brief email. No new reply/instruction from Henry (from:me = a photo + 'test' email to Mom, nothing for the assistant).",
+  "weather": {
+    "location": "Newton/Boston, MA (home)",
+    "current_f": 68,
+    "condition": "Partly cloudy AM → scattered thunderstorms developing this afternoon, high ~81°, SW wind 5–10 mph; 30% showers overnight. Another muggy, unsettled day — a bit cooler than the weekend."
+  },
+  "schedule": [],
+  "tomorrow_headsup": [
+    "Tue Sep 1 — the week restarts: (1) 'H Fitness @ Gann' 4:00–5:00 PM (recurring; your RSVP still needsAction). (2) First physics tutoring with Jeon (Jeonghoon Choi) 8:30–9:30 PM — Mom set it up overnight. (3) Northeastern 'Next Up' Founder Prize Competition opens (entry window) — your entrepreneurship lane; worth a look."
+  ],
+  "email": [
+    {
+      "thread_id": "1a053b0f38526f8b",
+      "from": "Michelle Zisow (Mom) → Ben Sexton (SAT tutor), you CC'd",
+      "subject": "Re: Next Meeting w/ Henry?",
+      "bucket": "important",
+      "why": "Two things worth knowing: (1) SAT scores come out THIS FRIDAY (Sep 4) — Mom's reason to wait on the next session. (2) She proposed a tentative Ben meeting 'next Sunday' (~Sep 6). You're only CC'd (she's handling scheduling) — no action needed unless you want to weigh in.",
+      "age_days": 1
+    },
+    {
+      "thread_id": "1a0552827ad2d26f",
+      "from": "Adam Farb (via Google Calendar)",
+      "subject": "Accepted: BFF Panda Express Drive @ Sat Sep 12",
+      "bucket": "fyi",
+      "why": "The Panda Express fundraiser is now a confirmed calendar event for Sat Sep 12 (Adam accepted your invite). Long-running follow-up — now scheduled.",
+      "age_days": 1
+    },
+    {
+      "thread_id": "1a04e7771b944133",
+      "from": "Donna McFadden (BHCC) — DECA",
+      "subject": "DECA Calendar / Advisor Guide",
+      "bucket": "fyi",
+      "why": "Carried: the year's DECA calendar is out; Donna said the Advisor Guide should be ready Tuesday (tomorrow). Ryan wants to do the update-recap post once it lands. No direct ask of you.",
+      "age_days": 2
+    }
+  ],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": [
+      {"title": "Michael horn email", "list": "High Priority", "due": null, "overdue": false, "notes": "Carried from Aug 12 (Zapier quota, day 20)."},
+      {"title": "add new chapter toolkit to the website", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do PSAT", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "See how to actually train the ML model for EpiGuide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Find 1 TB USB", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Run minimax h3 locally for video generation", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Learn about succession planning for DECA", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Complete MA DECA involvement guide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Rebuild resume in Google Docs", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Build the TikTok send-to audio/playlist app", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Make Involvement Guide automation tool", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "School reading — Kindred / The Namesake / Goon Squad / AMSCO Ch.1", "list": "coursework", "due": null, "overdue": true}
+    ]
+  },
+  "follow_ups": [
+    {
+      "what": "SAT scores — come out THIS FRIDAY (Sep 4) per Mom's note to Ben Sexton. Watch for the College Board 'scores are ready' email and surface it. A tentative next Ben session is floated for ~Sun Sep 6 (Mom coordinating).",
+      "who": "Henry (Mom scheduling Ben)",
+      "due": "2026-09-04",
+      "age_days": 9
+    },
+    {
+      "what": "DECA — reply to Donna McFadden's 'Celtics schedule' (pick games, Balcony column) for the November DECA outing. Still open; officer-team ask.",
+      "who": "Henry → Donna McFadden / DECA officers",
+      "due": "2026-09-03",
+      "age_days": 4
+    },
+    {
+      "what": "Back-to-school queue: accept the Hack Club Slack (nora) + GitHub class (@moden-coding) invites · confirm the ESPN fantasy draft (~Sep 6–7). NOTE: physics tutoring with Jeon is now SCHEDULED (Tue Sep 1, 8:30 PM) — that piece is handled.",
+      "who": "Henry",
+      "due": "2026-09-03",
+      "age_days": 4
+    },
+    {
+      "what": "Rashi Alumni Panel — accepted Aug 26; awaiting prep-call + panel date from Lauren Cooke. Watch for it; add to calendar when it lands.",
+      "who": "Henry ← Rashi",
+      "due": "2026-09-08",
+      "age_days": 5
+    },
+    {
+      "what": "Longer-horizon: finish/confirm the IIP internship · henryzisow.com (Cloudflare) · Michael Horn analytics (post-Danny-meeting deliverable). Panda Express fundraiser now on the calendar (Sat Sep 12).",
+      "who": "Henry",
+      "due": "2026-09-07",
+      "age_days": 4
+    },
+    {
+      "what": "EMAIL DECISION (open, low-urgency) — fallback OFF per your 'stop.' Top up Zapier for the daily email, keep dashboard-only, or re-enable the backup.",
+      "who": "Henry",
+      "due": "2026-09-03",
+      "age_days": 9
+    }
+  ],
+  "news": [
+    {
+      "topic": "Business & markets",
+      "headline": "Quiet Monday, pivotal week — August jobs report Friday; Warsh's hawkish turn",
+      "why": "No major US data today, but the week builds to Friday's payrolls (July shocked at −23k; ~+65k expected). After Fed Chair Warsh said the Fed has 'work to do' on inflation, markets now price a real chance of a 2026 HIKE (odds ~64%) — a notable shift from cut-only bets. S&P closed Fri at 7,712 (up on the week).",
+      "url": "https://www.schaeffersresearch.com/content/news/2026/08/27/the-week-ahead-august-jobs-report-takes-center-stage",
+      "source": "Schaeffer's / CNBC"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "After the GLM-5.3 wave, a quieter AI week — open-weight coding models stay the live thread",
+      "why": "No big frontier drop today; GLM-5.3 / 5.3-Flash remain the newest, and the open-weight coding-model race is the ongoing story for local builds. Attention this week shifts to the macro/data calendar and tech earnings.",
+      "url": "https://llm-stats.com/ai-news",
+      "source": "LLM-Stats"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "US strikes Iranian rocket launchers on the Strait of Hormuz",
+      "why": "First US military action there in about a month; Iran has vowed to retaliate — keeps oil and the Gulf in focus into the week. (Separately, the Himalayan/Nepal flood toll has passed 800 with thousands missing.)",
+      "url": "https://www.washingtonpost.com/latest-headlines/",
+      "source": "Washington Post"
+    }
+  ],
+  "system_notes": [
+    "DELIVERY: NO EMAIL (fallback disabled by Henry's 'stop' Aug 22). Zapier still out (day 20 — explicit 'insufficient tasks' error again). Dashboard-only. from:me = a photo + a 'test' email to Mom (Aug 30); no instruction to the assistant, email stays off.",
+    "Weather via web fallback (Newton/home): partly cloudy AM → scattered PM thunderstorms, high ~81°, SW 5–10. Muggy/unsettled, a touch cooler than the weekend.",
+    "Google Tasks unreadable (Zapier) 20th day — carried from Aug 12.",
+    "CALENDAR: TODAY (Mon Aug 31) nothing scheduled across all 6 schedule calendars — a clear day, Henry home (golfed Sun night, Newton Commonwealth). TOMORROW (Tue Sep 1) THREE items on Personal: 'H Fitness @ Gann' 4–5 PM (recurring, RSVP needsAction), 'H Tutor w Jeon' 8:30–9:30 PM (physics tutoring — Mom CREATED it overnight Aug 31 02:33), and all-day 'Northeastern Next Up Founder Prize Competition Opens' (entry window). No school event yet (Gann start likely post-Labor-Day).",
+    "INBOX: Key = Mom→Ben Sexton SAT thread (Henry CC'd): SAT scores drop THIS FRIDAY (Sep 4); tentative next Ben session ~Sun Sep 6. Panda Express fundraiser now confirmed calendar event Sat Sep 12 (Adam Farb accepted). DECA Advisor Guide expected Tue (carried). Noise: college-admissions blasts (UChicago/Binghamton), golf confirmations (self-initiated), GitGuardian/GoDaddy promos.",
+    "NEWS integrity: markets + Iran/Hormuz strike are well-sourced; kept AI honest (no stale 'new model' claim — GLM-5.3 already covered). Nepal flood noted as a secondary world item.",
+    "Timing: fired 06:40:48 ET (in-window 06:25–06:55) — no DST cron change.",
+    "MEMORY updates this run: RESOLVED Kent's Place (weekend over, home). Physics tutoring now SCHEDULED (Sep 1) — noted in the back-to-school item. SAT watch updated with the concrete Friday Sep 4 date + Ben ~Sun Sep 6. Panda Express folded in as scheduled (Sep 12). Keep DECA Celtics + Rashi + ESPN-draft + email-decision watches alive."
+  ]
+}
