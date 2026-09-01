@@ -48,6 +48,12 @@ open:
     due: 2026-08-08
     source: "GitHub Actions failure emails, Aug 6 ~21:00 ET (notifications@github.com)"
     first_seen: 2026-08-07
+  - what: "Gamma Plus subscription — plan ENDS Sunday Sep 6, 2026 (workspace drops to Free, loses Plus features). Decide this week: renew or let it lapse. Henry uses Gamma for decks/presentations."
+    who: "Henry"
+    due: 2026-09-06
+    source: "Gmail: Gamma 'Your Gamma Plus plan ends in 7 days' (notifications@gamma.app), Sep 1"
+    first_seen: 2026-09-01
+    note: "Minor billing decision with a hard date. Surface until resolved or Sep 6 passes."
   - what: "SAT score-report watch — scores come out THIS FRIDAY (Sep 4) per Mom's Aug 30 note to Ben Sexton (Henry CC'd). Watch for the College Board 'scores are ready' email and surface it. Mom also floated a tentative next Ben tutoring session for ~Sun Sep 6 (she's coordinating; Henry only CC'd)."
     who: "Henry (Mom scheduling Ben)"
     due: 2026-09-04

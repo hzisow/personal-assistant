@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-01",
+  "generated_at": "2026-09-01T06:52:00-04:00",
+  "headline": "The routine kicks back in today: fitness at Gann (4 PM) and your first physics session with Jeon (8:30 PM), plus the Northeastern 'Next Up' founder competition opens. Grab an umbrella — showers move through (a wet start to meteorological fall, high ~80°). Two things on the radar this week: your Gamma Plus plan lapses Sunday (Sep 6) unless you keep it, and SAT scores land Friday. (Email's still off from your 'stop' — this dashboard is your brief.)",
+  "delivery_status": "dashboard_only — Gmail fallback OFF at Henry's request ('stop', Aug 22). Zapier still down (day 21, confirmed 'insufficient tasks' error). No brief email. No new reply/instruction from Henry (from:me = the Aug 30 photo + 'test' to Mom, nothing new).",
+  "weather": {
+    "location": "Newton/Boston, MA (home)",
+    "current_f": 66,
+    "condition": "Unsettled — showers likely at times today (the Globe calls it a wet start to meteorological fall), high ~80°. Umbrella's a safe bet; drier and milder later in the week."
+  },
+  "schedule": [
+    {
+      "start": "2026-09-01T00:00:00-04:00",
+      "end": "2026-09-01T23:59:59-04:00",
+      "all_day": true,
+      "title": "Northeastern 'Next Up' Founder Prize Competition — entry opens",
+      "calendar": "Personal",
+      "prep": "Your own reminder — the entry window opens today. Entrepreneurship lane (pairs with the Blue Ocean comp you're registered for). Link: entrepreneurship.northeastern.edu/ventures/next-up-2026/"
+    },
+    {
+      "start": "2026-09-01T16:00:00-04:00",
+      "end": "2026-09-01T17:00:00-04:00",
+      "all_day": false,
+      "title": "H Fitness @ Gann",
+      "calendar": "Personal",
+      "location": "Gann (Meet link attached: meet.google.com/qsh-mzmg-ehg)",
+      "prep": "Recurring; Mom organizes. Your RSVP still shows needsAction if you want to accept it."
+    },
+    {
+      "start": "2026-09-01T20:30:00-04:00",
+      "end": "2026-09-01T21:30:00-04:00",
+      "all_day": false,
+      "title": "Physics tutoring with Jeon (Jeonghoon Choi)",
+      "calendar": "Personal",
+      "prep": "Your first session — Mom set it up. Junior-year physics support. RSVP still needsAction."
+    }
+  ],
+  "tomorrow_headsup": [
+    "Wed Sep 2: nothing scheduled (so far)."
+  ],
+  "email": [
+    {
+      "thread_id": "1a057b1c942783ff",
+      "from": "Gamma (notifications@gamma.app)",
+      "subject": "Your Gamma Plus plan ends in 7 days",
+      "bucket": "important",
+      "why": "Your Gamma Plus plan ends Sunday Sep 6 — after that the workspace drops to Free and loses Plus features. Quick decision this week: keep it (renew) or let it lapse.",
+      "age_days": 1
+    },
+    {
+      "thread_id": "1a057d264fb9f2f2",
+      "from": "Blue Ocean Competition",
+      "subject": "No idea yet? Here's where to look",
+      "bucket": "fyi",
+      "why": "You're registered for the Blue Ocean student entrepreneurship pitch competition — this is a nudge to start shaping a pitch idea. Pairs nicely with Northeastern 'Next Up' opening today. No hard deadline in this email.",
+      "age_days": 1
+    }
+  ],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": [
+      {"title": "Michael horn email", "list": "High Priority", "due": null, "overdue": false, "notes": "Carried from Aug 12 (Zapier quota, day 21)."},
+      {"title": "add new chapter toolkit to the website", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do PSAT", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "See how to actually train the ML model for EpiGuide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Find 1 TB USB", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Run minimax h3 locally for video generation", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Learn about succession planning for DECA", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Complete MA DECA involvement guide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Rebuild resume in Google Docs", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Build the TikTok send-to audio/playlist app", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Make Involvement Guide automation tool", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "School reading — Kindred / The Namesake / Goon Squad / AMSCO Ch.1", "list": "coursework", "due": null, "overdue": true}
+    ]
+  },
+  "follow_ups": [
+    {
+      "what": "SAT scores — come out THIS FRIDAY (Sep 4) per Mom's note to Ben Sexton. Watch for the College Board 'scores are ready' email and surface it. Tentative next Ben session ~Sun Sep 6 (Mom coordinating).",
+      "who": "Henry (Mom scheduling Ben)",
+      "due": "2026-09-04",
+      "age_days": 10
+    },
+    {
+      "what": "Gamma Plus subscription lapses Sun Sep 6 → Free plan (loses Plus features). Decide this week: renew or let it go.",
+      "who": "Henry",
+      "due": "2026-09-06",
+      "age_days": 1
+    },
+    {
+      "what": "DECA — reply to Donna McFadden's 'Celtics schedule' (pick games, Balcony column) for the November DECA outing. Still open; officer-team ask. (Advisor Guide expected from Donna this week.)",
+      "who": "Henry → Donna McFadden / DECA officers",
+      "due": "2026-09-04",
+      "age_days": 5
+    },
+    {
+      "what": "Back-to-school queue: Hack Club — 'apply to organize before Sept 7' (+ nora's Slack invite) · accept the GitHub class (@moden-coding) invite · confirm the ESPN fantasy draft (~Sep 6–7). Physics tutoring is handled (starts tonight).",
+      "who": "Henry",
+      "due": "2026-09-06",
+      "age_days": 5
+    },
+    {
+      "what": "Rashi Alumni Panel — accepted Aug 26; awaiting prep-call + panel date from Lauren Cooke. Watch for it; add to calendar when it lands.",
+      "who": "Henry ← Rashi",
+      "due": "2026-09-08",
+      "age_days": 6
+    },
+    {
+      "what": "Longer-horizon: finish/confirm the IIP internship · henryzisow.com (Cloudflare) · Michael Horn analytics. Panda Express fundraiser on the calendar (Sat Sep 12).",
+      "who": "Henry",
+      "due": "2026-09-08",
+      "age_days": 5
+    },
+    {
+      "what": "EMAIL DECISION (open, low-urgency) — fallback OFF per your 'stop.' Top up Zapier for the daily email, keep dashboard-only, or re-enable the backup.",
+      "who": "Henry",
+      "due": "2026-09-04",
+      "age_days": 10
+    }
+  ],
+  "news": [
+    {
+      "topic": "Business & markets",
+      "headline": "September opens on edge — jobs report Friday, rate-hike fears linger",
+      "why": "August closed lower (S&P 7,686, Dow −374 pts) and the 10-yr yield is up to 4.75% on renewed rate-hike worries — heading into September, historically the weakest month for stocks. ISM data lands Tue/Wed; Friday's August jobs report (~53k expected) is the main event.",
+      "url": "https://www.cnbc.com/2026/08/31/stock-market-today-live-updates.html",
+      "source": "CNBC"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Quiet on new models — the live threads are agents + open-weight catch-up",
+      "why": "No fresh frontier drop; GLM-5.3-Flash (Aug 26) is still the newest. The ongoing 2026 story: AI agents going mainstream for real tasks and open-weight models closing on frontier quality — squarely your build lane.",
+      "url": "https://llm-stats.com/llm-updates",
+      "source": "LLM-Stats"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Oil stays volatile — a market wildcard as Gulf tensions simmer",
+      "why": "Swinging oil prices remain a key risk into the week, with the US–Iran standoff around the Strait of Hormuz still in the background. Worth half an eye given its pull on inflation and rate expectations.",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-1-dow-sp-500-nasdaq-080617884.html",
+      "source": "Yahoo Finance"
+    }
+  ],
+  "system_notes": [
+    "DELIVERY: NO EMAIL (fallback disabled by Henry's 'stop' Aug 22). Zapier still out (day 21 — explicit 'insufficient tasks' error again). Dashboard-only. from:me = Aug 30 photo + 'test' to Mom; no instruction to the assistant, email stays off.",
+    "Weather via web (Newton): sources conflict (NWS ~83° mostly sunny vs. Boston Globe 'wet start to meteorological fall, rain Tuesday'). Went with the Globe's rain call, hedged: showers likely, high ~80°, umbrella. Zapier weather still blocked.",
+    "Google Tasks unreadable (Zapier) 21st day — carried from Aug 12.",
+    "CALENDAR: TODAY (Tue Sep 1) THREE on Personal — all-day 'Northeastern Next Up' entry opens (Henry's own reminder), 'H Fitness @ Gann' 4–5 PM (recurring, has a Meet link, RSVP needsAction), 'H Tutor w Jeon' 8:30–9:30 PM (physics, first session, RSVP needsAction). TOMORROW (Wed Sep 2) clear so far. Other 5 schedule calendars empty. No explicit Gann first-day event yet.",
+    "INBOX: NEW = Gamma Plus plan ends Sun Sep 6 (surfaced as a keep/lapse decision). Blue Ocean Competition nudge (Henry registered — entrepreneurship, pairs w/ Next Up). Hack Club 'apply to organize before Sept 7' (folded into back-to-school follow-up). Heavy college-recruiting volume (Grinnell/Stony Brook/Belmont/UChicago/Binghamton) — normal junior-year spam, not surfaced individually. College Board 'practice test' nudge = marketing, NOT the score email. Noise: Chipotle/CodePen/GitGuardian/GoDaddy/LinkedIn/Palmier/Scholarships360.",
+    "NEWS integrity: markets well-sourced (fresh CNBC/Yahoo). AI kept honest (no fake 'new model'). World = oil/Gulf watch (tied to today's real market driver) rather than an unverified fresh headline.",
+    "Timing: fired 06:40:27 ET (in-window 06:25–06:55) — no DST cron change.",
+    "MEMORY this run: added Gamma Plus decision (due Sep 6). Physics tutoring starts tonight (already marked scheduled). Kept SAT (Fri Sep 4), DECA Celtics, Hack Club/GitHub/ESPN, Rashi, email-decision, Panda (Sep 12) watches. Nothing resolved today."
+  ]
+}
