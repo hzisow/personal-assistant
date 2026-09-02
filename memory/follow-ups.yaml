@@ -54,6 +54,18 @@ open:
     source: "Gmail: Gamma 'Your Gamma Plus plan ends in 7 days' (notifications@gamma.app), Sep 1"
     first_seen: 2026-09-01
     note: "Minor billing decision with a hard date. Surface until resolved or Sep 6 passes."
+  - what: "Stackpoint — Matt (via his scheduler Quinn, quinn@stackpoint.com) wants a 30-min meeting with Henry NEXT WEEK. Open options: Mon 9/7 10:45am, Tue 9/8 11:45am, Thu 9/10 10:00am ET. The thread got derailed (Henry sent joke/hostile replies + a nonsense '16:97 PM' time), so it still needs a REAL time if Henry wants it. Surface the scheduling fact neutrally; do NOT repeat/amplify the joke."
+    who: "Henry → Quinn / Matt (Stackpoint)"
+    due: 2026-09-05
+    source: "Gmail thread '30 minutes with Matt next week' (quinn@stackpoint.com), Sep 1"
+    first_seen: 2026-09-02
+    note: "Stackpoint reads like a VC/startup ('Matt'); could matter for Henry's ventures. Only actionable bit = pick a real slot. Drop if Henry ignores it past next week."
+  - what: "Temple Emanuel donation box (BFF/Panda project w/ Adam Benjamin + Mia Wiznitzer) — the temple needs the box PICKED UP by Wed 9/9 (before Rosh Hashanah). Adam + Mia lead; Henry CC'd. Nudge them if it's not handled."
+    who: "Adam Benjamin / Mia Wiznitzer (Henry CC'd)"
+    due: 2026-09-09
+    source: "Gmail thread 'New submission from Contact Team Member' (LSteinman@templeemanuel.com), Sep 1"
+    first_seen: 2026-09-02
+    note: "Not Henry's primary action, but he's on the project. Resolve after 9/9."
   - what: "SAT score-report watch — scores come out THIS FRIDAY (Sep 4) per Mom's Aug 30 note to Ben Sexton (Henry CC'd). Watch for the College Board 'scores are ready' email and surface it. Mom also floated a tentative next Ben tutoring session for ~Sun Sep 6 (she's coordinating; Henry only CC'd)."
     who: "Henry (Mom scheduling Ben)"
     due: 2026-09-04
@@ -95,7 +107,7 @@ travel:
   - "Back on Eastern time — brief times are ET going forward. Sun Aug 2 is a settle-in day with nothing scheduled; watch for jet lag."
   - "Work: Braeburn Country Club Snack Bar. Shifts come via When I Work (noreply@wheniwork.com) weekly + sometimes the Personal calendar. Week of Aug 10–16: Tue Aug 11 2:00–6:30 PM (+ more shifts not fully captured — check the app). Season winding down (end-of-season staff form out Aug 8). 'Wash uniform' recurs as a High task before shifts. Assistant never edits the calendar."
   - "Recurring: behind-the-wheel driving lessons via Newton Driving School (Label_15). Requires a PRINTED permit + closed shoes or the lesson is canceled + fee; pickup-location changes need 24h email notice to newtondrivingschool@gmail.com. Aug 7 lesson: 11 AM–1 PM, pickup at home (45 Beethoven Ave) — Mom emailed the request."
-  - "SCHOOL STARTING (~late Aug 2026): Gann Academy junior year. Bus registration confirmed Aug 21 (Bus 3, West Roxbury/Newton/Waban route; daily service begins soon). Expect the schedule to tighten once classes start — weekday mornings will fill; SAT/summer-work window is closing. A classmate (Eve, eveze05@gmail.com) shared an 'Ultimate APUSH Review' guide Aug 21 — useful for the AMSCO/APUSH summer work."
+  - "SCHOOL STARTING (~late Aug/early Sep 2026): Gann Academy junior year. Bus registration confirmed Aug 21 (Bus 3, West Roxbury/Newton/Waban route). UPDATE (Sep 1 email): an UPDATED Bus 3 route — new timing + new stop — begins the morning of Thu Sep 3; specifics are behind the Gann myschoolapp portal (email body is just a login link). Reads like the start of the school routine (first bus day). Expect weekday mornings to fill once classes start. A classmate (Eve, eveze05@gmail.com) shared an 'Ultimate APUSH Review' guide Aug 21 — useful for the AMSCO/APUSH summer work."
 
 resolved:
   - what: "Kent's Place in Marion family weekend (Sat Aug 29–Sun Aug 30) — happened; Henry was there (Mom, Dad, Sam) and is home now (golfed Sun night). The long-running RSVP / 'beach house' item is closed."

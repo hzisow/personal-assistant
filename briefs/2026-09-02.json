@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-02",
+  "generated_at": "2026-09-02T06:53:00-04:00",
+  "headline": "Quiet, cloudy, cooler today (high ~72°, basically dry) — but tomorrow the school routine looks like it kicks in: Gann's updated Bus 3 route starts Thursday morning with timing + stop changes, so check your new pickup tonight. On deck this week: Matt (Stackpoint) wants 30 min next week and the thread still needs a real time from you; Gamma Plus lapses Sunday; SAT scores land Friday. (Email's still off from your 'stop' — this dashboard is your brief.)",
+  "delivery_status": "dashboard_only — Gmail fallback OFF at Henry's request ('stop', Aug 22). Zapier still down (day 22, confirmed error). No brief email. No new reply/instruction from Henry to the assistant (from:me = his own Stackpoint scheduling replies).",
+  "weather": {
+    "location": "Newton/Boston, MA (home)",
+    "current_f": 64,
+    "condition": "Mostly cloudy and cooler — high ~72°, E wind 10–15 mph, basically dry (4% rain). A gray, mild day; no umbrella needed. Drier than yesterday."
+  },
+  "schedule": [],
+  "tomorrow_headsup": [
+    "Thu Sep 3 — looks like the school routine starts: Gann's UPDATED Bus 3 route begins Thursday morning (timing + bus-stop adjustments — check the Gann email/portal for your new pickup time & stop). Plus 'H Fitness @ Gann' 4:00–5:00 PM (recurring Tue/Thu; RSVP still needsAction)."
+  ],
+  "email": [
+    {
+      "thread_id": "1a05e8297fd5c70b",
+      "from": "Gann Academy (Bus 3)",
+      "subject": "Bus 3 — timing and bus stop adjustment",
+      "bucket": "important",
+      "why": "Your Bus 3 route changes starting Thursday morning (Sep 3) — timing AND stop adjustments. The email links out to the Gann portal for details, so open it tonight to get your new pickup time and stop before Thursday.",
+      "age_days": 1
+    },
+    {
+      "thread_id": "1a05f196f30cb3f6",
+      "from": "Quinn (Stackpoint, for Matt)",
+      "subject": "30 minutes with Matt next week",
+      "bucket": "needs_reply",
+      "why": "Matt wants 30 min with you next week — offered Mon 9/7 10:45am, Tue 9/8 11:45am, or Thu 9/10 10:00am ET. The back-and-forth hasn't landed on a real time yet, so if you want the meeting, reply with one of those slots.",
+      "age_days": 1
+    },
+    {
+      "thread_id": "1a05f1c5e9f7e9a2",
+      "from": "Northeastern (Next Up Founders Prize)",
+      "subject": "Submission Confirmation",
+      "bucket": "fyi",
+      "why": "You're confirmed in the Next Up Founders Prize — consent form submitted Sep 1, participation locked in. The global founder competition is officially underway (pairs with Blue Ocean).",
+      "age_days": 1
+    },
+    {
+      "thread_id": "19efa2e653906d1a",
+      "from": "Temple Emanuel (LauraSue Steinman)",
+      "subject": "Donation box pickup",
+      "bucket": "fyi",
+      "why": "For the BFF/Panda donation project: the temple needs the donation box picked up by Wed 9/9 (before Rosh Hashanah). Adam + Mia are on point; you're CC'd — worth a nudge to them if it's not handled.",
+      "age_days": 1
+    }
+  ],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": [
+      {"title": "Michael horn email", "list": "High Priority", "due": null, "overdue": false, "notes": "Carried from Aug 12 (Zapier quota, day 22)."},
+      {"title": "add new chapter toolkit to the website", "list": "High Priority", "due": null, "overdue": false},
+      {"title": "Do PSAT", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "See how to actually train the ML model for EpiGuide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Find 1 TB USB", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Run minimax h3 locally for video generation", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Learn about succession planning for DECA", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Complete MA DECA involvement guide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Rebuild resume in Google Docs", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Build the TikTok send-to audio/playlist app", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Make Involvement Guide automation tool", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "School reading — Kindred / The Namesake / Goon Squad / AMSCO Ch.1", "list": "coursework", "due": null, "overdue": true}
+    ]
+  },
+  "follow_ups": [
+    {
+      "what": "SAT scores — come out THIS FRIDAY (Sep 4) per Mom's note to Ben Sexton. Watch for the College Board 'scores are ready' email. Tentative next Ben session ~Sun Sep 6.",
+      "who": "Henry (Mom scheduling Ben)",
+      "due": "2026-09-04",
+      "age_days": 11
+    },
+    {
+      "what": "Gamma Plus subscription lapses Sun Sep 6 → Free plan. Decide: renew or let it go.",
+      "who": "Henry",
+      "due": "2026-09-06",
+      "age_days": 2
+    },
+    {
+      "what": "Stackpoint — Matt wants a 30-min meeting next week (via Quinn). Options: Mon 9/7 10:45am, Tue 9/8 11:45am, Thu 9/10 10:00am ET. Reply with a real time if you want it (the thread hasn't landed on one).",
+      "who": "Henry → Quinn/Matt (Stackpoint)",
+      "due": "2026-09-05",
+      "age_days": 1
+    },
+    {
+      "what": "DECA — reply to Donna McFadden's 'Celtics schedule' (pick games) for the Nov outing. Still open. (Watch for the DECA Advisor Guide from Donna.)",
+      "who": "Henry → Donna McFadden / DECA officers",
+      "due": "2026-09-05",
+      "age_days": 6
+    },
+    {
+      "what": "Back-to-school queue: Hack Club 'apply to organize before Sept 7' (+ nora's Slack) · accept the GitHub class (@moden-coding) invite · confirm the ESPN fantasy draft (~Sep 6–7).",
+      "who": "Henry",
+      "due": "2026-09-07",
+      "age_days": 6
+    },
+    {
+      "what": "Temple Emanuel donation box (BFF/Panda project) — needs pickup by Wed 9/9 before Rosh Hashanah. Adam + Mia lead; Henry CC'd. Nudge if it's not handled.",
+      "who": "Adam Benjamin / Mia Wiznitzer (Henry CC'd)",
+      "due": "2026-09-09",
+      "age_days": 1
+    },
+    {
+      "what": "Rashi Alumni Panel — accepted Aug 26; awaiting prep-call + panel date from Lauren Cooke. Watch for it.",
+      "who": "Henry ← Rashi",
+      "due": "2026-09-08",
+      "age_days": 7
+    },
+    {
+      "what": "Longer-horizon: IIP internship · henryzisow.com (Cloudflare) · Michael Horn analytics · Panda Express fundraiser (Sat Sep 12). Entrepreneurship comps underway (Next Up confirmed + Blue Ocean).",
+      "who": "Henry",
+      "due": "2026-09-10",
+      "age_days": 6
+    },
+    {
+      "what": "EMAIL DECISION (open, low-urgency) — fallback OFF per your 'stop.' Top up Zapier, keep dashboard-only, or re-enable the backup.",
+      "who": "Henry",
+      "due": "2026-09-05",
+      "age_days": 11
+    }
+  ],
+  "news": [
+    {
+      "topic": "Business & markets",
+      "headline": "Oil tops $90 (+5%) on US–Iran escalation; Fed rate-hike odds jump to 66%",
+      "why": "Crude surged past $90 as US–Iran fighting near the Strait of Hormuz raised supply-disruption fears — pushing CME-implied odds of a September Fed HIKE to 66% (from ~40% a week ago). Today brings ADP (est. 48K), factory orders and the Fed Beige Book, ahead of Friday's jobs report. Tech led stocks lower premarket.",
+      "url": "https://www.investing.com/news/stock-market-news/adp-jobs-report-oil-inventories-and-fed-beige-book-due-wednesday-93CH-4884464",
+      "source": "Investing.com / CME FedWatch"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "AI-chip bellwether Broadcom reports after the bell",
+      "why": "Broadcom (AVGO) — plus Snowflake and HPE — reports today; it's a key read on whether AI-infrastructure spending is still accelerating. Tech (QQQ −0.6% premarket) led the market lower heading into it. Relevant backdrop for the AI buildout you follow.",
+      "url": "https://www.schwab.com/learn/story/stock-market-update-open",
+      "source": "Charles Schwab"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "US–Iran fighting escalates around the Strait of Hormuz",
+      "why": "Renewed US–Iran clashes are raising the risk of disruptions to oil flows through Hormuz — the driver behind crude's 5%+ spike above $90. The week's biggest geopolitical and market story.",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-01/stock-market-today-dow-s-p-live-updates",
+      "source": "Bloomberg"
+    }
+  ],
+  "system_notes": [
+    "DELIVERY: NO EMAIL (fallback disabled by Henry's 'stop' Aug 22). Zapier still out (day 22 — explicit 'insufficient tasks' error on the weather probe). Dashboard-only. from:me = only Henry's own Stackpoint scheduling replies; NO instruction to the assistant, email stays off.",
+    "Weather via web (Boston/Newton, Weather.com/NWS): mostly cloudy, high ~72°, E wind 10–15, ~4% precip — dry and cooler than yesterday. Zapier weather still blocked.",
+    "Google Tasks unreadable (Zapier) 22nd day — carried from Aug 12.",
+    "CALENDAR: TODAY (Wed Sep 2) nothing scheduled across all 6 calendars. TOMORROW (Thu Sep 3): 'H Fitness @ Gann' 4–5 PM (recurring Tue/Thu) + Gann's UPDATED Bus 3 route begins Thursday morning (timing + stop changes) — reads like the start of the school routine, though the email doesn't say 'first day' explicitly. Bus email body is a portal link (couldn't extract the exact new time/stop) — flagged Henry to open it.",
+    "INBOX (busy, 27 threads): ACTIONABLE — (1) Gann Bus 3 route change Thu Sep 3 [surfaced]. (2) Stackpoint/Quinn: Matt wants 30 min next week (Mon 9/7 / Tue 9/8 / Thu 9/10); Henry's replies were joke/hostile ('tell him to kill himself' + a nonsense '16:97 PM' time) — I surfaced ONLY the neutral scheduling fact (needs a real time), did NOT repeat/moralize the joke. (3) Northeastern Next Up participation CONFIRMED (consent submitted). (4) Temple Emanuel donation box pickup by Wed 9/9 (Adam/Mia lead, Henry CC'd). NOISE: big college-recruiting flood (UChicago Deans panel, Marist, Purdue x2, W&M, Hampden-Sydney, UFlorida, Grinnell, Belmont), dev newsletters (Ollama pricing, Resend, Tinker, Palmier, reMarkable), DECA Direct weekly, Google 'unused OAuth clients' policy notice.",
+    "NEWS: all fresh + well-sourced today — oil +5% >$90 on US-Iran/Hormuz, Fed hike odds 66% (CME), ADP/Beige Book today, Broadcom earnings (AI-capex read), jobs Fri.",
+    "Timing: fired 06:41:01 ET (in-window 06:25–06:55) — no DST cron change.",
+    "MEMORY this run: ADDED Stackpoint/Matt meeting (next week) + Temple donation box (by 9/9). Added Bus 3 route change to travel/logistics. Northeastern Next Up now confirmed (noted in longer-horizon). Kept SAT (Fri), Gamma (Sun), DECA Celtics, Hack Club/GitHub/ESPN, Rashi, email-decision. Nothing resolved."
+  ]
+}
