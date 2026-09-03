@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-03",
+  "generated_at": "2026-09-03T06:53:00-04:00",
+  "headline": "Looks like your first day back at Gann — the new Bus 3 route is in effect this morning, so mind the updated time/stop. And it's a scorcher: ~93° with a heat index near 100, plus a chance of afternoon storms after 1 PM — hydrate, especially for 4 PM fitness (you're accepted on it). Tomorrow's the big one: SAT scores land Friday. (Email's still off from your 'stop' — this dashboard is your brief.)",
+  "delivery_status": "dashboard_only — Gmail fallback OFF at Henry's request ('stop', Aug 22). Zapier still down (day 23, confirmed error). No brief email. No new reply/instruction from Henry (from:me empty over 2d).",
+  "weather": {
+    "location": "Newton/Boston, MA (home)",
+    "current_f": 73,
+    "condition": "Hot & humid — high ~93°, heat index up to ~100°. Chance of showers/thunderstorms mainly after 1 PM (~50%). Hydrate and take it easy in the afternoon heat, especially around 4 PM fitness."
+  },
+  "schedule": [
+    {
+      "start": "2026-09-03T16:00:00-04:00",
+      "end": "2026-09-03T17:00:00-04:00",
+      "all_day": false,
+      "title": "H Fitness @ Gann",
+      "calendar": "Personal",
+      "location": "Gann (Meet link on invite)",
+      "prep": "Recurring Tue/Thu; you're now ACCEPTED on it. It'll be hot (~93°, feels like 100) — bring water. New Bus 3 route is in effect this morning."
+    }
+  ],
+  "tomorrow_headsup": [
+    "Fri Sep 4: nothing on the calendar — but it's SAT SCORES day (watch for the College Board email) and the big August jobs report drops (markets). Also the start of a long weekend into Labor Day (Mon Sep 7)."
+  ],
+  "email": [
+    {
+      "thread_id": "1a064468b5fd0528",
+      "from": "Donna McFadden (BHCC) — DECA",
+      "subject": "new chapters",
+      "bucket": "fyi",
+      "why": "Officer-team update: Donna's approved 11 new/reactivated MA DECA chapters so far (Ayer Shirley, Leicester, Malden, Mashpee, Minnechaug, Rising Tide, +more; a 9/15 presentation with Kaylin). Growth = your 'new chapter toolkit for the website' task is timely. No direct ask of you.",
+      "age_days": 1
+    },
+    {
+      "thread_id": "1a0668ea65ca45c4",
+      "from": "Class-action administrator (Epiq)",
+      "subject": "Biddle v. Disney — YouTube TV / DirecTV settlement",
+      "bucket": "fyi",
+      "why": "If you (or the family) had a YouTube TV or DirecTV Stream subscription Apr 2019–Mar 2026, there's a class-action settlement with a cash payment available — worth a 2-min check for whoever pays that bill. Otherwise ignore.",
+      "age_days": 1
+    }
+  ],
+  "tasks": {
+    "connected": false,
+    "auth_url": "https://mcp.zapier.com/mcp/servers/db7a6288-3667-4e21-98ed-119d76d9c9da/app-auth/GoogleTasksCLIAPI",
+    "items": [
+      {"title": "Michael horn email", "list": "High Priority", "due": null, "overdue": false, "notes": "Carried from Aug 12 (Zapier quota, day 23)."},
+      {"title": "add new chapter toolkit to the website", "list": "High Priority", "due": null, "overdue": false, "notes": "Extra-timely — Donna just approved 11 new DECA chapters."},
+      {"title": "Do PSAT", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "See how to actually train the ML model for EpiGuide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Find 1 TB USB", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Run minimax h3 locally for video generation", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Learn about succession planning for DECA", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Complete MA DECA involvement guide", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Rebuild resume in Google Docs", "list": "Medium Priority", "due": null, "overdue": false},
+      {"title": "Build the TikTok send-to audio/playlist app", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "Make Involvement Guide automation tool", "list": "Low Priority", "due": null, "overdue": false},
+      {"title": "School reading — Kindred / The Namesake / Goon Squad / AMSCO Ch.1", "list": "coursework", "due": null, "overdue": true}
+    ]
+  },
+  "follow_ups": [
+    {
+      "what": "SAT scores — release TOMORROW (Fri Sep 4). Watch for the College Board 'scores are ready' email and surface it. Tentative next Ben Sexton session ~Sun Sep 6.",
+      "who": "Henry (Mom scheduling Ben)",
+      "due": "2026-09-04",
+      "age_days": 12
+    },
+    {
+      "what": "Gamma Plus subscription lapses Sun Sep 6 → Free plan. Decide: renew or let it go.",
+      "who": "Henry",
+      "due": "2026-09-06",
+      "age_days": 3
+    },
+    {
+      "what": "Stackpoint — Matt wants a 30-min meeting next week (via Quinn). Options: Mon 9/7 10:45am, Tue 9/8 11:45am, Thu 9/10 10:00am ET. Reply with a real time if you want it.",
+      "who": "Henry → Quinn/Matt (Stackpoint)",
+      "due": "2026-09-05",
+      "age_days": 2
+    },
+    {
+      "what": "DECA — reply to Donna McFadden's 'Celtics schedule' (pick games) for the Nov outing. Still open. (Donna also sent the new-chapters update + is finishing the Advisor Guide.)",
+      "who": "Henry → Donna McFadden / DECA officers",
+      "due": "2026-09-05",
+      "age_days": 7
+    },
+    {
+      "what": "Back-to-school queue: Hack Club 'apply to organize before Sept 7' (+ nora's Slack) · accept the GitHub class (@moden-coding) invite · confirm the ESPN fantasy draft (~Sep 6–7).",
+      "who": "Henry",
+      "due": "2026-09-07",
+      "age_days": 7
+    },
+    {
+      "what": "Temple Emanuel donation box (BFF/Panda project) — pickup by Wed 9/9 before Rosh Hashanah. Adam + Mia lead; Henry CC'd. Nudge if not handled.",
+      "who": "Adam Benjamin / Mia Wiznitzer (Henry CC'd)",
+      "due": "2026-09-09",
+      "age_days": 2
+    },
+    {
+      "what": "Rashi Alumni Panel — accepted Aug 26; awaiting prep-call + panel date from Lauren Cooke. Watch for it.",
+      "who": "Henry ← Rashi",
+      "due": "2026-09-08",
+      "age_days": 8
+    },
+    {
+      "what": "Longer-horizon: IIP internship · henryzisow.com (Cloudflare) · Michael Horn analytics · Panda Express fundraiser (Sat Sep 12). Entrepreneurship comps underway (Next Up confirmed + Blue Ocean).",
+      "who": "Henry",
+      "due": "2026-09-10",
+      "age_days": 7
+    },
+    {
+      "what": "EMAIL DECISION (open, low-urgency) — fallback OFF per your 'stop.' Top up Zapier, keep dashboard-only, or re-enable the backup.",
+      "who": "Henry",
+      "due": "2026-09-05",
+      "age_days": 12
+    }
+  ],
+  "news": [
+    {
+      "topic": "Business & markets",
+      "headline": "Stocks rebound as oil steadies; the August jobs report looms Friday",
+      "why": "Wednesday bounced (Dow +0.6% to 53,062, S&P +0.5%) as crude cooled off this week's spike. Today brings jobless claims (~205K) and ISM services (~54.5), but the main event is tomorrow's August jobs report — the read that shapes the September Fed call (hike odds still elevated).",
+      "url": "https://ca.finance.yahoo.com/news/stock-market-today-thursday-september-3-dow-sp-500-nasdaq-futures-081525933.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "topic": "Tech & AI",
+      "headline": "Broadcom slides ~3.6% on soft chip guidance — a wobble for the AI-chip trade",
+      "why": "The AI-infrastructure bellwether fell on softer-than-hoped semiconductor guidance — a rare cooler data point on the AI-capex boom. Worth watching whether it dents the broader 'AI buildout keeps accelerating' narrative you track.",
+      "url": "https://www.schwab.com/learn/story/stock-market-update-open",
+      "source": "Charles Schwab"
+    },
+    {
+      "topic": "US & world headlines",
+      "headline": "Oil steadies; markets shrug off Middle East tensions — for now",
+      "why": "After this week's 5%+ spike on the US–Iran/Hormuz standoff, crude steadied and stocks/bonds rebounded. The geopolitical risk is still there, just off the boil today.",
+      "url": "https://www.home.saxo/content/articles/macro/market-quick-take---shares-and-bonds-rebound-as-oil-prices-steady---03-september-2026-03092026",
+      "source": "Saxo"
+    }
+  ],
+  "system_notes": [
+    "DELIVERY: NO EMAIL (fallback disabled by Henry's 'stop' Aug 22). Zapier still out (day 23 — explicit 'insufficient tasks' error on the weather probe). Dashboard-only. from:me EMPTY over 2d — no instruction to the assistant, email stays off.",
+    "Weather via web (Newton, NWS/Fox): HOT — high ~93°, heat index ~100, showers/T-storms possible after 1 PM (~50%). Big jump from yesterday's 72° (heat spell, then cooling per CBS/Patch). Zapier weather still blocked.",
+    "Google Tasks unreadable (Zapier) 23rd day — carried from Aug 12.",
+    "CALENDAR: TODAY (Thu Sep 3) — 'H Fitness @ Gann' 4–5 PM, and Henry has now ACCEPTED it (was needsAction). New Bus 3 route in effect this morning — reads like first day back at Gann. TOMORROW (Fri Sep 4): calendar clear, but SAT SCORES release + August jobs report; start of Labor Day long weekend (Mon Sep 7 holiday).",
+    "INBOX (light today): DECA 'new chapters' (Donna — 11 approved; ties to Henry's toolkit task; officer FYI). Disney/YouTube-TV class-action settlement notice (light FYI — possible small cash claim if family had YouTube TV). Carried: Northeastern Next Up confirmed, Temple box (9/9). Noise: heavy college recruiting (Tulane/EasternCT/W&M/Purdue/UFlorida/Marist/Hampden-Sydney) + dev newsletters (Render, Resend, Ollama) + eBay/Don Toliver promos. No SAT scores email yet (expected Fri).",
+    "NEWS (fresh): Wed rebound (Dow +0.6%), oil steadied, jobless claims + ISM services today, jobs report Fri; Broadcom −3.6% on soft chip guidance (AI-chip wobble).",
+    "Timing: fired 06:40:40 ET (in-window 06:25–06:55) — no DST cron change.",
+    "MEMORY: no changes needed (nothing resolved; nothing new with a hard date beyond what's tracked). Henry accepted fitness (minor). SAT watch now says TOMORROW. Kept all follow-ups. NOTE for tomorrow: watch hard for the College Board SAT-scores email."
+  ]
+}
